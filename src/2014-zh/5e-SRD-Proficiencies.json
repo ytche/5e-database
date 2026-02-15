@@ -1341,7 +1341,7 @@
   {
     "index": "alchemists-supplies",
     "type": "工匠工具",
-    "name": "炼金术士工具",
+    "name": "炼金工具",
     "classes": [],
     "races": [],
     "url": "/api/2014/proficiencies/alchemists-supplies",
@@ -1357,7 +1357,7 @@
   {
     "index": "brewers-supplies",
     "type": "工匠工具",
-    "name": "酿酒师工具",
+    "name": "酿酒工具",
     "classes": [],
     "races": [],
     "url": "/api/2014/proficiencies/brewers-supplies",
@@ -1373,7 +1373,7 @@
   {
     "index": "calligraphers-supplies",
     "type": "工匠工具",
-    "name": "书法家工具",
+    "name": "书法工具",
     "classes": [],
     "races": [],
     "url": "/api/2014/proficiencies/calligraphers-supplies",
@@ -1837,7 +1837,7 @@
   {
     "index": "herbalism-kit",
     "type": "其他",
-    "name": "药草包",
+    "name": "草药工具",
     "classes": [
       {
         "index": "druid",
