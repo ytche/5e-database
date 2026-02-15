@@ -1,0 +1,136 @@
+[
+  {
+    "index": "ammunition",
+    "name": "弹药",
+    "name_en": "Ammunition",
+    "desc": [
+      "你可以使用具有弹药属性的武器进行远程攻击，但前提是你必须有弹药可以从武器发射。每次使用该武器攻击时，你消耗一份弹药。从箭袋、盒子或其他容器中取出弹药是攻击的一部分（你需要一只空闲的手来装填单手武器）。",
+      "战斗结束后，你可以花一分钟搜索战场来回收一半消耗的弹药。如果你使用具有弹药属性的武器进行近战攻击，你将该武器视为临时武器（参见本章节后面的\"临时武器\"）。在这种情况下使用时，弹弓必须装填才能造成任何伤害。"
+    ],
+    "desc_en": [
+      "You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon).",
+      "At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield. If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+    ],
+    "url": "/api/2014/weapon-properties/ammunition"
+  },
+  {
+    "index": "finesse",
+    "name": "灵巧",
+    "name_en": "Finesse",
+    "desc": [
+      "使用灵巧武器进行攻击时，你可以选择使用力量或敏捷调整值进行攻击检定和伤害检定。两个检定必须使用相同的调整值。"
+    ],
+    "desc_en": [
+      "When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+    ],
+    "url": "/api/2014/weapon-properties/finesse"
+  },
+  {
+    "index": "heavy",
+    "name": "重型",
+    "name_en": "Heavy",
+    "desc": [
+      "小型生物使用重型武器进行攻击检定时具有劣势。重型武器的尺寸和体积使其太大，小型生物无法有效使用。"
+    ],
+    "desc_en": [
+      "Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."
+    ],
+    "url": "/api/2014/weapon-properties/heavy"
+  },
+  {
+    "index": "light",
+    "name": "轻型",
+    "name_en": "Light",
+    "desc": [
+      "轻型武器小巧易握，使其成为双武器战斗时的理想选择。"
+    ],
+    "desc_en": [
+      "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+    ],
+    "url": "/api/2014/weapon-properties/light"
+  },
+  {
+    "index": "loading",
+    "name": "装填",
+    "name_en": "Loading",
+    "desc": [
+      "由于装填此武器所需的时间，当你使用动作、附赠动作或反应来发射它时，你只能从中发射一份弹药，无论你通常可以进行多少次攻击。"
+    ],
+    "desc_en": [
+      "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."
+    ],
+    "url": "/api/2014/weapon-properties/loading"
+  },
+  {
+    "index": "reach",
+    "name": "触及",
+    "name_en": "Reach",
+    "desc": [
+      "当你使用此武器攻击时，以及确定使用它进行借机攻击的触及范围时，此武器为你的触及范围增加5尺。"
+    ],
+    "desc_en": [
+      "This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it."
+    ],
+    "url": "/api/2014/weapon-properties/reach"
+  },
+  {
+    "index": "special",
+    "name": "特殊",
+    "name_en": "Special",
+    "desc": [
+      "具有特殊属性的武器有不寻常的规则支配其使用，在武器的描述中解释（参见本章节后面的\"特殊武器\"）。"
+    ],
+    "desc_en": [
+      "A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."
+    ],
+    "url": "/api/2014/weapon-properties/special"
+  },
+  {
+    "index": "thrown",
+    "name": "投掷",
+    "name_en": "Thrown",
+    "desc": [
+      "如果武器具有投掷属性，你可以投掷该武器进行远程攻击。如果武器是近战武器，你使用该攻击检定和伤害检定的属性调整值与使用该武器进行近战攻击时相同。例如，如果你投掷手斧，你使用力量，但如果你投掷匕首，你可以使用力量或敏捷，因为匕首具有灵巧属性。"
+    ],
+    "desc_en": [
+      "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
+    ],
+    "url": "/api/2014/weapon-properties/thrown"
+  },
+  {
+    "index": "two-handed",
+    "name": "双手",
+    "name_en": "Two-Handed",
+    "desc": [
+      "使用此武器攻击时需要两只手。"
+    ],
+    "desc_en": [
+      "This weapon requires two hands when you attack with it."
+    ],
+    "url": "/api/2014/weapon-properties/two-handed"
+  },
+  {
+    "index": "versatile",
+    "name": "两用",
+    "name_en": "Versatile",
+    "desc": [
+      "此武器可以用一只手或两只手使用。属性后面括号中显示一个伤害值——这是用两只手使用该武器进行近战攻击时的伤害。"
+    ],
+    "desc_en": [
+      "This weapon can be used with one or two hands. A damage value in parentheses appears with the property--the damage when the weapon is used with two hands to make a melee attack."
+    ],
+    "url": "/api/2014/weapon-properties/versatile"
+  },
+  {
+    "index": "monk",
+    "name": "武僧",
+    "name_en": "Monk",
+    "desc": [
+      "武僧在空手或仅持握武僧武器且未穿戴护甲或持盾时获得多项益处。"
+    ],
+    "desc_en": [
+      "Monks gain several benefits while unarmed or wielding only monk weapons while they aren't wearing armor or wielding shields."
+    ],
+    "url": "/api/2014/weapon-properties/monk"
+  }
+]

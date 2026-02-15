@@ -1,0 +1,158 @@
+[
+  {
+    "index": "acid",
+    "name": "强酸",
+    "name_en": "Acid",
+    "desc": [
+      "黑龙吐息的腐蚀性喷射和黑布丁分泌的溶解酶造成强酸伤害。"
+    ],
+    "desc_en": [
+      "The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pudding deal acid damage."
+    ],
+    "url": "/api/2014/damage-types/acid"
+  },
+  {
+    "index": "bludgeoning",
+    "name": "钝击",
+    "name_en": "Bludgeoning",
+    "desc": [
+      "钝力攻击、坠落、挤压等造成钝击伤害。"
+    ],
+    "desc_en": [
+      "Blunt force attacks, falling, constriction, and the like deal bludgeoning damage."
+    ],
+    "url": "/api/2014/damage-types/bludgeoning"
+  },
+  {
+    "index": "cold",
+    "name": "冷冻",
+    "name_en": "Cold",
+    "desc": [
+      "冰魔长矛散发的地狱寒气和白龙吐息的寒冻冲击造成冷冻伤害。"
+    ],
+    "desc_en": [
+      "The infernal chill radiating from an ice devil's spear and the frigid blast of a white dragon's breath deal cold damage."
+    ],
+    "url": "/api/2014/damage-types/cold"
+  },
+  {
+    "index": "fire",
+    "name": "火焰",
+    "name_en": "Fire",
+    "desc": [
+      "红龙喷吐火焰，许多法术召唤火焰造成火焰伤害。"
+    ],
+    "desc_en": [
+      "Red dragons breathe fire, and many spells conjure flames to deal fire damage."
+    ],
+    "url": "/api/2014/damage-types/fire"
+  },
+  {
+    "index": "force",
+    "name": "力场",
+    "name_en": "Force",
+    "desc": [
+      "力场是聚焦成伤害形态的纯粹魔法能量。大多数造成力场伤害的效应是法术，包括魔法飞弹和灵体武器。"
+    ],
+    "desc_en": [
+      "Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including magic missile and spiritual weapon."
+    ],
+    "url": "/api/2014/damage-types/force"
+  },
+  {
+    "index": "lightning",
+    "name": "闪电",
+    "name_en": "Lightning",
+    "desc": [
+      "闪电束法术和蓝龙吐息造成闪电伤害。"
+    ],
+    "desc_en": [
+      "A lightning bolt spell and a blue dragon's breath deal lightning damage."
+    ],
+    "url": "/api/2014/damage-types/lightning"
+  },
+  {
+    "index": "necrotic",
+    "name": "黯蚀",
+    "name_en": "Necrotic",
+    "desc": [
+      "某些不死生物和法术（如寒冰之触）造成的黯蚀伤害会枯萎物质甚至灵魂。"
+    ],
+    "desc_en": [
+      "Necrotic damage, dealt by certain undead and a spell such as chill touch, withers matter and even the soul."
+    ],
+    "url": "/api/2014/damage-types/necrotic"
+  },
+  {
+    "index": "piercing",
+    "name": "穿刺",
+    "name_en": "Piercing",
+    "desc": [
+      "刺穿和穿刺攻击，包括长矛和怪物的咬击，造成穿刺伤害。"
+    ],
+    "desc_en": [
+      "Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage."
+    ],
+    "url": "/api/2014/damage-types/piercing"
+  },
+  {
+    "index": "poison",
+    "name": "毒素",
+    "name_en": "Poison",
+    "desc": [
+      "毒刺和绿龙吐息的毒气造成毒素伤害。"
+    ],
+    "desc_en": [
+      "Venomous stings and the toxic gas of a green dragon's breath deal poison damage."
+    ],
+    "url": "/api/2014/damage-types/poison"
+  },
+  {
+    "index": "psychic",
+    "name": "心灵",
+    "name_en": "Psychic",
+    "desc": [
+      "灵能爆炸等精神能力造成心灵伤害。"
+    ],
+    "desc_en": [
+      "Mental abilities such as a psionic blast deal psychic damage."
+    ],
+    "url": "/api/2014/damage-types/psychic"
+  },
+  {
+    "index": "radiant",
+    "name": "光耀",
+    "name_en": "Radiant",
+    "desc": [
+      "光耀伤害由牧师的焰击术或天使的惩戒武器造成，像火焰一样灼烧肉体并以能量超载精神。"
+    ],
+    "desc_en": [
+      "Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
+    ],
+    "url": "/api/2014/damage-types/radiant"
+  },
+  {
+    "index": "slashing",
+    "name": "挥砍",
+    "name_en": "Slashing",
+    "desc": [
+      "剑、斧和怪物的爪子造成挥砍伤害。"
+    ],
+    "desc_en": [
+      "Swords, axes, and monsters' claws deal slashing damage."
+    ],
+    "url": "/api/2014/damage-types/slashing"
+  },
+  {
+    "index": "thunder",
+    "name": "雷霆",
+    "name_en": "Thunder",
+    "desc": [
+      "雷鸣波法术等震耳欲聋的爆响造成雷霆伤害。"
+    ],
+    "desc_en": [
+      "A concussive burst of sound, such as the effect of the thunderwave spell, deals thunder damage."
+    ],
+    "url": "/api/2014/damage-types/thunder"
+  }
+]

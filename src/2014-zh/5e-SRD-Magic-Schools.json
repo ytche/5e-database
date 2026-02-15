@@ -1,0 +1,66 @@
+[
+  {
+    "index": "abjuration",
+    "name": "防护",
+    "name_en": "Abjuration",
+    "desc": "防护法术本质上是保护性的，但其中一些也有攻击性用途。它们创造魔法屏障、抵消有害效果、伤害入侵者，或将生物放逐到其他存在位面。",
+    "desc_en": "Abjuration spells are protective in nature, though some of them have aggressive uses. They create magical barriers, negate harmful effects, harm trespassers, or banish creatures to other planes of existence.",
+    "url": "/api/2014/magic-schools/abjuration"
+  },
+  {
+    "index": "conjuration",
+    "name": "咒法",
+    "name_en": "Conjuration",
+    "desc": "咒法法术涉及将物体和生物从一个地点传送到另一个地点。有些法术将生物或物体召唤到施法者身边，而其他法术则允许施法者传送到另一个地点。有些咒法凭空创造物体或效果。",
+    "desc_en": "Conjuration spells involve the transportation of objects and creatures from one location to another. Some spells summon creatures or objects to the caster's side, whereas others allow the caster to teleport to another location. Some conjurations create objects or effects out of nothing.",
+    "url": "/api/2014/magic-schools/conjuration"
+  },
+  {
+    "index": "divination",
+    "name": "预言",
+    "name_en": "Divination",
+    "desc": "预言法术揭示信息，无论是被遗忘已久的秘密、对未来的瞥见、隐藏物品的位置、幻象背后的真相，还是遥远人物或地点的景象。",
+    "desc_en": "Divination spells reveal information, whether in the form of secrets long forgotten, glimpses of the future, the locations of hidden things, the truth behind illusions, or visions of distant people or places.",
+    "url": "/api/2014/magic-schools/divination"
+  },
+  {
+    "index": "enchantment",
+    "name": "惑控",
+    "name_en": "Enchantment",
+    "desc": "惑控法术影响他人的心智，影响或控制他们的行为。这类法术可以让敌人将施法者视为朋友，强迫生物采取行动，甚至像傀儡一样控制另一个生物。",
+    "desc_en": "Enchantment spells affect the minds of others, influencing or controlling their behavior. Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet.",
+    "url": "/api/2014/magic-schools/enchantment"
+  },
+  {
+    "index": "evocation",
+    "name": "塑能",
+    "name_en": "Evocation",
+    "desc": "塑能法术操纵魔法能量以产生所需效果。有些召唤火焰或闪电爆炸，其他则引导正能量来治疗伤口。",
+    "desc_en": "Evocation spells manipulate magical energy to produce a desired effect. Some call up blasts of fire or lightning. Others channel positive energy to heal wounds.",
+    "url": "/api/2014/magic-schools/evocation"
+  },
+  {
+    "index": "illusion",
+    "name": "幻术",
+    "name_en": "Illusion",
+    "desc": "幻术法术欺骗他人的感官或心智。它们让人们看到不存在的东西，忽略存在的东西，听到虚幻的声音，或记住从未发生的事情。有些幻术创造任何生物都能看到的幻象，但最阴险的幻术直接将图像植入生物的心智中。",
+    "desc_en": "Illusion spells deceive the senses or minds of others. They cause people to see things that are not there, to miss things that are there, to hear phantom noises, or to remember things that never happened. Some illusions create phantom images that any creature can see, but the most insidious illusions plant an image directly in the mind of a creature.",
+    "url": "/api/2014/magic-schools/illusion"
+  },
+  {
+    "index": "necromancy",
+    "name": "死灵",
+    "name_en": "Necromancy",
+    "desc": "死灵法术操纵生与死的能量。这类法术可以赋予额外的生命力储备，从另一个生物身上吸取生命能量，创造不死生物，甚至将死者复活。",
+    "desc_en": "Necromancy spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life.",
+    "url": "/api/2014/magic-schools/necromancy"
+  },
+  {
+    "index": "transmutation",
+    "name": "变化",
+    "name_en": "Transmutation",
+    "desc": "变化法术改变生物、物体或环境的属性。它们可以将敌人变成无害的生物，增强盟友的力量，使物体按照施法者的命令移动，或增强生物的天生治愈能力以快速从伤害中恢复。",
+    "desc_en": "Transmutation spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.",
+    "url": "/api/2014/magic-schools/transmutation"
+  }
+]
