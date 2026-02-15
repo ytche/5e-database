@@ -1,0 +1,34 @@
+{
+  "abjuration": {
+    "en": "Abjuration",
+    "zh": "防护"
+  },
+  "conjuration": {
+    "en": "Conjuration",
+    "zh": "咒法"
+  },
+  "divination": {
+    "en": "Divination",
+    "zh": "预言"
+  },
+  "enchantment": {
+    "en": "Enchantment",
+    "zh": "惑控"
+  },
+  "evocation": {
+    "en": "Evocation",
+    "zh": "塑能"
+  },
+  "illusion": {
+    "en": "Illusion",
+    "zh": "幻术"
+  },
+  "necromancy": {
+    "en": "Necromancy",
+    "zh": "死灵"
+  },
+  "transmutation": {
+    "en": "Transmutation",
+    "zh": "变化"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "acid": {
+    "en": "Acid",
+    "zh": "强酸"
+  },
+  "bludgeoning": {
+    "en": "Bludgeoning",
+    "zh": "钝击"
+  },
+  "cold": {
+    "en": "Cold",
+    "zh": "冷冻"
+  },
+  "fire": {
+    "en": "Fire",
+    "zh": "火焰"
+  },
+  "force": {
+    "en": "Force",
+    "zh": "力场"
+  },
+  "lightning": {
+    "en": "Lightning",
+    "zh": "闪电"
+  },
+  "necrotic": {
+    "en": "Necrotic",
+    "zh": "黯蚀"
+  },
+  "piercing": {
+    "en": "Piercing",
+    "zh": "穿刺"
+  },
+  "poison": {
+    "en": "Poison",
+    "zh": "毒素"
+  },
+  "psychic": {
+    "en": "Psychic",
+    "zh": "心灵"
+  },
+  "radiant": {
+    "en": "Radiant",
+    "zh": "光耀"
+  },
+  "slashing": {
+    "en": "Slashing",
+    "zh": "挥砍"
+  },
+  "thunder": {
+    "en": "Thunder",
+    "zh": "雷霆"
+  }
+}

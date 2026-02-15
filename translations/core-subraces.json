@@ -1,0 +1,26 @@
+{
+  "hill-dwarf": {
+    "en": "Hill Dwarf",
+    "zh": "丘陵矮人",
+    "race": "dwarf",
+    "race_zh": "矮人"
+  },
+  "high-elf": {
+    "en": "High Elf",
+    "zh": "高等精灵",
+    "race": "elf",
+    "race_zh": "精灵"
+  },
+  "lightfoot-halfling": {
+    "en": "Lightfoot Halfling",
+    "zh": "轻足半身人",
+    "race": "halfling",
+    "race_zh": "半身人"
+  },
+  "rock-gnome": {
+    "en": "Rock Gnome",
+    "zh": "岩侏儒",
+    "race": "gnome",
+    "race_zh": "侏儒"
+  }
+}

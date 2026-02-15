@@ -1,0 +1,56 @@
+{
+  "_description": "核心属性（六大属性）术语表",
+  "_source_file": "5e-SRD-Ability-Scores.json",
+  "terms": {
+    "Strength": {
+      "zh": "力量",
+      "abbr": "力量 (STR)",
+      "note": "衡量身体力量、运动训练和原始物理力量的程度"
+    },
+    "Dexterity": {
+      "zh": "敏捷",
+      "abbr": "敏捷 (DEX)",
+      "note": "衡量敏捷性、反应速度和平衡能力"
+    },
+    "Constitution": {
+      "zh": "体质",
+      "abbr": "体质 (CON)",
+      "note": "衡量健康、耐力和生命力"
+    },
+    "Intelligence": {
+      "zh": "智力",
+      "abbr": "智力 (INT)",
+      "note": "衡量精神敏锐度、记忆准确性和推理能力"
+    },
+    "Wisdom": {
+      "zh": "感知",
+      "abbr": "感知 (WIS)",
+      "note": "反映对周围世界的敏锐程度，代表洞察力和直觉"
+    },
+    "Charisma": {
+      "zh": "魅力",
+      "abbr": "魅力 (CHA)",
+      "note": "衡量与他人有效互动的能力，包括自信和口才"
+    }
+  },
+  "related_skills": {
+    "Athletics": "运动",
+    "Acrobatics": "体操",
+    "Sleight of Hand": "巧手",
+    "Stealth": "隐匿",
+    "Arcana": "奥秘",
+    "History": "历史",
+    "Investigation": "调查",
+    "Nature": "自然",
+    "Religion": "宗教",
+    "Animal Handling": "驯兽",
+    "Insight": "洞悉",
+    "Medicine": "医药",
+    "Perception": "察觉",
+    "Survival": "生存",
+    "Deception": "欺瞒",
+    "Intimidation": "威吓",
+    "Performance": "表演",
+    "Persuasion": "说服"
+  }
+}

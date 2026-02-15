@@ -1,0 +1,46 @@
+{
+  "ammunition": {
+    "en": "Ammunition",
+    "zh": "弹药"
+  },
+  "finesse": {
+    "en": "Finesse",
+    "zh": "灵巧"
+  },
+  "heavy": {
+    "en": "Heavy",
+    "zh": "重型"
+  },
+  "light": {
+    "en": "Light",
+    "zh": "轻型"
+  },
+  "loading": {
+    "en": "Loading",
+    "zh": "装填"
+  },
+  "reach": {
+    "en": "Reach",
+    "zh": "触及"
+  },
+  "special": {
+    "en": "Special",
+    "zh": "特殊"
+  },
+  "thrown": {
+    "en": "Thrown",
+    "zh": "投掷"
+  },
+  "two-handed": {
+    "en": "Two-Handed",
+    "zh": "双手"
+  },
+  "versatile": {
+    "en": "Versatile",
+    "zh": "两用"
+  },
+  "monk": {
+    "en": "Monk",
+    "zh": "武僧"
+  }
+}

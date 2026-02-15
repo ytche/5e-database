@@ -1,0 +1,65 @@
+{
+  "dwarf": {
+    "en": "Dwarf",
+    "zh": "矮人",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 25
+  },
+  "elf": {
+    "en": "Elf",
+    "zh": "精灵",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 30
+  },
+  "halfling": {
+    "en": "Halfling",
+    "zh": "半身人",
+    "size": "Small",
+    "size_zh": "小型",
+    "speed": 25
+  },
+  "human": {
+    "en": "Human",
+    "zh": "人类",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 30
+  },
+  "dragonborn": {
+    "en": "Dragonborn",
+    "zh": "龙裔",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 30
+  },
+  "gnome": {
+    "en": "Gnome",
+    "zh": "侏儒",
+    "size": "Small",
+    "size_zh": "小型",
+    "speed": 25
+  },
+  "half-elf": {
+    "en": "Half-Elf",
+    "zh": "半精灵",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 30
+  },
+  "half-orc": {
+    "en": "Half-Orc",
+    "zh": "半兽人",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 30
+  },
+  "tiefling": {
+    "en": "Tiefling",
+    "zh": "提夫林",
+    "size": "Medium",
+    "size_zh": "中型",
+    "speed": 30
+  }
+}

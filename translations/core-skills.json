@@ -1,0 +1,110 @@
+{
+  "acrobatics": {
+    "en": "Acrobatics",
+    "zh": "体操",
+    "ability": "DEX",
+    "ability_zh": "敏捷"
+  },
+  "animal-handling": {
+    "en": "Animal Handling",
+    "zh": "驯兽",
+    "ability": "WIS",
+    "ability_zh": "感知"
+  },
+  "arcana": {
+    "en": "Arcana",
+    "zh": "奥秘",
+    "ability": "INT",
+    "ability_zh": "智力"
+  },
+  "athletics": {
+    "en": "Athletics",
+    "zh": "运动",
+    "ability": "STR",
+    "ability_zh": "力量"
+  },
+  "deception": {
+    "en": "Deception",
+    "zh": "欺瞒",
+    "ability": "CHA",
+    "ability_zh": "魅力"
+  },
+  "history": {
+    "en": "History",
+    "zh": "历史",
+    "ability": "INT",
+    "ability_zh": "智力"
+  },
+  "insight": {
+    "en": "Insight",
+    "zh": "洞悉",
+    "ability": "WIS",
+    "ability_zh": "感知"
+  },
+  "intimidation": {
+    "en": "Intimidation",
+    "zh": "威吓",
+    "ability": "CHA",
+    "ability_zh": "魅力"
+  },
+  "investigation": {
+    "en": "Investigation",
+    "zh": "调查",
+    "ability": "INT",
+    "ability_zh": "智力"
+  },
+  "medicine": {
+    "en": "Medicine",
+    "zh": "医药",
+    "ability": "WIS",
+    "ability_zh": "感知"
+  },
+  "nature": {
+    "en": "Nature",
+    "zh": "自然",
+    "ability": "INT",
+    "ability_zh": "智力"
+  },
+  "perception": {
+    "en": "Perception",
+    "zh": "察觉",
+    "ability": "WIS",
+    "ability_zh": "感知"
+  },
+  "performance": {
+    "en": "Performance",
+    "zh": "表演",
+    "ability": "CHA",
+    "ability_zh": "魅力"
+  },
+  "persuasion": {
+    "en": "Persuasion",
+    "zh": "说服",
+    "ability": "CHA",
+    "ability_zh": "魅力"
+  },
+  "religion": {
+    "en": "Religion",
+    "zh": "宗教",
+    "ability": "INT",
+    "ability_zh": "智力"
+  },
+  "sleight-of-hand": {
+    "en": "Sleight of Hand",
+    "zh": "巧手",
+    "ability": "DEX",
+    "ability_zh": "敏捷"
+  },
+  "stealth": {
+    "en": "Stealth",
+    "zh": "隐匿",
+    "ability": "DEX",
+    "ability_zh": "敏捷"
+  },
+  "survival": {
+    "en": "Survival",
+    "zh": "生存",
+    "ability": "WIS",
+    "ability_zh": "感知"
+  }
+}
