@@ -376,7 +376,7 @@
 ### 16.1 简易武器 (Simple Weapons)
 | 英文 | 中文 | 类型 |
 |-----|------|-----|
-| Club | 棍棒 | 近战 |
+| Club | 短棒 | 近战 |
 | Dagger | 匕首 | 近战 |
 | Greatclub | 巨棒 | 近战 |
 | Handaxe | 手斧 | 近战 |
@@ -404,7 +404,7 @@
 | Longsword | 长剑 | 近战 |
 | Maul | 巨锤 | 近战 |
 | Morningstar | 钉头锤 | 近战 |
-| Pike | 长枪 | 近战 |
+| Pike | 长矛 | 近战 |
 | Rapier | 刺剑 | 近战 |
 | Scimitar | 弯刀 | 近战 |
 | Shortsword | 短剑 | 近战 |
@@ -428,7 +428,7 @@
 | Chain Shirt | 链甲衫 | 中甲 |
 | Scale Mail | 鳞甲 | 中甲 |
 | Breastplate | 胸甲 | 中甲 |
-| Half Plate Armor | 半胸甲 | 中甲 |
+| Half Plate Armor | 半身板甲 | 中甲 |
 | Ring Mail | 环甲 | 重甲 |
 | Chain Mail | 锁子甲 | 重甲 |
 | Splint Armor | 板条甲 | 重甲 |
@@ -439,15 +439,15 @@
 | 英文 | 中文 |
 |-----|------|
 | Backpack | 背包 |
-| Bedroll | 睡袋 |
-| Rations (1 day) | 干粮（1天）|
-| Waterskin | 水囊 |
+| Bedroll | 铺盖 |
+| Rations (1 day) | 口粮（1天）|
+| Waterskin | 水袋 |
 | Torch | 火把 |
-| Tinderbox | 打火盒 |
+| Tinderbox | 火绒盒 |
 | Rope, hempen (50 feet) | 麻绳（50尺）|
 | Rope, silk (50 feet) | 丝绳（50尺）|
 | Healer's Kit | 医疗工具包 |
-| Climber's Kit | 攀爬工具包 |
+| Climber's Kit | 攀爬工具 |
 | Disguise Kit | 易容工具包 |
 | Forgery Kit | 伪造工具包 |
 | Herbalism Kit | 草药工具包 |
@@ -458,10 +458,10 @@
 |-----|------|---------|
 | Crystal | 水晶 | 奥术 |
 | Orb | 法球 | 奥术 |
-| Rod | 短杖 | 奥术 |
+| Rod | 权杖 | 奥术 |
 | Staff | 法杖 | 奥术 |
 | Wand | 魔杖 | 奥术 |
-| Sprig of Mistletoe | 槲寄生枝 | 德鲁伊 |
+| Sprig of Mistletoe | 槲寄生枝条 | 德鲁伊 |
 | Totem | 图腾 | 德鲁伊 |
 | Wooden Staff | 木制法杖 | 德鲁伊 |
 | Yew Wand | 紫杉魔杖 | 德鲁伊 |
@@ -482,17 +482,17 @@
 |-----|------|
 | Ioun Stone | 艾恩石 |
 | Ioun Stone of Absorption | 吸收艾恩石 |
-| Ioun Stone of Agility | 敏捷艾恩石 |
+| Ioun Stone of Agility | 机敏艾恩石 |
 | Ioun Stone of Awareness | 警觉艾恩石 |
 | Ioun Stone of Fortitude | 坚毅艾恩石 |
-| Ioun Stone of Greater Absorption | 强效吸收艾恩石 |
+| Ioun Stone of Greater Absorption | 高等吸收艾恩石 |
 | Ioun Stone of Insight | 洞悉艾恩石 |
-| Ioun Stone of Intellect | 智力艾恩石 |
-| Ioun Stone of Leadership | 领导艾恩石 |
+| Ioun Stone of Intellect | 才智艾恩石 |
+| Ioun Stone of Leadership | 统御艾恩石 |
 | Ioun Stone of Mastery | 精通艾恩石 |
 | Ioun Stone of Protection | 防护艾恩石 |
 | Ioun Stone of Regeneration | 再生艾恩石 |
-| Ioun Stone of Reserve | 储备艾恩石 |
+| Ioun Stone of Reserve | 储法艾恩石 |
 | Ioun Stone of Strength | 力量艾恩石 |
 | Ioun Stone of Sustenance | 维生艾恩石 |
 
@@ -536,25 +536,25 @@
 | Cartographer's Tools | 制图工具 |
 | Cobbler's Tools | 鞋匠工具 |
 | Cook's Utensils | 厨师工具 |
-| Glassblower's Tools | 玻璃工具 |
-| Jeweler's Tools | 珠宝工具 |
+| Glassblower's Tools | 玻璃匠工具 |
+| Jeweler's Tools | 珠宝工匠具 |
 | Leatherworker's Tools | 皮匠工具 |
 | Mason's Tools | 石匠工具 |
-| Painter's Supplies | 绘画工具 |
+| Painter's Supplies | 画家工具 |
 | Potter's Tools | 陶匠工具 |
 | Smith's Tools | 铁匠工具 |
 | Tinker's Tools | 修补工具 |
-| Weaver's Tools | 织匠工具 |
+| Weaver's Tools | 织布工具 |
 | Woodcarver's Tools | 木雕工具 |
 
 ### 14.4 其他工具
 | 英文 | 中文 |
 |-----|------|
 | Herbalism Kit | 草药工具 |
-| Navigator's Tools | 领航员工具 |
+| Navigator's Tools | 领航工具 |
 | Poisoner's Kit | 制毒工具 |
 | Disguise Kit | 易容工具 |
-| Forgery Kit | 伪造工具 |
+| Forgery Kit | 文书伪造工具 |
 | Thieves' Tools | 盗贼工具 |
 
 ### 14.5 乐器 (Musical Instruments)
@@ -562,14 +562,14 @@
 |-----|------|
 | Bagpipes | 风笛 |
 | Drum | 鼓 |
-| Dulcimer | 洋琴 |
+| Dulcimer | 扬琴 |
 | Flute | 长笛 |
 | Lute | 鲁特琴 |
 | Lyre | 里拉琴 |
-| Horn | 号角 |
+| Horn | 角号 |
 | Pan Flute | 排箫 |
-| Shawm | 双簧管 |
-| Viol | 维奥尔琴 |
+| Shawm | 芦笛 |
+| Viol | 提琴 |
 
 ### 14.6 游戏套装
 | 英文 | 中文 |

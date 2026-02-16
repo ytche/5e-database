@@ -6,7 +6,7 @@
     "equipment": [
       {
         "index": "club",
-        "name": "短棒",
+        "name": "棍棒",
         "name_en": "Club",
         "url": "/api/2014/equipment/club"
       },
@@ -18,7 +18,7 @@
       },
       {
         "index": "greatclub",
-        "name": "大棒",
+        "name": "巨棒",
         "name_en": "Greatclub",
         "url": "/api/2014/equipment/greatclub"
       },
@@ -760,7 +760,7 @@
       },
       {
         "index": "bedroll",
-        "name": "睡袋",
+        "name": "铺盖",
         "name_en": "Bedroll",
         "url": "/api/2014/equipment/bedroll"
       },
@@ -964,7 +964,7 @@
       },
       {
         "index": "climbers-kit",
-        "name": "攀爬工具包",
+        "name": "攀爬工具",
         "name_en": "Climber's Kit",
         "url": "/api/2014/equipment/climbers-kit"
       },
@@ -1132,7 +1132,7 @@
       },
       {
         "index": "rations-1-day",
-        "name": "干粮（1天）",
+        "name": "口粮（1天）",
         "name_en": "Rations (1 day)",
         "url": "/api/2014/equipment/rations-1-day"
       },
@@ -1240,7 +1240,7 @@
       },
       {
         "index": "tinderbox",
-        "name": "打火盒",
+        "name": "火绒盒",
         "name_en": "Tinderbox",
         "url": "/api/2014/equipment/tinderbox"
       },
@@ -1264,7 +1264,7 @@
       },
       {
         "index": "waterskin",
-        "name": "水囊",
+        "name": "水袋",
         "name_en": "Waterskin",
         "url": "/api/2014/equipment/waterskin"
       },
@@ -1348,7 +1348,7 @@
       },
       {
         "index": "sprig-of-mistletoe",
-        "name": "槲寄生枝",
+        "name": "槲寄生枝条",
         "name_en": "Sprig of mistletoe",
         "url": "/api/2014/equipment/sprig-of-mistletoe"
       },
@@ -2022,7 +2022,7 @@
     "equipment": [
       {
         "index": "club",
-        "name": "短棒",
+        "name": "棍棒",
         "name_en": "Club",
         "url": "/api/2014/equipment/club"
       },
@@ -2034,7 +2034,7 @@
       },
       {
         "index": "greatclub",
-        "name": "大棒",
+        "name": "巨棒",
         "name_en": "Greatclub",
         "url": "/api/2014/equipment/greatclub"
       },
@@ -2266,7 +2266,7 @@
       },
       {
         "index": "club",
-        "name": "短棒",
+        "name": "棍棒",
         "name_en": "Club",
         "url": "/api/2014/equipment/club"
       },
@@ -2296,7 +2296,7 @@
       },
       {
         "index": "greatclub",
-        "name": "大棒",
+        "name": "巨棒",
         "name_en": "Greatclub",
         "url": "/api/2014/equipment/greatclub"
       },
@@ -2498,7 +2498,7 @@
     "equipment": [
       {
         "index": "club",
-        "name": "短棒",
+        "name": "棍棒",
         "name_en": "Club",
         "url": "/api/2014/equipment/club"
       },
@@ -2510,7 +2510,7 @@
       },
       {
         "index": "greatclub",
-        "name": "大棒",
+        "name": "巨棒",
         "name_en": "Greatclub",
         "url": "/api/2014/equipment/greatclub"
       },
@@ -2940,7 +2940,7 @@
       },
       {
         "index": "bedroll",
-        "name": "睡袋",
+        "name": "铺盖",
         "name_en": "Bedroll",
         "url": "/api/2014/equipment/bedroll"
       },
@@ -3288,7 +3288,7 @@
       },
       {
         "index": "rations-1-day",
-        "name": "干粮（1天）",
+        "name": "口粮（1天）",
         "name_en": "Rations (1 day)",
         "url": "/api/2014/equipment/rations-1-day"
       },
@@ -3390,7 +3390,7 @@
       },
       {
         "index": "tinderbox",
-        "name": "打火盒",
+        "name": "火绒盒",
         "name_en": "Tinderbox",
         "url": "/api/2014/equipment/tinderbox"
       },
@@ -3414,7 +3414,7 @@
       },
       {
         "index": "waterskin",
-        "name": "水囊",
+        "name": "水袋",
         "name_en": "Waterskin",
         "url": "/api/2014/equipment/waterskin"
       },
@@ -3434,7 +3434,7 @@
     "equipment": [
       {
         "index": "climbers-kit",
-        "name": "攀爬工具包",
+        "name": "攀爬工具",
         "name_en": "Climber's Kit",
         "url": "/api/2014/equipment/climbers-kit"
       },
@@ -4080,7 +4080,7 @@
     "equipment": [
       {
         "index": "sprig-of-mistletoe",
-        "name": "槲寄生枝",
+        "name": "槲寄生枝条",
         "name_en": "Sprig of mistletoe",
         "url": "/api/2014/equipment/sprig-of-mistletoe"
       },
@@ -5098,7 +5098,7 @@
       },
       {
         "index": "ioun-stone-of-agility",
-        "name": "敏捷艾恩石",
+        "name": "机敏艾恩石",
         "name_en": "Ioun Stone of Agility",
         "url": "/api/2014/magic-items/ioun-stone-of-agility"
       },
@@ -5116,7 +5116,7 @@
       },
       {
         "index": "ioun-stone-of-greater-absorption",
-        "name": "强效吸收艾恩石",
+        "name": "高等吸收艾恩石",
         "name_en": "Ioun Stone of Greater Absorption",
         "url": "/api/2014/magic-items/ioun-stone-of-greater-absorption"
       },
@@ -5128,13 +5128,13 @@
       },
       {
         "index": "ioun-stone-of-intellect",
-        "name": "智力艾恩石",
+        "name": "才智艾恩石",
         "name_en": "Ioun Stone of Intellect",
         "url": "/api/2014/magic-items/ioun-stone-of-intellect"
       },
       {
         "index": "ioun-stone-of-leadership",
-        "name": "领导艾恩石",
+        "name": "统御艾恩石",
         "name_en": "Ioun Stone of Leadership",
         "url": "/api/2014/magic-items/ioun-stone-of-leadership"
       },
@@ -5158,7 +5158,7 @@
       },
       {
         "index": "ioun-stone-of-reserve",
-        "name": "储备艾恩石",
+        "name": "储法艾恩石",
         "name_en": "Ioun Stone of Reserve",
         "url": "/api/2014/magic-items/ioun-stone-of-reserve"
       },
