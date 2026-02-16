@@ -4,7 +4,7 @@
 > 
 > 最后更新：2026-02-16
 > 
-> 版本：v1.1（新增种族特性章节）
+> 版本：v1.2（新增装备分类章节）
 
 ---
 
@@ -24,6 +24,8 @@
 12. [子职业 (Subclasses)](#12-子职业-subclasses)
 13. [种族特性 (Traits)](#13-种族特性-traits)
 14. [熟练项 (Proficiencies)](#14-熟练项-proficiencies)
+15. [装备分类 (Equipment Categories)](#15-装备分类-equipment-categories)
+16. [装备名称 (Equipment Names)](#16-装备名称-equipment-names)
 
 ---
 
@@ -311,6 +313,191 @@
 
 ---
 
+## 15. 装备分类 (Equipment Categories)
+
+### 15.1 装备大类
+| 英文 | 中文 |
+|-----|------|
+| Weapon | 武器 |
+| Armor | 护甲 |
+| Adventuring Gear | 冒险装备 |
+| Ammunition | 弹药 |
+| Tools | 工具 |
+| Mounts and Vehicles | 坐骑与载具 |
+| Standard Gear | 标准装备 |
+| Kits | 工具包 |
+| Equipment Packs | 装备包 |
+
+### 15.2 武器分类
+| 英文 | 中文 |
+|-----|------|
+| Simple Weapons | 简易武器 |
+| Martial Weapons | 军用武器 |
+| Melee Weapons | 近战武器 |
+| Ranged Weapons | 远程武器 |
+| Simple Melee Weapons | 简易近战武器 |
+| Simple Ranged Weapons | 简易远程武器 |
+| Martial Melee Weapons | 军用近战武器 |
+| Martial Ranged Weapons | 军用远程武器 |
+
+### 15.3 护甲分类
+| 英文 | 中文 |
+|-----|------|
+| Light Armor | 轻甲 |
+| Medium Armor | 中甲 |
+| Heavy Armor | 重甲 |
+| Shields | 盾牌 |
+
+### 15.4 工具分类
+| 英文 | 中文 |
+|-----|------|
+| Artisan's Tools | 工匠工具 |
+| Gaming Sets | 游戏套具 |
+| Musical Instruments | 乐器 |
+
+### 15.5 魔法物品分类
+| 英文 | 中文 |
+|-----|------|
+| Holy Symbols | 圣徽 |
+| Druidic Foci | 德鲁伊法器 |
+| Arcane Foci | 奥术法器 |
+| Wand | 魔杖 |
+| Ring | 戒指 |
+| Rod | 权杖 |
+| Staff | 法杖 |
+| Potion | 药水 |
+| Scroll | 卷轴 |
+| Wondrous Items | 奇物 |
+
+---
+
+## 16. 装备名称 (Equipment Names)
+
+### 16.1 简易武器 (Simple Weapons)
+| 英文 | 中文 | 类型 |
+|-----|------|-----|
+| Club | 棍棒 | 近战 |
+| Dagger | 匕首 | 近战 |
+| Greatclub | 巨棒 | 近战 |
+| Handaxe | 手斧 | 近战 |
+| Javelin | 标枪 | 近战 |
+| Light Hammer | 轻锤 | 近战 |
+| Mace | 硬头锤 | 近战 |
+| Quarterstaff | 长棍 | 近战 |
+| Sickle | 镰刀 | 近战 |
+| Spear | 矛 | 近战 |
+| Light Crossbow | 轻弩 | 远程 |
+| Dart | 飞镖 | 远程 |
+| Shortbow | 短弓 | 远程 |
+| Sling | 投石索 | 远程 |
+
+### 16.2 军用武器 (Martial Weapons)
+| 英文 | 中文 | 类型 |
+|-----|------|-----|
+| Battleaxe | 战斧 | 近战 |
+| Flail | 链枷 | 近战 |
+| Glaive | 长柄刀 | 近战 |
+| Greataxe | 巨斧 | 近战 |
+| Greatsword | 巨剑 | 近战 |
+| Halberd | 戟 | 近战 |
+| Lance | 骑枪 | 近战 |
+| Longsword | 长剑 | 近战 |
+| Maul | 巨锤 | 近战 |
+| Morningstar | 钉头锤 | 近战 |
+| Pike | 长枪 | 近战 |
+| Rapier | 刺剑 | 近战 |
+| Scimitar | 弯刀 | 近战 |
+| Shortsword | 短剑 | 近战 |
+| Trident | 三叉戟 | 近战 |
+| War Pick | 战镐 | 近战 |
+| Warhammer | 战锤 | 近战 |
+| Whip | 鞭 | 近战 |
+| Blowgun | 吹箭筒 | 远程 |
+| Hand Crossbow | 手弩 | 远程 |
+| Heavy Crossbow | 重弩 | 远程 |
+| Longbow | 长弓 | 远程 |
+| Net | 捕网 | 远程 |
+
+### 16.3 护甲 (Armor)
+| 英文 | 中文 | 类型 |
+|-----|------|-----|
+| Padded Armor | 布甲 | 轻甲 |
+| Leather Armor | 皮甲 | 轻甲 |
+| Studded Leather Armor | 镶钉皮甲 | 轻甲 |
+| Hide Armor | 兽皮甲 | 中甲 |
+| Chain Shirt | 链甲衫 | 中甲 |
+| Scale Mail | 鳞甲 | 中甲 |
+| Breastplate | 胸甲 | 中甲 |
+| Half Plate Armor | 半胸甲 | 中甲 |
+| Ring Mail | 环甲 | 重甲 |
+| Chain Mail | 锁子甲 | 重甲 |
+| Splint Armor | 板条甲 | 重甲 |
+| Plate Armor | 板甲 | 重甲 |
+| Shield | 盾牌 | 盾牌 |
+
+### 16.4 常用冒险装备 (Common Adventuring Gear)
+| 英文 | 中文 |
+|-----|------|
+| Backpack | 背包 |
+| Bedroll | 睡袋 |
+| Rations (1 day) | 干粮（1天）|
+| Waterskin | 水囊 |
+| Torch | 火把 |
+| Tinderbox | 打火盒 |
+| Rope, hempen (50 feet) | 麻绳（50尺）|
+| Rope, silk (50 feet) | 丝绳（50尺）|
+| Healer's Kit | 医疗工具包 |
+| Climber's Kit | 攀爬工具包 |
+| Disguise Kit | 易容工具包 |
+| Forgery Kit | 伪造工具包 |
+| Herbalism Kit | 草药工具包 |
+| Poisoner's Kit | 制毒工具包 |
+
+### 16.5 法术法器 (Spellcasting Foci)
+| 英文 | 中文 | 适用职业 |
+|-----|------|---------|
+| Crystal | 水晶 | 奥术 |
+| Orb | 法球 | 奥术 |
+| Rod | 短杖 | 奥术 |
+| Staff | 法杖 | 奥术 |
+| Wand | 魔杖 | 奥术 |
+| Sprig of Mistletoe | 槲寄生枝 | 德鲁伊 |
+| Totem | 图腾 | 德鲁伊 |
+| Wooden Staff | 木制法杖 | 德鲁伊 |
+| Yew Wand | 紫杉魔杖 | 德鲁伊 |
+| Amulet | 护符 | 圣徽 |
+| Emblem | 徽章 | 圣徽 |
+| Reliquary | 圣物匣 | 圣徽 |
+
+### 16.6 魔法物品前缀 (Magic Item Prefixes)
+| 英文 | 中文 |
+|-----|------|
+| +1/+2/+3 Weapon | +1/+2/+3 武器 |
+| +1/+2/+3 Armor | +1/+2/+3 护甲 |
+| Adamantine | 精金 |
+| Mithral | 秘银 |
+
+### 16.7 艾恩石系列 (Ioun Stones)
+| 英文 | 中文 |
+|-----|------|
+| Ioun Stone | 艾恩石 |
+| Ioun Stone of Absorption | 吸收艾恩石 |
+| Ioun Stone of Agility | 敏捷艾恩石 |
+| Ioun Stone of Awareness | 警觉艾恩石 |
+| Ioun Stone of Fortitude | 坚毅艾恩石 |
+| Ioun Stone of Greater Absorption | 强效吸收艾恩石 |
+| Ioun Stone of Insight | 洞悉艾恩石 |
+| Ioun Stone of Intellect | 智力艾恩石 |
+| Ioun Stone of Leadership | 领导艾恩石 |
+| Ioun Stone of Mastery | 精通艾恩石 |
+| Ioun Stone of Protection | 防护艾恩石 |
+| Ioun Stone of Regeneration | 再生艾恩石 |
+| Ioun Stone of Reserve | 储备艾恩石 |
+| Ioun Stone of Strength | 力量艾恩石 |
+| Ioun Stone of Sustenance | 维生艾恩石 |
+
+---
+
 ## 14. 熟练项 (Proficiencies)
 
 ### 14.1 护甲 (Armor)
@@ -421,5 +608,7 @@
 3. 保持术语一致性（同一术语全文统一）
 
 ---
+
+*最后更新：2026-02-16*
 
 *本术语表随翻译进度持续更新*
