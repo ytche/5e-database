@@ -2,6 +2,8 @@
 
 本项目用于记录 2014 版 SRD 的中英文对照翻译。
 
+完整术语表请查看：[GLOSSARY.md](./GLOSSARY.md)
+
 ## 📁 文件说明
 
 | 文件 | 说明 | 状态 |
@@ -45,6 +47,7 @@
 | `5e-SRD-Feats.json` | `5e-SRD-Feats.json` | ✅ 已完成 |
 | `5e-SRD-Subraces.json` | `5e-SRD-Subraces.json` | ✅ 已完成 |
 | `5e-SRD-Races.json` | `5e-SRD-Races.json` | ✅ 已完成 |
+| `5e-SRD-Equipment-Categories.json` | `5e-SRD-Equipment-Categories.json` | ✅ 已完成 |
 
 ## 🔍 术语参考来源
 
@@ -52,45 +55,6 @@
 - 社区通用译名
 - D&D 5e 官方中文（如有）
 
-## ✅ 技能译名对照表（来自 core-abilities.json）
+---
 
-| 英文 | 中文译名 | 所属属性 |
-|-----|---------|---------|
-| Athletics | 运动 | 力量 (STR) |
-| Acrobatics | 体操 | 敏捷 (DEX) |
-| Sleight of Hand | 巧手 | 敏捷 (DEX) |
-| Stealth | 隐匿 | 敏捷 (DEX) |
-| Arcana | 奥秘 | 智力 (INT) |
-| History | 历史 | 智力 (INT) |
-| Investigation | 调查 | 智力 (INT) |
-| Nature | 自然 | 智力 (INT) |
-| Religion | 宗教 | 智力 (INT) |
-| Animal Handling | 驯兽 | 感知 (WIS) |
-| Insight | 洞悉 | 感知 (WIS) |
-| Medicine | 医药 | 感知 (WIS) |
-| Perception | 察觉 | 感知 (WIS) |
-| Survival | 生存 | 感知 (WIS) |
-| Deception | 欺瞒 | 魅力 (CHA) |
-| Intimidation | 威吓 | 魅力 (CHA) |
-| Performance | 表演 | 魅力 (CHA) |
-| Persuasion | 说服 | 魅力 (CHA) |
-
-## ✅ 状态/条件术语表（来自 core-conditions.json）
-
-| 英文 | 中文译名 | 效果简述 |
-|-----|---------|---------|
-| Blinded | 目盲 | 无法看见，攻击劣势 |
-| Charmed | 魅惑 | 无法攻击魅惑者 |
-| Deafened | 耳聋 | 无法听见 |
-| Exhaustion | 力竭 | 分6级，逐渐削弱 |
-| Frightened | 恐慌 | 无法靠近恐惧源 |
-| Grappled | 擒抱 | 速度为0 |
-| Incapacitated | 失能 | 无法执行动作 |
-| Invisible | 隐形 | 攻击优势，被攻击劣势 |
-| Paralyzed | 麻痹 | 无法行动，豁免自动失败 |
-| Petrified | 石化 | 变为石头，伤害减半 |
-| Poisoned | 中毒 | 攻击和检定劣势 |
-| Prone | 倒地 | 只能爬行，攻击劣势 |
-| Restrained | 束缚 | 速度为0，敏捷豁免劣势 |
-| Stunned | 震慑 | 失能，豁免自动失败 |
-| Unconscious | 昏迷 | 失能，倒地，5尺内命中即重击 |
+*术语详情已全部迁移至 [GLOSSARY.md](./GLOSSARY.md)*
