@@ -2,7 +2,7 @@
 
 > 创建时间：2026-02-16
 > 
-> 最后更新：2026-02-16（完成 Features 翻译）
+> 最后更新：2026-02-16（完成 Magic-Items 翻译）
 
 ---
 
@@ -53,7 +53,7 @@
 | 2 | 5e-SRD-Rule-Sections | 192K | ~49K | ⭐⭐⭐ | 规则分段说明 |
 | 3 | ~~5e-SRD-Levels~~ | ~~220K~~ | - | ✅ | 已完成 a4473a9 |
 | 4 | ~~5e-SRD-Features~~ | ~~347K~~ | - | ✅ | 已完成 fc5d640 |
-| 5 | 5e-SRD-Magic-Items | 425K | ~108K | ⭐⭐ | 魔法物品，依赖 Equipment |
+| 5 | ~~5e-SRD-Magic-Items~~ | ~~425K~~ | - | ✅ | 已完成 d717e9a |
 | 6 | 5e-SRD-Spells | 594K | ~151K | ⭐ | 法术，量大但格式统一 |
 | 7 | 5e-SRD-Monsters | 1.3M | ~335K | ⭐ | 怪物数据，最大文件 |
 
