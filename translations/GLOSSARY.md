@@ -4,7 +4,7 @@
 > 
 > 最后更新：2026-02-16
 > 
-> 版本：v1.0
+> 版本：v1.1（新增种族特性章节）
 
 ---
 
@@ -22,7 +22,8 @@
 10. [亚种 (Subraces)](#10-亚种-subraces)
 11. [职业 (Classes)](#11-职业-classes)
 12. [子职业 (Subclasses)](#12-子职业-subclasses)
-13. [熟练项 (Proficiencies)](#13-熟练项-proficiencies)
+13. [种族特性 (Traits)](#13-种族特性-traits)
+14. [熟练项 (Proficiencies)](#14-熟练项-proficiencies)
 
 ---
 
@@ -265,9 +266,54 @@
 
 ---
 
-## 13. 熟练项 (Proficiencies)
+## 13. 种族特性 (Traits)
 
-### 13.1 护甲 (Armor)
+| 英文 | 中文 | 所属种族 |
+|-----|------|---------|
+| Darkvision | 黑暗视觉 | 通用 |
+| Draconic Ancestry | 龙族血统 | 龙裔 |
+| Draconic Ancestry (Black) | 龙族血统（黑龙） | 龙裔 |
+| Draconic Ancestry (Blue) | 龙族血统（蓝龙） | 龙裔 |
+| Draconic Ancestry (Brass) | 龙族血统（黄铜龙） | 龙裔 |
+| Draconic Ancestry (Bronze) | 龙族血统（青铜龙） | 龙裔 |
+| Draconic Ancestry (Copper) | 龙族血统（赤铜龙） | 龙裔 |
+| Draconic Ancestry (Gold) | 龙族血统（金龙） | 龙裔 |
+| Draconic Ancestry (Green) | 龙族血统（绿龙） | 龙裔 |
+| Draconic Ancestry (Red) | 龙族血统（红龙） | 龙裔 |
+| Draconic Ancestry (Silver) | 龙族血统（银龙） | 龙裔 |
+| Draconic Ancestry (White) | 龙族血统（白龙） | 龙裔 |
+| Breath Weapon | 吐息武器 | 龙裔 |
+| Damage Resistance | 伤害抗性 | 龙裔 |
+| Dwarven Resilience | 矮人韧性 | 矮人 |
+| Dwarven Combat Training | 矮人战斗训练 | 矮人 |
+| Tool Proficiency | 工具熟练 | 矮人 |
+| Stonecunning | 石中精妙 | 矮人 |
+| Dwarven Toughness | 矮人坚韧 | 丘陵矮人 |
+| Fey Ancestry | 妖精血统 | 精灵/半精灵 |
+| Keen Senses | 敏锐感官 | 精灵 |
+| Trance | 出神 | 精灵 |
+| Elf Weapon Training | 精灵武器训练 | 高等精灵 |
+| High Elf Cantrip | 高等精灵戏法 | 高等精灵 |
+| Extra Language | 额外语言 | 高等精灵 |
+| Gnome Cunning | 侏儒狡黠 | 侏儒 |
+| Artificer's Lore | 工匠学识 | 岩侏儒 |
+| Tinker | 修补匠 | 岩侏儒 |
+| Skill Versatility | 技能多样性 | 半精灵 |
+| Menacing | 威吓 | 半兽人 |
+| Relentless Endurance | 坚韧不屈 | 半兽人 |
+| Savage Attacks | 凶蛮攻击 | 半兽人 |
+| Lucky | 幸运 | 半身人 |
+| Brave | 勇敢 | 半身人 |
+| Halfling Nimbleness | 半身人敏捷 | 半身人 |
+| Naturally Stealthy | 天生善匿 | 轻足半身人 |
+| Hellish Resistance | 炎狱抗性 | 提夫林 |
+| Infernal Legacy | 地狱遗赠 | 提夫林 |
+
+---
+
+## 14. 熟练项 (Proficiencies)
+
+### 14.1 护甲 (Armor)
 | 英文 | 中文 |
 |-----|------|
 | Light Armor | 轻甲 |
@@ -287,13 +333,13 @@
 | Splint Armor | 板条甲 |
 | Plate Armor | 板甲 |
 
-### 13.2 武器分类
+### 14.2 武器分类
 | 英文 | 中文 |
 |-----|------|
 | Simple Weapons | 简易武器 |
 | Martial Weapons | 军用武器 |
 
-### 13.3 工匠工具 (Artisan's Tools)
+### 14.3 工匠工具 (Artisan's Tools)
 | 英文 | 中文 |
 |-----|------|
 | Alchemist's Supplies | 炼金工具 |
@@ -314,7 +360,7 @@
 | Weaver's Tools | 织匠工具 |
 | Woodcarver's Tools | 木雕工具 |
 
-### 13.4 其他工具
+### 14.4 其他工具
 | 英文 | 中文 |
 |-----|------|
 | Herbalism Kit | 草药工具 |
@@ -324,7 +370,7 @@
 | Forgery Kit | 伪造工具 |
 | Thieves' Tools | 盗贼工具 |
 
-### 13.5 乐器 (Musical Instruments)
+### 14.5 乐器 (Musical Instruments)
 | 英文 | 中文 |
 |-----|------|
 | Bagpipes | 风笛 |
@@ -338,19 +384,19 @@
 | Shawm | 双簧管 |
 | Viol | 维奥尔琴 |
 
-### 13.6 游戏套装
+### 14.6 游戏套装
 | 英文 | 中文 |
 |-----|------|
 | Dice Set | 骰子套组 |
 | Playing Card Set | 扑克牌套组 |
 
-### 13.7 载具
+### 14.7 载具
 | 英文 | 中文 |
 |-----|------|
 | Land Vehicles | 陆地载具 |
 | Water Vehicles | 水上载具 |
 
-### 13.8 豁免 (Saving Throws)
+### 14.8 豁免 (Saving Throws)
 | 英文 | 中文 |
 |-----|------|
 | Saving Throw: STR | 力量豁免 |

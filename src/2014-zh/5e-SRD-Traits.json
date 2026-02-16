@@ -1,0 +1,2047 @@
+[
+  {
+    "index": "darkvision",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "name_en": "Dwarf",
+        "url": "/api/2014/races/dwarf"
+      },
+      {
+        "index": "elf",
+        "name": "精灵",
+        "name_en": "Elf",
+        "url": "/api/2014/races/elf"
+      },
+      {
+        "index": "gnome",
+        "name": "侏儒",
+        "name_en": "Gnome",
+        "url": "/api/2014/races/gnome"
+      },
+      {
+        "index": "half-elf",
+        "name": "半精灵",
+        "name_en": "Half-Elf",
+        "url": "/api/2014/races/half-elf"
+      },
+      {
+        "index": "half-orc",
+        "name": "半兽人",
+        "name_en": "Half-Orc",
+        "url": "/api/2014/races/half-orc"
+      },
+      {
+        "index": "tiefling",
+        "name": "提夫林",
+        "name_en": "Tiefling",
+        "url": "/api/2014/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "name": "黑暗视觉",
+    "name_en": "Darkvision",
+    "desc": [
+      "你在黑暗和昏暗条件下拥有卓越的视力。在微光光照下，你可以看清60英尺内的物体，如同在明亮光照下一样；在黑暗环境中，你可以看清该范围内的物体，如同在微光光照下一样。你在黑暗中无法分辨颜色，只能看到灰度。"
+    ],
+    "desc_en": [
+      "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/darkvision"
+  },
+  {
+    "index": "dwarven-resilience",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "name_en": "Dwarf",
+        "url": "/api/2014/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "矮人韧性",
+    "name_en": "Dwarven Resilience",
+    "desc": [
+      "你在对抗毒素的豁免检定上具有优势，并且对毒素伤害具有抗性。"
+    ],
+    "desc_en": [
+      "You have advantage on saving throws against poison, and you have resistance against poison damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/dwarven-resilience"
+  },
+  {
+    "index": "dwarven-combat-training",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "name_en": "Dwarf",
+        "url": "/api/2014/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "矮人战斗训练",
+    "name_en": "Dwarven Combat Training",
+    "desc": [
+      "你熟练使用战斧、手斧、轻型锤和战锤。"
+    ],
+    "desc_en": [
+      "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+    ],
+    "proficiencies": [
+      {
+        "index": "battleaxes",
+        "name": "战斧",
+        "name_en": "Battleaxes",
+        "url": "/api/2014/proficiencies/battleaxes"
+      },
+      {
+        "index": "handaxes",
+        "name": "手斧",
+        "name_en": "Handaxes",
+        "url": "/api/2014/proficiencies/handaxes"
+      },
+      {
+        "index": "light-hammers",
+        "name": "轻型锤",
+        "name_en": "Light hammers",
+        "url": "/api/2014/proficiencies/light-hammers"
+      },
+      {
+        "index": "warhammers",
+        "name": "战锤",
+        "name_en": "Warhammers",
+        "url": "/api/2014/proficiencies/warhammers"
+      }
+    ],
+    "url": "/api/2014/traits/dwarven-combat-training"
+  },
+  {
+    "index": "tool-proficiency",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "name_en": "Dwarf",
+        "url": "/api/2014/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "工具熟练",
+    "name_en": "Tool Proficiency",
+    "desc": [
+      "你获得一种你选择的工匠工具的熟练：铁匠工具、酿酒工具或石匠工具。"
+    ],
+    "desc_en": [
+      "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+    ],
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 1,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "smiths-tools",
+              "name": "铁匠工具",
+              "name_en": "Smith's Tools",
+              "url": "/api/2014/proficiencies/smiths-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "brewers-supplies",
+              "name": "酿酒工具",
+              "name_en": "Brewer's Supplies",
+              "url": "/api/2014/proficiencies/brewers-supplies"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "masons-tools",
+              "name": "石匠工具",
+              "name_en": "Mason's Tools",
+              "url": "/api/2014/proficiencies/masons-tools"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/tool-proficiency"
+  },
+  {
+    "index": "stonecunning",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "name_en": "Dwarf",
+        "url": "/api/2014/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "石中精妙",
+    "name_en": "Stonecunning",
+    "desc": [
+      "每当你进行与石工艺起源相关的智力（历史）检定时，你被视为熟练于历史技能，并将双倍的熟练加值加到检定上，而非你正常的熟练加值。"
+    ],
+    "desc_en": [
+      "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/stonecunning"
+  },
+  {
+    "index": "dwarven-toughness",
+    "races": [],
+    "subraces": [
+      {
+        "index": "hill-dwarf",
+        "name": "丘陵矮人",
+        "name_en": "Hill Dwarf",
+        "url": "/api/2014/subraces/hill-dwarf"
+      }
+    ],
+    "name": "矮人坚韧",
+    "name_en": "Dwarven Toughness",
+    "desc": [
+      "你的生命值上限增加1，并且每当你升级时，生命值上限都会额外增加1。"
+    ],
+    "desc_en": [
+      "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/dwarven-toughness"
+  },
+  {
+    "index": "keen-senses",
+    "races": [
+      {
+        "index": "elf",
+        "name": "精灵",
+        "name_en": "Elf",
+        "url": "/api/2014/races/elf"
+      }
+    ],
+    "subraces": [],
+    "name": "敏锐感官",
+    "name_en": "Keen Senses",
+    "desc": ["你熟练于察觉技能。"],
+    "desc_en": ["You have proficiency in the Perception skill."],
+    "proficiencies": [
+      {
+        "index": "skill-perception",
+        "name": "技能：察觉",
+        "name_en": "Skill: Perception",
+        "url": "/api/2014/proficiencies/skill-perception"
+      }
+    ],
+    "url": "/api/2014/traits/keen-senses"
+  },
+  {
+    "index": "fey-ancestry",
+    "races": [
+      {
+        "index": "elf",
+        "name": "精灵",
+        "name_en": "Elf",
+        "url": "/api/2014/races/elf"
+      },
+      {
+        "index": "half-elf",
+        "name": "半精灵",
+        "name_en": "Half-Elf",
+        "url": "/api/2014/races/half-elf"
+      }
+    ],
+    "subraces": [],
+    "name": "妖精血统",
+    "name_en": "Fey Ancestry",
+    "desc": [
+      "你在对抗魅惑的豁免检定上具有优势，并且魔法无法使你陷入睡眠。"
+    ],
+    "desc_en": [
+      "You have advantage on saving throws against being charmed, and magic cannot put you to sleep."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/fey-ancestry"
+  },
+  {
+    "index": "trance",
+    "races": [
+      {
+        "index": "elf",
+        "name": "精灵",
+        "name_en": "Elf",
+        "url": "/api/2014/races/elf"
+      }
+    ],
+    "subraces": [],
+    "name": "出神",
+    "name_en": "Trance",
+    "desc": [
+      "精灵不需要睡眠。相反，他们会深度冥想4小时，保持半意识状态。（通用语中这种冥想称为「出神」。）冥想时，你可以做梦；这类梦实际上是经过多年练习成为反射性思维练习的心理训练。以这种方式休息后，你获得与人类8小时睡眠相同的益处。"
+    ],
+    "desc_en": [
+      "Elves do not need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting this way, you gain the same benefit that a human does from 8 hours of sleep."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/trance"
+  },
+  {
+    "index": "elf-weapon-training",
+    "races": [],
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "name_en": "High Elf",
+        "url": "/api/2014/subraces/high-elf"
+      }
+    ],
+    "name": "精灵武器训练",
+    "name_en": "Elf Weapon Training",
+    "desc": [
+      "你熟练使用长剑、短剑、短弓和长弓。"
+    ],
+    "desc_en": [
+      "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+    ],
+    "proficiencies": [
+      {
+        "index": "longswords",
+        "name": "长剑",
+        "name_en": "Longswords",
+        "url": "/api/2014/proficiencies/longswords"
+      },
+      {
+        "index": "shortswords",
+        "name": "短剑",
+        "name_en": "Shortswords",
+        "url": "/api/2014/proficiencies/shortswords"
+      },
+      {
+        "index": "shortbows",
+        "name": "短弓",
+        "name_en": "Shortbows",
+        "url": "/api/2014/proficiencies/shortbows"
+      },
+      {
+        "index": "longbows",
+        "name": "长弓",
+        "name_en": "Longbows",
+        "url": "/api/2014/proficiencies/longbows"
+      }
+    ],
+    "url": "/api/2014/traits/elf-weapon-training"
+  },
+  {
+    "index": "high-elf-cantrip",
+    "races": [],
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "name_en": "High Elf",
+        "url": "/api/2014/subraces/high-elf"
+      }
+    ],
+    "name": "高等精灵戏法",
+    "name_en": "High Elf Cantrip",
+    "desc": [
+      "你知道一个你选择的法师戏法。智力是你施展该戏法的法术能力。"
+    ],
+    "desc_en": [
+      "You know one cantrip of your choice form the wizard spell list. Intelligence is your spellcasting ability for it."
+    ],
+    "proficiencies": [],
+    "trait_specific": {
+      "spell_options": {
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "light",
+                "name": "光亮术",
+                "name_en": "Light",
+                "url": "/api/2014/spells/light"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "mage-hand",
+                "name": "法师之手",
+                "name_en": "Mage Hand",
+                "url": "/api/2014/spells/mage-hand"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "mending",
+                "name": "修复术",
+                "name_en": "Mending",
+                "url": "/api/2014/spells/mending"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "message",
+                "name": "传讯术",
+                "name_en": "Message",
+                "url": "/api/2014/spells/message"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "minor-illusion",
+                "name": "次级幻象",
+                "name_en": "Minor Illusion",
+                "url": "/api/2014/spells/minor-illusion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "acid-splash",
+                "name": "酸液飞溅",
+                "name_en": "Acid Splash",
+                "url": "/api/2014/spells/acid-splash"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "prestidigitation",
+                "name": "魔法伎俩",
+                "name_en": "Prestidigitation",
+                "url": "/api/2014/spells/prestidigitation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "ray-of-frost",
+                "name": "冷冻射线",
+                "name_en": "Ray of Frost",
+                "url": "/api/2014/spells/ray-of-frost"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "shocking-grasp",
+                "name": "电爪",
+                "name_en": "Shocking Grasp",
+                "url": "/api/2014/spells/shocking-grasp"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "true-strike",
+                "name": "克敌机先",
+                "name_en": "True Strike",
+                "url": "/api/2014/spells/true-strike"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "chill-touch",
+                "name": "寒颤之触",
+                "name_en": "Chill Touch",
+                "url": "/api/2014/spells/chill-touch"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dancing-lights",
+                "name": "舞光术",
+                "name_en": "Dancing Lights",
+                "url": "/api/2014/spells/dancing-lights"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "fire-bolt",
+                "name": "火焰箭",
+                "name_en": "Fire Bolt",
+                "url": "/api/2014/spells/fire-bolt"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "poison-spray",
+                "name": "毒气喷溅",
+                "name_en": "Poison Spray",
+                "url": "/api/2014/spells/poison-spray"
+              }
+            }
+          ]
+        },
+        "type": "spell"
+      }
+    },
+    "url": "/api/2014/traits/high-elf-cantrip"
+  },
+  {
+    "index": "extra-language",
+    "races": [],
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "name_en": "High Elf",
+        "url": "/api/2014/subraces/high-elf"
+      }
+    ],
+    "name": "额外语言",
+    "name_en": "Extra Language",
+    "desc": [
+      "你能说、读、写一种你选择的额外语言。"
+    ],
+    "desc_en": [
+      "You can speak, read, and write one extra language of your choice."
+    ],
+    "proficiencies": [],
+    "language_options": {
+      "choose": 1,
+      "type": "languages",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dwarvish",
+              "name": "矮人语",
+              "name_en": "Dwarvish",
+              "url": "/api/2014/languages/dwarvish"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "giant",
+              "name": "巨人语",
+              "name_en": "Giant",
+              "url": "/api/2014/languages/giant"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "gnomish",
+              "name": "侏儒语",
+              "name_en": "Gnomish",
+              "url": "/api/2014/languages/gnomish"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "goblin",
+              "name": "地精语",
+              "name_en": "Goblin",
+              "url": "/api/2014/languages/goblin"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "halfling",
+              "name": "半身人语",
+              "name_en": "Halfling",
+              "url": "/api/2014/languages/halfling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "orc",
+              "name": "兽人语",
+              "name_en": "Orc",
+              "url": "/api/2014/languages/orc"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "abyssal",
+              "name": "深渊语",
+              "name_en": "Abyssal",
+              "url": "/api/2014/languages/abyssal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "celestial",
+              "name": "天界语",
+              "name_en": "Celestial",
+              "url": "/api/2014/languages/celestial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "draconic",
+              "name": "龙语",
+              "name_en": "Draconic",
+              "url": "/api/2014/languages/draconic"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "deep-speech",
+              "name": "深潜语",
+              "name_en": "Deep Speech",
+              "url": "/api/2014/languages/deep-speech"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "infernal",
+              "name": "炼狱语",
+              "name_en": "Infernal",
+              "url": "/api/2014/languages/infernal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "primordial",
+              "name": "原初语",
+              "name_en": "Primordial",
+              "url": "/api/2014/languages/primordial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "sylvan",
+              "name": "妖精语",
+              "name_en": "Sylvan",
+              "url": "/api/2014/languages/sylvan"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "undercommon",
+              "name": "幽暗地域语",
+              "name_en": "Undercommon",
+              "url": "/api/2014/languages/undercommon"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/extra-language"
+  },
+  {
+    "index": "lucky",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "半身人",
+        "name_en": "Halfling",
+        "url": "/api/2014/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "幸运",
+    "name_en": "Lucky",
+    "desc": [
+      "当你在攻击检定、能力检定或豁免检定的d20骰出1时，你可以重掷该骰，并且必须使用新的结果。"
+    ],
+    "desc_en": [
+      "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/lucky"
+  },
+  {
+    "index": "brave",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "半身人",
+        "name_en": "Halfling",
+        "url": "/api/2014/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "勇敢",
+    "name_en": "Brave",
+    "desc": ["你在对抗恐慌的豁免检定上具有优势。"],
+    "desc_en": ["You have advantage on saving throw against being frightened."],
+    "proficiencies": [],
+    "url": "/api/2014/traits/brave"
+  },
+  {
+    "index": "halfling-nimbleness",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "半身人",
+        "name_en": "Halfling",
+        "url": "/api/2014/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "半身人敏捷",
+    "name_en": "Halfling Nimbleness",
+    "desc": [
+      "你可以穿过任何比你体型更大的生物的空间。"
+    ],
+    "desc_en": [
+      "You can move through the space of any creature that is of a size larger than yours."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/halfling-nimbleness"
+  },
+  {
+    "index": "naturally-stealthy",
+    "races": [],
+    "subraces": [
+      {
+        "index": "lightfoot-halfling",
+        "name": "轻足半身人",
+        "name_en": "Lightfoot Halfling",
+        "url": "/api/2014/subraces/lightfoot-halfling"
+      }
+    ],
+    "name": "天生善匿",
+    "name_en": "Naturally Stealthy",
+    "desc": [
+      "即使只有比你体型至少大一级的生物作为掩护，你也可以尝试躲藏。"
+    ],
+    "desc_en": [
+      "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/naturally-stealthy"
+  },
+  {
+    "index": "draconic-ancestry",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统",
+    "name_en": "Draconic Ancestry",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "proficiencies": [],
+    "trait_specific": {
+      "subtrait_options": {
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-black",
+                "name": "龙族血统（黑龙）",
+                "name_en": "Draconic Ancestry (Black)",
+                "url": "/api/2014/traits/draconic-ancestry-black"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-blue",
+                "name": "龙族血统（蓝龙）",
+                "name_en": "Draconic Ancestry (Blue)",
+                "url": "/api/2014/traits/draconic-ancestry-blue"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-brass",
+                "name": "龙族血统（黄铜龙）",
+                "name_en": "Draconic Ancestry (Brass)",
+                "url": "/api/2014/traits/draconic-ancestry-brass"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-bronze",
+                "name": "龙族血统（青铜龙）",
+                "name_en": "Draconic Ancestry (Bronze)",
+                "url": "/api/2014/traits/draconic-ancestry-bronze"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-copper",
+                "name": "龙族血统（赤铜龙）",
+                "name_en": "Draconic Ancestry (Copper)",
+                "url": "/api/2014/traits/draconic-ancestry-copper"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-gold",
+                "name": "龙族血统（金龙）",
+                "name_en": "Draconic Ancestry (Gold)",
+                "url": "/api/2014/traits/draconic-ancestry-gold"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-green",
+                "name": "龙族血统（绿龙）",
+                "name_en": "Draconic Ancestry (Green)",
+                "url": "/api/2014/traits/draconic-ancestry-green"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-red",
+                "name": "龙族血统（红龙）",
+                "name_en": "Draconic Ancestry (Red)",
+                "url": "/api/2014/traits/draconic-ancestry-red"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-silver",
+                "name": "龙族血统（银龙）",
+                "name_en": "Draconic Ancestry (Silver)",
+                "url": "/api/2014/traits/draconic-ancestry-silver"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-white",
+                "name": "龙族血统（白龙）",
+                "name_en": "Draconic Ancestry (White)",
+                "url": "/api/2014/traits/draconic-ancestry-white"
+              }
+            }
+          ]
+        },
+        "type": "trait"
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry"
+  },
+  {
+    "index": "draconic-ancestry-black",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（黑龙）",
+    "name_en": "Draconic Ancestry (Black)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "acid",
+        "name": "强酸",
+        "name_en": "Acid",
+        "url": "/api/2014/damage-types/acid"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "acid",
+              "name": "强酸",
+              "name_en": "Acid",
+              "url": "/api/2014/damage-types/acid"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-black"
+  },
+  {
+    "index": "draconic-ancestry-blue",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（蓝龙）",
+    "name_en": "Draconic Ancestry (Blue)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "lightning",
+        "name": "闪电",
+        "name_en": "Lightning",
+        "url": "/api/2014/damage-types/lightning"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "lightning",
+              "name": "闪电",
+              "name_en": "Lightning",
+              "url": "/api/2014/damage-types/lightning"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-blue"
+  },
+  {
+    "index": "draconic-ancestry-brass",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（黄铜龙）",
+    "name_en": "Draconic Ancestry (Brass)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "fire",
+        "name": "火焰",
+        "name_en": "Fire",
+        "url": "/api/2014/damage-types/fire"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "fire",
+              "name": "火焰",
+              "name_en": "Fire",
+              "url": "/api/2014/damage-types/fire"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-brass"
+  },
+  {
+    "index": "draconic-ancestry-bronze",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（青铜龙）",
+    "name_en": "Draconic Ancestry (Bronze)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "lightning",
+        "name": "闪电",
+        "name_en": "Lightning",
+        "url": "/api/2014/damage-types/lightning"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "lightning",
+              "name": "闪电",
+              "name_en": "Lightning",
+              "url": "/api/2014/damage-types/lightning"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-bronze"
+  },
+  {
+    "index": "draconic-ancestry-copper",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（赤铜龙）",
+    "name_en": "Draconic Ancestry (Copper)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "acid",
+        "name": "强酸",
+        "name_en": "Acid",
+        "url": "/api/2014/damage-types/acid"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "acid",
+              "name": "强酸",
+              "name_en": "Acid",
+              "url": "/api/2014/damage-types/acid"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-copper"
+  },
+  {
+    "index": "draconic-ancestry-gold",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（金龙）",
+    "name_en": "Draconic Ancestry (Gold)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "fire",
+        "name": "火焰",
+        "name_en": "Fire",
+        "url": "/api/2014/damage-types/fire"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "fire",
+              "name": "火焰",
+              "name_en": "Fire",
+              "url": "/api/2014/damage-types/fire"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-gold"
+  },
+  {
+    "index": "draconic-ancestry-green",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（绿龙）",
+    "name_en": "Draconic Ancestry (Green)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "poison",
+        "name": "毒素",
+        "name_en": "Poison",
+        "url": "/api/2014/damage-types/poison"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "con",
+            "name": "体质",
+            "name_en": "CON",
+            "url": "/api/2014/ability-scores/con"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "poison",
+              "name": "毒素",
+              "name_en": "Poison",
+              "url": "/api/2014/damage-types/poison"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-green"
+  },
+  {
+    "index": "draconic-ancestry-red",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（红龙）",
+    "name_en": "Draconic Ancestry (Red)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "fire",
+        "name": "火焰",
+        "name_en": "Fire",
+        "url": "/api/2014/damage-types/fire"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "敏捷",
+            "name_en": "DEX",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "fire",
+              "name": "火焰",
+              "name_en": "Fire",
+              "url": "/api/2014/damage-types/fire"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-red"
+  },
+  {
+    "index": "draconic-ancestry-silver",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（银龙）",
+    "name_en": "Draconic Ancestry (Silver)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "cold",
+        "name": "冷冻",
+        "name_en": "Cold",
+        "url": "/api/2014/damage-types/cold"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "con",
+            "name": "体质",
+            "name_en": "CON",
+            "url": "/api/2014/ability-scores/con"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "cold",
+              "name": "冷冻",
+              "name_en": "Cold",
+              "url": "/api/2014/damage-types/cold"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-silver"
+  },
+  {
+    "index": "draconic-ancestry-white",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "龙族血统（白龙）",
+    "name_en": "Draconic Ancestry (White)",
+    "desc": [
+      "你拥有龙族血统。从龙族血统表中选择一种龙类。你的吐息武器和伤害抗性由龙类类型决定，如表所示。"
+    ],
+    "desc_en": [
+      "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+    ],
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "龙族血统",
+      "name_en": "Draconic Ancestry",
+      "url": "/api/2014/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "trait_specific": {
+      "damage_type": {
+        "index": "cold",
+        "name": "冷冻",
+        "name_en": "Cold",
+        "url": "/api/2014/damage-types/cold"
+      },
+      "breath_weapon": {
+        "name": "吐息武器",
+        "name_en": "Breath Weapon",
+        "desc": "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。使用吐息武器后，你必须完成一次短休或长休后才能再次使用。",
+        "desc_en": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "usage": {
+          "type": "per rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "con",
+            "name": "体质",
+            "name_en": "CON",
+            "url": "/api/2014/ability-scores/con"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "cold",
+              "name": "冷冻",
+              "name_en": "Cold",
+              "url": "/api/2014/damage-types/cold"
+            },
+            "damage_at_character_level": {
+              "1": "2d6",
+              "6": "3d6",
+              "11": "4d6",
+              "16": "5d6"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/draconic-ancestry-white"
+  },
+  {
+    "index": "breath-weapon",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "吐息武器",
+    "name_en": "Breath Weapon",
+    "desc": [
+      "你可以使用动作呼出破坏性能量。你的龙族血统决定呼出的范围、形状和伤害类型。",
+      "当你使用吐息武器时，呼出范围内的每个生物都必须进行豁免检定，检定类型由你的龙族血统决定。该豁免检定的DC等于8+你的体质调整值+你的熟练加值。生物在豁免失败时受到2d6伤害，成功时伤害减半。伤害在6级时增加到3d6，11级时增加到4d6，16级时增加到5d6。",
+      "使用吐息武器后，你必须完成一次短休或长休后才能再次使用。"
+    ],
+    "desc_en": [
+      "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.",
+      "When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "After you use your breath weapon, you cannot use it again until you complete a short or long rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/breath-weapon"
+  },
+  {
+    "index": "damage-resistance",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "龙裔",
+        "name_en": "Dragonborn",
+        "url": "/api/2014/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "伤害抗性",
+    "name_en": "Damage Resistance",
+    "desc": [
+      "你对与你龙族血统相关的伤害类型具有抗性。"
+    ],
+    "desc_en": [
+      "You have resistance to the damage type associated with your draconic ancestry."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/damage-resistance"
+  },
+  {
+    "index": "gnome-cunning",
+    "races": [
+      {
+        "index": "gnome",
+        "name": "侏儒",
+        "name_en": "Gnome",
+        "url": "/api/2014/races/gnome"
+      }
+    ],
+    "subraces": [],
+    "name": "侏儒狡黠",
+    "name_en": "Gnome Cunning",
+    "desc": [
+      "你在对抗魔法的智力、感知和魅力豁免检定上具有优势。"
+    ],
+    "desc_en": [
+      "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/gnome-cunning"
+  },
+  {
+    "index": "artificers-lore",
+    "races": [],
+    "subraces": [
+      {
+        "index": "rock-gnome",
+        "name": "岩侏儒",
+        "name_en": "Rock Gnome",
+        "url": "/api/2014/subraces/rock-gnome"
+      }
+    ],
+    "name": "工匠学识",
+    "name_en": "Artificer's Lore",
+    "desc": [
+      "每当你进行与魔法物品、炼金物品或技术装置相关的智力（历史）检定时，你可以将双倍的熟练加值加到检定上，而非你正常应用的任何熟练加值。"
+    ],
+    "desc_en": [
+      "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/artificers-lore"
+  },
+  {
+    "index": "tinker",
+    "races": [],
+    "subraces": [
+      {
+        "index": "rock-gnome",
+        "name": "岩侏儒",
+        "name_en": "Rock Gnome",
+        "url": "/api/2014/subraces/rock-gnome"
+      }
+    ],
+    "name": "修补匠",
+    "name_en": "Tinker",
+    "desc": [
+      "你熟练使用工匠工具（修补工具）。使用这些工具，你可以花费1小时和10gp的材料来制作一个微型发条装置（AC 5，1hp）。该装置在24小时后停止运作（除非你花费1小时修理它以保持装置运作），或者当你使用动作拆解它时；此时，你可以收回用于制作它的材料。你最多可以同时拥有三个这样的装置处于激活状态。",
+      "当你制作装置时，选择以下选项之一：",
+      "发条玩具：这个玩具是一个发条动物、怪物或人物，如青蛙、老鼠、鸟、龙或士兵。放置在地上时，玩具在你的每个回合中向随机方向移动5英尺。它会发出与其所代表生物相称的声音。",
+      "点火器：该装置产生微型火焰，你可以用它来点燃蜡烛、火把或篝火。使用该装置需要你的动作。",
+      "音乐盒：打开时，这个音乐盒以中等音量播放一首单曲。音乐盒在歌曲结束或关闭时停止播放。"
+    ],
+    "desc_en": [
+      "You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+      "When you create a device, choose one of the following options:",
+      "Clockwork Toy: This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.",
+      "Fire Starter: The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.",
+      "Music Box: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+    ],
+    "proficiencies": [
+      {
+        "index": "tinkers-tools",
+        "name": "修补工具",
+        "name_en": "Tinker's Tools",
+        "url": "/api/2014/proficiencies/tinkers-tools"
+      }
+    ],
+    "url": "/api/2014/traits/tinker"
+  },
+  {
+    "index": "skill-versatility",
+    "races": [
+      {
+        "index": "half-elf",
+        "name": "半精灵",
+        "name_en": "Half-Elf",
+        "url": "/api/2014/races/half-elf"
+      }
+    ],
+    "subraces": [],
+    "name": "技能多样性",
+    "name_en": "Skill Versatility",
+    "desc": ["你获得两种你选择的技能的熟练。"],
+    "desc_en": ["You gain proficiency in two skills of your choice."],
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 2,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "技能：杂技",
+              "name_en": "Skill: Acrobatics",
+              "url": "/api/2014/proficiencies/skill-acrobatics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-animal-handling",
+              "name": "技能：驯兽",
+              "name_en": "Skill: Animal Handling",
+              "url": "/api/2014/proficiencies/skill-animal-handling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-arcana",
+              "name": "技能：奥秘",
+              "name_en": "Skill: Arcana",
+              "url": "/api/2014/proficiencies/skill-arcana"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-athletics",
+              "name": "技能：运动",
+              "name_en": "Skill: Athletics",
+              "url": "/api/2014/proficiencies/skill-athletics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-deception",
+              "name": "技能：欺瞒",
+              "name_en": "Skill: Deception",
+              "url": "/api/2014/proficiencies/skill-deception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "技能：历史",
+              "name_en": "Skill: History",
+              "url": "/api/2014/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "技能：洞悉",
+              "name_en": "Skill: Insight",
+              "url": "/api/2014/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "技能：威吓",
+              "name_en": "Skill: Intimidation",
+              "url": "/api/2014/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "技能：调查",
+              "name_en": "Skill: Investigation",
+              "url": "/api/2014/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-medicine",
+              "name": "技能：医药",
+              "name_en": "Skill: Medicine",
+              "url": "/api/2014/proficiencies/skill-medicine"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-nature",
+              "name": "技能：自然",
+              "name_en": "Skill: Nature",
+              "url": "/api/2014/proficiencies/skill-nature"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "技能：察觉",
+              "name_en": "Skill: Perception",
+              "url": "/api/2014/proficiencies/skill-perception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-performance",
+              "name": "技能：表演",
+              "name_en": "Skill: Performance",
+              "url": "/api/2014/proficiencies/skill-performance"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-persuasion",
+              "name": "技能：游说",
+              "name_en": "Skill: Persuasion",
+              "url": "/api/2014/proficiencies/skill-persuasion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "技能：宗教",
+              "name_en": "Skill: Religion",
+              "url": "/api/2014/proficiencies/skill-religion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-sleight-of-hand",
+              "name": "技能：巧手",
+              "name_en": "Skill: Sleight of Hand",
+              "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-stealth",
+              "name": "技能：隐匿",
+              "name_en": "Skill: Stealth",
+              "url": "/api/2014/proficiencies/skill-stealth"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "技能：生存",
+              "name_en": "Skill: Survival",
+              "url": "/api/2014/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/traits/skill-versatility"
+  },
+  {
+    "index": "menacing",
+    "races": [
+      {
+        "index": "half-orc",
+        "name": "半兽人",
+        "name_en": "Half-Orc",
+        "url": "/api/2014/races/half-orc"
+      }
+    ],
+    "subraces": [],
+    "name": "威吓",
+    "name_en": "Menacing",
+    "desc": ["你获得威吓技能的熟练。"],
+    "desc_en": ["You gain proficiency in the Intimidation skill."],
+    "proficiencies": [
+      {
+        "index": "skill-intimidation",
+        "name": "技能：威吓",
+        "name_en": "Skill: Intimidation",
+        "url": "/api/2014/proficiencies/skill-intimidation"
+      }
+    ],
+    "url": "/api/2014/traits/menacing"
+  },
+  {
+    "index": "relentless-endurance",
+    "races": [
+      {
+        "index": "half-orc",
+        "name": "半兽人",
+        "name_en": "Half-Orc",
+        "url": "/api/2014/races/half-orc"
+      }
+    ],
+    "subraces": [],
+    "name": "坚韧不屈",
+    "name_en": "Relentless Endurance",
+    "desc": [
+      "当你的生命值降至0但没有被直接杀死时，你可以改为降至1点生命值。直到你完成一次长休之前，你不能再次使用这个特性。"
+    ],
+    "desc_en": [
+      "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. you cannot use this feature again until you finish a long rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/relentless-endurance"
+  },
+  {
+    "index": "savage-attacks",
+    "races": [
+      {
+        "index": "half-orc",
+        "name": "半兽人",
+        "name_en": "Half-Orc",
+        "url": "/api/2014/races/half-orc"
+      }
+    ],
+    "subraces": [],
+    "name": "凶蛮攻击",
+    "name_en": "Savage Attacks",
+    "desc": [
+      "当你使用近战武器攻击造成致命一击时，你可以额外掷一次武器的伤害骰，并将其加到致命一击的额外伤害上。"
+    ],
+    "desc_en": [
+      "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/savage-attacks"
+  },
+  {
+    "index": "hellish-resistance",
+    "races": [
+      {
+        "index": "tiefling",
+        "name": "提夫林",
+        "name_en": "Tiefling",
+        "url": "/api/2014/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "name": "炎狱抗性",
+    "name_en": "Hellish Resistance",
+    "desc": ["你对火焰伤害具有抗性。"],
+    "desc_en": ["You have resistance to fire damage."],
+    "proficiencies": [],
+    "url": "/api/2014/traits/hellish-resistance"
+  },
+  {
+    "index": "infernal-legacy",
+    "races": [
+      {
+        "index": "tiefling",
+        "name": "提夫林",
+        "name_en": "Tiefling",
+        "url": "/api/2014/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "name": "地狱遗赠",
+    "name_en": "Infernal Legacy",
+    "desc": [
+      "你知道戏法【奇术】。当你达到3级时，你可以使用这个特性施展一次2环法术【炼狱叱喝】，并在完成长休后恢复这个能力。当你达到5级时，你可以使用这个特性施展一次法术【黑暗术】，并在完成长休后恢复这个能力。魅力是你施展这些法术的法术能力。"
+    ],
+    "desc_en": [
+      "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/infernal-legacy"
+  }
+]
