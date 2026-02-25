@@ -1,0 +1,308 @@
+[
+  {
+    "index": "acrobatics",
+    "name": "体操",
+    "name_en": "Acrobatics",
+    "desc": [
+      "你的敏捷（体操）检定涵盖你在棘手情况下保持站立的尝试，例如当你试图跑过冰面、在绳索上保持平衡，或在摇晃的甲板上站稳时。地下城主也可能要求进行敏捷（体操）检定来看你是否能完成杂技特技，包括跳水、翻滚、空翻和翻转。"
+    ],
+    "desc_en": [
+      "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+    ],
+    "ability_score": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2014/ability-scores/dex"
+    },
+    "url": "/api/2014/skills/acrobatics"
+  },
+  {
+    "index": "animal-handling",
+    "name": "驯兽",
+    "name_en": "Animal Handling",
+    "desc": [
+      "当你能否让驯养的动物平静下来、防止坐骑受惊，或直觉感知动物的意图存在疑问时，地下城主可能会要求进行感知（驯兽）检定。当你尝试冒险动作控制坐骑时，你也会进行感知（驯兽）检定。"
+    ],
+    "desc_en": [
+      "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver."
+    ],
+    "ability_score": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2014/ability-scores/wis"
+    },
+    "url": "/api/2014/skills/animal-handling"
+  },
+  {
+    "index": "arcana",
+    "name": "奥秘",
+    "name_en": "Arcana",
+    "desc": [
+      "你的智力（奥秘）检定衡量你回忆关于法术、魔法物品、怪异符号、魔法传统、存在位面以及那些位面居民的知识的能力。"
+    ],
+    "desc_en": [
+      "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+    ],
+    "ability_score": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2014/ability-scores/int"
+    },
+    "url": "/api/2014/skills/arcana"
+  },
+  {
+    "index": "athletics",
+    "name": "运动",
+    "name_en": "Athletics",
+    "desc": [
+      "你的力量（运动）检定涵盖你在攀爬、跳跃或游泳时遇到的困难情况。"
+    ],
+    "desc_en": [
+      "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming."
+    ],
+    "ability_score": {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2014/ability-scores/str"
+    },
+    "url": "/api/2014/skills/athletics"
+  },
+  {
+    "index": "deception",
+    "name": "欺瞒",
+    "name_en": "Deception",
+    "desc": [
+      "你的魅力（欺瞒）检定决定你是否能够令人信服地隐藏真相，无论是通过言语还是行动。这种欺瞒可以涵盖从通过含糊其辞误导他人到直接撒谎的一切。典型情况包括试图花言巧语蒙骗守卫、欺骗商人、通过赌博赚钱、伪装自己、用虚假保证平息他人的怀疑，或在说出明目张胆的谎言时保持面无表情。"
+    ],
+    "desc_en": [
+      "Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast- talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+    ],
+    "ability_score": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2014/ability-scores/cha"
+    },
+    "url": "/api/2014/skills/deception"
+  },
+  {
+    "index": "history",
+    "name": "历史",
+    "name_en": "History",
+    "desc": [
+      "你的智力（历史）检定衡量你回忆关于历史事件、传奇人物、古代王国、过往争端、近期战争和失落文明的知识的能力。"
+    ],
+    "desc_en": [
+      "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
+    ],
+    "ability_score": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2014/ability-scores/int"
+    },
+    "url": "/api/2014/skills/history"
+  },
+  {
+    "index": "insight",
+    "name": "洞悉",
+    "name_en": "Insight",
+    "desc": [
+      "你的感知（洞悉）检定决定你是否能够确定一个生物的真实意图，例如察觉谎言或预测某人的下一步行动。这样做涉及从肢体语言、言语习惯和举止变化中收集线索。"
+    ],
+    "desc_en": [
+      "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+    ],
+    "ability_score": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2014/ability-scores/wis"
+    },
+    "url": "/api/2014/skills/insight"
+  },
+  {
+    "index": "intimidation",
+    "name": "威吓",
+    "name_en": "Intimidation",
+    "desc": [
+      "当你试图通过公开威胁、敌对行为和身体暴力来影响某人时，地下城主可能会要求你进行魅力（威吓）检定。例子包括试图从囚犯口中撬出信息、说服街头暴徒退出对抗，或用破瓶子的边缘让冷笑的维齐尔重新考虑决定。"
+    ],
+    "desc_en": [
+      "When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."
+    ],
+    "ability_score": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2014/ability-scores/cha"
+    },
+    "url": "/api/2014/skills/intimidation"
+  },
+  {
+    "index": "investigation",
+    "name": "调查",
+    "name_en": "Investigation",
+    "desc": [
+      "当你四处寻找线索并根据这些线索进行推理时，你进行智力（调查）检定。你可能推断隐藏物体的位置、从伤口的外观判断是什么武器造成的，或确定隧道中可能导致坍塌的最弱点。翻阅古老卷轴寻找隐藏的知识碎片也可能需要进行智力（调查）检定。"
+    ],
+    "desc_en": [
+      "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check."
+    ],
+    "ability_score": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2014/ability-scores/int"
+    },
+    "url": "/api/2014/skills/investigation"
+  },
+  {
+    "index": "medicine",
+    "name": "医药",
+    "name_en": "Medicine",
+    "desc": [
+      "感知（医药）检定让你可以尝试稳定濒死的同伴或诊断疾病。"
+    ],
+    "desc_en": [
+      "A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness."
+    ],
+    "ability_score": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2014/ability-scores/wis"
+    },
+    "url": "/api/2014/skills/medicine"
+  },
+  {
+    "index": "nature",
+    "name": "自然",
+    "name_en": "Nature",
+    "desc": [
+      "你的智力（自然）检定衡量你回忆关于地形、动植物、天气和自然循环的知识的能力。"
+    ],
+    "desc_en": [
+      "Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+    ],
+    "ability_score": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2014/ability-scores/int"
+    },
+    "url": "/api/2014/skills/nature"
+  },
+  {
+    "index": "perception",
+    "name": "察觉",
+    "name_en": "Perception",
+    "desc": [
+      "你的感知（察觉）检定让你能够发现、听见或以其他方式检测到某物的存在。它衡量你对周围环境的一般意识和感官的敏锐度。例如，你可能试图透过关闭的门听到对话、在敞开的窗下偷听，或听见怪物在森林中潜行移动。或者你可能试图发现被遮蔽或容易被忽略的东西，无论是埋伏在路上的兽人、躲在巷子阴影中的暴徒，还是关闭的秘密门下的烛光。"
+    ],
+    "desc_en": [
+      "Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
+    ],
+    "ability_score": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2014/ability-scores/wis"
+    },
+    "url": "/api/2014/skills/perception"
+  },
+  {
+    "index": "performance",
+    "name": "表演",
+    "name_en": "Performance",
+    "desc": [
+      "你的魅力（表演）检定决定你能否用音乐、舞蹈、表演、讲故事或其他娱乐形式很好地取悦观众。"
+    ],
+    "desc_en": [
+      "Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
+    ],
+    "ability_score": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2014/ability-scores/cha"
+    },
+    "url": "/api/2014/skills/performance"
+  },
+  {
+    "index": "persuasion",
+    "name": "说服",
+    "name_en": "Persuasion",
+    "desc": [
+      "当你试图用机智、社交技巧或友善本性来影响某人或一群人时，地下城主可能会要求你进行魅力（说服）检定。通常，你在善意行事时使用说服，以建立友谊、提出友好请求或展示适当礼仪。说服他人的例子包括说服管家让你的队伍觐见国王、在交战的部落之间谈判和平，或激励一群镇民。"
+    ],
+    "desc_en": [
+      "When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+    ],
+    "ability_score": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2014/ability-scores/cha"
+    },
+    "url": "/api/2014/skills/persuasion"
+  },
+  {
+    "index": "religion",
+    "name": "宗教",
+    "name_en": "Religion",
+    "desc": [
+      "你的智力（宗教）检定衡量你回忆关于神祇、仪式和祈祷、宗教等级制度、圣徽和秘密教派实践的知识的能力。"
+    ],
+    "desc_en": [
+      "Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
+    ],
+    "ability_score": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2014/ability-scores/int"
+    },
+    "url": "/api/2014/skills/religion"
+  },
+  {
+    "index": "sleight-of-hand",
+    "name": "巧手",
+    "name_en": "Sleight of Hand",
+    "desc": [
+      "每当你尝试戏法或手上技巧，例如把某物放在别人身上或在身上隐藏物品时，进行敏捷（巧手）检定。地下城主也可能要求进行敏捷（巧手）检定来决定你是否能从别人身上摸走钱袋或从别人口袋里偷出东西。"
+    ],
+    "desc_en": [
+      "Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."
+    ],
+    "ability_score": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2014/ability-scores/dex"
+    },
+    "url": "/api/2014/skills/sleight-of-hand"
+  },
+  {
+    "index": "stealth",
+    "name": "隐匿",
+    "name_en": "Stealth",
+    "desc": [
+      "当你试图躲避敌人、潜行溜过守卫、不被注意地溜走，或偷偷接近某人而不被发现或听见时，进行敏捷（隐匿）检定。"
+    ],
+    "desc_en": [
+      "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+    ],
+    "ability_score": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2014/ability-scores/dex"
+    },
+    "url": "/api/2014/skills/stealth"
+  },
+  {
+    "index": "survival",
+    "name": "生存",
+    "name_en": "Survival",
+    "desc": [
+      "地下城主可能会要求你进行感知（生存）检定来追踪踪迹、猎捕野生动物、引导你的队伍穿越冰冻荒原、识别枭熊居住在附近的迹象、预测天气，或避免流沙和其他自然危险。"
+    ],
+    "desc_en": [
+      "The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+    ],
+    "ability_score": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2014/ability-scores/wis"
+    },
+    "url": "/api/2014/skills/survival"
+  }
+]

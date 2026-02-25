@@ -1,0 +1,83 @@
+[
+  {
+    "index": "lawful-good",
+    "name": "守序善良 (LG)",
+    "name_en": "Lawful Good",
+    "abbreviation": "LG",
+    "desc": "守序善良（LG）的生物可以指望按照社会期望的那样做正确的事。金龙、圣武士和大多数矮人是守序善良。",
+    "desc_en": "Lawful good (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.",
+    "url": "/api/2014/alignments/lawful-good"
+  },
+  {
+    "index": "neutral-good",
+    "name": "中立善良 (NG)",
+    "name_en": "Neutral Good",
+    "abbreviation": "NG",
+    "desc": "中立善良（NG）的人会尽其所能帮助他人，根据他人的需要行事。许多天界生物、一些云巨人和大多数侏儒是中立善良。",
+    "desc_en": "Neutral good (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.",
+    "url": "/api/2014/alignments/neutral-good"
+  },
+  {
+    "index": "chaotic-good",
+    "name": "混乱善良 (CG)",
+    "name_en": "Chaotic Good",
+    "abbreviation": "CG",
+    "desc": "混乱善良（CG）的生物按照自己的良心行事，很少顾及他人的期望。铜龙、许多精灵和独角兽是混乱善良。",
+    "desc_en": "Chaotic good (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.",
+    "url": "/api/2014/alignments/chaotic-good"
+  },
+  {
+    "index": "lawful-neutral",
+    "name": "守序中立 (LN)",
+    "name_en": "Lawful Neutral",
+    "abbreviation": "LN",
+    "desc": "守序中立（LN）的个人按照法律、传统或个人准则行事。许多武僧和一些法师是守序中立。",
+    "desc_en": "Lawful neutral (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.",
+    "url": "/api/2014/alignments/lawful-neutral"
+  },
+  {
+    "index": "neutral",
+    "name": "绝对中立 (N)",
+    "name_en": "Neutral",
+    "abbreviation": "N",
+    "desc": "绝对中立（N）是那些宁愿避开道德问题、不选边站，只做当时看起来最好的事的人的阵营。蜥蜴人、大多数德鲁伊和许多人类是绝对中立。",
+    "desc_en": "Neutral (N) is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.",
+    "url": "/api/2014/alignments/neutral"
+  },
+  {
+    "index": "chaotic-neutral",
+    "name": "混乱中立 (CN)",
+    "name_en": "Chaotic Neutral",
+    "abbreviation": "CN",
+    "desc": "混乱中立（CN）的生物追随自己的心血来潮，将个人自由置于一切之上。许多野蛮人和游荡者，以及一些吟游诗人，是混乱中立。",
+    "desc_en": "Chaotic neutral (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.",
+    "url": "/api/2014/alignments/chaotic-neutral"
+  },
+  {
+    "index": "lawful-evil",
+    "name": "守序邪恶 (LE)",
+    "name_en": "Lawful Evil",
+    "abbreviation": "LE",
+    "desc": "守序邪恶（LE）的生物有条不紊地获取他们想要的东西，在传统、忠诚或秩序的准则范围内行事。魔鬼、蓝龙和大地精是守序邪恶。",
+    "desc_en": "Lawful evil (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.",
+    "url": "/api/2014/alignments/lawful-evil"
+  },
+  {
+    "index": "neutral-evil",
+    "name": "中立邪恶 (NE)",
+    "name_en": "Neutral Evil",
+    "abbreviation": "NE",
+    "desc": "中立邪恶（NE）是那些为所欲为、没有同情心或顾虑的人的阵营。许多卓尔、一些云巨人和地精是中立邪恶。",
+    "desc_en": "Neutral evil (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.",
+    "url": "/api/2014/alignments/neutral-evil"
+  },
+  {
+    "index": "chaotic-evil",
+    "name": "混乱邪恶 (CE)",
+    "name_en": "Chaotic Evil",
+    "abbreviation": "CE",
+    "desc": "混乱邪恶（CE）的生物任意施暴，被贪婪、仇恨或嗜血驱使。恶魔、红龙和兽人是混乱邪恶。",
+    "desc_en": "Chaotic evil (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil.",
+    "url": "/api/2014/alignments/chaotic-evil"
+  }
+]

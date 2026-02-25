@@ -1,0 +1,260 @@
+[
+  {
+    "name": "战斗",
+    "name_en": "Combat",
+    "index": "combat",
+    "desc": "# 战斗\n",
+    "desc_en": "# Combat\n",
+    "subsections": [
+      {
+        "name": "战斗顺序",
+        "name_en": "The Order of Combat",
+        "index": "the-order-of-combat",
+        "url": "/api/2014/rule-sections/the-order-of-combat"
+      },
+      {
+        "name": "移动与位置",
+        "name_en": "Movement and Position",
+        "index": "movement-and-position",
+        "url": "/api/2014/rule-sections/movement-and-position"
+      },
+      {
+        "name": "战斗中的动作",
+        "name_en": "Actions in Combat",
+        "index": "actions-in-combat",
+        "url": "/api/2014/rule-sections/actions-in-combat"
+      },
+      {
+        "name": "发起攻击",
+        "name_en": "Making an Attack",
+        "index": "making-an-attack",
+        "url": "/api/2014/rule-sections/making-an-attack"
+      },
+      {
+        "name": "掩护",
+        "name_en": "Cover",
+        "index": "cover",
+        "url": "/api/2014/rule-sections/cover"
+      },
+      {
+        "name": "伤害与治疗",
+        "name_en": "Damage and Healing",
+        "index": "damage-and-healing",
+        "url": "/api/2014/rule-sections/damage-and-healing"
+      },
+      {
+        "name": "骑乘战斗",
+        "name_en": "Mounted Combat",
+        "index": "mounted-combat",
+        "url": "/api/2014/rule-sections/mounted-combat"
+      },
+      {
+        "name": "水下战斗",
+        "name_en": "Underwater Combat",
+        "index": "underwater-combat",
+        "url": "/api/2014/rule-sections/underwater-combat"
+      }
+    ],
+    "url": "/api/2014/rules/combat"
+  },
+  {
+    "name": "使用属性值",
+    "name_en": "Using Ability Scores",
+    "index": "using-ability-scores",
+    "desc": "# 使用属性值\n\n六项属性为每个生物的身心特征提供了快速描述：\n- **力量**，衡量身体力量\n- **敏捷**，衡量敏捷性\n- **体质**，衡量耐力\n- **智力**，衡量推理和记忆能力\n- **感知**，衡量洞察力和直觉\n- **魅力**，衡量个性影响力\n\n角色是肌肉发达且富有洞察力的吗？聪明又迷人的吗？敏捷又健壮的？属性值定义了这些品质——生物的优势以及弱点。\n\n游戏的三种主要掷骰——属性检定、豁免检定和攻击检定——都依赖于六项属性值。本书的介绍描述了这些掷骰背后的基本规则：掷一枚d20，加上从六项属性值之一衍生的属性调整值，然后将总数与目标数值进行比较。\n\n**属性值与调整值** 生物的每项属性都有一个数值，定义了该属性的量级。属性值不仅衡量天赋能力，还涵盖了生物在与该属性相关的活动中所接受的训练和具备的能力。\n\n10或11是正常人类的平均值，但冒险者和许多怪物在大多数属性上都高于平均水平。18是一个人通常能达到的最高值。冒险者可以拥有高达20的属性值，而怪物和神灵可以拥有高达30的属性值。\n\n每项属性还有一个调整值，从数值衍生而来，范围从-5（属性值为1时）到+10（属性值为30时）。属性值与调整值表列出了从1到30的可能属性值范围的属性调整值。\n",
+    "desc_en": "# Using Ability Scores\n\nSix abilities provide a quick description of every creature's physical and mental characteristics:\n- **Strength**, measuring physical power\n- **Dexterity**, measuring agility\n- **Constitution**, measuring endurance\n- **Intelligence**, measuring reasoning and memory\n- **Wisdom**, measuring perception and insight\n- **Charisma**, measuring force of personality\n\nIs a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities-a creature's assets as well as weaknesses.\n\nThe three main rolls of the game-the ability check, the saving throw, and the attack roll-rely on the six ability scores. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.\n\n**Ability Scores and Modifiers** Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.\n\nA score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and divine beings can have scores as high as 30.\n\nEach ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.\n",
+    "subsections": [
+      {
+        "name": "属性值与调整值",
+        "name_en": "Ability Scores and Modifiers",
+        "index": "ability-scores-and-modifiers",
+        "url": "/api/2014/rule-sections/ability-scores-and-modifiers"
+      },
+      {
+        "name": "优势与劣势",
+        "name_en": "Advantage and Disadvantage",
+        "index": "advantage-and-disadvantage",
+        "url": "/api/2014/rule-sections/advantage-and-disadvantage"
+      },
+      {
+        "name": "熟练加值",
+        "name_en": "Proficiency Bonus",
+        "index": "proficiency-bonus",
+        "url": "/api/2014/rule-sections/proficiency-bonus"
+      },
+      {
+        "name": "属性检定",
+        "name_en": "Ability Checks",
+        "index": "ability-checks",
+        "url": "/api/2014/rule-sections/ability-checks"
+      },
+      {
+        "name": "使用各项属性",
+        "name_en": "Using Each Ability",
+        "index": "using-each-ability",
+        "url": "/api/2014/rule-sections/using-each-ability"
+      },
+      {
+        "name": "豁免",
+        "name_en": "Saving Throws",
+        "index": "saving-throws",
+        "url": "/api/2014/rule-sections/saving-throws"
+      }
+    ],
+    "url": "/api/2014/rules/using-ability-scores"
+  },
+  {
+    "name": "冒险",
+    "name_en": "Adventuring",
+    "index": "adventuring",
+    "desc": "# 冒险\n",
+    "desc_en": "# Adventuring\n",
+    "subsections": [
+      {
+        "name": "时间",
+        "name_en": "Time",
+        "index": "time",
+        "url": "/api/2014/rule-sections/time"
+      },
+      {
+        "name": "移动",
+        "name_en": "Movement",
+        "index": "movement",
+        "url": "/api/2014/rule-sections/movement"
+      },
+      {
+        "name": "环境",
+        "name_en": "The Environment",
+        "index": "the-environment",
+        "url": "/api/2014/rule-sections/the-environment"
+      },
+      {
+        "name": "陷阱",
+        "name_en": "Traps",
+        "index": "traps",
+        "url": "/api/2014/rule-sections/traps"
+      },
+      {
+        "name": "疾病",
+        "name_en": "Diseases",
+        "index": "diseases",
+        "url": "/api/2014/rule-sections/diseases"
+      },
+      {
+        "name": "疯狂",
+        "name_en": "Madness",
+        "index": "madness",
+        "url": "/api/2014/rule-sections/madness"
+      },
+      {
+        "name": "休息",
+        "name_en": "Resting",
+        "index": "resting",
+        "url": "/api/2014/rule-sections/resting"
+      },
+      {
+        "name": "冒险之间",
+        "name_en": "Between Adventures",
+        "index": "between-adventures",
+        "url": "/api/2014/rule-sections/between-adventures"
+      }
+    ],
+    "url": "/api/2014/rules/adventuring"
+  },
+  {
+    "name": "施法",
+    "name_en": "Spellcasting",
+    "index": "spellcasting",
+    "desc": "# 施法\n\n魔法渗透在奇幻游戏世界中，并经常以法术的形式出现。\n\n本章提供了施法的规则。不同的角色职业有各自独特的学习和准备法术的方式，怪物也以独特的方式使用法术。无论其来源如何，法术都遵循这里的规则。\n",
+    "desc_en": "# Spellcasting\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways of learning and preparing their spells, and monsters use spells in unique ways. Regardless of its source, a spell follows the rules here.\n",
+    "subsections": [
+      {
+        "name": "什么是法术？",
+        "name_en": "What Is a Spell?",
+        "index": "what-is-a-spell",
+        "url": "/api/2014/rule-sections/what-is-a-spell"
+      },
+      {
+        "name": "施放法术",
+        "name_en": "Casting a Spell",
+        "index": "casting-a-spell",
+        "url": "/api/2014/rule-sections/casting-a-spell"
+      }
+    ],
+    "url": "/api/2014/rules/spellcasting"
+  },
+  {
+    "name": "装备",
+    "name_en": "Equipment",
+    "index": "equipment",
+    "desc": "# 装备\n\n普通货币有几种不同的面额，基于制造它们的金属的相对价值。三种最常见的货币是金币(gp)、银币(sp)和铜币(cp)。\n\n用一枚金币，角色可以购买一套铺盖卷、50英尺优质绳索，或一只山羊。一位熟练（但非卓越）的工匠每天可以赚取一枚金币。金币是衡量财富的标准单位，即使金币本身并不常用。当商人讨论涉及价值数百或数千金币的商品或服务的交易时，交易通常不涉及单个硬币的交换。相反，金币是价值的标准衡量单位，实际交换以金条、信用证或有价值的商品进行。\n\n一枚金币价值十枚银币，银币是平民中最普遍的货币。一枚银币可以购买劳动者半天的工作、一瓶灯油，或在简陋旅馆休息一晚。\n\n一枚银币价值十枚铜币，铜币在劳动者和乞丐中很常见。一枚铜币可以购买一支蜡烛、一支火把，或一支粉笔。\n\n此外，由其他贵金属制成的特殊货币有时会出现在宝藏堆中。琥珀金币(ep)和白金币(pp)源自衰落的帝国和失落的王国，它们在使用时有时会引起怀疑和质疑。一枚琥珀金币价值五枚银币，一枚白金币价值十枚金币。\n\n一枚标准硬币重约三分之一盎司，因此五十枚硬币重一磅。\n",
+    "desc_en": "# Equipment\n\nCommon coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).\n\nWith one gold piece, a character can buy a bedroll, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The old piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.\n\nOne gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for half a day, a flask of lamp oil, or a night's rest in a poor inn.\n\nOne silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.\n\nIn addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.\n\nA standard coin weighs about a third of an ounce, so fifty coins weigh a pound.\n",
+    "subsections": [
+      {
+        "name": "标准兑换率",
+        "name_en": "Standard Exchange Rates",
+        "index": "standard-exchange-rates",
+        "url": "/api/2014/rule-sections/standard-exchange-rates"
+      },
+      {
+        "name": "物品",
+        "name_en": "Objects",
+        "index": "objects",
+        "url": "/api/2014/rule-sections/objects"
+      },
+      {
+        "name": "毒药",
+        "name_en": "Poisons",
+        "index": "poisons",
+        "url": "/api/2014/rule-sections/poisons"
+      },
+      {
+        "name": "同调",
+        "name_en": "Attunement",
+        "index": "attunement",
+        "url": "/api/2014/rule-sections/attunement"
+      },
+      {
+        "name": "穿戴和持握物品",
+        "name_en": "Wearing and Wielding Items",
+        "index": "wearing-and-wielding-items",
+        "url": "/api/2014/rule-sections/wearing-and-wielding-items"
+      },
+      {
+        "name": "激活物品",
+        "name_en": "Activating an Item",
+        "index": "activating-an-item",
+        "url": "/api/2014/rule-sections/activating-an-item"
+      },
+      {
+        "name": "有知觉的魔法物品",
+        "name_en": "Sentient Magic Items",
+        "index": "sentient-magic-items",
+        "url": "/api/2014/rule-sections/sentient-magic-items"
+      }
+    ],
+    "url": "/api/2014/rules/equipment"
+  },
+  {
+    "name": "附录",
+    "name_en": "Appendix",
+    "index": "appendix",
+    "desc": "# 附录\n",
+    "desc_en": "# Appendix\n",
+    "subsections": [
+      {
+        "name": "奇幻历史万神殿",
+        "name_en": "Fantasy-Historical Pantheons",
+        "index": "fantasy-historical-pantheons",
+        "url": "/api/2014/rule-sections/fantasy-historical-pantheons"
+      },
+      {
+        "name": "位面",
+        "name_en": "The Planes of Existence",
+        "index": "the-planes-of-existence",
+        "url": "/api/2014/rule-sections/the-planes-of-existence"
+      }
+    ],
+    "url": "/api/2014/rules/appendix"
+  }
+]

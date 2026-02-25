@@ -1,0 +1,379 @@
+[
+  {
+    "index": "acolyte",
+    "name": "侍僧",
+    "name_en": "Acolyte",
+    "starting_proficiencies": [
+      {
+        "index": "skill-insight",
+        "name": "技能：洞悉",
+        "name_en": "Skill: Insight",
+        "url": "/api/2014/proficiencies/skill-insight"
+      },
+      {
+        "index": "skill-religion",
+        "name": "技能：宗教",
+        "name_en": "Skill: Religion",
+        "url": "/api/2014/proficiencies/skill-religion"
+      }
+    ],
+    "language_options": {
+      "choose": 2,
+      "type": "languages",
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2014/languages"
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "name_en": "Clothes, common",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小袋",
+          "name_en": "Pouch",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "index": "holy-symbols",
+            "name": "圣徽",
+            "name_en": "Holy Symbols",
+            "url": "/api/2014/equipment-categories/holy-symbols"
+          }
+        }
+      }
+    ],
+    "feature": {
+      "name": "虔诚者的庇护",
+      "name_en": "Shelter of the Faithful",
+      "desc": [
+        "作为一名侍僧，你享有与你同信仰者的尊重，你可以主持你神祇的宗教仪式。你和你的冒险同伴可以在你信仰的寺庙、神殿或其他既定场所期待获得免费的治疗和照顾，但你必须提供法术所需的任何材料成分。与你信仰相同的人会在简朴的生活方式上支持你（但仅限你个人）。",
+        "你还可能与你所选择的特定神祇或万神殿的神殿有联系，并在那里有一处居所。这可能是你曾经服务的寺庙（如果你与那里的关系良好），或是一处你找到了新家的寺庙。在你的寺庙附近时，你可以请求牧师提供帮助，前提是你所要求的协助不会造成危险，并且你与寺庙保持良好的关系。"
+      ],
+      "desc_en": [
+        "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
+        "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+      ]
+    },
+    "personality_traits": {
+      "choose": 2,
+      "type": "personality_traits",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "我崇拜我信仰中的某位特定英雄，并经常提及那人的事迹和榜样。"
+          },
+          {
+            "option_type": "string",
+            "string": "我能在最凶狠的敌人之间找到共同点，同情他们，并始终致力于和平。"
+          },
+          {
+            "option_type": "string",
+            "string": "我在每个事件和行动中都能看到预兆。众神试图对我们说话，我们只需要倾听。"
+          },
+          {
+            "option_type": "string",
+            "string": "没有什么能动摇我乐观的态度。"
+          },
+          {
+            "option_type": "string",
+            "string": "我几乎在每种情况下都会引用（或误引）圣典和格言。"
+          },
+          {
+            "option_type": "string",
+            "string": "我对其他信仰宽容（或不宽容），尊重（或谴责）对其他神祇的崇拜。"
+          },
+          {
+            "option_type": "string",
+            "string": "我在寺庙精英阶层中享受了精美的食物、饮料和上流社会。艰苦的生活让我反感。"
+          },
+          {
+            "option_type": "string",
+            "string": "我在寺庙里待得太久了，几乎没有实际经验与外部世界的人打交道。"
+          }
+        ]
+      }
+    },
+    "ideals": {
+      "choose": 1,
+      "type": "ideals",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "ideal",
+            "desc": "传统。古老的崇拜和祭祀传统必须被保留和坚持。",
+            "desc_en": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.",
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "守序善良",
+                "name_en": "Lawful Good",
+                "url": "/api/2014/alignments/lawful-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "守序中立",
+                "name_en": "Lawful Neutral",
+                "url": "/api/2014/alignments/lawful-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "守序邪恶",
+                "name_en": "Lawful Evil",
+                "url": "/api/2014/alignments/lawful-evil"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "仁爱。我总是尽力帮助那些需要帮助的人，无论个人代价如何。",
+            "desc_en": "Charity. I always try to help those in need, no matter what the personal cost.",
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "守序善良",
+                "name_en": "Lawful Good",
+                "url": "/api/2014/alignments/lawful-good"
+              },
+              {
+                "index": "neutral-good",
+                "name": "中立善良",
+                "name_en": "Neutral Good",
+                "url": "/api/2014/alignments/neutral-good"
+              },
+              {
+                "index": "chaotic-good",
+                "name": "混乱善良",
+                "name_en": "Chaotic Good",
+                "url": "/api/2014/alignments/chaotic-good"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "变革。我们必须帮助带来众神在世界上不断推动的变革。",
+            "desc_en": "Change. We must help bring about the changes the gods are constantly working in the world.",
+            "alignments": [
+              {
+                "index": "chaotic-good",
+                "name": "混乱善良",
+                "name_en": "Chaotic Good",
+                "url": "/api/2014/alignments/chaotic-good"
+              },
+              {
+                "index": "chaotic-neutral",
+                "name": "混乱中立",
+                "name_en": "Chaotic Neutral",
+                "url": "/api/2014/alignments/chaotic-neutral"
+              },
+              {
+                "index": "chaotic-evil",
+                "name": "混乱邪恶",
+                "name_en": "Chaotic Evil",
+                "url": "/api/2014/alignments/chaotic-evil"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "权力。我希望有一天能升到我所信仰宗教等级的顶端。",
+            "desc_en": "Power. I hope to one day rise to the top of my faith's religious hierarchy.",
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "守序善良",
+                "name_en": "Lawful Good",
+                "url": "/api/2014/alignments/lawful-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "守序中立",
+                "name_en": "Lawful Neutral",
+                "url": "/api/2014/alignments/lawful-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "守序邪恶",
+                "name_en": "Lawful Evil",
+                "url": "/api/2014/alignments/lawful-evil"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "信仰。我相信我的神祇会指引我的行动。我有信心如果我努力工作，事情会顺利。",
+            "desc_en": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.",
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "守序善良",
+                "name_en": "Lawful Good",
+                "url": "/api/2014/alignments/lawful-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "守序中立",
+                "name_en": "Lawful Neutral",
+                "url": "/api/2014/alignments/lawful-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "守序邪恶",
+                "name_en": "Lawful Evil",
+                "url": "/api/2014/alignments/lawful-evil"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "志向。我试图通过将自己的行为与他或她的教义相匹配，来证明我值得我神的青睐。",
+            "desc_en": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.",
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "守序善良",
+                "name_en": "Lawful Good",
+                "url": "/api/2014/alignments/lawful-good"
+              },
+              {
+                "index": "neutral-good",
+                "name": "中立善良",
+                "name_en": "Neutral Good",
+                "url": "/api/2014/alignments/neutral-good"
+              },
+              {
+                "index": "chaotic-good",
+                "name": "混乱善良",
+                "name_en": "Chaotic Good",
+                "url": "/api/2014/alignments/chaotic-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "守序中立",
+                "name_en": "Lawful Neutral",
+                "url": "/api/2014/alignments/lawful-neutral"
+              },
+              {
+                "index": "neutral",
+                "name": "绝对中立",
+                "name_en": "Neutral",
+                "url": "/api/2014/alignments/neutral"
+              },
+              {
+                "index": "chaotic-neutral",
+                "name": "混乱中立",
+                "name_en": "Chaotic Neutral",
+                "url": "/api/2014/alignments/chaotic-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "守序邪恶",
+                "name_en": "Lawful Evil",
+                "url": "/api/2014/alignments/lawful-evil"
+              },
+              {
+                "index": "neutral-evil",
+                "name": "中立邪恶",
+                "name_en": "Neutral Evil",
+                "url": "/api/2014/alignments/neutral-evil"
+              },
+              {
+                "index": "chaotic-evil",
+                "name": "混乱邪恶",
+                "name_en": "Chaotic Evil",
+                "url": "/api/2014/alignments/chaotic-evil"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bonds": {
+      "choose": 1,
+      "type": "bonds",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "我愿为寻回一件我信仰中失落已久的古代圣物而死。"
+          },
+          {
+            "option_type": "string",
+            "string": "我终有一天要向那些将我定性为异端的腐败寺庙等级制度复仇。"
+          },
+          {
+            "option_type": "string",
+            "string": "我欠那位在我父母去世时收留我的牧师一条命。"
+          },
+          {
+            "option_type": "string",
+            "string": "我所做的一切都是为了普通百姓。"
+          },
+          {
+            "option_type": "string",
+            "string": "我愿意做任何事情来保护我曾经服务的寺庙。"
+          },
+          {
+            "option_type": "string",
+            "string": "我试图保存一本被我的敌人视为异端并试图摧毁的神圣文本。"
+          }
+        ]
+      }
+    },
+    "flaws": {
+      "choose": 1,
+      "type": "flaws",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "我严厉地评判他人，对自己则更加严厉。"
+          },
+          {
+            "option_type": "string",
+            "string": "我对那些在寺庙等级制度中掌握权力的人过于信任。"
+          },
+          {
+            "option_type": "string",
+            "string": "我的虔诚有时导致我盲目信任那些声称信仰我神的人。"
+          },
+          {
+            "option_type": "string",
+            "string": "我的思维僵化，不善于变通。"
+          },
+          {
+            "option_type": "string",
+            "string": "我怀疑陌生人，总是对他们抱有最坏的预期。"
+          },
+          {
+            "option_type": "string",
+            "string": "一旦我确定了一个目标，就会对它着迷，以至于忽视生活中的其他一切。"
+          }
+        ]
+      }
+    },
+    "url": "/api/2014/backgrounds/acolyte"
+  }
+]

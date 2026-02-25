@@ -191,8 +191,8 @@ async function main() {
     console.log('Connected successfully to MongoDB server');
     const db = client.db(); // Assumes DB name is in the URI
 
-    console.log('\nUploading 2014 tables...');
-    await uploadTablesFromFolder(db, 'src/2014', '2014-');
+    console.log('\nUploading 2014 tables (Chinese with English Monsters)...');
+    await uploadTablesFromFolder(db, 'src/2014-final', '2014-');
 
     console.log('\nUploading 2024 tables...');
     await uploadTablesFromFolder(db, 'src/2024', '2024-');

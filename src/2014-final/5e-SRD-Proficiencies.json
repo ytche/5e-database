@@ -1,0 +1,2488 @@
+[
+  {
+    "index": "light-armor",
+    "type": "护甲",
+    "name": "轻甲",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "cleric",
+        "name": "牧师",
+        "url": "/api/2014/classes/cleric",
+        "name_en": "Cleric"
+      },
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      },
+      {
+        "index": "warlock",
+        "name": "邪术师",
+        "url": "/api/2014/classes/warlock",
+        "name_en": "Warlock"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/light-armor",
+    "reference": {
+      "index": "light-armor",
+      "name": "轻甲",
+      "url": "/api/2014/equipment-categories/light-armor",
+      "name_en": "Light Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Light Armor"
+  },
+  {
+    "index": "medium-armor",
+    "type": "护甲",
+    "name": "中甲",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "cleric",
+        "name": "牧师",
+        "url": "/api/2014/classes/cleric",
+        "name_en": "Cleric"
+      },
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/medium-armor",
+    "reference": {
+      "index": "medium-armor",
+      "name": "中甲",
+      "url": "/api/2014/equipment-categories/medium-armor",
+      "name_en": "Medium Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Medium Armor"
+  },
+  {
+    "index": "heavy-armor",
+    "type": "护甲",
+    "name": "重甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/heavy-armor",
+    "reference": {
+      "index": "heavy-armor",
+      "name": "重甲",
+      "url": "/api/2014/equipment-categories/heavy-armor",
+      "name_en": "Heavy Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Heavy Armor"
+  },
+  {
+    "index": "all-armor",
+    "type": "护甲",
+    "name": "所有护甲",
+    "classes": [
+      {
+        "index": "fighter",
+        "name": "战士",
+        "url": "/api/2014/classes/fighter",
+        "name_en": "Fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "圣武士",
+        "url": "/api/2014/classes/paladin",
+        "name_en": "Paladin"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/all-armor",
+    "reference": {
+      "index": "armor",
+      "name": "护甲",
+      "url": "/api/2014/equipment-categories/armor",
+      "name_en": "Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "All armor"
+  },
+  {
+    "index": "padded-armor",
+    "type": "护甲",
+    "name": "布甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/padded-armor",
+    "reference": {
+      "index": "padded-armor",
+      "name": "布甲",
+      "url": "/api/2014/equipment/padded-armor",
+      "name_en": "Padded Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Padded Armor"
+  },
+  {
+    "index": "leather-armor",
+    "type": "护甲",
+    "name": "皮甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/leather-armor",
+    "reference": {
+      "index": "leather-armor",
+      "name": "皮甲",
+      "url": "/api/2014/equipment/leather-armor",
+      "name_en": "Leather Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Leather Armor"
+  },
+  {
+    "index": "studded-leather-armor",
+    "type": "护甲",
+    "name": "镶钉皮甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/studded-leather-armor",
+    "reference": {
+      "index": "studded-leather-armor",
+      "name": "镶钉皮甲",
+      "url": "/api/2014/equipment/studded-leather-armor",
+      "name_en": "Studded Leather Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Studded Leather Armor"
+  },
+  {
+    "index": "hide-armor",
+    "type": "护甲",
+    "name": "兽皮甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/hide-armor",
+    "reference": {
+      "index": "hide-armor",
+      "name": "兽皮甲",
+      "url": "/api/2014/equipment/hide-armor",
+      "name_en": "Hide Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Hide Armor"
+  },
+  {
+    "index": "chain-shirt",
+    "type": "护甲",
+    "name": "链甲衫",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/chain-shirt",
+    "reference": {
+      "index": "chain-shirt",
+      "name": "链甲衫",
+      "url": "/api/2014/equipment/chain-shirt",
+      "name_en": "Chain Shirt"
+    },
+    "type_en": "Armor",
+    "name_en": "Chain Shirt"
+  },
+  {
+    "index": "scale-mail",
+    "type": "护甲",
+    "name": "鳞甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/scale-mail",
+    "reference": {
+      "index": "scale-mail",
+      "name": "鳞甲",
+      "url": "/api/2014/equipment/scale-mail",
+      "name_en": "Scale Mail"
+    },
+    "type_en": "Armor",
+    "name_en": "Scale Mail"
+  },
+  {
+    "index": "breastplate",
+    "type": "护甲",
+    "name": "胸甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/breastplate",
+    "reference": {
+      "index": "breastplate",
+      "name": "胸甲",
+      "url": "/api/2014/equipment/breastplate",
+      "name_en": "Breastplate"
+    },
+    "type_en": "Armor",
+    "name_en": "Breastplate"
+  },
+  {
+    "index": "half-plate-armor",
+    "type": "护甲",
+    "name": "半身板甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/half-plate-armor",
+    "reference": {
+      "index": "half-plate-armor",
+      "name": "半身板甲",
+      "url": "/api/2014/equipment/half-plate-armor",
+      "name_en": "Half Plate Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Half Plate Armor"
+  },
+  {
+    "index": "ring-mail",
+    "type": "护甲",
+    "name": "环甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/ring-mail",
+    "reference": {
+      "index": "ring-mail",
+      "name": "环甲",
+      "url": "/api/2014/equipment/ring-mail",
+      "name_en": "Ring Mail"
+    },
+    "type_en": "Armor",
+    "name_en": "Ring Mail"
+  },
+  {
+    "index": "chain-mail",
+    "type": "护甲",
+    "name": "链甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/chain-mail",
+    "reference": {
+      "index": "chain-mail",
+      "name": "链甲",
+      "url": "/api/2014/equipment/chain-mail",
+      "name_en": "Chain Mail"
+    },
+    "type_en": "Armor",
+    "name_en": "Chain Mail"
+  },
+  {
+    "index": "splint-armor",
+    "type": "护甲",
+    "name": "板条甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/splint-armor",
+    "reference": {
+      "index": "splint-armor",
+      "name": "板条甲",
+      "url": "/api/2014/equipment/splint-armor",
+      "name_en": "Splint Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Splint Armor"
+  },
+  {
+    "index": "plate-armor",
+    "type": "护甲",
+    "name": "板甲",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/plate-armor",
+    "reference": {
+      "index": "plate-armor",
+      "name": "板甲",
+      "url": "/api/2014/equipment/plate-armor",
+      "name_en": "Plate Armor"
+    },
+    "type_en": "Armor",
+    "name_en": "Plate Armor"
+  },
+  {
+    "index": "shields",
+    "type": "护甲",
+    "name": "盾牌",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "cleric",
+        "name": "牧师",
+        "url": "/api/2014/classes/cleric",
+        "name_en": "Cleric"
+      },
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "fighter",
+        "name": "战士",
+        "url": "/api/2014/classes/fighter",
+        "name_en": "Fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "圣武士",
+        "url": "/api/2014/classes/paladin",
+        "name_en": "Paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/shields",
+    "reference": {
+      "index": "shield",
+      "name": "盾牌",
+      "url": "/api/2014/equipment/shield",
+      "name_en": "Shield"
+    },
+    "type_en": "Armor",
+    "name_en": "Shields"
+  },
+  {
+    "index": "simple-weapons",
+    "type": "武器",
+    "name": "简易武器",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "cleric",
+        "name": "牧师",
+        "url": "/api/2014/classes/cleric",
+        "name_en": "Cleric"
+      },
+      {
+        "index": "fighter",
+        "name": "战士",
+        "url": "/api/2014/classes/fighter",
+        "name_en": "Fighter"
+      },
+      {
+        "index": "monk",
+        "name": "武僧",
+        "url": "/api/2014/classes/monk",
+        "name_en": "Monk"
+      },
+      {
+        "index": "paladin",
+        "name": "圣武士",
+        "url": "/api/2014/classes/paladin",
+        "name_en": "Paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      },
+      {
+        "index": "warlock",
+        "name": "邪术师",
+        "url": "/api/2014/classes/warlock",
+        "name_en": "Warlock"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/simple-weapons",
+    "reference": {
+      "index": "simple-weapons",
+      "name": "简易武器",
+      "url": "/api/2014/equipment-categories/simple-weapons",
+      "name_en": "Simple Weapons"
+    },
+    "type_en": "Weapons",
+    "name_en": "Simple Weapons"
+  },
+  {
+    "index": "martial-weapons",
+    "type": "武器",
+    "name": "军用武器",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "战士",
+        "url": "/api/2014/classes/fighter",
+        "name_en": "Fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "圣武士",
+        "url": "/api/2014/classes/paladin",
+        "name_en": "Paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/martial-weapons",
+    "reference": {
+      "index": "martial-weapons",
+      "name": "军用武器",
+      "url": "/api/2014/equipment-categories/martial-weapons",
+      "name_en": "Martial Weapons"
+    },
+    "type_en": "Weapons",
+    "name_en": "Martial Weapons"
+  },
+  {
+    "index": "clubs",
+    "type": "武器",
+    "name": "棍棒",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/clubs",
+    "reference": {
+      "index": "club",
+      "name": "棍棒",
+      "url": "/api/2014/equipment/club",
+      "name_en": "Club"
+    },
+    "type_en": "Weapons",
+    "name_en": "Clubs"
+  },
+  {
+    "index": "daggers",
+    "type": "武器",
+    "name": "匕首",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/daggers",
+    "reference": {
+      "index": "dagger",
+      "name": "匕首",
+      "url": "/api/2014/equipment/dagger",
+      "name_en": "Dagger"
+    },
+    "type_en": "Weapons",
+    "name_en": "Daggers"
+  },
+  {
+    "index": "greatclubs",
+    "type": "武器",
+    "name": "巨棒",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/greatclubs",
+    "reference": {
+      "index": "greatclub",
+      "name": "巨棒",
+      "url": "/api/2014/equipment/greatclub",
+      "name_en": "Greatclub"
+    },
+    "type_en": "Weapons",
+    "name_en": "Greatclubs"
+  },
+  {
+    "index": "handaxes",
+    "type": "武器",
+    "name": "手斧",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "url": "/api/2014/races/dwarf",
+        "name_en": "Dwarf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/handaxes",
+    "reference": {
+      "index": "handaxe",
+      "name": "手斧",
+      "url": "/api/2014/equipment/handaxe",
+      "name_en": "Handaxe"
+    },
+    "type_en": "Weapons",
+    "name_en": "Handaxes"
+  },
+  {
+    "index": "javelins",
+    "type": "武器",
+    "name": "标枪",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/javelins",
+    "reference": {
+      "index": "javelin",
+      "name": "标枪",
+      "url": "/api/2014/equipment/javelin",
+      "name_en": "Javelin"
+    },
+    "type_en": "Weapons",
+    "name_en": "Javelins"
+  },
+  {
+    "index": "light-hammers",
+    "type": "武器",
+    "name": "轻锤",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "url": "/api/2014/races/dwarf",
+        "name_en": "Dwarf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/light-hammers",
+    "reference": {
+      "index": "light-hammer",
+      "name": "轻锤",
+      "url": "/api/2014/equipment/light-hammer",
+      "name_en": "Light hammer"
+    },
+    "type_en": "Weapons",
+    "name_en": "Light hammers"
+  },
+  {
+    "index": "maces",
+    "type": "武器",
+    "name": "钉头锤",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/maces",
+    "reference": {
+      "index": "mace",
+      "name": "钉头锤",
+      "url": "/api/2014/equipment/mace",
+      "name_en": "Mace"
+    },
+    "type_en": "Weapons",
+    "name_en": "Maces"
+  },
+  {
+    "index": "quarterstaffs",
+    "type": "武器",
+    "name": "长棍",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/quarterstaffs",
+    "reference": {
+      "index": "quarterstaff",
+      "name": "长棍",
+      "url": "/api/2014/equipment/quarterstaff",
+      "name_en": "Quarterstaff"
+    },
+    "type_en": "Weapons",
+    "name_en": "Quarterstaffs"
+  },
+  {
+    "index": "sickles",
+    "type": "武器",
+    "name": "镰刀",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/sickles",
+    "reference": {
+      "index": "sickle",
+      "name": "镰刀",
+      "url": "/api/2014/equipment/sickle",
+      "name_en": "Sickle"
+    },
+    "type_en": "Weapons",
+    "name_en": "Sickles"
+  },
+  {
+    "index": "spears",
+    "type": "武器",
+    "name": "矛",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/spears",
+    "reference": {
+      "index": "spear",
+      "name": "矛",
+      "url": "/api/2014/equipment/spear",
+      "name_en": "Spear"
+    },
+    "type_en": "Weapons",
+    "name_en": "Spears"
+  },
+  {
+    "index": "crossbows-light",
+    "type": "武器",
+    "name": "轻弩",
+    "classes": [
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/crossbows-light",
+    "reference": {
+      "index": "crossbow-light",
+      "name": "轻弩",
+      "url": "/api/2014/equipment/crossbow-light",
+      "name_en": "Crossbow, light"
+    },
+    "type_en": "Weapons",
+    "name_en": "Crossbows, light"
+  },
+  {
+    "index": "darts",
+    "type": "武器",
+    "name": "飞镖",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/darts",
+    "reference": {
+      "index": "dart",
+      "name": "飞镖",
+      "url": "/api/2014/equipment/dart",
+      "name_en": "Dart"
+    },
+    "type_en": "Weapons",
+    "name_en": "Darts"
+  },
+  {
+    "index": "shortbows",
+    "type": "武器",
+    "name": "短弓",
+    "classes": [],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "url": "/api/2014/subraces/high-elf",
+        "name_en": "High Elf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/shortbows",
+    "reference": {
+      "index": "shortbow",
+      "name": "短弓",
+      "url": "/api/2014/equipment/shortbow",
+      "name_en": "Shortbow"
+    },
+    "type_en": "Weapons",
+    "name_en": "Shortbows"
+  },
+  {
+    "index": "slings",
+    "type": "武器",
+    "name": "投石索",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/slings",
+    "reference": {
+      "index": "sling",
+      "name": "投石索",
+      "url": "/api/2014/equipment/sling",
+      "name_en": "Sling"
+    },
+    "type_en": "Weapons",
+    "name_en": "Slings"
+  },
+  {
+    "index": "battleaxes",
+    "type": "武器",
+    "name": "战斧",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "url": "/api/2014/races/dwarf",
+        "name_en": "Dwarf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/battleaxes",
+    "reference": {
+      "index": "battleaxe",
+      "name": "战斧",
+      "url": "/api/2014/equipment/battleaxe",
+      "name_en": "Battleaxe"
+    },
+    "type_en": "Weapons",
+    "name_en": "Battleaxes"
+  },
+  {
+    "index": "flails",
+    "type": "武器",
+    "name": "链枷",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/flails",
+    "reference": {
+      "index": "flail",
+      "name": "链枷",
+      "url": "/api/2014/equipment/flail",
+      "name_en": "Flail"
+    },
+    "type_en": "Weapons",
+    "name_en": "Flails"
+  },
+  {
+    "index": "glaives",
+    "type": "武器",
+    "name": "大砍刀",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/glaives",
+    "reference": {
+      "index": "glaive",
+      "name": "大砍刀",
+      "url": "/api/2014/equipment/glaive",
+      "name_en": "Glaive"
+    },
+    "type_en": "Weapons",
+    "name_en": "Glaives"
+  },
+  {
+    "index": "greataxes",
+    "type": "武器",
+    "name": "巨斧",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/greataxes",
+    "reference": {
+      "index": "greataxe",
+      "name": "巨斧",
+      "url": "/api/2014/equipment/greataxe",
+      "name_en": "Greataxe"
+    },
+    "type_en": "Weapons",
+    "name_en": "Greataxes"
+  },
+  {
+    "index": "greatswords",
+    "type": "武器",
+    "name": "巨剑",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/greatswords",
+    "reference": {
+      "index": "greatsword",
+      "name": "巨剑",
+      "url": "/api/2014/equipment/greatsword",
+      "name_en": "Greatsword"
+    },
+    "type_en": "Weapons",
+    "name_en": "Greatswords"
+  },
+  {
+    "index": "halberds",
+    "type": "武器",
+    "name": "戟",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/halberds",
+    "reference": {
+      "index": "halberd",
+      "name": "戟",
+      "url": "/api/2014/equipment/halberd",
+      "name_en": "Halberd"
+    },
+    "type_en": "Weapons",
+    "name_en": "Halberds"
+  },
+  {
+    "index": "lances",
+    "type": "武器",
+    "name": "骑枪",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/lances",
+    "reference": {
+      "index": "lance",
+      "name": "骑枪",
+      "url": "/api/2014/equipment/lance",
+      "name_en": "Lance"
+    },
+    "type_en": "Weapons",
+    "name_en": "Lances"
+  },
+  {
+    "index": "longswords",
+    "type": "武器",
+    "name": "长剑",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      }
+    ],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "url": "/api/2014/subraces/high-elf",
+        "name_en": "High Elf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/longswords",
+    "reference": {
+      "index": "longsword",
+      "name": "长剑",
+      "url": "/api/2014/equipment/longsword",
+      "name_en": "Longsword"
+    },
+    "type_en": "Weapons",
+    "name_en": "Longswords"
+  },
+  {
+    "index": "mauls",
+    "type": "武器",
+    "name": "大锤",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/mauls",
+    "reference": {
+      "index": "maul",
+      "name": "大锤",
+      "url": "/api/2014/equipment/maul",
+      "name_en": "Maul"
+    },
+    "type_en": "Weapons",
+    "name_en": "Mauls"
+  },
+  {
+    "index": "morningstars",
+    "type": "武器",
+    "name": "晨星",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/morningstars",
+    "reference": {
+      "index": "morningstar",
+      "name": "晨星",
+      "url": "/api/2014/equipment/morningstar",
+      "name_en": "Morningstar"
+    },
+    "type_en": "Weapons",
+    "name_en": "Morningstars"
+  },
+  {
+    "index": "pikes",
+    "type": "武器",
+    "name": "长枪",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/pikes",
+    "reference": {
+      "index": "pike",
+      "name": "长枪",
+      "url": "/api/2014/equipment/pike",
+      "name_en": "Pike"
+    },
+    "type_en": "Weapons",
+    "name_en": "Pikes"
+  },
+  {
+    "index": "rapiers",
+    "type": "武器",
+    "name": "刺剑",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/rapiers",
+    "reference": {
+      "index": "rapier",
+      "name": "刺剑",
+      "url": "/api/2014/equipment/rapier",
+      "name_en": "Rapier"
+    },
+    "type_en": "Weapons",
+    "name_en": "Rapiers"
+  },
+  {
+    "index": "scimitars",
+    "type": "武器",
+    "name": "弯刀",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/scimitars",
+    "reference": {
+      "index": "scimitar",
+      "name": "弯刀",
+      "url": "/api/2014/equipment/scimitar",
+      "name_en": "Scimitar"
+    },
+    "type_en": "Weapons",
+    "name_en": "Scimitars"
+  },
+  {
+    "index": "shortswords",
+    "type": "武器",
+    "name": "短剑",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "monk",
+        "name": "武僧",
+        "url": "/api/2014/classes/monk",
+        "name_en": "Monk"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      }
+    ],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "url": "/api/2014/subraces/high-elf",
+        "name_en": "High Elf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/shortswords",
+    "reference": {
+      "index": "shortsword",
+      "name": "短剑",
+      "url": "/api/2014/equipment/shortsword",
+      "name_en": "Shortsword"
+    },
+    "type_en": "Weapons",
+    "name_en": "Shortswords"
+  },
+  {
+    "index": "tridents",
+    "type": "武器",
+    "name": "三叉戟",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/tridents",
+    "reference": {
+      "index": "trident",
+      "name": "三叉戟",
+      "url": "/api/2014/equipment/trident",
+      "name_en": "Trident"
+    },
+    "type_en": "Weapons",
+    "name_en": "Tridents"
+  },
+  {
+    "index": "war-picks",
+    "type": "武器",
+    "name": "战镐",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/war-picks",
+    "reference": {
+      "index": "war-pick",
+      "name": "战镐",
+      "url": "/api/2014/equipment/war-pick",
+      "name_en": "War pick"
+    },
+    "type_en": "Weapons",
+    "name_en": "War picks"
+  },
+  {
+    "index": "warhammers",
+    "type": "武器",
+    "name": "战锤",
+    "classes": [],
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "矮人",
+        "url": "/api/2014/races/dwarf",
+        "name_en": "Dwarf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/warhammers",
+    "reference": {
+      "index": "warhammer",
+      "name": "战锤",
+      "url": "/api/2014/equipment/warhammer",
+      "name_en": "Warhammer"
+    },
+    "type_en": "Weapons",
+    "name_en": "Warhammers"
+  },
+  {
+    "index": "whips",
+    "type": "武器",
+    "name": "鞭",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/whips",
+    "reference": {
+      "index": "whip",
+      "name": "鞭",
+      "url": "/api/2014/equipment/whip",
+      "name_en": "Whip"
+    },
+    "type_en": "Weapons",
+    "name_en": "Whips"
+  },
+  {
+    "index": "blowguns",
+    "type": "武器",
+    "name": "吹箭",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/blowguns",
+    "reference": {
+      "index": "blowgun",
+      "name": "吹箭",
+      "url": "/api/2014/equipment/blowgun",
+      "name_en": "Blowgun"
+    },
+    "type_en": "Weapons",
+    "name_en": "Blowguns"
+  },
+  {
+    "index": "hand-crossbows",
+    "type": "武器",
+    "name": "手弩",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/hand-crossbows",
+    "reference": {
+      "index": "crossbow-hand",
+      "name": "手弩",
+      "url": "/api/2014/equipment/crossbow-hand",
+      "name_en": "Crossbow, hand"
+    },
+    "type_en": "Weapons",
+    "name_en": "Hand crossbows"
+  },
+  {
+    "index": "crossbows-heavy",
+    "type": "武器",
+    "name": "重弩",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/crossbows-heavy",
+    "reference": {
+      "index": "crossbow-heavy",
+      "name": "重弩",
+      "url": "/api/2014/equipment/crossbow-heavy",
+      "name_en": "Crossbow, heavy"
+    },
+    "type_en": "Weapons",
+    "name_en": "Crossbows, heavy"
+  },
+  {
+    "index": "longbows",
+    "type": "武器",
+    "name": "长弓",
+    "classes": [],
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "高等精灵",
+        "url": "/api/2014/subraces/high-elf",
+        "name_en": "High Elf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/longbows",
+    "reference": {
+      "index": "longbow",
+      "name": "长弓",
+      "url": "/api/2014/equipment/longbow",
+      "name_en": "Longbow"
+    },
+    "type_en": "Weapons",
+    "name_en": "Longbows"
+  },
+  {
+    "index": "nets",
+    "type": "武器",
+    "name": "网",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/nets",
+    "reference": {
+      "index": "net",
+      "name": "网",
+      "url": "/api/2014/equipment/net",
+      "name_en": "Net"
+    },
+    "type_en": "Weapons",
+    "name_en": "Nets"
+  },
+  {
+    "index": "alchemists-supplies",
+    "type": "工匠工具",
+    "name": "炼金工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/alchemists-supplies",
+    "reference": {
+      "index": "alchemists-supplies",
+      "name": "炼金术士工具",
+      "url": "/api/2014/equipment/alchemists-supplies",
+      "name_en": "Alchemist's Supplies"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Alchemist's Supplies"
+  },
+  {
+    "index": "brewers-supplies",
+    "type": "工匠工具",
+    "name": "酿酒工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/brewers-supplies",
+    "reference": {
+      "index": "brewers-supplies",
+      "name": "酿酒师工具",
+      "url": "/api/2014/equipment/brewers-supplies",
+      "name_en": "Brewer's Supplies"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Brewer's Supplies"
+  },
+  {
+    "index": "calligraphers-supplies",
+    "type": "工匠工具",
+    "name": "书法工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/calligraphers-supplies",
+    "reference": {
+      "index": "calligraphers-supplies",
+      "name": "书法家工具",
+      "url": "/api/2014/equipment/calligraphers-supplies",
+      "name_en": "Calligrapher's Supplies"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Calligrapher's Supplies"
+  },
+  {
+    "index": "carpenters-tools",
+    "type": "工匠工具",
+    "name": "木匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/carpenters-tools",
+    "reference": {
+      "index": "carpenters-tools",
+      "name": "木匠工具",
+      "url": "/api/2014/equipment/carpenters-tools",
+      "name_en": "Carpenter's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Carpenter's Tools"
+  },
+  {
+    "index": "cartographers-tools",
+    "type": "工匠工具",
+    "name": "制图师工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/cartographers-tools",
+    "reference": {
+      "index": "cartographers-tools",
+      "name": "制图师工具",
+      "url": "/api/2014/equipment/cartographers-tools",
+      "name_en": "Cartographer's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Cartographer's Tools"
+  },
+  {
+    "index": "cobblers-tools",
+    "type": "工匠工具",
+    "name": "鞋匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/cobblers-tools",
+    "reference": {
+      "index": "cobblers-tools",
+      "name": "鞋匠工具",
+      "url": "/api/2014/equipment/cobblers-tools",
+      "name_en": "Cobbler's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Cobbler's Tools"
+  },
+  {
+    "index": "cooks-utensils",
+    "type": "工匠工具",
+    "name": "厨师工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/cooks-utensils",
+    "reference": {
+      "index": "cooks-utensils",
+      "name": "厨师工具",
+      "url": "/api/2014/equipment/cooks-utensils",
+      "name_en": "Cook's utensils"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Cook's utensils"
+  },
+  {
+    "index": "glassblowers-tools",
+    "type": "工匠工具",
+    "name": "玻璃匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/glassblowers-tools",
+    "reference": {
+      "index": "glassblowers-tools",
+      "name": "玻璃匠工具",
+      "url": "/api/2014/equipment/glassblowers-tools",
+      "name_en": "Glassblower's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Glassblower's Tools"
+  },
+  {
+    "index": "jewelers-tools",
+    "type": "工匠工具",
+    "name": "珠宝匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/jewelers-tools",
+    "reference": {
+      "index": "jewelers-tools",
+      "name": "珠宝匠工具",
+      "url": "/api/2014/equipment/jewelers-tools",
+      "name_en": "Jeweler's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Jeweler's Tools"
+  },
+  {
+    "index": "leatherworkers-tools",
+    "type": "工匠工具",
+    "name": "皮匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/leatherworkers-tools",
+    "reference": {
+      "index": "leatherworkers-tools",
+      "name": "皮匠工具",
+      "url": "/api/2014/equipment/leatherworkers-tools",
+      "name_en": "Leatherworker's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Leatherworker's Tools"
+  },
+  {
+    "index": "masons-tools",
+    "type": "工匠工具",
+    "name": "石匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/masons-tools",
+    "reference": {
+      "index": "masons-tools",
+      "name": "石匠工具",
+      "url": "/api/2014/equipment/masons-tools",
+      "name_en": "Mason's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Mason's Tools"
+  },
+  {
+    "index": "painters-supplies",
+    "type": "工匠工具",
+    "name": "画家工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/painters-supplies",
+    "reference": {
+      "index": "painters-supplies",
+      "name": "画家工具",
+      "url": "/api/2014/equipment/painters-supplies",
+      "name_en": "Painter's Supplies"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Painter's Supplies"
+  },
+  {
+    "index": "potters-tools",
+    "type": "工匠工具",
+    "name": "陶匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/potters-tools",
+    "reference": {
+      "index": "potters-tools",
+      "name": "陶匠工具",
+      "url": "/api/2014/equipment/potters-tools",
+      "name_en": "Potter's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Potter's Tools"
+  },
+  {
+    "index": "smiths-tools",
+    "type": "工匠工具",
+    "name": "铁匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/smiths-tools",
+    "reference": {
+      "index": "smiths-tools",
+      "name": "铁匠工具",
+      "url": "/api/2014/equipment/smiths-tools",
+      "name_en": "Smith's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Smith's Tools"
+  },
+  {
+    "index": "tinkers-tools",
+    "type": "工匠工具",
+    "name": "修补工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/tinkers-tools",
+    "reference": {
+      "index": "tinkers-tools",
+      "name": "修补工具",
+      "url": "/api/2014/equipment/tinkers-tools",
+      "name_en": "Tinker's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Tinker's Tools"
+  },
+  {
+    "index": "weavers-tools",
+    "type": "工匠工具",
+    "name": "织匠工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/weavers-tools",
+    "reference": {
+      "index": "weavers-tools",
+      "name": "织匠工具",
+      "url": "/api/2014/equipment/weavers-tools",
+      "name_en": "Weaver's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Weaver's Tools"
+  },
+  {
+    "index": "woodcarvers-tools",
+    "type": "工匠工具",
+    "name": "木雕工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/woodcarvers-tools",
+    "reference": {
+      "index": "woodcarvers-tools",
+      "name": "木雕工具",
+      "url": "/api/2014/equipment/woodcarvers-tools",
+      "name_en": "Woodcarver's Tools"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Woodcarver's Tools"
+  },
+  {
+    "index": "disguise-kit",
+    "type": "工匠工具",
+    "name": "易容工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/disguise-kit",
+    "reference": {
+      "index": "disguise-kit",
+      "name": "易容工具",
+      "url": "/api/2014/equipment/disguise-kit",
+      "name_en": "Disguise Kit"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Disguise Kit"
+  },
+  {
+    "index": "forgery-kit",
+    "type": "工匠工具",
+    "name": "伪造工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/forgery-kit",
+    "reference": {
+      "index": "forgery-kit",
+      "name": "伪造工具",
+      "url": "/api/2014/equipment/forgery-kit",
+      "name_en": "Forgery Kit"
+    },
+    "type_en": "Artisan's Tools",
+    "name_en": "Forgery Kit"
+  },
+  {
+    "index": "dice-set",
+    "type": "游戏套装",
+    "name": "骰子套组",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/dice-set",
+    "reference": {
+      "index": "dice-set",
+      "name": "骰子套组",
+      "url": "/api/2014/equipment/dice-set",
+      "name_en": "Dice Set"
+    },
+    "type_en": "Gaming Sets",
+    "name_en": "Dice Set"
+  },
+  {
+    "index": "playing-card-set",
+    "type": "游戏套装",
+    "name": "扑克牌套组",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/playing-card-set",
+    "reference": {
+      "index": "playing-card-set",
+      "name": "扑克牌套组",
+      "url": "/api/2014/equipment/playing-card-set",
+      "name_en": "Playing Card Set"
+    },
+    "type_en": "Gaming Sets",
+    "name_en": "Playing Card Set"
+  },
+  {
+    "index": "bagpipes",
+    "type": "乐器",
+    "name": "风笛",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/bagpipes",
+    "reference": {
+      "index": "bagpipes",
+      "name": "风笛",
+      "url": "/api/2014/equipment/bagpipes",
+      "name_en": "Bagpipes"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Bagpipes"
+  },
+  {
+    "index": "drum",
+    "type": "乐器",
+    "name": "鼓",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/drum",
+    "reference": {
+      "index": "drum",
+      "name": "鼓",
+      "url": "/api/2014/equipment/drum",
+      "name_en": "Drum"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Drum"
+  },
+  {
+    "index": "dulcimer",
+    "type": "乐器",
+    "name": "洋琴",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/dulcimer",
+    "reference": {
+      "index": "dulcimer",
+      "name": "洋琴",
+      "url": "/api/2014/equipment/dulcimer",
+      "name_en": "Dulcimer"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Dulcimer"
+  },
+  {
+    "index": "flute",
+    "type": "乐器",
+    "name": "长笛",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/flute",
+    "reference": {
+      "index": "flute",
+      "name": "长笛",
+      "url": "/api/2014/equipment/flute",
+      "name_en": "Flute"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Flute"
+  },
+  {
+    "index": "lute",
+    "type": "乐器",
+    "name": "鲁特琴",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/lute",
+    "reference": {
+      "index": "lute",
+      "name": "鲁特琴",
+      "url": "/api/2014/equipment/lute",
+      "name_en": "Lute"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Lute"
+  },
+  {
+    "index": "lyre",
+    "type": "乐器",
+    "name": "里拉琴",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/lyre",
+    "reference": {
+      "index": "lyre",
+      "name": "里拉琴",
+      "url": "/api/2014/equipment/lyre",
+      "name_en": "Lyre"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Lyre"
+  },
+  {
+    "index": "horn",
+    "type": "乐器",
+    "name": "号角",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/horn",
+    "reference": {
+      "index": "horn",
+      "name": "号角",
+      "url": "/api/2014/equipment/horn",
+      "name_en": "Horn"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Horn"
+  },
+  {
+    "index": "pan-flute",
+    "type": "乐器",
+    "name": "排箫",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/pan-flute",
+    "reference": {
+      "index": "pan-flute",
+      "name": "排箫",
+      "url": "/api/2014/equipment/pan-flute",
+      "name_en": "Pan flute"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Pan flute"
+  },
+  {
+    "index": "shawm",
+    "type": "乐器",
+    "name": "双簧管",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/shawm",
+    "reference": {
+      "index": "shawm",
+      "name": "双簧管",
+      "url": "/api/2014/equipment/shawm",
+      "name_en": "Shawm"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Shawm"
+  },
+  {
+    "index": "viol",
+    "type": "乐器",
+    "name": "维奥尔琴",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/viol",
+    "reference": {
+      "index": "viol",
+      "name": "维奥尔琴",
+      "url": "/api/2014/equipment/viol",
+      "name_en": "Viol"
+    },
+    "type_en": "Musical Instruments",
+    "name_en": "Viol"
+  },
+  {
+    "index": "herbalism-kit",
+    "type": "其他",
+    "name": "草药工具",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/herbalism-kit",
+    "reference": {
+      "index": "herbalism-kit",
+      "name": "药草包",
+      "url": "/api/2014/equipment/herbalism-kit",
+      "name_en": "Herbalism Kit"
+    },
+    "type_en": "Other",
+    "name_en": "Herbalism Kit"
+  },
+  {
+    "index": "navigators-tools",
+    "type": "其他",
+    "name": "领航员工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/navigators-tools",
+    "reference": {
+      "index": "navigators-tools",
+      "name": "领航员工具",
+      "url": "/api/2014/equipment/navigators-tools",
+      "name_en": "Navigator's Tools"
+    },
+    "type_en": "Other",
+    "name_en": "Navigator's Tools"
+  },
+  {
+    "index": "poisoners-kit",
+    "type": "其他",
+    "name": "制毒工具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/poisoners-kit",
+    "reference": {
+      "index": "poisoners-kit",
+      "name": "制毒工具",
+      "url": "/api/2014/equipment/poisoners-kit",
+      "name_en": "Poisoner's Kit"
+    },
+    "type_en": "Other",
+    "name_en": "Poisoner's Kit"
+  },
+  {
+    "index": "thieves-tools",
+    "type": "其他",
+    "name": "盗贼工具",
+    "classes": [
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/thieves-tools",
+    "reference": {
+      "index": "thieves-tools",
+      "name": "盗贼工具",
+      "url": "/api/2014/equipment/thieves-tools",
+      "name_en": "Thieves' Tools"
+    },
+    "type_en": "Other",
+    "name_en": "Thieves' Tools"
+  },
+  {
+    "index": "land-vehicles",
+    "type": "载具",
+    "name": "陆地载具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/land-vehicles",
+    "reference": {
+      "index": "land-vehicles",
+      "name": "陆地载具",
+      "url": "/api/2014/equipment-categories/land-vehicles",
+      "name_en": "Land Vehicles"
+    },
+    "type_en": "Vehicles",
+    "name_en": "Land Vehicles"
+  },
+  {
+    "index": "water-vehicles",
+    "type": "载具",
+    "name": "水上载具",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/water-vehicles",
+    "reference": {
+      "index": "waterborne-vehicles",
+      "name": "水上载具",
+      "url": "/api/2014/equipment-categories/waterborne-vehicles",
+      "name_en": "Waterborne Vehicles"
+    },
+    "type_en": "Vehicles",
+    "name_en": "Water Vehicles"
+  },
+  {
+    "index": "saving-throw-str",
+    "type": "豁免",
+    "name": "力量豁免",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "战士",
+        "url": "/api/2014/classes/fighter",
+        "name_en": "Fighter"
+      },
+      {
+        "index": "monk",
+        "name": "武僧",
+        "url": "/api/2014/classes/monk",
+        "name_en": "Monk"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/saving-throw-str",
+    "reference": {
+      "index": "str",
+      "name": "力量",
+      "url": "/api/2014/ability-scores/str",
+      "name_en": "STR"
+    },
+    "type_en": "Saving Throws",
+    "name_en": "Saving Throw: STR"
+  },
+  {
+    "index": "saving-throw-dex",
+    "type": "豁免",
+    "name": "敏捷豁免",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "monk",
+        "name": "武僧",
+        "url": "/api/2014/classes/monk",
+        "name_en": "Monk"
+      },
+      {
+        "index": "ranger",
+        "name": "游侠",
+        "url": "/api/2014/classes/ranger",
+        "name_en": "Ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/saving-throw-dex",
+    "reference": {
+      "index": "dex",
+      "name": "敏捷",
+      "url": "/api/2014/ability-scores/dex",
+      "name_en": "DEX"
+    },
+    "type_en": "Saving Throws",
+    "name_en": "Saving Throw: DEX"
+  },
+  {
+    "index": "saving-throw-con",
+    "type": "豁免",
+    "name": "体质豁免",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "野蛮人",
+        "url": "/api/2014/classes/barbarian",
+        "name_en": "Barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "战士",
+        "url": "/api/2014/classes/fighter",
+        "name_en": "Fighter"
+      },
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/saving-throw-con",
+    "reference": {
+      "index": "con",
+      "name": "体质",
+      "url": "/api/2014/ability-scores/con",
+      "name_en": "CON"
+    },
+    "type_en": "Saving Throws",
+    "name_en": "Saving Throw: CON"
+  },
+  {
+    "index": "saving-throw-int",
+    "type": "豁免",
+    "name": "智力豁免",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "rogue",
+        "name": "游荡者",
+        "url": "/api/2014/classes/rogue",
+        "name_en": "Rogue"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/saving-throw-int",
+    "reference": {
+      "index": "int",
+      "name": "智力",
+      "url": "/api/2014/ability-scores/int",
+      "name_en": "INT"
+    },
+    "type_en": "Saving Throws",
+    "name_en": "Saving Throw: INT"
+  },
+  {
+    "index": "saving-throw-wis",
+    "type": "豁免",
+    "name": "感知豁免",
+    "classes": [
+      {
+        "index": "cleric",
+        "name": "牧师",
+        "url": "/api/2014/classes/cleric",
+        "name_en": "Cleric"
+      },
+      {
+        "index": "druid",
+        "name": "德鲁伊",
+        "url": "/api/2014/classes/druid",
+        "name_en": "Druid"
+      },
+      {
+        "index": "paladin",
+        "name": "圣武士",
+        "url": "/api/2014/classes/paladin",
+        "name_en": "Paladin"
+      },
+      {
+        "index": "warlock",
+        "name": "邪术师",
+        "url": "/api/2014/classes/warlock",
+        "name_en": "Warlock"
+      },
+      {
+        "index": "wizard",
+        "name": "法师",
+        "url": "/api/2014/classes/wizard",
+        "name_en": "Wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/saving-throw-wis",
+    "reference": {
+      "index": "wis",
+      "name": "感知",
+      "url": "/api/2014/ability-scores/wis",
+      "name_en": "WIS"
+    },
+    "type_en": "Saving Throws",
+    "name_en": "Saving Throw: WIS"
+  },
+  {
+    "index": "saving-throw-cha",
+    "type": "豁免",
+    "name": "魅力豁免",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "吟游诗人",
+        "url": "/api/2014/classes/bard",
+        "name_en": "Bard"
+      },
+      {
+        "index": "cleric",
+        "name": "牧师",
+        "url": "/api/2014/classes/cleric",
+        "name_en": "Cleric"
+      },
+      {
+        "index": "paladin",
+        "name": "圣武士",
+        "url": "/api/2014/classes/paladin",
+        "name_en": "Paladin"
+      },
+      {
+        "index": "sorcerer",
+        "name": "术士",
+        "url": "/api/2014/classes/sorcerer",
+        "name_en": "Sorcerer"
+      },
+      {
+        "index": "warlock",
+        "name": "邪术师",
+        "url": "/api/2014/classes/warlock",
+        "name_en": "Warlock"
+      }
+    ],
+    "races": [],
+    "url": "/api/2014/proficiencies/saving-throw-cha",
+    "reference": {
+      "index": "cha",
+      "name": "魅力",
+      "url": "/api/2014/ability-scores/cha",
+      "name_en": "CHA"
+    },
+    "type_en": "Saving Throws",
+    "name_en": "Saving Throw: CHA"
+  },
+  {
+    "index": "skill-acrobatics",
+    "type": "技能",
+    "name": "体操",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-acrobatics",
+    "reference": {
+      "index": "acrobatics",
+      "name": "体操",
+      "url": "/api/2014/skills/acrobatics",
+      "name_en": "Acrobatics"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Acrobatics"
+  },
+  {
+    "index": "skill-animal-handling",
+    "type": "技能",
+    "name": "驯兽",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-animal-handling",
+    "reference": {
+      "index": "animal-handling",
+      "name": "驯兽",
+      "url": "/api/2014/skills/animal-handling",
+      "name_en": "Animal Handling"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Animal Handling"
+  },
+  {
+    "index": "skill-arcana",
+    "type": "技能",
+    "name": "奥秘",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-arcana",
+    "reference": {
+      "index": "arcana",
+      "name": "奥秘",
+      "url": "/api/2014/skills/arcana",
+      "name_en": "Arcana"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Arcana"
+  },
+  {
+    "index": "skill-athletics",
+    "type": "技能",
+    "name": "运动",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-athletics",
+    "reference": {
+      "index": "athletics",
+      "name": "运动",
+      "url": "/api/2014/skills/athletics",
+      "name_en": "Athletics"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Athletics"
+  },
+  {
+    "index": "skill-deception",
+    "type": "技能",
+    "name": "欺瞒",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-deception",
+    "reference": {
+      "index": "deception",
+      "name": "欺瞒",
+      "url": "/api/2014/skills/deception",
+      "name_en": "Deception"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Deception"
+  },
+  {
+    "index": "skill-history",
+    "type": "技能",
+    "name": "历史",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-history",
+    "reference": {
+      "index": "history",
+      "name": "历史",
+      "url": "/api/2014/skills/history",
+      "name_en": "History"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: History"
+  },
+  {
+    "index": "skill-insight",
+    "type": "技能",
+    "name": "洞悉",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-insight",
+    "reference": {
+      "index": "insight",
+      "name": "洞悉",
+      "url": "/api/2014/skills/insight",
+      "name_en": "Insight"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Insight"
+  },
+  {
+    "index": "skill-intimidation",
+    "type": "技能",
+    "name": "威吓",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-intimidation",
+    "reference": {
+      "index": "intimidation",
+      "name": "威吓",
+      "url": "/api/2014/skills/intimidation",
+      "name_en": "Intimidation"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Intimidation"
+  },
+  {
+    "index": "skill-investigation",
+    "type": "技能",
+    "name": "调查",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-investigation",
+    "reference": {
+      "index": "investigation",
+      "name": "调查",
+      "url": "/api/2014/skills/investigation",
+      "name_en": "Investigation"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Investigation"
+  },
+  {
+    "index": "skill-medicine",
+    "type": "技能",
+    "name": "医药",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-medicine",
+    "reference": {
+      "index": "medicine",
+      "name": "医药",
+      "url": "/api/2014/skills/medicine",
+      "name_en": "Medicine"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Medicine"
+  },
+  {
+    "index": "skill-nature",
+    "type": "技能",
+    "name": "自然",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-nature",
+    "reference": {
+      "index": "nature",
+      "name": "自然",
+      "url": "/api/2014/skills/nature",
+      "name_en": "Nature"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Nature"
+  },
+  {
+    "index": "skill-perception",
+    "type": "技能",
+    "name": "察觉",
+    "classes": [],
+    "races": [
+      {
+        "index": "elf",
+        "name": "精灵",
+        "url": "/api/2014/races/elf",
+        "name_en": "Elf"
+      }
+    ],
+    "url": "/api/2014/proficiencies/skill-perception",
+    "reference": {
+      "index": "perception",
+      "name": "察觉",
+      "url": "/api/2014/skills/perception",
+      "name_en": "Perception"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Perception"
+  },
+  {
+    "index": "skill-performance",
+    "type": "技能",
+    "name": "表演",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-performance",
+    "reference": {
+      "index": "performance",
+      "name": "表演",
+      "url": "/api/2014/skills/performance",
+      "name_en": "Performance"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Performance"
+  },
+  {
+    "index": "skill-persuasion",
+    "type": "技能",
+    "name": "说服",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-persuasion",
+    "reference": {
+      "index": "persuasion",
+      "name": "说服",
+      "url": "/api/2014/skills/persuasion",
+      "name_en": "Persuasion"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Persuasion"
+  },
+  {
+    "index": "skill-religion",
+    "type": "技能",
+    "name": "宗教",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-religion",
+    "reference": {
+      "index": "religion",
+      "name": "宗教",
+      "url": "/api/2014/skills/religion",
+      "name_en": "Religion"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Religion"
+  },
+  {
+    "index": "skill-sleight-of-hand",
+    "type": "技能",
+    "name": "巧手",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-sleight-of-hand",
+    "reference": {
+      "index": "sleight-of-hand",
+      "name": "巧手",
+      "url": "/api/2014/skills/sleight-of-hand",
+      "name_en": "Sleight of Hand"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Sleight of Hand"
+  },
+  {
+    "index": "skill-stealth",
+    "type": "技能",
+    "name": "隐匿",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-stealth",
+    "reference": {
+      "index": "stealth",
+      "name": "隐匿",
+      "url": "/api/2014/skills/stealth",
+      "name_en": "Stealth"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Stealth"
+  },
+  {
+    "index": "skill-survival",
+    "type": "技能",
+    "name": "生存",
+    "classes": [],
+    "races": [],
+    "url": "/api/2014/proficiencies/skill-survival",
+    "reference": {
+      "index": "survival",
+      "name": "生存",
+      "url": "/api/2014/skills/survival",
+      "name_en": "Survival"
+    },
+    "type_en": "Skills",
+    "name_en": "Skill: Survival"
+  }
+]

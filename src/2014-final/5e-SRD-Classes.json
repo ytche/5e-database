@@ -1,0 +1,5381 @@
+[
+  {
+    "name": "野蛮人",
+    "name_en": "Barbarian",
+    "index": "barbarian",
+    "hit_die": 12,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 驯兽、运动、威吓、自然、察觉和生存",
+        "desc_en": "Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：驯兽",
+                "name_en": "Skill: Animal Handling",
+                "index": "skill-animal-handling",
+                "url": "/api/2014/proficiencies/skill-animal-handling"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：自然",
+                "name_en": "Skill: Nature",
+                "index": "skill-nature",
+                "url": "/api/2014/proficiencies/skill-nature"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：察觉",
+                "name_en": "Skill: Perception",
+                "index": "skill-perception",
+                "url": "/api/2014/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：生存",
+                "name_en": "Skill: Survival",
+                "index": "skill-survival",
+                "url": "/api/2014/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "中甲",
+        "name_en": "Medium Armor",
+        "index": "medium-armor",
+        "url": "/api/2014/proficiencies/medium-armor"
+      },
+      {
+        "name": "盾牌",
+        "name_en": "Shields",
+        "index": "shields",
+        "url": "/api/2014/proficiencies/shields"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "军用武器",
+        "name_en": "Martial Weapons",
+        "index": "martial-weapons",
+        "url": "/api/2014/proficiencies/martial-weapons"
+      },
+      {
+        "name": "豁免：力量",
+        "name_en": "Saving Throw: STR",
+        "index": "saving-throw-str",
+        "url": "/api/2014/proficiencies/saving-throw-str"
+      },
+      {
+        "name": "豁免：体质",
+        "name_en": "Saving Throw: CON",
+        "index": "saving-throw-con",
+        "url": "/api/2014/proficiencies/saving-throw-con"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "力量",
+        "name_en": "STR",
+        "index": "str",
+        "url": "/api/2014/ability-scores/str"
+      },
+      {
+        "name": "体质",
+        "name_en": "CON",
+        "index": "con",
+        "url": "/api/2014/ability-scores/con"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "探险家套组",
+          "name_en": "Explorer's Pack",
+          "index": "explorers-pack",
+          "url": "/api/2014/equipment/explorers-pack"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "name": "标枪",
+          "name_en": "Javelin",
+          "index": "javelin",
+          "url": "/api/2014/equipment/javelin"
+        },
+        "quantity": 4
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 巨斧或 (b) 任意军用近战武器",
+        "desc_en": "(a) a greataxe or (b) any martial melee weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "巨斧",
+                "name_en": "Greataxe",
+                "index": "greataxe",
+                "url": "/api/2014/equipment/greataxe"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意军用近战武器",
+                "desc_en": "any martial melee weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "军用近战武器",
+                    "name_en": "Martial Melee Weapons",
+                    "index": "martial-melee-weapons",
+                    "url": "/api/2014/equipment-categories/martial-melee-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 两把手斧或 (b) 任意简易武器",
+        "desc_en": "(a) two handaxes or (b) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 2,
+              "of": {
+                "name": "手斧",
+                "name_en": "Handaxe",
+                "index": "handaxe",
+                "url": "/api/2014/equipment/handaxe"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/barbarian/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "力量",
+            "name_en": "STR",
+            "index": "str",
+            "url": "/api/2014/ability-scores/str"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "盾牌",
+          "name_en": "Shields",
+          "index": "shields",
+          "url": "/api/2014/proficiencies/shields"
+        },
+        {
+          "name": "简易武器",
+          "name_en": "Simple Weapons",
+          "index": "simple-weapons",
+          "url": "/api/2014/proficiencies/simple-weapons"
+        },
+        {
+          "name": "军用武器",
+          "name_en": "Martial Weapons",
+          "index": "martial-weapons",
+          "url": "/api/2014/proficiencies/martial-weapons"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "狂战士",
+        "name_en": "Berserker",
+        "index": "berserker",
+        "url": "/api/2014/subclasses/berserker"
+      }
+    ],
+    "url": "/api/2014/classes/barbarian"
+  },
+  {
+    "name": "吟游诗人",
+    "name_en": "Bard",
+    "index": "bard",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "任选三项",
+        "desc_en": "Choose any three",
+        "choose": 3,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：杂技",
+                "name_en": "Skill: Acrobatics",
+                "index": "skill-acrobatics",
+                "url": "/api/2014/proficiencies/skill-acrobatics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：驯兽",
+                "name_en": "Skill: Animal Handling",
+                "index": "skill-animal-handling",
+                "url": "/api/2014/proficiencies/skill-animal-handling"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：奥秘",
+                "name_en": "Skill: Arcana",
+                "index": "skill-arcana",
+                "url": "/api/2014/proficiencies/skill-arcana"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：欺瞒",
+                "name_en": "Skill: Deception",
+                "index": "skill-deception",
+                "url": "/api/2014/proficiencies/skill-deception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：历史",
+                "name_en": "Skill: History",
+                "index": "skill-history",
+                "url": "/api/2014/proficiencies/skill-history"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：调查",
+                "name_en": "Skill: Investigation",
+                "index": "skill-investigation",
+                "url": "/api/2014/proficiencies/skill-investigation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：医药",
+                "name_en": "Skill: Medicine",
+                "index": "skill-medicine",
+                "url": "/api/2014/proficiencies/skill-medicine"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：自然",
+                "name_en": "Skill: Nature",
+                "index": "skill-nature",
+                "url": "/api/2014/proficiencies/skill-nature"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：察觉",
+                "name_en": "Skill: Perception",
+                "index": "skill-perception",
+                "url": "/api/2014/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：表演",
+                "name_en": "Skill: Performance",
+                "index": "skill-performance",
+                "url": "/api/2014/proficiencies/skill-performance"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：说服",
+                "name_en": "Skill: Persuasion",
+                "index": "skill-persuasion",
+                "url": "/api/2014/proficiencies/skill-persuasion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：巧手",
+                "name_en": "Skill: Sleight of Hand",
+                "index": "skill-sleight-of-hand",
+                "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：隐匿",
+                "name_en": "Skill: Stealth",
+                "index": "skill-stealth",
+                "url": "/api/2014/proficiencies/skill-stealth"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：生存",
+                "name_en": "Skill: Survival",
+                "index": "skill-survival",
+                "url": "/api/2014/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "选择一种工匠工具或一种乐器",
+        "desc_en": "Three musical instruments of your choice",
+        "choose": 3,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "风笛",
+                "name_en": "Bagpipes",
+                "index": "bagpipes",
+                "url": "/api/2014/proficiencies/bagpipes"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "鼓",
+                "name_en": "Drum",
+                "index": "drum",
+                "url": "/api/2014/proficiencies/drum"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "洋琴",
+                "name_en": "Dulcimer",
+                "index": "dulcimer",
+                "url": "/api/2014/proficiencies/dulcimer"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "长笛",
+                "name_en": "Flute",
+                "index": "flute",
+                "url": "/api/2014/proficiencies/flute"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "鲁特琴",
+                "name_en": "Lute",
+                "index": "lute",
+                "url": "/api/2014/proficiencies/lute"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "里拉琴",
+                "name_en": "Lyre",
+                "index": "lyre",
+                "url": "/api/2014/proficiencies/lyre"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "号角",
+                "name_en": "Horn",
+                "index": "horn",
+                "url": "/api/2014/proficiencies/horn"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "排箫",
+                "name_en": "Pan flute",
+                "index": "pan-flute",
+                "url": "/api/2014/proficiencies/pan-flute"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "双簧管",
+                "name_en": "Shawm",
+                "index": "shawm",
+                "url": "/api/2014/proficiencies/shawm"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "维奥尔琴",
+                "name_en": "Viol",
+                "index": "viol",
+                "url": "/api/2014/proficiencies/viol"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "长剑",
+        "name_en": "Longswords",
+        "index": "longswords",
+        "url": "/api/2014/proficiencies/longswords"
+      },
+      {
+        "name": "刺剑",
+        "name_en": "Rapiers",
+        "index": "rapiers",
+        "url": "/api/2014/proficiencies/rapiers"
+      },
+      {
+        "name": "短剑",
+        "name_en": "Shortswords",
+        "index": "shortswords",
+        "url": "/api/2014/proficiencies/shortswords"
+      },
+      {
+        "name": "手弩",
+        "name_en": "Hand crossbows",
+        "index": "hand-crossbows",
+        "url": "/api/2014/proficiencies/hand-crossbows"
+      },
+      {
+        "name": "豁免：敏捷",
+        "name_en": "Saving Throw: DEX",
+        "index": "saving-throw-dex",
+        "url": "/api/2014/proficiencies/saving-throw-dex"
+      },
+      {
+        "name": "豁免：魅力",
+        "name_en": "Saving Throw: CHA",
+        "index": "saving-throw-cha",
+        "url": "/api/2014/proficiencies/saving-throw-cha"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "敏捷",
+        "name_en": "DEX",
+        "index": "dex",
+        "url": "/api/2014/ability-scores/dex"
+      },
+      {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "皮甲",
+          "name_en": "Leather Armor",
+          "index": "leather-armor",
+          "url": "/api/2014/equipment/leather-armor"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "name": "匕首",
+          "name_en": "Dagger",
+          "index": "dagger",
+          "url": "/api/2014/equipment/dagger"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 刺剑、(b) 长剑或 (c) 任意简易武器",
+        "desc_en": "(a) a rapier, (b) a longsword, or (c) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "刺剑",
+                "name_en": "Rapier",
+                "index": "rapier",
+                "url": "/api/2014/equipment/rapier"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "长剑",
+                "name_en": "Longsword",
+                "index": "longsword",
+                "url": "/api/2014/equipment/longsword"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 外交官套组或 (b) 艺人套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "外交官套组",
+                "name_en": "Diplomat's Pack",
+                "index": "diplomats-pack",
+                "url": "/api/2014/equipment/diplomats-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "艺人套组",
+                "name_en": "Entertainer's Pack",
+                "index": "entertainers-pack",
+                "url": "/api/2014/equipment/entertainers-pack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 鲁特琴或 (b) 任意其他乐器",
+        "desc_en": "(a) a lute or (b) any other musical instrument",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "鲁特琴",
+                "name_en": "Lute",
+                "index": "lute",
+                "url": "/api/2014/equipment/lute"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意其他乐器",
+                "desc_en": "any other musical instrument",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "乐器",
+                    "name_en": "Musical Instruments",
+                    "index": "musical-instruments",
+                    "url": "/api/2014/equipment-categories/musical-instruments"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/bard/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "魅力",
+            "name_en": "CHA",
+            "index": "cha",
+            "url": "/api/2014/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "desc": "技能",
+          "desc_en": "skill",
+          "choose": 1,
+          "type": "proficiencies",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：杂技",
+                  "name_en": "Skill: Acrobatics",
+                  "index": "skill-acrobatics",
+                  "url": "/api/2014/proficiencies/skill-acrobatics"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：驯兽",
+                  "name_en": "Skill: Animal Handling",
+                  "index": "skill-animal-handling",
+                  "url": "/api/2014/proficiencies/skill-animal-handling"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：奥秘",
+                  "name_en": "Skill: Arcana",
+                  "index": "skill-arcana",
+                  "url": "/api/2014/proficiencies/skill-arcana"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：运动",
+                  "name_en": "Skill: Athletics",
+                  "index": "skill-athletics",
+                  "url": "/api/2014/proficiencies/skill-athletics"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：欺瞒",
+                  "name_en": "Skill: Deception",
+                  "index": "skill-deception",
+                  "url": "/api/2014/proficiencies/skill-deception"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：历史",
+                  "name_en": "Skill: History",
+                  "index": "skill-history",
+                  "url": "/api/2014/proficiencies/skill-history"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：洞察",
+                  "name_en": "Skill: Insight",
+                  "index": "skill-insight",
+                  "url": "/api/2014/proficiencies/skill-insight"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：威吓",
+                  "name_en": "Skill: Intimidation",
+                  "index": "skill-intimidation",
+                  "url": "/api/2014/proficiencies/skill-intimidation"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：调查",
+                  "name_en": "Skill: Investigation",
+                  "index": "skill-investigation",
+                  "url": "/api/2014/proficiencies/skill-investigation"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：医药",
+                  "name_en": "Skill: Medicine",
+                  "index": "skill-medicine",
+                  "url": "/api/2014/proficiencies/skill-medicine"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：自然",
+                  "name_en": "Skill: Nature",
+                  "index": "skill-nature",
+                  "url": "/api/2014/proficiencies/skill-nature"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：察觉",
+                  "name_en": "Skill: Perception",
+                  "index": "skill-perception",
+                  "url": "/api/2014/proficiencies/skill-perception"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：表演",
+                  "name_en": "Skill: Performance",
+                  "index": "skill-performance",
+                  "url": "/api/2014/proficiencies/skill-performance"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：说服",
+                  "name_en": "Skill: Persuasion",
+                  "index": "skill-persuasion",
+                  "url": "/api/2014/proficiencies/skill-persuasion"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：宗教",
+                  "name_en": "Skill: Religion",
+                  "index": "skill-religion",
+                  "url": "/api/2014/proficiencies/skill-religion"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：巧手",
+                  "name_en": "Skill: Sleight of Hand",
+                  "index": "skill-sleight-of-hand",
+                  "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：隐匿",
+                  "name_en": "Skill: Stealth",
+                  "index": "skill-stealth",
+                  "url": "/api/2014/proficiencies/skill-stealth"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：生存",
+                  "name_en": "Skill: Survival",
+                  "index": "skill-survival",
+                  "url": "/api/2014/proficiencies/skill-survival"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desc": "乐器",
+          "desc_en": "musical instrument",
+          "choose": 1,
+          "type": "proficiencies",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "风笛",
+                  "name_en": "Bagpipes",
+                  "index": "bagpipes",
+                  "url": "/api/2014/proficiencies/bagpipes"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "鼓",
+                  "name_en": "Drum",
+                  "index": "drum",
+                  "url": "/api/2014/proficiencies/drum"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "洋琴",
+                  "name_en": "Dulcimer",
+                  "index": "dulcimer",
+                  "url": "/api/2014/proficiencies/dulcimer"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "长笛",
+                  "name_en": "Flute",
+                  "index": "flute",
+                  "url": "/api/2014/proficiencies/flute"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "鲁特琴",
+                  "name_en": "Lute",
+                  "index": "lute",
+                  "url": "/api/2014/proficiencies/lute"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "里拉琴",
+                  "name_en": "Lyre",
+                  "index": "lyre",
+                  "url": "/api/2014/proficiencies/lyre"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "号角",
+                  "name_en": "Horn",
+                  "index": "horn",
+                  "url": "/api/2014/proficiencies/horn"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "排箫",
+                  "name_en": "Pan flute",
+                  "index": "pan-flute",
+                  "url": "/api/2014/proficiencies/pan-flute"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "双簧管",
+                  "name_en": "Shawm",
+                  "index": "shawm",
+                  "url": "/api/2014/proficiencies/shawm"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "维奥尔琴",
+                  "name_en": "Viol",
+                  "index": "viol",
+                  "url": "/api/2014/proficiencies/viol"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "知识",
+        "name_en": "Lore",
+        "index": "lore",
+        "url": "/api/2014/subclasses/lore"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      },
+      "info": [
+        {
+          "name": "戏法",
+          "name_en": "Cantrips",
+          "desc": [
+            "You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the 吟游诗人 table."
+          ],
+          "desc_en": [
+            "You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table."
+          ]
+        },
+        {
+          "name": "法术位",
+          "name_en": "Spell Slots",
+          "desc": [
+            "The 吟游诗人 table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot."
+          ],
+          "desc_en": [
+            "The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot."
+          ]
+        },
+        {
+          "name": "已知1级及以上法术",
+          "name_en": "Spells Known of 1st Level and Higher",
+          "desc": [
+            "You know four 1st-level spells of your choice from the bard spell list.",
+            "The Spells Known column of the 吟游诗人 table shows when you learn more bard spells of your choice.",
+            "Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
+            "Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots."
+          ],
+          "desc_en": [
+            "You know four 1st-level spells of your choice from the bard spell list.",
+            "The Spells Known column of the Bard table shows when you learn more bard spells of your choice.",
+            "Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
+            "Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Charisma modifier.",
+            "Spell attack modifier = your proficiency bonus + your Charisma modifier."
+          ]
+        },
+        {
+          "name": "仪式施法",
+          "name_en": "Ritual Casting",
+          "desc": [
+            "You can cast any bard spell you know as a ritual if that spell has the ritual tag."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use a 乐器 (see Equipment) as a spellcasting focus for your bard spells."
+          ],
+          "desc_en": [
+            "You can use a musical instrument (see Equipment) as a spellcasting focus for your bard spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/bard/spells",
+    "url": "/api/2014/classes/bard"
+  },
+  {
+    "name": "牧师",
+    "name_en": "Cleric",
+    "index": "cleric",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 历史、洞察、医药、说服和宗教",
+        "desc_en": "Choose two from History, Insight, Medicine, Persuasion, and Religion",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：历史",
+                "name_en": "Skill: History",
+                "index": "skill-history",
+                "url": "/api/2014/proficiencies/skill-history"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：医药",
+                "name_en": "Skill: Medicine",
+                "index": "skill-medicine",
+                "url": "/api/2014/proficiencies/skill-medicine"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：说服",
+                "name_en": "Skill: Persuasion",
+                "index": "skill-persuasion",
+                "url": "/api/2014/proficiencies/skill-persuasion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "中甲",
+        "name_en": "Medium Armor",
+        "index": "medium-armor",
+        "url": "/api/2014/proficiencies/medium-armor"
+      },
+      {
+        "name": "盾牌",
+        "name_en": "Shields",
+        "index": "shields",
+        "url": "/api/2014/proficiencies/shields"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "豁免：感知",
+        "name_en": "Saving Throw: WIS",
+        "index": "saving-throw-wis",
+        "url": "/api/2014/proficiencies/saving-throw-wis"
+      },
+      {
+        "name": "豁免：魅力",
+        "name_en": "Saving Throw: CHA",
+        "index": "saving-throw-cha",
+        "url": "/api/2014/proficiencies/saving-throw-cha"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      },
+      {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "盾牌",
+          "name_en": "Shield",
+          "index": "shield",
+          "url": "/api/2014/equipment/shield"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 硬头锤或 (b) 战锤 (若熟练)",
+        "desc_en": "(a) a mace or (b) a warhammer (if proficient)",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "硬头锤",
+                "name_en": "Mace",
+                "index": "mace",
+                "url": "/api/2014/equipment/mace"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "战锤",
+                "name_en": "Warhammer",
+                "index": "warhammer",
+                "url": "/api/2014/equipment/warhammer"
+              },
+              "prerequisites": [
+                {
+                  "type": "proficiency",
+                  "proficiency": {
+                    "name": "战锤",
+                    "name_en": "Warhammers",
+                    "index": "warhammers",
+                    "url": "/api/2014/proficiencies/warhammers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 鳞甲、(b) 皮甲或 (c) 锁子甲 (若熟练)",
+        "desc_en": "(a) scale mail, (b) leather armor, or (c) chain mail (if proficient)",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "鳞甲",
+                "name_en": "Scale Mail",
+                "index": "scale-mail",
+                "url": "/api/2014/equipment/scale-mail"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "皮甲",
+                "name_en": "Leather Armor",
+                "index": "leather-armor",
+                "url": "/api/2014/equipment/leather-armor"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "锁子甲",
+                "name_en": "Chain Mail",
+                "index": "chain-mail",
+                "url": "/api/2014/equipment/chain-mail"
+              },
+              "prerequisites": [
+                {
+                  "type": "proficiency",
+                  "proficiency": {
+                    "name": "锁子甲",
+                    "name_en": "Chain Mail",
+                    "index": "chain-mail",
+                    "url": "/api/2014/proficiencies/chain-mail"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 轻弩和20支弩矢或 (b) 任意简易武器",
+        "desc_en": "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "轻弩",
+                    "name_en": "Crossbow, light",
+                    "index": "crossbow-light",
+                    "url": "/api/2014/equipment/crossbow-light"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "name": "弩矢",
+                    "name_en": "Crossbow bolt",
+                    "index": "crossbow-bolt",
+                    "url": "/api/2014/equipment/crossbow-bolt"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 牧师套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "牧师套组",
+                "name_en": "Priest's Pack",
+                "index": "priests-pack",
+                "url": "/api/2014/equipment/priests-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "圣徽",
+        "desc_en": "holy symbol",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "name": "圣徽",
+            "name_en": "Holy Symbols",
+            "index": "holy-symbols",
+            "url": "/api/2014/equipment-categories/holy-symbols"
+          }
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/cleric/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "感知",
+            "name_en": "WIS",
+            "index": "wis",
+            "url": "/api/2014/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "中甲",
+          "name_en": "Medium Armor",
+          "index": "medium-armor",
+          "url": "/api/2014/proficiencies/medium-armor"
+        },
+        {
+          "name": "盾牌",
+          "name_en": "Shields",
+          "index": "shields",
+          "url": "/api/2014/proficiencies/shields"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "index": "life",
+        "url": "/api/2014/subclasses/life"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      },
+      "info": [
+        {
+          "name": "戏法",
+          "name_en": "Cantrips",
+          "desc": [
+            "At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the 牧师 table."
+          ],
+          "desc_en": [
+            "At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table."
+          ]
+        },
+        {
+          "name": "准备和施放法术",
+          "name_en": "Preparing and Casting Spells",
+          "desc": [
+            "The 牧师 table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+          ],
+          "desc_en": [
+            "The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Wisdom modifier",
+            "Spell attack modifier = your proficiency bonus + your Wisdom modifier"
+          ]
+        },
+        {
+          "name": "仪式施法",
+          "name_en": "Ritual Casting",
+          "desc": [
+            "You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use a 圣徽 (see Equipment) as a spellcasting focus for your cleric spells."
+          ],
+          "desc_en": [
+            "You can use a holy symbol (see Equipment) as a spellcasting focus for your cleric spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/cleric/spells",
+    "url": "/api/2014/classes/cleric"
+  },
+  {
+    "name": "德鲁伊",
+    "name_en": "Druid",
+    "index": "druid",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 奥秘、驯兽、洞察、医药、自然、察觉、宗教和生存",
+        "desc_en": "Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：奥秘",
+                "name_en": "Skill: Arcana",
+                "index": "skill-arcana",
+                "url": "/api/2014/proficiencies/skill-arcana"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：驯兽",
+                "name_en": "Skill: Animal Handling",
+                "index": "skill-animal-handling",
+                "url": "/api/2014/proficiencies/skill-animal-handling"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：医药",
+                "name_en": "Skill: Medicine",
+                "index": "skill-medicine",
+                "url": "/api/2014/proficiencies/skill-medicine"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：自然",
+                "name_en": "Skill: Nature",
+                "index": "skill-nature",
+                "url": "/api/2014/proficiencies/skill-nature"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：察觉",
+                "name_en": "Skill: Perception",
+                "index": "skill-perception",
+                "url": "/api/2014/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：生存",
+                "name_en": "Skill: Survival",
+                "index": "skill-survival",
+                "url": "/api/2014/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "中甲",
+        "name_en": "Medium Armor",
+        "index": "medium-armor",
+        "url": "/api/2014/proficiencies/medium-armor"
+      },
+      {
+        "name": "盾牌",
+        "name_en": "Shields",
+        "index": "shields",
+        "url": "/api/2014/proficiencies/shields"
+      },
+      {
+        "name": "棍棒",
+        "name_en": "Clubs",
+        "index": "clubs",
+        "url": "/api/2014/proficiencies/clubs"
+      },
+      {
+        "name": "匕首",
+        "name_en": "Daggers",
+        "index": "daggers",
+        "url": "/api/2014/proficiencies/daggers"
+      },
+      {
+        "name": "标枪",
+        "name_en": "Javelins",
+        "index": "javelins",
+        "url": "/api/2014/proficiencies/javelins"
+      },
+      {
+        "name": "硬头锤",
+        "name_en": "Maces",
+        "index": "maces",
+        "url": "/api/2014/proficiencies/maces"
+      },
+      {
+        "name": "长棍",
+        "name_en": "Quarterstaffs",
+        "index": "quarterstaffs",
+        "url": "/api/2014/proficiencies/quarterstaffs"
+      },
+      {
+        "name": "镰刀",
+        "name_en": "Sickles",
+        "index": "sickles",
+        "url": "/api/2014/proficiencies/sickles"
+      },
+      {
+        "name": "矛",
+        "name_en": "Spears",
+        "index": "spears",
+        "url": "/api/2014/proficiencies/spears"
+      },
+      {
+        "name": "飞镖",
+        "name_en": "Darts",
+        "index": "darts",
+        "url": "/api/2014/proficiencies/darts"
+      },
+      {
+        "name": "投石索",
+        "name_en": "Slings",
+        "index": "slings",
+        "url": "/api/2014/proficiencies/slings"
+      },
+      {
+        "name": "弯刀",
+        "name_en": "Scimitars",
+        "index": "scimitars",
+        "url": "/api/2014/proficiencies/scimitars"
+      },
+      {
+        "name": "草药工具包",
+        "name_en": "Herbalism Kit",
+        "index": "herbalism-kit",
+        "url": "/api/2014/proficiencies/herbalism-kit"
+      },
+      {
+        "name": "豁免：智力",
+        "name_en": "Saving Throw: INT",
+        "index": "saving-throw-int",
+        "url": "/api/2014/proficiencies/saving-throw-int"
+      },
+      {
+        "name": "豁免：感知",
+        "name_en": "Saving Throw: WIS",
+        "index": "saving-throw-wis",
+        "url": "/api/2014/proficiencies/saving-throw-wis"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "智力",
+        "name_en": "INT",
+        "index": "int",
+        "url": "/api/2014/ability-scores/int"
+      },
+      {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "皮甲",
+          "name_en": "Leather Armor",
+          "index": "leather-armor",
+          "url": "/api/2014/equipment/leather-armor"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "name": "探险家套组",
+          "name_en": "Explorer's Pack",
+          "index": "explorers-pack",
+          "url": "/api/2014/equipment/explorers-pack"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 木盾或 (b) 任意简易武器",
+        "desc_en": "(a) a wooden shield or (b) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "盾牌",
+                "name_en": "Shield",
+                "index": "shield",
+                "url": "/api/2014/equipment/shield"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 弯刀或 (b) 任意简易近战武器",
+        "desc_en": "(a) a scimitar or (b) any simple melee weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "弯刀",
+                "name_en": "Scimitar",
+                "index": "scimitar",
+                "url": "/api/2014/equipment/scimitar"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易近战武器",
+                "desc_en": "any simple melee weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易近战武器",
+                    "name_en": "Simple Melee Weapons",
+                    "index": "simple-melee-weapons",
+                    "url": "/api/2014/equipment-categories/simple-melee-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "德鲁伊法器",
+        "desc_en": "druidic focus",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "name": "德鲁伊法器",
+            "name_en": "Druidic Foci",
+            "index": "druidic-foci",
+            "url": "/api/2014/equipment-categories/druidic-foci"
+          }
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/druid/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "感知",
+            "name_en": "WIS",
+            "index": "wis",
+            "url": "/api/2014/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "中甲",
+          "name_en": "Medium Armor",
+          "index": "medium-armor",
+          "url": "/api/2014/proficiencies/medium-armor"
+        },
+        {
+          "name": "盾牌",
+          "name_en": "Shields",
+          "index": "shields",
+          "url": "/api/2014/proficiencies/shields"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "大地",
+        "name_en": "Land",
+        "index": "land",
+        "url": "/api/2014/subclasses/land"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      },
+      "info": [
+        {
+          "name": "戏法",
+          "name_en": "Cantrips",
+          "desc": [
+            "At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the 德鲁伊 table."
+          ],
+          "desc_en": [
+            "At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table."
+          ]
+        },
+        {
+          "name": "准备和施放法术",
+          "name_en": "Preparing and Casting Spells",
+          "desc": [
+            "The 德鲁伊 table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+          ],
+          "desc_en": [
+            "The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Wisdom modifier.",
+            "Spell attack modifier = your proficiency bonus + your Wisdom modifier."
+          ]
+        },
+        {
+          "name": "仪式施法",
+          "name_en": "Ritual Casting",
+          "desc": [
+            "You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use a 德鲁伊法器 (see chapter 5, \"Equipment\") as a spellcasting focus for your druid spells."
+          ],
+          "desc_en": [
+            "You can use a druidic focus (see chapter 5, \"Equipment\") as a spellcasting focus for your druid spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/druid/spells",
+    "url": "/api/2014/classes/druid"
+  },
+  {
+    "name": "战士",
+    "name_en": "Fighter",
+    "index": "fighter",
+    "hit_die": 10,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 杂技、驯兽、运动、历史、洞察、威吓、察觉和生存",
+        "desc_en": "Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：杂技",
+                "name_en": "Skill: Acrobatics",
+                "index": "skill-acrobatics",
+                "url": "/api/2014/proficiencies/skill-acrobatics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：驯兽",
+                "name_en": "Skill: Animal Handling",
+                "index": "skill-animal-handling",
+                "url": "/api/2014/proficiencies/skill-animal-handling"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：历史",
+                "name_en": "Skill: History",
+                "index": "skill-history",
+                "url": "/api/2014/proficiencies/skill-history"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：察觉",
+                "name_en": "Skill: Perception",
+                "index": "skill-perception",
+                "url": "/api/2014/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：生存",
+                "name_en": "Skill: Survival",
+                "index": "skill-survival",
+                "url": "/api/2014/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "所有护甲",
+        "name_en": "All armor",
+        "index": "all-armor",
+        "url": "/api/2014/proficiencies/all-armor"
+      },
+      {
+        "name": "盾牌",
+        "name_en": "Shields",
+        "index": "shields",
+        "url": "/api/2014/proficiencies/shields"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "军用武器",
+        "name_en": "Martial Weapons",
+        "index": "martial-weapons",
+        "url": "/api/2014/proficiencies/martial-weapons"
+      },
+      {
+        "name": "豁免：力量",
+        "name_en": "Saving Throw: STR",
+        "index": "saving-throw-str",
+        "url": "/api/2014/proficiencies/saving-throw-str"
+      },
+      {
+        "name": "豁免：体质",
+        "name_en": "Saving Throw: CON",
+        "index": "saving-throw-con",
+        "url": "/api/2014/proficiencies/saving-throw-con"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "力量",
+        "name_en": "STR",
+        "index": "str",
+        "url": "/api/2014/ability-scores/str"
+      },
+      {
+        "name": "体质",
+        "name_en": "CON",
+        "index": "con",
+        "url": "/api/2014/ability-scores/con"
+      }
+    ],
+    "starting_equipment": [],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 锁子甲或 (b) 皮甲、长弓和20支箭",
+        "desc_en": "(a) chain mail or (b) leather armor, longbow, and 20 arrows",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "锁子甲",
+                "name_en": "Chain Mail",
+                "index": "chain-mail",
+                "url": "/api/2014/equipment/chain-mail"
+              }
+            },
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "皮甲",
+                    "name_en": "Leather Armor",
+                    "index": "leather-armor",
+                    "url": "/api/2014/equipment/leather-armor"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "长弓",
+                    "name_en": "Longbow",
+                    "index": "longbow",
+                    "url": "/api/2014/equipment/longbow"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "name": "箭",
+                    "name_en": "Arrow",
+                    "index": "arrow",
+                    "url": "/api/2014/equipment/arrow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 一把军用武器和一面盾牌或 (b) 两把军用武器",
+        "desc_en": "(a) a martial weapon and a shield or (b) two martial weapons",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "choice",
+                  "choice": {
+                    "desc": "一把军用武器",
+                    "desc_en": "a martial weapon",
+                    "choose": 1,
+                    "type": "equipment",
+                    "from": {
+                      "option_set_type": "equipment_category",
+                      "equipment_category": {
+                        "name": "军用武器",
+                        "name_en": "Martial Weapons",
+                        "index": "martial-weapons",
+                        "url": "/api/2014/equipment-categories/martial-weapons"
+                      }
+                    }
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "盾牌",
+                    "name_en": "Shield",
+                    "index": "shield",
+                    "url": "/api/2014/equipment/shield"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "两把军用武器",
+                "desc_en": "two martial weapons",
+                "choose": 2,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "军用武器",
+                    "name_en": "Martial Weapons",
+                    "index": "martial-weapons",
+                    "url": "/api/2014/equipment-categories/martial-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 轻弩和20支弩矢或 (b) two handaxes",
+        "desc_en": "(a) a light crossbow and 20 bolts or (b) two handaxes",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "轻弩",
+                    "name_en": "Crossbow, light",
+                    "index": "crossbow-light",
+                    "url": "/api/2014/equipment/crossbow-light"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "name": "弩矢",
+                    "name_en": "Crossbow bolt",
+                    "index": "crossbow-bolt",
+                    "url": "/api/2014/equipment/crossbow-bolt"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 2,
+              "of": {
+                "name": "手斧",
+                "name_en": "Handaxe",
+                "index": "handaxe",
+                "url": "/api/2014/equipment/handaxe"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 地下城套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "地下城套组",
+                "name_en": "Dungeoneer's Pack",
+                "index": "dungeoneers-pack",
+                "url": "/api/2014/equipment/dungeoneers-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/fighter/levels",
+    "multi_classing": {
+      "prerequisite_options": {
+        "type": "ability-scores",
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "score_prerequisite",
+              "ability_score": {
+                "name": "力量",
+                "name_en": "STR",
+                "index": "str",
+                "url": "/api/2014/ability-scores/str"
+              },
+              "minimum_score": 13
+            },
+            {
+              "option_type": "score_prerequisite",
+              "ability_score": {
+                "name": "敏捷",
+                "name_en": "DEX",
+                "index": "dex",
+                "url": "/api/2014/ability-scores/dex"
+              },
+              "minimum_score": 13
+            }
+          ]
+        }
+      },
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "中甲",
+          "name_en": "Medium Armor",
+          "index": "medium-armor",
+          "url": "/api/2014/proficiencies/medium-armor"
+        },
+        {
+          "name": "盾牌",
+          "name_en": "Shields",
+          "index": "shields",
+          "url": "/api/2014/proficiencies/shields"
+        },
+        {
+          "name": "简易武器",
+          "name_en": "Simple Weapons",
+          "index": "simple-weapons",
+          "url": "/api/2014/proficiencies/simple-weapons"
+        },
+        {
+          "name": "军用武器",
+          "name_en": "Martial Weapons",
+          "index": "martial-weapons",
+          "url": "/api/2014/proficiencies/martial-weapons"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "勇士",
+        "name_en": "Champion",
+        "index": "champion",
+        "url": "/api/2014/subclasses/champion"
+      }
+    ],
+    "url": "/api/2014/classes/fighter"
+  },
+  {
+    "name": "武僧",
+    "name_en": "Monk",
+    "index": "monk",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 杂技、运动、历史、洞察、宗教和隐匿",
+        "desc_en": "Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：杂技",
+                "name_en": "Skill: Acrobatics",
+                "index": "skill-acrobatics",
+                "url": "/api/2014/proficiencies/skill-acrobatics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：历史",
+                "name_en": "Skill: History",
+                "index": "skill-history",
+                "url": "/api/2014/proficiencies/skill-history"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：隐匿",
+                "name_en": "Skill: Stealth",
+                "index": "skill-stealth",
+                "url": "/api/2014/proficiencies/skill-stealth"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "选择一种工匠工具或一种乐器",
+        "desc_en": "Choose one type of artisan’s tools or one musical instrument",
+        "type": "proficiencies",
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "工匠工具",
+                "desc_en": "artisan's tools",
+                "type": "proficiencies",
+                "choose": 1,
+                "from": {
+                  "option_set_type": "options_array",
+                  "options": [
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "炼金术士工具",
+                        "name_en": "Alchemist's Supplies",
+                        "index": "alchemists-supplies",
+                        "url": "/api/2014/proficiencies/alchemists-supplies"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "酿酒师工具",
+                        "name_en": "Brewer's Supplies",
+                        "index": "brewers-supplies",
+                        "url": "/api/2014/proficiencies/brewers-supplies"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "书法家工具",
+                        "name_en": "Calligrapher's Supplies",
+                        "index": "calligraphers-supplies",
+                        "url": "/api/2014/proficiencies/calligraphers-supplies"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "木匠工具",
+                        "name_en": "Carpenter's Tools",
+                        "index": "carpenters-tools",
+                        "url": "/api/2014/proficiencies/carpenters-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "制图师工具",
+                        "name_en": "Cartographer's Tools",
+                        "index": "cartographers-tools",
+                        "url": "/api/2014/proficiencies/cartographers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "鞋匠工具",
+                        "name_en": "Cobbler's Tools",
+                        "index": "cobblers-tools",
+                        "url": "/api/2014/proficiencies/cobblers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "厨师工具",
+                        "name_en": "Cook's utensils",
+                        "index": "cooks-utensils",
+                        "url": "/api/2014/proficiencies/cooks-utensils"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "玻璃匠工具",
+                        "name_en": "Glassblower's Tools",
+                        "index": "glassblowers-tools",
+                        "url": "/api/2014/proficiencies/glassblowers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "珠宝匠工具",
+                        "name_en": "Jeweler's Tools",
+                        "index": "jewelers-tools",
+                        "url": "/api/2014/proficiencies/jewelers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "皮匠工具",
+                        "name_en": "Leatherworker's Tools",
+                        "index": "leatherworkers-tools",
+                        "url": "/api/2014/proficiencies/leatherworkers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "石匠工具",
+                        "name_en": "Mason's Tools",
+                        "index": "masons-tools",
+                        "url": "/api/2014/proficiencies/masons-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "画家工具",
+                        "name_en": "Painter's Supplies",
+                        "index": "painters-supplies",
+                        "url": "/api/2014/proficiencies/painters-supplies"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "陶匠工具",
+                        "name_en": "Potter's Tools",
+                        "index": "potters-tools",
+                        "url": "/api/2014/proficiencies/potters-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "铁匠工具",
+                        "name_en": "Smith's Tools",
+                        "index": "smiths-tools",
+                        "url": "/api/2014/proficiencies/smiths-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "修补匠工具",
+                        "name_en": "Tinker's Tools",
+                        "index": "tinkers-tools",
+                        "url": "/api/2014/proficiencies/tinkers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "织匠工具",
+                        "name_en": "Weaver's Tools",
+                        "index": "weavers-tools",
+                        "url": "/api/2014/proficiencies/weavers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "木雕匠工具",
+                        "name_en": "Woodcarver's Tools",
+                        "index": "woodcarvers-tools",
+                        "url": "/api/2014/proficiencies/woodcarvers-tools"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "易容工具",
+                        "name_en": "Disguise Kit",
+                        "index": "disguise-kit",
+                        "url": "/api/2014/proficiencies/disguise-kit"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "伪造工具",
+                        "name_en": "Forgery Kit",
+                        "index": "forgery-kit",
+                        "url": "/api/2014/proficiencies/forgery-kit"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "乐器",
+                "desc_en": "musical instrument",
+                "type": "proficiencies",
+                "choose": 1,
+                "from": {
+                  "option_set_type": "options_array",
+                  "options": [
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "风笛",
+                        "name_en": "Bagpipes",
+                        "index": "bagpipes",
+                        "url": "/api/2014/proficiencies/bagpipes"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "鼓",
+                        "name_en": "Drum",
+                        "index": "drum",
+                        "url": "/api/2014/proficiencies/drum"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "洋琴",
+                        "name_en": "Dulcimer",
+                        "index": "dulcimer",
+                        "url": "/api/2014/proficiencies/dulcimer"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "长笛",
+                        "name_en": "Flute",
+                        "index": "flute",
+                        "url": "/api/2014/proficiencies/flute"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "鲁特琴",
+                        "name_en": "Lute",
+                        "index": "lute",
+                        "url": "/api/2014/proficiencies/lute"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "里拉琴",
+                        "name_en": "Lyre",
+                        "index": "lyre",
+                        "url": "/api/2014/proficiencies/lyre"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "号角",
+                        "name_en": "Horn",
+                        "index": "horn",
+                        "url": "/api/2014/proficiencies/horn"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "排箫",
+                        "name_en": "Pan flute",
+                        "index": "pan-flute",
+                        "url": "/api/2014/proficiencies/pan-flute"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "双簧管",
+                        "name_en": "Shawm",
+                        "index": "shawm",
+                        "url": "/api/2014/proficiencies/shawm"
+                      }
+                    },
+                    {
+                      "option_type": "reference",
+                      "item": {
+                        "name": "维奥尔琴",
+                        "name_en": "Viol",
+                        "index": "viol",
+                        "url": "/api/2014/proficiencies/viol"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "短剑",
+        "name_en": "Shortswords",
+        "index": "shortswords",
+        "url": "/api/2014/proficiencies/shortswords"
+      },
+      {
+        "name": "豁免：敏捷",
+        "name_en": "Saving Throw: DEX",
+        "index": "saving-throw-dex",
+        "url": "/api/2014/proficiencies/saving-throw-dex"
+      },
+      {
+        "name": "豁免：力量",
+        "name_en": "Saving Throw: STR",
+        "index": "saving-throw-str",
+        "url": "/api/2014/proficiencies/saving-throw-str"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "力量",
+        "name_en": "STR",
+        "index": "str",
+        "url": "/api/2014/ability-scores/str"
+      },
+      {
+        "name": "敏捷",
+        "name_en": "DEX",
+        "index": "dex",
+        "url": "/api/2014/ability-scores/dex"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "飞镖",
+          "name_en": "Dart",
+          "index": "dart",
+          "url": "/api/2014/equipment/dart"
+        },
+        "quantity": 10
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 短剑或 (b) 任意简易武器",
+        "desc_en": "(a) a shortsword or (b) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "短剑",
+                "name_en": "Shortsword",
+                "index": "shortsword",
+                "url": "/api/2014/equipment/shortsword"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 地下城套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "地下城套组",
+                "name_en": "Dungeoneer's Pack",
+                "index": "dungeoneers-pack",
+                "url": "/api/2014/equipment/dungeoneers-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/monk/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "敏捷",
+            "name_en": "DEX",
+            "index": "dex",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "name": "感知",
+            "name_en": "WIS",
+            "index": "wis",
+            "url": "/api/2014/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "简易武器",
+          "name_en": "Simple Weapons",
+          "index": "simple-weapons",
+          "url": "/api/2014/proficiencies/simple-weapons"
+        },
+        {
+          "name": "短剑",
+          "name_en": "Shortswords",
+          "index": "shortswords",
+          "url": "/api/2014/proficiencies/shortswords"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "开掌",
+        "name_en": "Open Hand",
+        "index": "open-hand",
+        "url": "/api/2014/subclasses/open-hand"
+      }
+    ],
+    "url": "/api/2014/classes/monk"
+  },
+  {
+    "name": "圣武士",
+    "name_en": "Paladin",
+    "index": "paladin",
+    "hit_die": 10,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 运动、洞察、威吓、医药、说服和宗教",
+        "desc_en": "Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：医药",
+                "name_en": "Skill: Medicine",
+                "index": "skill-medicine",
+                "url": "/api/2014/proficiencies/skill-medicine"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：说服",
+                "name_en": "Skill: Persuasion",
+                "index": "skill-persuasion",
+                "url": "/api/2014/proficiencies/skill-persuasion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "所有护甲",
+        "name_en": "All armor",
+        "index": "all-armor",
+        "url": "/api/2014/proficiencies/all-armor"
+      },
+      {
+        "name": "盾牌",
+        "name_en": "Shields",
+        "index": "shields",
+        "url": "/api/2014/proficiencies/shields"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "军用武器",
+        "name_en": "Martial Weapons",
+        "index": "martial-weapons",
+        "url": "/api/2014/proficiencies/martial-weapons"
+      },
+      {
+        "name": "豁免：感知",
+        "name_en": "Saving Throw: WIS",
+        "index": "saving-throw-wis",
+        "url": "/api/2014/proficiencies/saving-throw-wis"
+      },
+      {
+        "name": "豁免：魅力",
+        "name_en": "Saving Throw: CHA",
+        "index": "saving-throw-cha",
+        "url": "/api/2014/proficiencies/saving-throw-cha"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      },
+      {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "锁子甲",
+          "name_en": "Chain Mail",
+          "index": "chain-mail",
+          "url": "/api/2014/equipment/chain-mail"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 一把军用武器和一面盾牌或 (b) 两把军用武器",
+        "desc_en": "(a) a martial weapon and a shield or (b) two martial weapons",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "choice",
+                  "choice": {
+                    "desc": "一把军用武器",
+                    "desc_en": "a martial weapon",
+                    "choose": 1,
+                    "type": "equipment",
+                    "from": {
+                      "option_set_type": "equipment_category",
+                      "equipment_category": {
+                        "name": "军用武器",
+                        "name_en": "Martial Weapons",
+                        "index": "martial-weapons",
+                        "url": "/api/2014/equipment-categories/martial-weapons"
+                      }
+                    }
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "盾牌",
+                    "name_en": "Shield",
+                    "index": "shield",
+                    "url": "/api/2014/equipment/shield"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "两把军用武器",
+                "desc_en": "two martial weapons",
+                "choose": 2,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "军用武器",
+                    "name_en": "Martial Weapons",
+                    "index": "martial-weapons",
+                    "url": "/api/2014/equipment-categories/martial-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 五支标枪或 (b) 任意简易近战武器",
+        "desc_en": "(a) five javelins or (b) any simple melee weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 5,
+              "of": {
+                "name": "标枪",
+                "name_en": "Javelin",
+                "index": "javelin",
+                "url": "/api/2014/equipment/javelin"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 牧师套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "牧师套组",
+                "name_en": "Priest's Pack",
+                "index": "priests-pack",
+                "url": "/api/2014/equipment/priests-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 牧师套组或 (b) 探险家套组",
+        "desc_en": "holy symbol",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "name": "圣徽",
+            "name_en": "Holy Symbols",
+            "index": "holy-symbols",
+            "url": "/api/2014/equipment-categories/holy-symbols"
+          }
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/paladin/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "力量",
+            "name_en": "STR",
+            "index": "str",
+            "url": "/api/2014/ability-scores/str"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "name": "魅力",
+            "name_en": "CHA",
+            "index": "cha",
+            "url": "/api/2014/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "中甲",
+          "name_en": "Medium Armor",
+          "index": "medium-armor",
+          "url": "/api/2014/proficiencies/medium-armor"
+        },
+        {
+          "name": "盾牌",
+          "name_en": "Shields",
+          "index": "shields",
+          "url": "/api/2014/proficiencies/shields"
+        },
+        {
+          "name": "简易武器",
+          "name_en": "Simple Weapons",
+          "index": "simple-weapons",
+          "url": "/api/2014/proficiencies/simple-weapons"
+        },
+        {
+          "name": "军用武器",
+          "name_en": "Martial Weapons",
+          "index": "martial-weapons",
+          "url": "/api/2014/proficiencies/martial-weapons"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "奉献",
+        "name_en": "Devotion",
+        "index": "devotion",
+        "url": "/api/2014/subclasses/devotion"
+      }
+    ],
+    "spellcasting": {
+      "level": 2,
+      "spellcasting_ability": {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      },
+      "info": [
+        {
+          "name": "准备和施放法术",
+          "name_en": "Preparing and Casting Spells",
+          "desc": [
+            "The 圣武士 table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd- level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+          ],
+          "desc_en": [
+            "The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd- level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Charisma modifier.",
+            "Spell attack modifier = your proficiency bonus + your Charisma modifier."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use a 圣徽 as a spellcasting focus for your paladin spells."
+          ],
+          "desc_en": [
+            "You can use a holy symbol as a spellcasting focus for your paladin spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/paladin/spells",
+    "url": "/api/2014/classes/paladin"
+  },
+  {
+    "name": "游侠",
+    "name_en": "Ranger",
+    "index": "ranger",
+    "hit_die": 10,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择三项： 驯兽、运动、洞察、调查、自然、察觉、隐匿和生存",
+        "desc_en": "Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival",
+        "choose": 3,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：驯兽",
+                "name_en": "Skill: Animal Handling",
+                "index": "skill-animal-handling",
+                "url": "/api/2014/proficiencies/skill-animal-handling"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：调查",
+                "name_en": "Skill: Investigation",
+                "index": "skill-investigation",
+                "url": "/api/2014/proficiencies/skill-investigation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：自然",
+                "name_en": "Skill: Nature",
+                "index": "skill-nature",
+                "url": "/api/2014/proficiencies/skill-nature"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：察觉",
+                "name_en": "Skill: Perception",
+                "index": "skill-perception",
+                "url": "/api/2014/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：隐匿",
+                "name_en": "Skill: Stealth",
+                "index": "skill-stealth",
+                "url": "/api/2014/proficiencies/skill-stealth"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：生存",
+                "name_en": "Skill: Survival",
+                "index": "skill-survival",
+                "url": "/api/2014/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "中甲",
+        "name_en": "Medium Armor",
+        "index": "medium-armor",
+        "url": "/api/2014/proficiencies/medium-armor"
+      },
+      {
+        "name": "盾牌",
+        "name_en": "Shields",
+        "index": "shields",
+        "url": "/api/2014/proficiencies/shields"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "军用武器",
+        "name_en": "Martial Weapons",
+        "index": "martial-weapons",
+        "url": "/api/2014/proficiencies/martial-weapons"
+      },
+      {
+        "name": "豁免：敏捷",
+        "name_en": "Saving Throw: DEX",
+        "index": "saving-throw-dex",
+        "url": "/api/2014/proficiencies/saving-throw-dex"
+      },
+      {
+        "name": "豁免：力量",
+        "name_en": "Saving Throw: STR",
+        "index": "saving-throw-str",
+        "url": "/api/2014/proficiencies/saving-throw-str"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "力量",
+        "name_en": "STR",
+        "index": "str",
+        "url": "/api/2014/ability-scores/str"
+      },
+      {
+        "name": "敏捷",
+        "name_en": "DEX",
+        "index": "dex",
+        "url": "/api/2014/ability-scores/dex"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "长弓",
+          "name_en": "Longbow",
+          "index": "longbow",
+          "url": "/api/2014/equipment/longbow"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "name": "箭",
+          "name_en": "Arrow",
+          "index": "arrow",
+          "url": "/api/2014/equipment/arrow"
+        },
+        "quantity": 20
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 鳞甲或 (b) leather armor",
+        "desc_en": "(a) scale mail or (b) leather armor",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "鳞甲",
+                "name_en": "Scale Mail",
+                "index": "scale-mail",
+                "url": "/api/2014/equipment/scale-mail"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "皮甲",
+                "name_en": "Leather Armor",
+                "index": "leather-armor",
+                "url": "/api/2014/equipment/leather-armor"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 两把短剑或 (b) 两把简易近战武器",
+        "desc_en": "(a) two shortswords or (b) two simple melee weapons",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 2,
+              "of": {
+                "name": "短剑",
+                "name_en": "Shortsword",
+                "index": "shortsword",
+                "url": "/api/2014/equipment/shortsword"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "两把简易近战武器",
+                "desc_en": "two simple melee weapons",
+                "choose": 2,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易近战武器",
+                    "name_en": "Simple Melee Weapons",
+                    "index": "simple-melee-weapons",
+                    "url": "/api/2014/equipment-categories/simple-melee-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 地下城套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "地下城套组",
+                "name_en": "Dungeoneer's Pack",
+                "index": "dungeoneers-pack",
+                "url": "/api/2014/equipment/dungeoneers-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/ranger/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "敏捷",
+            "name_en": "DEX",
+            "index": "dex",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "name": "感知",
+            "name_en": "WIS",
+            "index": "wis",
+            "url": "/api/2014/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "中甲",
+          "name_en": "Medium Armor",
+          "index": "medium-armor",
+          "url": "/api/2014/proficiencies/medium-armor"
+        },
+        {
+          "name": "盾牌",
+          "name_en": "Shields",
+          "index": "shields",
+          "url": "/api/2014/proficiencies/shields"
+        },
+        {
+          "name": "简易武器",
+          "name_en": "Simple Weapons",
+          "index": "simple-weapons",
+          "url": "/api/2014/proficiencies/simple-weapons"
+        },
+        {
+          "name": "军用武器",
+          "name_en": "Martial Weapons",
+          "index": "martial-weapons",
+          "url": "/api/2014/proficiencies/martial-weapons"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "choose": 1,
+          "type": "proficiencies",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：驯兽",
+                  "name_en": "Skill: Animal Handling",
+                  "index": "skill-animal-handling",
+                  "url": "/api/2014/proficiencies/skill-animal-handling"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：运动",
+                  "name_en": "Skill: Athletics",
+                  "index": "skill-athletics",
+                  "url": "/api/2014/proficiencies/skill-athletics"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：洞察",
+                  "name_en": "Skill: Insight",
+                  "index": "skill-insight",
+                  "url": "/api/2014/proficiencies/skill-insight"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：调查",
+                  "name_en": "Skill: Investigation",
+                  "index": "skill-investigation",
+                  "url": "/api/2014/proficiencies/skill-investigation"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：自然",
+                  "name_en": "Skill: Nature",
+                  "index": "skill-nature",
+                  "url": "/api/2014/proficiencies/skill-nature"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：察觉",
+                  "name_en": "Skill: Perception",
+                  "index": "skill-perception",
+                  "url": "/api/2014/proficiencies/skill-perception"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：隐匿",
+                  "name_en": "Skill: Stealth",
+                  "index": "skill-stealth",
+                  "url": "/api/2014/proficiencies/skill-stealth"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：生存",
+                  "name_en": "Skill: Survival",
+                  "index": "skill-survival",
+                  "url": "/api/2014/proficiencies/skill-survival"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "猎手",
+        "name_en": "Hunter",
+        "index": "hunter",
+        "url": "/api/2014/subclasses/hunter"
+      }
+    ],
+    "spellcasting": {
+      "level": 2,
+      "spellcasting_ability": {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      },
+      "info": [
+        {
+          "name": "法术位",
+          "name_en": "Spell Slots",
+          "desc": [
+            "The 游侠 table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot."
+          ],
+          "desc_en": [
+            "The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot."
+          ]
+        },
+        {
+          "name": "已知1级及以上法术",
+          "name_en": "Spells Known of 1st Level and Higher",
+          "desc": [
+            "You know two 1st-level spells of your choice from the ranger spell list.",
+            "The Spells Known column of the 游侠 table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+            "Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots."
+          ],
+          "desc_en": [
+            "You know two 1st-level spells of your choice from the ranger spell list.",
+            "The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+            "Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Wisdom modifier.",
+            "Spell attack modifier = your proficiency bonus + your Wisdom modifier."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/ranger/spells",
+    "url": "/api/2014/classes/ranger"
+  },
+  {
+    "name": "游荡者",
+    "name_en": "Rogue",
+    "index": "rogue",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择四项： 杂技、运动、欺瞒、洞察、威吓、调查、察觉、表演、说服、巧手和隐匿",
+        "desc_en": "Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth",
+        "choose": 4,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：杂技",
+                "name_en": "Skill: Acrobatics",
+                "index": "skill-acrobatics",
+                "url": "/api/2014/proficiencies/skill-acrobatics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：运动",
+                "name_en": "Skill: Athletics",
+                "index": "skill-athletics",
+                "url": "/api/2014/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：欺瞒",
+                "name_en": "Skill: Deception",
+                "index": "skill-deception",
+                "url": "/api/2014/proficiencies/skill-deception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：调查",
+                "name_en": "Skill: Investigation",
+                "index": "skill-investigation",
+                "url": "/api/2014/proficiencies/skill-investigation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：察觉",
+                "name_en": "Skill: Perception",
+                "index": "skill-perception",
+                "url": "/api/2014/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：表演",
+                "name_en": "Skill: Performance",
+                "index": "skill-performance",
+                "url": "/api/2014/proficiencies/skill-performance"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：说服",
+                "name_en": "Skill: Persuasion",
+                "index": "skill-persuasion",
+                "url": "/api/2014/proficiencies/skill-persuasion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：巧手",
+                "name_en": "Skill: Sleight of Hand",
+                "index": "skill-sleight-of-hand",
+                "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：隐匿",
+                "name_en": "Skill: Stealth",
+                "index": "skill-stealth",
+                "url": "/api/2014/proficiencies/skill-stealth"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "长剑",
+        "name_en": "Longswords",
+        "index": "longswords",
+        "url": "/api/2014/proficiencies/longswords"
+      },
+      {
+        "name": "刺剑",
+        "name_en": "Rapiers",
+        "index": "rapiers",
+        "url": "/api/2014/proficiencies/rapiers"
+      },
+      {
+        "name": "短剑",
+        "name_en": "Shortswords",
+        "index": "shortswords",
+        "url": "/api/2014/proficiencies/shortswords"
+      },
+      {
+        "name": "手弩",
+        "name_en": "Hand crossbows",
+        "index": "hand-crossbows",
+        "url": "/api/2014/proficiencies/hand-crossbows"
+      },
+      {
+        "name": "盗贼工具",
+        "name_en": "Thieves' Tools",
+        "index": "thieves-tools",
+        "url": "/api/2014/proficiencies/thieves-tools"
+      },
+      {
+        "name": "豁免：敏捷",
+        "name_en": "Saving Throw: DEX",
+        "index": "saving-throw-dex",
+        "url": "/api/2014/proficiencies/saving-throw-dex"
+      },
+      {
+        "name": "豁免：智力",
+        "name_en": "Saving Throw: INT",
+        "index": "saving-throw-int",
+        "url": "/api/2014/proficiencies/saving-throw-int"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "敏捷",
+        "name_en": "DEX",
+        "index": "dex",
+        "url": "/api/2014/ability-scores/dex"
+      },
+      {
+        "name": "智力",
+        "name_en": "INT",
+        "index": "int",
+        "url": "/api/2014/ability-scores/int"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "皮甲",
+          "name_en": "Leather Armor",
+          "index": "leather-armor",
+          "url": "/api/2014/equipment/leather-armor"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "name": "匕首",
+          "name_en": "Dagger",
+          "index": "dagger",
+          "url": "/api/2014/equipment/dagger"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "name": "盗贼工具",
+          "name_en": "Thieves' Tools",
+          "index": "thieves-tools",
+          "url": "/api/2014/equipment/thieves-tools"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 刺剑或 (b) 短剑",
+        "desc_en": "(a) a rapier or (b) a shortsword",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "刺剑",
+                "name_en": "Rapier",
+                "index": "rapier",
+                "url": "/api/2014/equipment/rapier"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "短剑",
+                "name_en": "Shortsword",
+                "index": "shortsword",
+                "url": "/api/2014/equipment/shortsword"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 短弓和20支箭的箭袋或 (b) 短剑",
+        "desc_en": "(a) a shortbow and quiver of 20 arrows or (b) a shortsword",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "短弓",
+                    "name_en": "Shortbow",
+                    "index": "shortbow",
+                    "url": "/api/2014/equipment/shortbow"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "name": "箭",
+                    "name_en": "Arrow",
+                    "index": "arrow",
+                    "url": "/api/2014/equipment/arrow"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "短剑",
+                "name_en": "Shortsword",
+                "index": "shortsword",
+                "url": "/api/2014/equipment/shortsword"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 窃贼套组、(b) 地下城套组或 (c) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "窃贼套组",
+                "name_en": "Burglar's Pack",
+                "index": "burglars-pack",
+                "url": "/api/2014/equipment/burglars-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "地下城套组",
+                "name_en": "Dungeoneer's Pack",
+                "index": "dungeoneers-pack",
+                "url": "/api/2014/equipment/dungeoneers-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/rogue/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "敏捷",
+            "name_en": "DEX",
+            "index": "dex",
+            "url": "/api/2014/ability-scores/dex"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "盗贼工具",
+          "name_en": "Thieves' Tools",
+          "index": "thieves-tools",
+          "url": "/api/2014/proficiencies/thieves-tools"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "choose": 1,
+          "type": "proficiencies",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：杂技",
+                  "name_en": "Skill: Acrobatics",
+                  "index": "skill-acrobatics",
+                  "url": "/api/2014/proficiencies/skill-acrobatics"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：运动",
+                  "name_en": "Skill: Athletics",
+                  "index": "skill-athletics",
+                  "url": "/api/2014/proficiencies/skill-athletics"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：欺瞒",
+                  "name_en": "Skill: Deception",
+                  "index": "skill-deception",
+                  "url": "/api/2014/proficiencies/skill-deception"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：洞察",
+                  "name_en": "Skill: Insight",
+                  "index": "skill-insight",
+                  "url": "/api/2014/proficiencies/skill-insight"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：威吓",
+                  "name_en": "Skill: Intimidation",
+                  "index": "skill-intimidation",
+                  "url": "/api/2014/proficiencies/skill-intimidation"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：调查",
+                  "name_en": "Skill: Investigation",
+                  "index": "skill-investigation",
+                  "url": "/api/2014/proficiencies/skill-investigation"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：察觉",
+                  "name_en": "Skill: Perception",
+                  "index": "skill-perception",
+                  "url": "/api/2014/proficiencies/skill-perception"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：表演",
+                  "name_en": "Skill: Performance",
+                  "index": "skill-performance",
+                  "url": "/api/2014/proficiencies/skill-performance"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：说服",
+                  "name_en": "Skill: Persuasion",
+                  "index": "skill-persuasion",
+                  "url": "/api/2014/proficiencies/skill-persuasion"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：巧手",
+                  "name_en": "Skill: Sleight of Hand",
+                  "index": "skill-sleight-of-hand",
+                  "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "name": "技能：隐匿",
+                  "name_en": "Skill: Stealth",
+                  "index": "skill-stealth",
+                  "url": "/api/2014/proficiencies/skill-stealth"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "盗贼",
+        "name_en": "Thief",
+        "index": "thief",
+        "url": "/api/2014/subclasses/thief"
+      }
+    ],
+    "url": "/api/2014/classes/rogue"
+  },
+  {
+    "name": "术士",
+    "name_en": "Sorcerer",
+    "index": "sorcerer",
+    "hit_die": 6,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 奥秘、欺瞒、洞察、威吓、说服和宗教",
+        "desc_en": "Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：奥秘",
+                "name_en": "Skill: Arcana",
+                "index": "skill-arcana",
+                "url": "/api/2014/proficiencies/skill-arcana"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：欺瞒",
+                "name_en": "Skill: Deception",
+                "index": "skill-deception",
+                "url": "/api/2014/proficiencies/skill-deception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：说服",
+                "name_en": "Skill: Persuasion",
+                "index": "skill-persuasion",
+                "url": "/api/2014/proficiencies/skill-persuasion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "匕首",
+        "name_en": "Daggers",
+        "index": "daggers",
+        "url": "/api/2014/proficiencies/daggers"
+      },
+      {
+        "name": "飞镖",
+        "name_en": "Darts",
+        "index": "darts",
+        "url": "/api/2014/proficiencies/darts"
+      },
+      {
+        "name": "投石索",
+        "name_en": "Slings",
+        "index": "slings",
+        "url": "/api/2014/proficiencies/slings"
+      },
+      {
+        "name": "长棍",
+        "name_en": "Quarterstaffs",
+        "index": "quarterstaffs",
+        "url": "/api/2014/proficiencies/quarterstaffs"
+      },
+      {
+        "name": "轻弩",
+        "name_en": "Crossbows, light",
+        "index": "crossbows-light",
+        "url": "/api/2014/proficiencies/crossbows-light"
+      },
+      {
+        "name": "豁免：体质",
+        "name_en": "Saving Throw: CON",
+        "index": "saving-throw-con",
+        "url": "/api/2014/proficiencies/saving-throw-con"
+      },
+      {
+        "name": "豁免：魅力",
+        "name_en": "Saving Throw: CHA",
+        "index": "saving-throw-cha",
+        "url": "/api/2014/proficiencies/saving-throw-cha"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "体质",
+        "name_en": "CON",
+        "index": "con",
+        "url": "/api/2014/ability-scores/con"
+      },
+      {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "匕首",
+          "name_en": "Dagger",
+          "index": "dagger",
+          "url": "/api/2014/equipment/dagger"
+        },
+        "quantity": 2
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 轻弩和20支弩矢或 (b) 任意简易武器",
+        "desc_en": "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "轻弩",
+                    "name_en": "Crossbow, light",
+                    "index": "crossbow-light",
+                    "url": "/api/2014/equipment/crossbow-light"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "name": "弩矢",
+                    "name_en": "Crossbow bolt",
+                    "index": "crossbow-bolt",
+                    "url": "/api/2014/equipment/crossbow-bolt"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 材料包或 (b) 奥术法器",
+        "desc_en": "(a) a component pouch or (b) an arcane focus",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "材料包",
+                "name_en": "Component pouch",
+                "index": "component-pouch",
+                "url": "/api/2014/equipment/component-pouch"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "奥术法器",
+                "desc_en": "arcane focus",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "奥术法器",
+                    "name_en": "Arcane Foci",
+                    "index": "arcane-foci",
+                    "url": "/api/2014/equipment-categories/arcane-foci"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 地下城套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "地下城套组",
+                "name_en": "Dungeoneer's Pack",
+                "index": "dungeoneers-pack",
+                "url": "/api/2014/equipment/dungeoneers-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/sorcerer/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "魅力",
+            "name_en": "CHA",
+            "index": "cha",
+            "url": "/api/2014/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": []
+    },
+    "subclasses": [
+      {
+        "name": "龙族",
+        "name_en": "Draconic",
+        "index": "draconic",
+        "url": "/api/2014/subclasses/draconic"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      },
+      "info": [
+        {
+          "name": "戏法",
+          "name_en": "Cantrips",
+          "desc": [
+            "At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the 术士 table."
+          ],
+          "desc_en": [
+            "At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table."
+          ]
+        },
+        {
+          "name": "法术位",
+          "name_en": "Spell Slots",
+          "desc": [
+            "The 术士 table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+          ],
+          "desc_en": [
+            "The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+          ]
+        },
+        {
+          "name": "已知1级及以上法术",
+          "name_en": "Spells Known of 1st Level and Higher",
+          "desc": [
+            "You know two 1st-level spells of your choice from the sorcerer spell list.",
+            "The Spells Known column of the 术士 table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. ",
+            "Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+          ],
+          "desc_en": [
+            "You know two 1st-level spells of your choice from the sorcerer spell list.",
+            "The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. ",
+            "Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Charisma modifier.",
+            "Spell attack modifier = your proficiency bonus + your Charisma modifier."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use an 奥术法器 as a spellcasting focus for your sorcerer spells."
+          ],
+          "desc_en": [
+            "You can use an arcane focus as a spellcasting focus for your sorcerer spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/sorcerer/spells",
+    "url": "/api/2014/classes/sorcerer"
+  },
+  {
+    "name": "邪术师",
+    "name_en": "Warlock",
+    "index": "warlock",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 奥秘、欺瞒、历史、威吓、调查、自然和宗教",
+        "desc_en": "Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：奥秘",
+                "name_en": "Skill: Arcana",
+                "index": "skill-arcana",
+                "url": "/api/2014/proficiencies/skill-arcana"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：欺瞒",
+                "name_en": "Skill: Deception",
+                "index": "skill-deception",
+                "url": "/api/2014/proficiencies/skill-deception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：历史",
+                "name_en": "Skill: History",
+                "index": "skill-history",
+                "url": "/api/2014/proficiencies/skill-history"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：威吓",
+                "name_en": "Skill: Intimidation",
+                "index": "skill-intimidation",
+                "url": "/api/2014/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：调查",
+                "name_en": "Skill: Investigation",
+                "index": "skill-investigation",
+                "url": "/api/2014/proficiencies/skill-investigation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：自然",
+                "name_en": "Skill: Nature",
+                "index": "skill-nature",
+                "url": "/api/2014/proficiencies/skill-nature"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "轻甲",
+        "name_en": "Light Armor",
+        "index": "light-armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "name": "简易武器",
+        "name_en": "Simple Weapons",
+        "index": "simple-weapons",
+        "url": "/api/2014/proficiencies/simple-weapons"
+      },
+      {
+        "name": "豁免：感知",
+        "name_en": "Saving Throw: WIS",
+        "index": "saving-throw-wis",
+        "url": "/api/2014/proficiencies/saving-throw-wis"
+      },
+      {
+        "name": "豁免：魅力",
+        "name_en": "Saving Throw: CHA",
+        "index": "saving-throw-cha",
+        "url": "/api/2014/proficiencies/saving-throw-cha"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      },
+      {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "匕首",
+          "name_en": "Dagger",
+          "index": "dagger",
+          "url": "/api/2014/equipment/dagger"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "name": "皮甲",
+          "name_en": "Leather Armor",
+          "index": "leather-armor",
+          "url": "/api/2014/equipment/leather-armor"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 轻弩和20支弩矢或 (b) 任意简易武器",
+        "desc_en": "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "name": "轻弩",
+                    "name_en": "Crossbow, light",
+                    "index": "crossbow-light",
+                    "url": "/api/2014/equipment/crossbow-light"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "name": "弩矢",
+                    "name_en": "Crossbow bolt",
+                    "index": "crossbow-bolt",
+                    "url": "/api/2014/equipment/crossbow-bolt"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "任意简易武器",
+                "desc_en": "any simple weapon",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "简易武器",
+                    "name_en": "Simple Weapons",
+                    "index": "simple-weapons",
+                    "url": "/api/2014/equipment-categories/simple-weapons"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 材料包或 (b) 奥术法器",
+        "desc_en": "(a) a component pouch or (b) an arcane focus",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "材料包",
+                "name_en": "Component pouch",
+                "index": "component-pouch",
+                "url": "/api/2014/equipment/component-pouch"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "奥术法器",
+                "desc_en": "arcane focus",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "奥术法器",
+                    "name_en": "Arcane Foci",
+                    "index": "arcane-foci",
+                    "url": "/api/2014/equipment-categories/arcane-foci"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 学者套组或 (b) 地下城套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "学者套组",
+                "name_en": "Scholar's Pack",
+                "index": "scholars-pack",
+                "url": "/api/2014/equipment/scholars-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "地下城套组",
+                "name_en": "Dungeoneer's Pack",
+                "index": "dungeoneers-pack",
+                "url": "/api/2014/equipment/dungeoneers-pack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "任意简易武器",
+        "desc_en": "any simple weapon",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "name": "简易武器",
+            "name_en": "Simple Weapons",
+            "index": "simple-weapons",
+            "url": "/api/2014/equipment-categories/simple-weapons"
+          }
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/warlock/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "魅力",
+            "name_en": "CHA",
+            "index": "cha",
+            "url": "/api/2014/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "name": "轻甲",
+          "name_en": "Light Armor",
+          "index": "light-armor",
+          "url": "/api/2014/proficiencies/light-armor"
+        },
+        {
+          "name": "简易武器",
+          "name_en": "Simple Weapons",
+          "index": "simple-weapons",
+          "url": "/api/2014/proficiencies/simple-weapons"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "name": "邪魔",
+        "name_en": "Fiend",
+        "index": "fiend",
+        "url": "/api/2014/subclasses/fiend"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "name": "魅力",
+        "name_en": "CHA",
+        "index": "cha",
+        "url": "/api/2014/ability-scores/cha"
+      },
+      "info": [
+        {
+          "name": "戏法",
+          "name_en": "Cantrips",
+          "desc": [
+            "You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the 邪术师 table."
+          ],
+          "desc_en": [
+            "You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table."
+          ]
+        },
+        {
+          "name": "法术位",
+          "name_en": "Spell Slots",
+          "desc": [
+            "The 邪术师 table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
+            "For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell."
+          ],
+          "desc_en": [
+            "The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
+            "For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell."
+          ]
+        },
+        {
+          "name": "已知1级及以上法术",
+          "name_en": "Spells Known of 1st Level and Higher",
+          "desc": [
+            "At 1st level, you know two 1st-level spells of your choice from the warlock spell list.",
+            "The Spells Known column of the 邪术师 table shows when you learn more warlock spells of your choice of 1st level and higher. ",
+            "A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.",
+            "Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots."
+          ],
+          "desc_en": [
+            "At 1st level, you know two 1st-level spells of your choice from the warlock spell list.",
+            "The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. ",
+            "A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.",
+            "Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Charisma modifier.",
+            "Spell attack modifier = your proficiency bonus + your Charisma modifier."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use an 奥术法器 as a spellcasting focus for your warlock spells."
+          ],
+          "desc_en": [
+            "You can use an arcane focus as a spellcasting focus for your warlock spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/warlock/spells",
+    "url": "/api/2014/classes/warlock"
+  },
+  {
+    "name": "法师",
+    "name_en": "Wizard",
+    "index": "wizard",
+    "hit_die": 6,
+    "proficiency_choices": [
+      {
+        "desc": "从以下技能中选择两项： 奥秘、历史、洞察、调查、医药和宗教",
+        "desc_en": "Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：奥秘",
+                "name_en": "Skill: Arcana",
+                "index": "skill-arcana",
+                "url": "/api/2014/proficiencies/skill-arcana"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：历史",
+                "name_en": "Skill: History",
+                "index": "skill-history",
+                "url": "/api/2014/proficiencies/skill-history"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：洞察",
+                "name_en": "Skill: Insight",
+                "index": "skill-insight",
+                "url": "/api/2014/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：调查",
+                "name_en": "Skill: Investigation",
+                "index": "skill-investigation",
+                "url": "/api/2014/proficiencies/skill-investigation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：医药",
+                "name_en": "Skill: Medicine",
+                "index": "skill-medicine",
+                "url": "/api/2014/proficiencies/skill-medicine"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "name": "技能：宗教",
+                "name_en": "Skill: Religion",
+                "index": "skill-religion",
+                "url": "/api/2014/proficiencies/skill-religion"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "name": "匕首",
+        "name_en": "Daggers",
+        "index": "daggers",
+        "url": "/api/2014/proficiencies/daggers"
+      },
+      {
+        "name": "飞镖",
+        "name_en": "Darts",
+        "index": "darts",
+        "url": "/api/2014/proficiencies/darts"
+      },
+      {
+        "name": "投石索",
+        "name_en": "Slings",
+        "index": "slings",
+        "url": "/api/2014/proficiencies/slings"
+      },
+      {
+        "name": "长棍",
+        "name_en": "Quarterstaffs",
+        "index": "quarterstaffs",
+        "url": "/api/2014/proficiencies/quarterstaffs"
+      },
+      {
+        "name": "轻弩",
+        "name_en": "Crossbows, light",
+        "index": "crossbows-light",
+        "url": "/api/2014/proficiencies/crossbows-light"
+      },
+      {
+        "name": "豁免：智力",
+        "name_en": "Saving Throw: INT",
+        "index": "saving-throw-int",
+        "url": "/api/2014/proficiencies/saving-throw-int"
+      },
+      {
+        "name": "豁免：感知",
+        "name_en": "Saving Throw: WIS",
+        "index": "saving-throw-wis",
+        "url": "/api/2014/proficiencies/saving-throw-wis"
+      }
+    ],
+    "saving_throws": [
+      {
+        "name": "智力",
+        "name_en": "INT",
+        "index": "int",
+        "url": "/api/2014/ability-scores/int"
+      },
+      {
+        "name": "感知",
+        "name_en": "WIS",
+        "index": "wis",
+        "url": "/api/2014/ability-scores/wis"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "name": "法术书",
+          "name_en": "Spellbook",
+          "index": "spellbook",
+          "url": "/api/2014/equipment/spellbook"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) 长棍或 (b) 匕首",
+        "desc_en": "(a) a quarterstaff or (b) a dagger",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "长棍",
+                "name_en": "Quarterstaff",
+                "index": "quarterstaff",
+                "url": "/api/2014/equipment/quarterstaff"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "匕首",
+                "name_en": "Dagger",
+                "index": "dagger",
+                "url": "/api/2014/equipment/dagger"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 材料包或 (b) 奥术法器",
+        "desc_en": "(a) a component pouch or (b) an arcane focus",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "材料包",
+                "name_en": "Component pouch",
+                "index": "component-pouch",
+                "url": "/api/2014/equipment/component-pouch"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "奥术法器",
+                "desc_en": "arcane focus",
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "name": "奥术法器",
+                    "name_en": "Arcane Foci",
+                    "index": "arcane-foci",
+                    "url": "/api/2014/equipment-categories/arcane-foci"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) 学者套组或 (b) 探险家套组",
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "学者套组",
+                "name_en": "Scholar's Pack",
+                "index": "scholars-pack",
+                "url": "/api/2014/equipment/scholars-pack"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "name": "探险家套组",
+                "name_en": "Explorer's Pack",
+                "index": "explorers-pack",
+                "url": "/api/2014/equipment/explorers-pack"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/2014/classes/wizard/levels",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "name": "智力",
+            "name_en": "INT",
+            "index": "int",
+            "url": "/api/2014/ability-scores/int"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": []
+    },
+    "subclasses": [
+      {
+        "name": "塑能",
+        "name_en": "Evocation",
+        "index": "evocation",
+        "url": "/api/2014/subclasses/evocation"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "name": "智力",
+        "name_en": "INT",
+        "index": "int",
+        "url": "/api/2014/ability-scores/int"
+      },
+      "info": [
+        {
+          "name": "戏法",
+          "name_en": "Cantrips",
+          "desc": [
+            "At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the 法师 table."
+          ],
+          "desc_en": [
+            "At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table."
+          ]
+        },
+        {
+          "name": "法术书",
+          "name_en": "Spellbook",
+          "desc": [
+            "At 1st level, you have a spellbook containing six 1st- level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind."
+          ]
+        },
+        {
+          "name": "准备和施放法术",
+          "name_en": "Preparing and Casting Spells",
+          "desc": [
+            "The 法师 table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+          ],
+          "desc_en": [
+            "The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+            "You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+            "For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+          ]
+        },
+        {
+          "name": "施法能力",
+          "name_en": "Spellcasting Ability",
+          "desc": [
+            "Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+            "Spell save DC = 8 + your proficiency bonus + your Intelligence modifier.",
+            "Spell attack modifier = your proficiency bonus + your Intelligence modifier."
+          ]
+        },
+        {
+          "name": "仪式施法",
+          "name_en": "Ritual Casting",
+          "desc": [
+            "You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared."
+          ]
+        },
+        {
+          "name": "施法焦点",
+          "name_en": "Spellcasting Focus",
+          "desc": [
+            "You can use an 奥术法器 as a spellcasting focus for your wizard spells."
+          ],
+          "desc_en": [
+            "You can use an arcane focus as a spellcasting focus for your wizard spells."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/2014/classes/wizard/spells",
+    "url": "/api/2014/classes/wizard"
+  }
+]

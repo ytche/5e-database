@@ -1,0 +1,211 @@
+[
+  {
+    "index": "str",
+    "name": "力量 (STR)",
+    "full_name": "力量",
+    "full_name_en": "Strength",
+    "desc": [
+      "力量衡量身体力量、运动训练以及你能施加原始物理力量的程度。",
+      "力量检定可以模拟任何试图举起、推动、拉动或破坏某物，强迫身体穿过某个空间，或在其他情况下对情境施加蛮力的行为。运动技能反映了在某些类型力量检定上的天赋。"
+    ],
+    "desc_en": [
+      "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+      "A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks."
+    ],
+    "skills": [
+      {
+        "name": "运动",
+        "name_en": "Athletics",
+        "index": "athletics",
+        "url": "/api/2014/skills/athletics"
+      }
+    ],
+    "url": "/api/2014/ability-scores/str"
+  },
+  {
+    "index": "dex",
+    "name": "敏捷 (DEX)",
+    "full_name": "敏捷",
+    "full_name_en": "Dexterity",
+    "desc": [
+      "敏捷衡量敏捷性、反应速度和平衡能力。",
+      "敏捷检定可以模拟任何试图灵活、快速或安静地移动，或在棘手地形上避免跌倒的行为。体操、巧手和隐匿技能反映了在某些类型敏捷检定上的天赋。"
+    ],
+    "desc_en": [
+      "Dexterity measures agility, reflexes, and balance.",
+      "A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks."
+    ],
+    "skills": [
+      {
+        "name": "体操",
+        "name_en": "Acrobatics",
+        "index": "acrobatics",
+        "url": "/api/2014/skills/acrobatics"
+      },
+      {
+        "name": "巧手",
+        "name_en": "Sleight of Hand",
+        "index": "sleight-of-hand",
+        "url": "/api/2014/skills/sleight-of-hand"
+      },
+      {
+        "name": "隐匿",
+        "name_en": "Stealth",
+        "index": "stealth",
+        "url": "/api/2014/skills/stealth"
+      }
+    ],
+    "url": "/api/2014/ability-scores/dex"
+  },
+  {
+    "index": "con",
+    "name": "体质 (CON)",
+    "full_name": "体质",
+    "full_name_en": "Constitution",
+    "desc": [
+      "体质衡量健康、耐力和生命力。",
+      "体质检定很少见，且没有技能适用于体质检定，因为这种能力代表的耐力在很大程度上是被动的，而不是角色或怪物做出的特定努力。"
+    ],
+    "desc_en": [
+      "Constitution measures health, stamina, and vital force.",
+      "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster."
+    ],
+    "skills": [],
+    "url": "/api/2014/ability-scores/con"
+  },
+  {
+    "index": "int",
+    "name": "智力 (INT)",
+    "full_name": "智力",
+    "full_name_en": "Intelligence",
+    "desc": [
+      "智力衡量精神敏锐度、记忆准确性和推理能力。",
+      "当你需要运用逻辑、教育、记忆力或演绎推理时，智力检定就会发挥作用。奥秘、历史、调查、自然和宗教技能反映了在某些类型智力检定上的天赋。"
+    ],
+    "desc_en": [
+      "Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
+      "An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks."
+    ],
+    "skills": [
+      {
+        "name": "奥秘",
+        "name_en": "Arcana",
+        "index": "arcana",
+        "url": "/api/2014/skills/arcana"
+      },
+      {
+        "name": "历史",
+        "name_en": "History",
+        "index": "history",
+        "url": "/api/2014/skills/history"
+      },
+      {
+        "name": "调查",
+        "name_en": "Investigation",
+        "index": "investigation",
+        "url": "/api/2014/skills/investigation"
+      },
+      {
+        "name": "自然",
+        "name_en": "Nature",
+        "index": "nature",
+        "url": "/api/2014/skills/nature"
+      },
+      {
+        "name": "宗教",
+        "name_en": "Religion",
+        "index": "religion",
+        "url": "/api/2014/skills/religion"
+      }
+    ],
+    "url": "/api/2014/ability-scores/int"
+  },
+  {
+    "index": "wis",
+    "name": "感知 (WIS)",
+    "full_name": "感知",
+    "full_name_en": "Wisdom",
+    "desc": [
+      "感知反映你对周围世界的敏锐程度，代表洞察力和直觉。",
+      "感知检定可能反映试图读懂肢体语言、理解他人感受、注意环境中的事物，或照顾受伤者的行为。驯兽、洞悉、医药、察觉和生存技能反映了在某些类型感知检定上的天赋。"
+    ],
+    "desc_en": [
+      "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
+      "A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks."
+    ],
+    "skills": [
+      {
+        "name": "驯兽",
+        "name_en": "Animal Handling",
+        "index": "animal-handling",
+        "url": "/api/2014/skills/animal-handling"
+      },
+      {
+        "name": "洞悉",
+        "name_en": "Insight",
+        "index": "insight",
+        "url": "/api/2014/skills/insight"
+      },
+      {
+        "name": "医药",
+        "name_en": "Medicine",
+        "index": "medicine",
+        "url": "/api/2014/skills/medicine"
+      },
+      {
+        "name": "察觉",
+        "name_en": "Perception",
+        "index": "perception",
+        "url": "/api/2014/skills/perception"
+      },
+      {
+        "name": "生存",
+        "name_en": "Survival",
+        "index": "survival",
+        "url": "/api/2014/skills/survival"
+      }
+    ],
+    "url": "/api/2014/ability-scores/wis"
+  },
+  {
+    "index": "cha",
+    "name": "魅力 (CHA)",
+    "full_name": "魅力",
+    "full_name_en": "Charisma",
+    "desc": [
+      "魅力衡量你与他人有效互动的能力。它包括自信和口才等因素，可以代表迷人或有威严的个性。",
+      "当你试图影响或娱乐他人，试图留下印象或说出令人信服的谎言，或在棘手的社交情境中导航时，可能需要进行魅力检定。欺瞒、威吓、表演和说服技能反映了在某些类型魅力检定上的天赋。"
+    ],
+    "desc_en": [
+      "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
+      "A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks."
+    ],
+    "skills": [
+      {
+        "name": "欺瞒",
+        "name_en": "Deception",
+        "index": "deception",
+        "url": "/api/2014/skills/deception"
+      },
+      {
+        "name": "威吓",
+        "name_en": "Intimidation",
+        "index": "intimidation",
+        "url": "/api/2014/skills/intimidation"
+      },
+      {
+        "name": "表演",
+        "name_en": "Performance",
+        "index": "performance",
+        "url": "/api/2014/skills/performance"
+      },
+      {
+        "name": "说服",
+        "name_en": "Persuasion",
+        "index": "persuasion",
+        "url": "/api/2014/skills/persuasion"
+      }
+    ],
+    "url": "/api/2014/ability-scores/cha"
+  }
+]
