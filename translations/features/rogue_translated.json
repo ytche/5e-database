@@ -1,0 +1,198 @@
+[
+  {
+    "feature_index": "rogue-expertise-1",
+    "feature_name": "Expertise",
+    "desc": [
+      "在1级时，选择你的两项技能熟练，或一项技能熟练和盗贼工具的熟练。对于任何使用所选熟练的属性检定，你的熟练加值翻倍。",
+      "在6级时，你可以再选择两项你的熟练（技能或盗贼工具）获得此好处。"
+    ]
+  },
+  {
+    "feature_index": "sneak-attack",
+    "feature_name": "Sneak Attack",
+    "desc": [
+      "从1级开始，你知道如何巧妙地打击并利用敌人的分心。在你的每个回合一次，如果你对攻击检定具有优势，你可以对命中的一名生物额外造成1d6伤害。该攻击必须使用精巧武器或远程武器。",
+      "如果目标的另一个敌人在它5尺内，该敌人没有失能，且你的攻击检定没有劣势，则你不需要具有优势。",
+      "额外伤害的数量随着你在此职业获得等级而增加，如游荡者表格中的偷袭列所示。"
+    ]
+  },
+  {
+    "feature_index": "thieves-cant",
+    "feature_name": "Thieves' Cant",
+    "desc": [
+      "在你的游荡者训练中，你学会了盗贼黑话，一种方言、行话和暗号的秘密混合，让你可以在看似正常的对话中隐藏信息。只有另一个懂得盗贼黑话的生物才能理解这些信息。传达此类信息所需的时间是清楚表达同样想法的四倍。",
+      "此外，你理解一套秘密的标记和符号，用于传达简短、简单的信息，例如某个区域是否危险或属于盗贼公会领地，附近是否有战利品，或者某个区域的人是否容易下手或为逃亡盗贼提供安全屋。"
+    ]
+  },
+  {
+    "feature_index": "cunning-action",
+    "feature_name": "Cunning Action",
+    "desc": [
+      "从2级开始，你敏捷的思维和灵活性让你能够快速移动和行动。在你的每个战斗回合中，你可以使用附赠动作。该动作只能用于进行疾行、撤离或躲藏动作。"
+    ]
+  },
+  {
+    "feature_index": "roguish-archetype",
+    "feature_name": "Roguish Archetype",
+    "desc": [
+      "在3级时，你选择一个范型，在运用你的游荡者能力时效仿它，例如盗贼。其他范型可在原始资料中找到。你的范型选择在3级以及9、13、17级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "fast-hands",
+    "feature_name": "Fast Hands",
+    "desc": [
+      "从3级开始，你可以使用你狡诈动作提供的附赠动作来进行敏捷（巧手）检定，使用你的盗贼工具来解除陷阱或开锁，或使用物品动作。"
+    ]
+  },
+  {
+    "feature_index": "second-story-work",
+    "feature_name": "Second-Story Work",
+    "desc": [
+      "当你在3级选择此范型时，你获得了比正常更快的攀爬能力；攀爬不再花费你额外的移动力。",
+      "此外，当你进行奔跑跳远时，你跳过的距离增加等于你敏捷调整值的尺数。"
+    ]
+  },
+  {
+    "feature_index": "rogue-ability-score-improvement-1",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、10、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "uncanny-dodge",
+    "feature_name": "Uncanny Dodge",
+    "desc": [
+      "从5级开始，当你能看到的一个攻击者用攻击命中你时，你可以使用反应将该攻击对你造成的伤害减半。"
+    ]
+  },
+  {
+    "feature_index": "rogue-expertise-2",
+    "feature_name": "Expertise",
+    "desc": [
+      "在1级时，选择你的两项技能熟练，或一项技能熟练和盗贼工具的熟练。对于任何使用所选熟练的属性检定，你的熟练加值翻倍。",
+      "在6级时，你可以再选择两项你的熟练（技能或盗贼工具）获得此好处。"
+    ]
+  },
+  {
+    "feature_index": "rogue-evasion",
+    "feature_name": "Evasion",
+    "desc": [
+      "从7级开始，你可以敏捷地闪躲某些区域效果，例如红龙的火焰吐息或冰风暴法术。当你受到一个允许你进行敏捷豁免检定以只受一半伤害的效果影响时，如果你成功通过豁免检定，你改为不受伤害，如果失败则只受一半伤害。"
+    ]
+  },
+  {
+    "feature_index": "rogue-ability-score-improvement-2",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、10、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "roguish-archetype-improvement-1",
+    "feature_name": "Roguish Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，在运用你的游荡者能力时效仿它，例如盗贼。其他范型可在原始资料中找到。你的范型选择在3级以及9、13、17级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "supreme-sneak",
+    "feature_name": "Supreme Sneak",
+    "desc": [
+      "从9级开始，如果你在同一回合移动不超过你速度的一半，你在敏捷（隐匿）检定上具有优势。"
+    ]
+  },
+  {
+    "feature_index": "rogue-ability-score-improvement-3",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、10、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "reliable-talent",
+    "feature_name": "Reliable Talent",
+    "desc": [
+      "到11级时，你已经将所选技能磨练到接近完美的程度。每当你进行可以让你加熟练加值的属性检定时，你可以将d20掷出9或更低视为10。"
+    ]
+  },
+  {
+    "feature_index": "rogue-ability-score-improvement-4",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、10、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "roguish-archetype-improvement-2",
+    "feature_name": "Roguish Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，在运用你的游荡者能力时效仿它，例如盗贼。其他范型可在原始资料中找到。你的范型选择在3级以及9、13、17级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "use-magic-device",
+    "feature_name": "Use Magic Device",
+    "desc": [
+      "到13级时，你已经充分了解了魔法的运作原理，即使物品不是为你准备的，你也可以即兴使用它们。你忽略使用魔法物品的所有职业、种族和等级要求。"
+    ]
+  },
+  {
+    "feature_index": "blindsense",
+    "feature_name": "Blindsense",
+    "desc": [
+      "从14级开始，如果你能听到，你就能感知到10尺内任何隐藏或隐形生物的位置。"
+    ]
+  },
+  {
+    "feature_index": "slippery-mind",
+    "feature_name": "Slippery Mind",
+    "desc": [
+      "到15级时，你获得了更强的精神力量。你获得感知豁免的熟练。"
+    ]
+  },
+  {
+    "feature_index": "rogue-ability-score-improvement-5",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、10、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "roguish-archetype-improvement-3",
+    "feature_name": "Roguish Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，在运用你的游荡者能力时效仿它，例如盗贼。其他范型可在原始资料中找到。你的范型选择在3级以及9、13、17级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "thiefs-reflexes",
+    "feature_name": "Thief's Reflexes",
+    "desc": [
+      "当你达到17级时，你已经变得擅长设伏和快速逃离危险。在任何战斗的第一轮，你可以进行两个回合。你在你的正常先攻进行第一个回合，在你的先攻减10进行第二个回合。当你被突袭时不能使用此特性。"
+    ]
+  },
+  {
+    "feature_index": "elusive",
+    "feature_name": "Elusive",
+    "desc": [
+      "从18级开始，你如此难以捉摸，以至于攻击者很少能占你上风。当你没有失能时，任何攻击检定对你都没有优势。"
+    ]
+  },
+  {
+    "feature_index": "rogue-ability-score-improvement-6",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、10、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "stroke-of-luck",
+    "feature_name": "Stroke of Luck",
+    "desc": [
+      "在20级时，你有一种不可思议的本事，总能在需要的时候成功。如果你的攻击未命中射程内的目标，你可以将该未命中转变为命中。或者，如果你在一次属性检定中失败，你可以将d20掷出视为20。",
+      "一旦你使用此特性，你必须完成短休或长休后才能再次使用。"
+    ]
+  }
+]

@@ -1,19 +1,43 @@
-## What does this do?
+## 变更描述
+<!-- 简要描述本次变更的内容 -->
 
-\<It's not clear if I don't update this text with relevant info\>
+## 相关 Issue
+<!-- 关联的 Issue 编号，如 Fixes #123, Closes #456 -->
 
-## How was it tested?
+## 变更类型
+- [ ] 新功能 (feat)
+- [ ] Bug 修复 (fix)
+- [ ] 数据更新 (data)
+- [ ] 翻译更新 (i18n)
+- [ ] 代码重构 (refactor)
+- [ ] 文档更新 (docs)
+- [ ] 性能优化 (perf)
+- [ ] 测试相关 (test)
+- [ ] 构建/工具 (chore)
 
-\<It's not clear if I don't update this text with relevant info\>
+## 检查清单
+### 代码质量
+- [ ] 代码通过 ESLint 检查 (`npm run lint`)
+- [ ] 单元测试全部通过 (`npm test`)
+- [ ] 新增/修改的功能有相应测试
+- [ ] 代码覆盖率符合要求 (行覆盖 ≥70%, 函数覆盖 ≥80%)
 
-## Is there a Github issue this is resolving?
+### 数据/翻译
+- [ ] JSON 数据格式正确（通过 schema 验证）
+- [ ] 中文内容编码正确（UTF-8 with BOM）
+- [ ] 数据索引唯一性检查通过
+- [ ] API URL 引用有效性检查通过
 
-\<It's not clear if I don't update this text with relevant info\>
+### 文档
+- [ ] API 文档已更新（如有变更）
+- [ ] 代码注释完整（JSDoc 格式）
+- [ ] README 已更新（如需要）
 
-## Did you update the docs in the API? Please link an associated PR if applicable.
+## 测试说明
+<!-- 如何验证本次变更，包括测试命令和预期结果 -->
 
-\<It's not clear if I don't update this text with relevant info\>
+## 截图（如适用）
+<!-- UI 变更请提供截图 -->
 
-## Here's a fun image for your troubles
-
-\<Add a fun image here\>
+## 破坏性变更
+<!-- 如有破坏性变更，请详细说明影响和迁移方案 -->

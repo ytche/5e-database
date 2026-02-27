@@ -1,0 +1,136 @@
+[
+  {
+    "feature_index": "spellcasting-wizard",
+    "feature_name": "Spellcasting: Wizard",
+    "desc": [
+      "作为奥术魔法的学生，你拥有一本法术书记录着法术，这些法术展现了你真正力量的初光。"
+    ]
+  },
+  {
+    "feature_index": "arcane-recovery",
+    "feature_name": "Arcane Recovery",
+    "desc": [
+      "你已经学会通过研究法术书来恢复部分魔法能量。每天一次，当你完成短休时，你可以选择已消耗的法术位进行恢复。法术位的总等级不能超过你法师等级的一半（向上取整），且不能有6环或更高环阶的法术位。",
+      "例如，如果你是一名4级法师，你可以恢复最多两个等级的法术位。你可以恢复一个2环法术位或两个1环法术位。"
+    ]
+  },
+  {
+    "feature_index": "arcane-tradition",
+    "feature_name": "Arcane Tradition",
+    "desc": [
+      "当你达到2级时，你选择一种奥术传承，通过八个学派之一来塑造你的魔法实践，例如塑能学派。",
+      "你的选择会在2级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "evocation-savant",
+    "feature_name": "Evocation Savant",
+    "desc": [
+      "从你在2级选择这个学派开始，你将塑能法术抄录入法术书所需花费的金币和时间减半。"
+    ]
+  },
+  {
+    "feature_index": "sculpt-spells",
+    "feature_name": "Sculpt Spells",
+    "desc": [
+      "从2级开始，你可以在你的塑能法术效果中创造相对安全的区域。当你施放一个影响你能看到的其他生物的塑能法术时，你可以选择其中数量等于1+法术等级的生物。被选中的生物自动成功通过对抗该法术的豁免检定，如果它们通常会在成功豁免时受到一半伤害，则它们不会受到伤害。"
+    ]
+  },
+  {
+    "feature_index": "wizard-ability-score-improvement-1",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "arcane-tradition-improvement-1",
+    "feature_name": "Arcane Tradition feature",
+    "desc": [
+      "当你达到2级时，你选择一种奥术传承，通过八个学派之一来塑造你的魔法实践，例如塑能学派。",
+      "你的选择会在2级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "potent-cantrip",
+    "feature_name": "Potent Cantrip",
+    "desc": [
+      "从6级开始，你的伤害性戏法甚至会影响那些避开了主要效果的生物。当生物成功通过对抗你戏法的豁免检定时，该生物受到该戏法一半的伤害（如果有伤害），但不会受到戏法的其他额外效果。"
+    ]
+  },
+  {
+    "feature_index": "wizard-ability-score-improvement-2",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "arcane-tradition-improvement-2",
+    "feature_name": "Arcane Tradition feature",
+    "desc": [
+      "当你达到2级时，你选择一种奥术传承，通过八个学派之一来塑造你的魔法实践，例如塑能学派。",
+      "你的选择会在2级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "empowered-evocation",
+    "feature_name": "Empowered Evocation",
+    "desc": [
+      "从10级开始，你可以将智力调整值加到你所施展的任意法师塑能法术的一次伤害骰上。"
+    ]
+  },
+  {
+    "feature_index": "wizard-ability-score-improvement-3",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "arcane-tradition-improvement-3",
+    "feature_name": "Arcane Tradition feature",
+    "desc": [
+      "当你达到2级时，你选择一种奥术传承，通过八个学派之一来塑造你的魔法实践，例如塑能学派。",
+      "你的选择会在2级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "overchannel",
+    "feature_name": "Overchannel",
+    "desc": [
+      "从14级开始，你可以增强你简单法术的威力。当你施展一个1至5环的法师伤害法术时，你可以让该法术造成最大伤害。",
+      "第一次这样做时，你不会遭受任何负面影响。如果你在完成长休之前再次使用此特性，你在施法后立即受到每个法术等级2d12点死灵伤害。每次你在完成长休之前再次使用此特性，每法术等级的死灵伤害增加1d12。此伤害无视抗性和免疫。"
+    ]
+  },
+  {
+    "feature_index": "wizard-ability-score-improvement-4",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "spell-mastery",
+    "feature_name": "Spell Mastery",
+    "desc": [
+      "在18级时，你已经对某些法术达到了可以随意施展的精通程度。选择你法术书中的一个1环法师法术和一个2环法师法术。当你准备好这些法术时，可以在不消耗法术位的情况下以最低环阶施展它们。如果你想以更高环阶施展任一法术，你必须正常消耗法术位。",
+      "花费8小时研究，你可以将选择的一个或两个法术替换为同等级的其他法术。"
+    ]
+  },
+  {
+    "feature_index": "wizard-ability-score-improvement-5",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "signature-spell",
+    "feature_name": "Signature Spell",
+    "desc": [
+      "当你达到20级时，你掌握了两项强大的法术，可以轻松施展它们。选择你法术书中的两个3环法师法术作为你的招牌法术。你总是准备好这些法术，它们不计入你已准备法术的数量，且你可以在不消耗法术位的情况下以3环各施展一次。这样做后，直到你完成短休或长休前不能再次这样做。",
+      "如果你想以更高环阶施展任一法术，你必须正常消耗法术位。"
+    ]
+  }
+]

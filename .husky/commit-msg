@@ -1,0 +1,19 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Checking commit message format..."
+
+# 使用 commitlint 检查提交信息格式
+npx --no -- commitlint --edit ${1}
+
+if [ $? -ne 0 ]; then
+  echo "❌ Commit message does not follow Conventional Commits format."
+  echo ""
+  echo "Expected format: <type>(<scope>): <subject>"
+  echo ""
+  echo "Types: feat, fix, docs, style, refactor, perf, test, chore, data, i18n"
+  echo "Example: feat(spell): add fireball spell search"
+  exit 1
+fi
+
+echo "✅ Commit message format is valid!"

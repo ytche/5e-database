@@ -1,0 +1,666 @@
+[
+  {
+    "feature_index": "otherworldly-patron",
+    "feature_name": "异界宗主",
+    "feature_name_en": "Otherworldly Patron",
+    "desc": [
+      "在1级时，你与你选择的异界存在达成契约，如邪魔。你的选择在1级时赋予你特性，并在6级、10级和14级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 1st level, you have struck a bargain with an otherworldly being of your choice, such as the Fiend. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+    ]
+  },
+  {
+    "feature_index": "dark-ones-blessing",
+    "feature_name": "黑暗者祝福",
+    "feature_name_en": "Dark One's Blessing",
+    "desc": [
+      "从1级开始，当你将一个敌对生物的生命值降至0时，你获得等于你的魅力调整值 + 你的邪术师等级（最少为1）的临时生命值。"
+    ],
+    "desc_en": [
+      "Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1)."
+    ]
+  },
+  {
+    "feature_index": "pact-magic",
+    "feature_name": "契约魔法",
+    "feature_name_en": "Pact Magic",
+    "desc": [
+      "你的奥术研究和你的宗主赋予你的魔法使你能够熟练地施展法术。"
+    ],
+    "desc_en": [
+      "Your arcane research and the magic bestowed on you by your patron have given you facility with spells."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocations",
+    "feature_name": "魔能祈唤",
+    "feature_name_en": "Eldritch Invocations",
+    "desc": [
+      "在你研究神秘学识的过程中，你发掘出了魔能祈唤，这些禁忌知识碎片赋予你持久的魔法能力。",
+      "在2级时，你获得两个自选的魔能祈唤。你的祈唤选项在职业描述末尾详细说明。当你获得特定的邪术师等级时，你会获得额外的祈唤（自选），如邪术师表中的已知祈唤列所示。",
+      "此外，当你在这个职业中获得等级时，你可以选择你已经知道的一个祈唤，并将其替换为你可以在该等级学习的另一个祈唤。"
+    ],
+    "desc_en": [
+      "In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.",
+      "At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.",
+      "Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-agonizing-blast",
+    "feature_name": "魔能祈唤：苦痛爆燃",
+    "feature_name_en": "Eldritch Invocation: Agonizing Blast",
+    "desc": [
+      "当你施放魔能爆时，将魅力调整值加到其命中时造成的伤害上。"
+    ],
+    "desc_en": [
+      "When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-armor-of-shadows",
+    "feature_name": "魔能祈唤：影之铠甲",
+    "feature_name_en": "Eldritch Invocation: Armor of Shadows",
+    "desc": [
+      "你可以随意对自己施展法师护甲，无需消耗法术位或材料成分。"
+    ],
+    "desc_en": [
+      "You can cast mage armor on yourself at will, without expending a spell slot or material components."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-beast-speech",
+    "feature_name": "魔能祈唤：野兽之语",
+    "feature_name_en": "Eldritch Invocation: Beast Speech",
+    "desc": [
+      "你可以随意施展动物交谈，无需消耗法术位。"
+    ],
+    "desc_en": [
+      "You can cast speak with animals at will, without expending a spell slot."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-beguiling-influence",
+    "feature_name": "魔能祈唤：魅惑影响",
+    "feature_name_en": "Eldritch Invocation: Beguiling Influence",
+    "desc": [
+      "你在欺瞒和游说技能上获得熟练。"
+    ],
+    "desc_en": [
+      "You gain proficiency in the Deception and Persuasion skills."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-book-of-ancient-secrets",
+    "feature_name": "魔能祈唤：远古秘密之书",
+    "feature_name_en": "Eldritch Invocation: Book of Ancient Secrets",
+    "desc": [
+      "你现在可以将魔法仪式抄录在你的影之书中。选择两个带有仪式标签的1级法术，它们可以来自任何职业的法术列表（两个不需要来自同一列表）。这些法术出现在书中，不计入你已知法术的数量。手持影之书时，你可以将所选法术作为仪式施放。除非通过其他方式学习，否则你不能施放这些法术，除非作为仪式。如果它带有仪式标签，你也可以将已知的邪术师法术作为仪式施放。",
+      "在冒险中，你可以将其他仪式法术添加到你的影之书中。当你找到这样的法术时，如果法术等级等于或低于你的邪术师等级的一半（向上取整），并且你有时间抄录该法术，你可以将其添加到书中。每抄录法术的一个等级，抄录过程需要2小时，并需要50 gp购买稀有的墨水。"
+    ],
+    "desc_en": [
+      "You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.",
+      "On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-devils-sight",
+    "feature_name": "魔能祈唤：魔鬼视界",
+    "feature_name_en": "Eldritch Invocation: Devil's Sight",
+    "desc": [
+      "你可以在黑暗中正常视物，无论是魔法黑暗还是非魔法黑暗，最远可达120尺。"
+    ],
+    "desc_en": [
+      "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-eldritch-sight",
+    "feature_name": "魔能祈唤：魔能视界",
+    "feature_name_en": "Eldritch Invocation: Eldritch Sight",
+    "desc": [
+      "你可以随意施展侦测魔法，无需消耗法术位。"
+    ],
+    "desc_en": [
+      "You can cast detect magic at will, without expending a spell slot."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-eldritch-spear",
+    "feature_name": "魔能祈唤：魔能长枪",
+    "feature_name_en": "Eldritch Invocation: Eldritch Spear",
+    "desc": [
+      "当你施放魔能爆时，其射程为300尺。"
+    ],
+    "desc_en": [
+      "When you cast eldritch blast, its range is 300 feet."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-eyes-of-the-rune-keeper",
+    "feature_name": "魔能祈唤：符文守护者之眼",
+    "feature_name_en": "Eldritch Invocation: Eyes of the Rune Keeper",
+    "desc": [
+      "你可以阅读所有文字。"
+    ],
+    "desc_en": [
+      "You can read all writing."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-fiendish-vigor",
+    "feature_name": "魔能祈唤：邪魔活力",
+    "feature_name_en": "Eldritch Invocation: Fiendish Vigor",
+    "desc": [
+      "你可以随意对自己施展虚假生命，视为1级法术，无需消耗法术位或材料成分。"
+    ],
+    "desc_en": [
+      "You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-gaze-of-two-minds",
+    "feature_name": "魔能祈唤：双心凝视",
+    "feature_name_en": "Eldritch Invocation: Gaze of Two Minds",
+    "desc": [
+      "你可以使用动作触摸一个愿意的人形生物，并通过它的感官感知直到你下一回合结束。只要该生物与你处于同一存在位面，你可以在你后续回合使用动作维持这种联系，将持续时间延长至你下一回合结束。通过其他生物的感官感知时，你受益于该生物拥有的任何特殊感官，并且对你自己的周围环境目盲和耳聋。"
+    ],
+    "desc_en": [
+      "You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-mask-of-many-faces",
+    "feature_name": "魔能祈唤：千面之假",
+    "feature_name_en": "Eldritch Invocation: Mask of Many Faces",
+    "desc": [
+      "你可以随意施展易容术，无需消耗法术位。"
+    ],
+    "desc_en": [
+      "You can cast disguise self at will, without expending a spell slot."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-misty-visions",
+    "feature_name": "魔能祈唤：迷雾幻视",
+    "feature_name_en": "Eldritch Invocation: Misty Visions",
+    "desc": [
+      "你可以随意施展无声幻影，无需消耗法术位或材料成分。"
+    ],
+    "desc_en": [
+      "You can cast silent image at will, without expending a spell slot or material components."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-repelling-blast",
+    "feature_name": "魔能祈唤：斥力爆",
+    "feature_name_en": "Eldritch Invocation: Repelling Blast",
+    "desc": [
+      "当你用魔能爆命中一个生物时，你可以将该生物沿直线推离你最多10尺。"
+    ],
+    "desc_en": [
+      "When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-thief-of-five-fates",
+    "feature_name": "魔能祈唤：五命之盗",
+    "feature_name_en": "Eldritch Invocation: Thief of Five Fates",
+    "desc": [
+      "你可以使用一个邪术师法术位施展灾祸术一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-voice-of-the-chain-master",
+    "feature_name": "魔能祈唤：锁链主宰之声",
+    "feature_name_en": "Eldritch Invocation: Voice of the Chain Master",
+    "desc": [
+      "你可以与你的魔宠进行心灵感应交流，并在你与它处于同一存在位面时通过你魔宠的感官感知。",
+      "此外，通过你魔宠的感官感知时，你也可以通过你的魔宠用你自己的声音说话，即使你的魔宠通常无法说话。"
+    ],
+    "desc_en": [
+      "You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence.",
+      "Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-mire-the-mind",
+    "feature_name": "魔能祈唤：心智泥沼",
+    "feature_name_en": "Eldritch Invocation: Mire the Mind",
+    "desc": [
+      "你可以使用一个邪术师法术位施展缓慢术一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-one-with-shadows",
+    "feature_name": "魔能祈唤：影遁",
+    "feature_name_en": "Eldritch Invocation: One with Shadows",
+    "desc": [
+      "当你在微光或黑暗区域时，你可以使用动作变为隐形，直到你移动或执行动作或反应。"
+    ],
+    "desc_en": [
+      "When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-sign-of-ill-omen",
+    "feature_name": "魔能祈唤：凶兆之印",
+    "feature_name_en": "Eldritch Invocation: Sign of Ill Omen",
+    "desc": [
+      "你可以使用一个邪术师法术位施展降咒一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-thirsting-blade",
+    "feature_name": "魔能祈唤：饥渴之刃",
+    "feature_name_en": "Eldritch Invocation: Thirsting Blade",
+    "desc": [
+      "你在你的回合进行攻击动作时可以用契约武器攻击两次而非一次。"
+    ],
+    "desc_en": [
+      "You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn."
+    ]
+  },
+  {
+    "feature_index": "otherworldly-patron-improvement-1",
+    "feature_name": "异界宗主特性",
+    "feature_name_en": "Otherworldly Patron feature",
+    "desc": [
+      "在1级时，你与你选择的异界存在达成契约，如邪魔。你的选择在1级时赋予你特性，并在6级、10级和14级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 1st level, you have struck a bargain with an otherworldly being of your choice, such as the Fiend. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-bewitching-whispers",
+    "feature_name": "魔能祈唤：魅惑耳语",
+    "feature_name_en": "Eldritch Invocation: Bewitching Whispers",
+    "desc": [
+      "你可以使用一个邪术师法术位施展强迫术一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-dreadful-word",
+    "feature_name": "魔能祈唤：恐怖之言",
+    "feature_name_en": "Eldritch Invocation: Dreadful Word",
+    "desc": [
+      "你可以使用一个邪术师法术位施展困惑术一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-sculptor-of-flesh",
+    "feature_name": "魔能祈唤：血肉雕刻者",
+    "feature_name_en": "Eldritch Invocation: Sculptor of Flesh",
+    "desc": [
+      "你可以使用一个邪术师法术位施展变形术一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-ascendant-step",
+    "feature_name": "魔能祈唤：超凡步法",
+    "feature_name_en": "Eldritch Invocation: Ascendant Step",
+    "desc": [
+      "你可以随意对自己施展浮空术，无需消耗法术位或材料成分。"
+    ],
+    "desc_en": [
+      "You can cast levitate on yourself at will, without expending a spell slot or material components."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-minions-of-chaos",
+    "feature_name": "魔能祈唤：混沌仆从",
+    "feature_name_en": "Eldritch Invocation: Minions of Chaos",
+    "desc": [
+      "你可以使用一个邪术师法术位施展召唤元素生物一次。完成长休前你不能再次这样做。"
+    ],
+    "desc_en": [
+      "You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-otherworldly-leap",
+    "feature_name": "魔能祈唤：异界之跃",
+    "feature_name_en": "Eldritch Invocation: Otherworldly Leap",
+    "desc": [
+      "你可以随意对自己施展跳跃术，无需消耗法术位或材料成分。"
+    ],
+    "desc_en": [
+      "You can cast jump on yourself at will, without expending a spell slot or material components."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-whispers-of-the-grave",
+    "feature_name": "魔能祈唤：坟墓低语",
+    "feature_name_en": "Eldritch Invocation: Whispers of the Grave",
+    "desc": [
+      "你可以随意施展死者交谈，无需消耗法术位。"
+    ],
+    "desc_en": [
+      "You can cast speak with dead at will, without expending a spell slot."
+    ]
+  },
+  {
+    "feature_index": "otherworldly-patron-improvement-2",
+    "feature_name": "异界宗主特性",
+    "feature_name_en": "Otherworldly Patron feature",
+    "desc": [
+      "在1级时，你与你选择的异界存在达成契约，如邪魔。你的选择在1级时赋予你特性，并在6级、10级和14级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 1st level, you have struck a bargain with an otherworldly being of your choice, such as the Fiend. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-lifedrinker",
+    "feature_name": "魔能祈唤：饮命者",
+    "feature_name_en": "Eldritch Invocation: Lifedrinker",
+    "desc": [
+      "当你用契约武器命中一个生物时，该生物额外受到等于你的魅力调整值（最少1）的黯蚀伤害。"
+    ],
+    "desc_en": [
+      "When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1)."
+    ]
+  },
+  {
+    "feature_index": "otherworldly-patron-improvement-3",
+    "feature_name": "异界宗主特性",
+    "feature_name_en": "Otherworldly Patron feature",
+    "desc": [
+      "在1级时，你与你选择的异界存在达成契约，如邪魔。你的选择在1级时赋予你特性，并在6级、10级和14级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 1st level, you have struck a bargain with an otherworldly being of your choice, such as the Fiend. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-chains-of-carceri",
+    "feature_name": "魔能祈唤：卡瑟利之链",
+    "feature_name_en": "Eldritch Invocation: Chains of Carceri",
+    "desc": [
+      "你可以随意施展怪物定身术——目标为天界生物、邪魔或元素生物——无需消耗法术位或材料成分。你必须完成长休才能再次在同一生物身上使用此祈唤。"
+    ],
+    "desc_en": [
+      "You can cast hold monster at will--targeting a celestial, fiend, or elemental--without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-master-of-myriad-forms",
+    "feature_name": "魔能祈唤：万象之主",
+    "feature_name_en": "Eldritch Invocation: Master of Myriad Forms",
+    "desc": [
+      "你可以随意施展变形自我，无需消耗法术位。"
+    ],
+    "desc_en": [
+      "You can cast alter self at will, without expending a spell slot."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-visions-of-distant-realms",
+    "feature_name": "魔能祈唤：远域幻视",
+    "feature_name_en": "Eldritch Invocation: Visions of Distant Realms",
+    "desc": [
+      "你可以随意施展秘法眼，无需消耗法术位。"
+    ],
+    "desc_en": [
+      "You can cast arcane eye at will, without expending a spell slot."
+    ]
+  },
+  {
+    "feature_index": "eldritch-invocation-witch-sight",
+    "feature_name": "魔能祈唤：女巫视界",
+    "feature_name_en": "Eldritch Invocation: Witch Sight",
+    "desc": [
+      "你可以看到任何变形生物或被幻术或变化魔法隐藏的生物的真实形态，只要该生物在你30尺内且在视线范围内。"
+    ],
+    "desc_en": [
+      "You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
+    ]
+  },
+  {
+    "feature_index": "pact-boon",
+    "feature_name": "契约恩赐",
+    "feature_name_en": "Pact Boon",
+    "desc": [
+      "在3级时，你的异界宗主因你的忠诚服务而赐予你一份礼物。你获得以下特性之一（自选）。"
+    ],
+    "desc_en": [
+      "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice."
+    ]
+  },
+  {
+    "feature_index": "pact-of-the-chain",
+    "feature_name": "链之契约",
+    "feature_name_en": "Pact of the Chain",
+    "desc": [
+      "你学会寻找魔宠法术，并且可以将其作为仪式施放。该法术不计入你已知法术的数量。",
+      "当你施放该法术时，你可以选择魔宠的正常形态之一，或以下特殊形态之一：小恶魔、伪龙、夸塞魔或妖精龙。",
+      "此外，当你进行攻击动作时，你可以放弃你自己的一次攻击，以允许你的魔宠用其反应进行自己的一次攻击。",
+      "你的魔宠比普通魔宠更聪明。它的默认形态可以反映你的宗主，小恶魔和夸塞魔与邪魔相关。"
+    ],
+    "desc_en": [
+      "You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
+      "When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.",
+      "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.",
+      "Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with imps and quasits tied to the Fiend."
+    ]
+  },
+  {
+    "feature_index": "pact-of-the-blade",
+    "feature_name": "刃之契约",
+    "feature_name_en": "Pact of the Blade",
+    "desc": [
+      "你可以使用动作在你空手时创造一把契约武器。每次你创造它时，你可以选择这把近战武器的形态。你持用它时熟练于它。这把武器在克服对非魔法攻击和伤害的抗性和免疫时被视为魔法武器。",
+      "如果你的契约武器距离你5尺以外超过1分钟，它就会消失。如果你再次使用此特性，如果你解散武器（无需动作），或者如果你死亡，它也会消失。",
+      "你可以通过在你持有武器时进行一个特殊的仪式，将一把魔法武器转化为你的契约武器。你在1小时内完成仪式，可以在短休期间进行。然后你可以解散武器，将其送入一个异位面空间，此后每当你创造你的契约武器时它就会出现。你无法以这种方式影响神器或有感知武器。如果你死亡，如果你在不同的武器上执行1小时仪式，或者如果你使用1小时仪式来打破你与它的联系，该武器就不再是你的契约武器。如果武器在异位面空间中时联系被打破，它会出现在你的脚边。",
+      "如果你侍奉邪魔，你的武器可能是由黑色金属制成并装饰有火焰图案的一把斧头。"
+    ],
+    "desc_en": [
+      "You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+      "Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
+      "You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.",
+      "If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames."
+    ]
+  },
+  {
+    "feature_index": "pact-of-the-tome",
+    "feature_name": "书之契约",
+    "feature_name_en": "Pact of the Tome",
+    "desc": [
+      "你的宗主给你一本叫做影之书的魔法书。当你获得此特性时，从任何职业的法术列表中选择三个戏法（三个不需要来自同一列表）。当这本书在你身上时，你可以随意施放这些戏法。它们不计入你已知戏法的数量。如果它们不在邪术师法术列表上，它们对你而言仍然是邪术师法术。",
+      "如果你失去了你的影之书，你可以进行1小时的仪式从宗主那里获得一本替代品。这个仪式可以在短休或长休期间进行，它会摧毁之前的书。这本书在你死亡时化为灰烬。",
+      "你的影之书可能是一本厚重的书，用镶嵌着铁钉的恶魔皮革装订，内含召唤法术和关于宇宙邪恶区域的丰富禁忌知识，这是邪魔的礼物。"
+    ],
+    "desc_en": [
+      "Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.",
+      "If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",
+      "Your Book of Shadows could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend."
+    ]
+  },
+  {
+    "feature_index": "warlock-ability-score-improvement-1",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "dark-ones-own-luck",
+    "feature_name": "黑暗者之运",
+    "feature_name_en": "Dark One's Own Luck",
+    "desc": [
+      "从6级开始，你可以呼唤你的宗主来改变命运使之对你有利。当你进行能力检定或豁免检定时，你可以使用此特性在你的掷骰上加一个d10。你可以在看到初始掷骰后但在掷骰效果发生之前这样做。",
+      "一旦你使用此特性，完成短休或长休前你不能再次使用它。"
+    ],
+    "desc_en": [
+      "Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.",
+      "Once you use this feature, you can't use it again until you finish a short or long rest."
+    ]
+  },
+  {
+    "feature_index": "warlock-ability-score-improvement-2",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "fiendish-resilience",
+    "feature_name": "邪魔韧性",
+    "feature_name_en": "Fiendish Resilience",
+    "desc": [
+      "从10级开始，当你完成短休或长休时，你可以选择一种伤害类型。你获得对该伤害类型的抗性，直到你用此特性选择另一种。来自魔法武器或银质武器的伤害无视这种抗性。"
+    ],
+    "desc_en": [
+      "Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance."
+    ]
+  },
+  {
+    "feature_index": "mystic-arcanum-6th-level",
+    "feature_name": "奥秘秘法（6级）",
+    "feature_name_en": "Mystic Arcanum (6th level)",
+    "desc": [
+      "在11级时，你的宗主赐予你一个叫做秘法的魔法秘密。从邪术师法术列表中选择一个6级法术作为这个秘法。",
+      "你可以施放你的秘法法术一次而无需消耗法术位。你必须完成长休才能再次这样做。",
+      "在更高等级时，你获得更多可以以这种方式施放的邪术师法术：在13级时选择一个7级法术，在15级时选择一个8级法术，在17级时选择一个9级法术。完成长休后，你恢复所有奥秘秘法的使用次数。"
+    ],
+    "desc_en": [
+      "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.",
+      "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
+      "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "warlock-ability-score-improvement-3",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "mystic-arcanum-7th-level",
+    "feature_name": "奥秘秘法（7级）",
+    "feature_name_en": "Mystic Arcanum (7th level)",
+    "desc": [
+      "在11级时，你的宗主赐予你一个叫做秘法的魔法秘密。从邪术师法术列表中选择一个6级法术作为这个秘法。",
+      "你可以施放你的秘法法术一次而无需消耗法术位。你必须完成长休才能再次这样做。",
+      "在更高等级时，你获得更多可以以这种方式施放的邪术师法术：在13级时选择一个7级法术，在15级时选择一个8级法术，在17级时选择一个9级法术。完成长休后，你恢复所有奥秘秘法的使用次数。"
+    ],
+    "desc_en": [
+      "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.",
+      "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
+      "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "hurl-through-hell",
+    "feature_name": "投入地狱",
+    "feature_name_en": "Hurl Through Hell",
+    "desc": [
+      "从14级开始，当你以攻击命中一个生物时，你可以使用此特性立即将目标传送穿过下层位面。该生物消失并冲过一个噩梦般的景象。",
+      "在你的下一回合结束时，目标返回到它之前占据的空间，或最近的未占据空间。如果目标不是邪魔，它因其可怕的经历而受到10d10心灵伤害。",
+      "一旦你使用此特性，完成长休前你不能再次使用它。"
+    ],
+    "desc_en": [
+      "Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.",
+      "At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.",
+      "Once you use this feature, you can't use it again until you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "mystic-arcanum-8th-level",
+    "feature_name": "奥秘秘法（8级）",
+    "feature_name_en": "Mystic Arcanum (8th level)",
+    "desc": [
+      "在11级时，你的宗主赐予你一个叫做秘法的魔法秘密。从邪术师法术列表中选择一个6级法术作为这个秘法。",
+      "你可以施放你的秘法法术一次而无需消耗法术位。你必须完成长休才能再次这样做。",
+      "在更高等级时，你获得更多可以以这种方式施放的邪术师法术：在13级时选择一个7级法术，在15级时选择一个8级法术，在17级时选择一个9级法术。完成长休后，你恢复所有奥秘秘法的使用次数。"
+    ],
+    "desc_en": [
+      "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.",
+      "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
+      "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "warlock-ability-score-improvement-4",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "mystic-arcanum-9th-level",
+    "feature_name": "奥秘秘法（9级）",
+    "feature_name_en": "Mystic Arcanum (9th level)",
+    "desc": [
+      "在11级时，你的宗主赐予你一个叫做秘法的魔法秘密。从邪术师法术列表中选择一个6级法术作为这个秘法。",
+      "你可以施放你的秘法法术一次而无需消耗法术位。你必须完成长休才能再次这样做。",
+      "在更高等级时，你获得更多可以以这种方式施放的邪术师法术：在13级时选择一个7级法术，在15级时选择一个8级法术，在17级时选择一个9级法术。完成长休后，你恢复所有奥秘秘法的使用次数。"
+    ],
+    "desc_en": [
+      "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.",
+      "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
+      "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "warlock-ability-score-improvement-5",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "eldritch-master",
+    "feature_name": "魔能掌控",
+    "feature_name_en": "Eldritch Master",
+    "desc": [
+      "在20级时，你可以在恳求宗主的同时汲取你内在的神秘力量储备，以恢复已消耗的法术位。你可以花费1分钟恳求宗主的帮助，以恢复你的契约魔法特性中所有已消耗的法术位。",
+      "一旦你使用此特性恢复法术位，你必须完成长休才能再次这样做。"
+    ],
+    "desc_en": [
+      "At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature.",
+      "Once you regain spell slots with this feature, you must finish a long rest before you can do so again."
+    ]
+  }
+]

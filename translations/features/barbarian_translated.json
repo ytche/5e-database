@@ -1,0 +1,200 @@
+[
+  {
+    "feature_index": "rage",
+    "feature_name": "Rage",
+    "desc": [
+      "在战斗中，你以原始的凶猛战斗。在你的回合，你可以使用附赠动作进入狂暴。狂暴期间，如果你没有穿戴重甲，你获得以下好处：",
+      "- 你在力量检定和力量豁免检定上具有优势。",
+      "- 当你使用力量进行近战武器攻击时，你的伤害骰获得+2加值。这个加值随着等级提升而增加。",
+      "- 你对钝击、穿刺和挥砍伤害具有抗性。",
+      "如果你能施放法术，你在狂暴期间不能施放法术或维持对法术的专注。",
+      "你的狂暴持续1分钟。如果你陷入昏迷，或者你的回合结束且你自上个回合以来没有攻击敌对生物或受到伤害，它会提前结束。你也可以在你的回合使用附赠动作结束狂暴。",
+      "一旦你在当前等级达到狂暴最大次数，你必须完成长休才能再次狂暴。你在1级时可以狂暴2次，3级时3次，6级时4次，12级时5次，17级时6次。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-unarmored-defense",
+    "feature_name": "Unarmored Defense",
+    "desc": [
+      "当你未穿戴任何护甲时，你的护甲等级等于10+你的敏捷调整值+你的体质调整值。你可以持握盾牌并仍然获得此好处。"
+    ]
+  },
+  {
+    "feature_index": "reckless-attack",
+    "feature_name": "Reckless Attack",
+    "desc": [
+      "从2级开始，你可以抛开一切防御顾虑，以凶猛的绝望进行攻击。当你在回合中进行第一次攻击时，你可以决定进行鲁莽攻击。这样做让你在本回合使用力量进行的近战武器攻击检定具有优势，但对你的攻击检定也具有优势，直到你的下个回合。"
+    ]
+  },
+  {
+    "feature_index": "danger-sense",
+    "feature_name": "Danger Sense",
+    "desc": [
+      "在2级时，你获得对附近事物不寻常的超自然感知，让你在躲避危险时占得先机。你在对抗你能看到的效果（如陷阱和法术）的敏捷豁免检定上具有优势。要获得此好处，你不能处于目盲、耳聋或失能状态。"
+    ]
+  },
+  {
+    "feature_index": "primal-path",
+    "feature_name": "Primal Path",
+    "desc": [
+      "在3级时，你选择一条道路来塑造你狂暴的本质。选择狂战士道途或图腾战士道途，两者都在职业描述末尾详述。你的选择在3级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "frenzy",
+    "feature_name": "Frenzy",
+    "desc": [
+      "从你在3级选择此道途开始，你可以在狂暴时进入狂热。如果你这样做，在你的狂暴持续期间，你可以在本回合之后的每个回合使用附赠动作进行一次单手近战武器攻击。当你的狂暴结束时，你遭受一级力竭（如附录A所述）。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-ability-score-improvement-1",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-extra-attack",
+    "feature_name": "Extra Attack",
+    "desc": [
+      "从5级开始，每当你在你的回合采取攻击动作时，你可以攻击两次而非一次。"
+    ]
+  },
+  {
+    "feature_index": "fast-movement",
+    "feature_name": "Fast Movement",
+    "desc": [
+      "从5级开始，当你未穿戴重甲时，你的速度增加10尺。"
+    ]
+  },
+  {
+    "feature_index": "mindless-rage",
+    "feature_name": "Mindless Rage",
+    "desc": [
+      "从6级开始，你在狂暴期间不能被魅惑或恐惧。如果你在进入狂暴时已被魅惑或恐惧，该效果在狂暴持续期间被暂停。"
+    ]
+  },
+  {
+    "feature_index": "primal-path-improvement-1",
+    "feature_name": "Path feature",
+    "desc": [
+      "在3级时，你选择一条道路来塑造你狂暴的本质。选择狂战士道途或图腾战士道途，两者都在职业描述末尾详述。你的选择在3级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "feral-instinct",
+    "feature_name": "Feral Instinct",
+    "desc": [
+      "到7级时，你的本能如此敏锐以至于你在先攻检定上具有优势。",
+      "此外，如果你在战斗开始时被突袭且没有失能，你可以在你的第一个回合正常行动，但前提是你必须在该回合做任何其他事情之前进入狂暴。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-ability-score-improvement-2",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "brutal-critical-1-die",
+    "feature_name": "Brutal Critical (1 die)",
+    "desc": [
+      "从9级开始，当你用近战攻击造成重击时，你可以额外掷一枚武器伤害骰来决定额外伤害。这在13级时增加到两枚额外骰，在17级时增加到三枚额外骰。"
+    ]
+  },
+  {
+    "feature_index": "intimidating-presence",
+    "feature_name": "Intimidating Presence",
+    "desc": [
+      "从10级开始，你可以使用动作以你威胁性的存在来恐吓某人。当你这样做时，选择30尺内你能看到的一个生物。如果该生物能看到或听到你，它必须成功通过感知豁免检定（DC等于8+你的熟练加值+你的魅力调整值），否则对你恐惧，直到你的下个回合结束。在随后的回合，你可以使用动作延长受恐惧生物的此效果持续时间，直到你的下个回合结束。如果该生物在其回合结束时脱离视线或距离你超过60尺，此效果结束。",
+      "如果该生物成功通过豁免检定，你在24小时内不能对该生物使用此特性。"
+    ]
+  },
+  {
+    "feature_index": "primal-path-improvement-2",
+    "feature_name": "Path feature",
+    "desc": [
+      "在3级时，你选择一条道路来塑造你狂暴的本质。选择狂战士道途或图腾战士道途，两者都在职业描述末尾详述。你的选择在3级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "relentless-rage",
+    "feature_name": "Relentless Rage",
+    "desc": [
+      "从11级开始，你的狂暴可以让你在遭受重伤时继续战斗。如果你在狂暴时降至0生命值且没有直接死亡，你可以进行DC10的体质豁免检定。如果你成功，你改为降至1生命值。",
+      "在你第一次使用此特性后，每次使用此特性DC增加5。当你完成短休或长休时，DC重置为10。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-ability-score-improvement-3",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "brutal-critical-2-dice",
+    "feature_name": "Brutal Critical (2 dice)",
+    "desc": [
+      "从9级开始，当你用近战攻击造成重击时，你可以额外掷一枚武器伤害骰来决定额外伤害。这在13级时增加到两枚额外骰，在17级时增加到三枚额外骰。"
+    ]
+  },
+  {
+    "feature_index": "retaliation",
+    "feature_name": "Retaliation",
+    "desc": [
+      "从14级开始，当你受到5尺内生物的伤害时，你可以使用反应对该生物进行单手近战武器攻击。"
+    ]
+  },
+  {
+    "feature_index": "primal-path-improvement-3",
+    "feature_name": "Path feature",
+    "desc": [
+      "在3级时，你选择一条道路来塑造你狂暴的本质。选择狂战士道途或图腾战士道途，两者都在职业描述末尾详述。你的选择在3级以及6、10、14级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "persistent-rage",
+    "feature_name": "Persistent Rage",
+    "desc": [
+      "从15级开始，你的狂暴如此凶猛，以至于只有在你陷入昏迷或你选择结束时才会提前结束。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-ability-score-improvement-4",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "brutal-critical-3-dice",
+    "feature_name": "Brutal Critical (3 dice)",
+    "desc": [
+      "从9级开始，当你用近战攻击造成重击时，你可以额外掷一枚武器伤害骰来决定额外伤害。这在13级时增加到两枚额外骰，在17级时增加到三枚额外骰。"
+    ]
+  },
+  {
+    "feature_index": "indomitable-might",
+    "feature_name": "Indomitable Might",
+    "desc": [
+      "从18级开始，如果你的力量检定总值小于你的力量值，你可以使用该数值代替总值。"
+    ]
+  },
+  {
+    "feature_index": "barbarian-ability-score-improvement-5",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "primal-champion",
+    "feature_name": "Primal Champion",
+    "desc": [
+      "在20级时，你体现了荒野的力量。你的力量和体质值各增加4。这些值的最大值现在为24。"
+    ]
+  }
+]

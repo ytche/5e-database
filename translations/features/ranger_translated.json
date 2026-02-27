@@ -1,0 +1,575 @@
+[
+  {
+    "feature_index": "favored-enemy-1-type",
+    "feature_name": "宿敌（1种类型）",
+    "feature_name_en": "Favored Enemy (1 type)",
+    "desc": [
+      "从1级开始，你对某种特定类型的敌人拥有丰富的经验，研究、追踪、狩猎，甚至与它们交谈。",
+      "选择一种宿敌类型：异怪、野兽、天界生物、构装生物、龙、元素生物、精类、邪魔、巨人、怪兽、泥怪、植物或不死生物。或者，你可以选择两种类人生物种族（如豺狼人和兽人）作为宿敌。",
+      "你在追踪宿敌的感知（求生）检定以及回忆关于它们的信息的智力检定上具有优势。",
+      "当你获得此特性时，如果宿敌会说某种语言，你还可以学会一种由宿敌说的自选语言。",
+      "在6级和14级时，你分别选择一种额外的宿敌以及相关的语言。随着你获得等级，你的选择应该反映你在冒险中遇到的怪物类型。"
+    ],
+    "desc_en": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ]
+  },
+  {
+    "feature_index": "natural-explorer-1-terrain-type",
+    "feature_name": "自然探索者（1种地形）",
+    "feature_name_en": "Natural Explorer (1 terrain type)",
+    "desc": [
+      "你对一种自然环境特别熟悉，善于在这种区域旅行和生存。选择一种偏好地形：极地、海岸、沙漠、森林、草原、山地或沼泽。当你进行与偏好地形相关的智力或感知检定时，如果你熟练于所使用的技能，你的熟练加值翻倍。",
+      "在偏好地形中旅行一小时或更长时间时，你获得以下好处：",
+      "- 困难地形不会减慢你团队的移动速度。",
+      "- 除非通过魔法手段，否则你的团队不会迷路。",
+      "- 即使你在旅行时忙于其他活动（如搜寻食物、导航或追踪），你也能保持对危险的警觉。",
+      "- 如果你独自旅行，你可以以正常速度隐秘移动。",
+      "- 当你搜寻食物时，你找到的食物是正常数量的两倍。",
+      "- 在追踪其他生物时，你还能得知它们的准确数量、体型以及它们经过该区域的时间。",
+      "在6级和10级时，你可以选择额外的偏好地形类型。"
+    ],
+    "desc_en": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "- Difficult terrain doesn't slow your group's travel.",
+      "- Your group can't become lost except by magical means.",
+      "- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "- If you are traveling alone, you can move stealthily at a normal pace.",
+      "- When you forage, you find twice as much food as you normally would.",
+      "- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style",
+    "feature_name": "战斗风格",
+    "feature_name_en": "Fighting Style",
+    "desc": [
+      "在2级时，你采用一种特定的战斗风格作为你的专长。选择以下选项之一。你不能多次选择同一战斗风格选项，即使你之后有机会再次选择。"
+    ],
+    "desc_en": [
+      "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-archery",
+    "feature_name": "战斗风格：箭术",
+    "feature_name_en": "Fighting Style: Archery",
+    "desc": [
+      "你使用远程武器进行的攻击检定获得+2加值。"
+    ],
+    "desc_en": [
+      "You gain a +2 bonus to attack rolls you make with ranged weapons."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-defense",
+    "feature_name": "战斗风格：防御",
+    "feature_name_en": "Fighting Style: Defense",
+    "desc": [
+      "当你穿戴护甲时，你的AC获得+1加值。"
+    ],
+    "desc_en": [
+      "While you are wearing armor, you gain a +1 bonus to AC."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-dueling",
+    "feature_name": "战斗风格：对决",
+    "feature_name_en": "Fighting Style: Dueling",
+    "desc": [
+      "当你单手持用一把近战武器且没有其他武器时，你用该武器进行的伤害检定获得+2加值。"
+    ],
+    "desc_en": [
+      "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-two-weapon-fighting",
+    "feature_name": "战斗风格：双武器战斗",
+    "feature_name_en": "Fighting Style: Two-Weapon Fighting",
+    "desc": [
+      "当你进行双武器战斗时，你可以将能力调整值加到第二次攻击的伤害上。"
+    ],
+    "desc_en": [
+      "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+    ]
+  },
+  {
+    "feature_index": "spellcasting-ranger",
+    "feature_name": "施法：游侠",
+    "feature_name_en": "Spellcasting: Ranger",
+    "desc": [
+      "当你达到2级时，你已经学会使用自然的魔法本质来施法，就像德鲁伊一样。"
+    ],
+    "desc_en": [
+      "By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype",
+    "feature_name": "游侠范型",
+    "feature_name_en": "Ranger Archetype",
+    "desc": [
+      "在3级时，你选择一个你努力模仿的范型，如猎人。你的选择在3级时赋予你特性，并在7级、11级和15级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "hunters-prey",
+    "feature_name": "猎手猎物",
+    "feature_name_en": "Hunter's Prey",
+    "desc": [
+      "在3级时，你获得以下特性之一（自选）。",
+      "巨人杀手",
+      "巨像杀手",
+      "群体猎手"
+    ],
+    "desc_en": [
+      "At 3rd level, you gain one of the following features of your choice.",
+      "Colossus Slayer",
+      "Giant Killer",
+      "Horde Breaker"
+    ]
+  },
+  {
+    "feature_index": "hunters-prey-colossus-slayer",
+    "feature_name": "猎手猎物：巨像杀手",
+    "feature_name_en": "Hunter's Prey: Colossus Slayer",
+    "desc": [
+      "你的坚韧可以消耗最强大的敌人。当你用武器攻击命中一个生物时，如果该生物的生命值低于其最大值，该生物额外受到1d8伤害。每回合你只能造成一次这种额外伤害。"
+    ],
+    "desc_en": [
+      "Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+    ]
+  },
+  {
+    "feature_index": "hunters-prey-giant-killer",
+    "feature_name": "猎手猎物：巨人杀手",
+    "feature_name_en": "Hunter's Prey: Giant Killer",
+    "desc": [
+      "当距离你5尺内的大型或更大生物命中或落空对你的攻击时，你可以使用反应立即在该生物攻击后攻击它，前提是你能看到该生物。"
+    ],
+    "desc_en": [
+      "When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+    ]
+  },
+  {
+    "feature_index": "hunters-prey-horde-breaker",
+    "feature_name": "猎手猎物：群体猎手",
+    "feature_name_en": "Hunter's Prey: Horde Breaker",
+    "desc": [
+      "在你的每个回合中，当你使用武器攻击时，你可以使用同一武器对距离原始目标5尺内且在武器射程内的另一个生物再进行一次攻击。"
+    ],
+    "desc_en": [
+      "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+    ]
+  },
+  {
+    "feature_index": "primeval-awareness",
+    "feature_name": "原始意识",
+    "feature_name_en": "Primeval Awareness",
+    "desc": [
+      "从3级开始，你可以使用动作并消耗一个游侠法术位，将注意力集中在你周围的区域。每消耗法术位等级1分钟，你可以感知1英里内（如果你在偏好地形中则为6英里内）是否存在以下类型的生物：异怪、天界生物、龙、元素生物、精类、邪魔和不死生物。此特性不会揭示生物的位置或数量。"
+    ],
+    "desc_en": [
+      "Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-1",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "ranger-extra-attack",
+    "feature_name": "额外攻击",
+    "feature_name_en": "Extra Attack",
+    "desc": [
+      "从5级开始，你可以在你的回合进行攻击动作时攻击两次而非一次。"
+    ],
+    "desc_en": [
+      "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+    ]
+  },
+  {
+    "feature_index": "favored-enemy-2-types",
+    "feature_name": "宿敌（2种类型）",
+    "feature_name_en": "Favored Enemy (2 types)",
+    "desc": [
+      "从1级开始，你对某种特定类型的敌人拥有丰富的经验，研究、追踪、狩猎，甚至与它们交谈。",
+      "选择一种宿敌类型：异怪、野兽、天界生物、构装生物、龙、元素生物、精类、邪魔、巨人、怪兽、泥怪、植物或不死生物。或者，你可以选择两种类人生物种族（如豺狼人和兽人）作为宿敌。",
+      "你在追踪宿敌的感知（求生）检定以及回忆关于它们的信息的智力检定上具有优势。",
+      "当你获得此特性时，如果宿敌会说某种语言，你还可以学会一种由宿敌说的自选语言。",
+      "在6级和14级时，你分别选择一种额外的宿敌以及相关的语言。随着你获得等级，你的选择应该反映你在冒险中遇到的怪物类型。"
+    ],
+    "desc_en": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ]
+  },
+  {
+    "feature_index": "natural-explorer-2-terrain-types",
+    "feature_name": "自然探索者（2种地形）",
+    "feature_name_en": "Natural Explorer (2 terrain types)",
+    "desc": [
+      "你对一种自然环境特别熟悉，善于在这种区域旅行和生存。选择一种偏好地形：极地、海岸、沙漠、森林、草原、山地或沼泽。当你进行与偏好地形相关的智力或感知检定时，如果你熟练于所使用的技能，你的熟练加值翻倍。",
+      "在偏好地形中旅行一小时或更长时间时，你获得以下好处：",
+      "- 困难地形不会减慢你团队的移动速度。",
+      "- 除非通过魔法手段，否则你的团队不会迷路。",
+      "- 即使你在旅行时忙于其他活动（如搜寻食物、导航或追踪），你也能保持对危险的警觉。",
+      "- 如果你独自旅行，你可以以正常速度隐秘移动。",
+      "- 当你搜寻食物时，你找到的食物是正常数量的两倍。",
+      "- 在追踪其他生物时，你还能得知它们的准确数量、体型以及它们经过该区域的时间。",
+      "在6级和10级时，你可以选择额外的偏好地形类型。"
+    ],
+    "desc_en": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "- Difficult terrain doesn't slow your group's travel.",
+      "- Your group can't become lost except by magical means.",
+      "- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "- If you are traveling alone, you can move stealthily at a normal pace.",
+      "- When you forage, you find twice as much food as you normally would.",
+      "- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype-improvement-1",
+    "feature_name": "游侠范型特性",
+    "feature_name_en": "Ranger Archetype feature",
+    "desc": [
+      "在3级时，你选择一个你努力模仿的范型，如猎人。你的选择在3级时赋予你特性，并在7级、11级和15级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics",
+    "feature_name": "防御战术",
+    "feature_name_en": "Defensive Tactics",
+    "desc": [
+      "在7级时，你获得以下特性之一（自选）。",
+      "逃脱群体",
+      "多重攻击防御",
+      "钢铁意志"
+    ],
+    "desc_en": [
+      "At 7th level, you gain one of the following features of your choice.",
+      "Escape the Horde",
+      "Multiattack Defense",
+      "Steel Will"
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics-escape-the-horde",
+    "feature_name": "防御战术：逃脱群体",
+    "feature_name_en": "Defensive Tactics: Escape the Horde",
+    "desc": [
+      "针对你的借机攻击具有劣势。"
+    ],
+    "desc_en": [
+      "Opportunity attacks against you are made with disadvantage."
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics-multiattack-defense",
+    "feature_name": "防御战术：多重攻击防御",
+    "feature_name_en": "Defensive Tactics: Multiattack Defense",
+    "desc": [
+      "当一个生物以攻击命中你时，你在该回合剩余时间内对该生物所有后续攻击的AC获得+4加值。"
+    ],
+    "desc_en": [
+      "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics-steel-will",
+    "feature_name": "防御战术：钢铁意志",
+    "feature_name_en": "Defensive Tactics: Steel Will",
+    "desc": [
+      "你在对抗被恐惧状态的豁免检定上具有优势。"
+    ],
+    "desc_en": [
+      "You have advantage on saving throws against being frightened."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-2",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "ranger-lands-stride",
+    "feature_name": "大地步",
+    "feature_name_en": "Land's Stride",
+    "desc": [
+      "从8级开始，穿越非魔法困难地形不再额外消耗你的移动力。你还可以穿过非魔法植物而不被它们减慢速度，也不会受到它们荆棘、尖刺或类似危害的伤害。",
+      "此外，你在对抗被魔法创造或操控以阻碍移动的植物（如纠缠术创造的植物）的豁免检定上具有优势。"
+    ],
+    "desc_en": [
+      "Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+      "In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell."
+    ]
+  },
+  {
+    "feature_index": "natural-explorer-3-terrain-types",
+    "feature_name": "自然探索者（3种地形）",
+    "feature_name_en": "Natural Explorer (3 terrain types)",
+    "desc": [
+      "你对一种自然环境特别熟悉，善于在这种区域旅行和生存。选择一种偏好地形：极地、海岸、沙漠、森林、草原、山地或沼泽。当你进行与偏好地形相关的智力或感知检定时，如果你熟练于所使用的技能，你的熟练加值翻倍。",
+      "在偏好地形中旅行一小时或更长时间时，你获得以下好处：",
+      "- 困难地形不会减慢你团队的移动速度。",
+      "- 除非通过魔法手段，否则你的团队不会迷路。",
+      "- 即使你在旅行时忙于其他活动（如搜寻食物、导航或追踪），你也能保持对危险的警觉。",
+      "- 如果你独自旅行，你可以以正常速度隐秘移动。",
+      "- 当你搜寻食物时，你找到的食物是正常数量的两倍。",
+      "- 在追踪其他生物时，你还能得知它们的准确数量、体型以及它们经过该区域的时间。",
+      "在6级和10级时，你可以选择额外的偏好地形类型。"
+    ],
+    "desc_en": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "- Difficult terrain doesn't slow your group's travel.",
+      "- Your group can't become lost except by magical means.",
+      "- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "- If you are traveling alone, you can move stealthily at a normal pace.",
+      "- When you forage, you find twice as much food as you normally would.",
+      "- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ]
+  },
+  {
+    "feature_index": "hide-in-plain-sight",
+    "feature_name": "藏形匿影",
+    "feature_name_en": "Hide in Plain Sight",
+    "desc": [
+      "从10级开始，你可以花费1分钟为自己制作伪装。你必须能够接触到新鲜的泥土、植物、烟灰和其他天然材料来制作你的伪装。",
+      "一旦你这样伪装好，你可以通过紧贴一个至少和你一样高和宽的固体表面（如树或墙）来尝试隐藏。只要你保持不动或不执行动作，你在敏捷（隐匿）检定上获得+10加值。一旦你移动或执行动作或反应，你必须重新伪装才能获得此好处。"
+    ],
+    "desc_en": [
+      "Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.",
+      "Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype-improvement-2",
+    "feature_name": "游侠范型特性",
+    "feature_name_en": "Ranger Archetype feature",
+    "desc": [
+      "在3级时，你选择一个你努力模仿的范型，如猎人。你的选择在3级时赋予你特性，并在7级、11级和15级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "multiattack",
+    "feature_name": "多重攻击",
+    "feature_name_en": "Multiattack",
+    "desc": [
+      "在11级时，你获得以下特性之一（自选）。",
+      "箭雨",
+      "旋风斩"
+    ],
+    "desc_en": [
+      "At 11th level, you gain one of the following features of your choice.",
+      "Volley",
+      "Whirlwind Attack"
+    ]
+  },
+  {
+    "feature_index": "multiattack-volley",
+    "feature_name": "多重攻击：箭雨",
+    "feature_name_en": "Multiattack: Volley",
+    "desc": [
+      "你可以使用动作对你武器射程内你能看到的一个点周围10尺内的任意数量生物进行远程攻击。你需要为每个目标准备弹药，如常，并为每个目标单独进行攻击检定。"
+    ],
+    "desc_en": [
+      "You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+    ]
+  },
+  {
+    "feature_index": "multiattack-whirlwind-attack",
+    "feature_name": "多重攻击：旋风斩",
+    "feature_name_en": "Multiattack: Whirlwind Attack",
+    "desc": [
+      "你可以使用动作对你周围5尺内的任意数量生物进行近战攻击，为每个目标单独进行攻击检定。"
+    ],
+    "desc_en": [
+      "You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-3",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "favored-enemy-3-enemies",
+    "feature_name": "宿敌（3种敌人）",
+    "feature_name_en": "Favored Enemy (3 enemies)",
+    "desc": [
+      "从1级开始，你对某种特定类型的敌人拥有丰富的经验，研究、追踪、狩猎，甚至与它们交谈。",
+      "选择一种宿敌类型：异怪、野兽、天界生物、构装生物、龙、元素生物、精类、邪魔、巨人、怪兽、泥怪、植物或不死生物。或者，你可以选择两种类人生物种族（如豺狼人和兽人）作为宿敌。",
+      "你在追踪宿敌的感知（求生）检定以及回忆关于它们的信息的智力检定上具有优势。",
+      "当你获得此特性时，如果宿敌会说某种语言，你还可以学会一种由宿敌说的自选语言。",
+      "在6级和14级时，你分别选择一种额外的宿敌以及相关的语言。随着你获得等级，你的选择应该反映你在冒险中遇到的怪物类型。"
+    ],
+    "desc_en": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ]
+  },
+  {
+    "feature_index": "vanish",
+    "feature_name": "消失",
+    "feature_name_en": "Vanish",
+    "desc": [
+      "从14级开始，你可以在你的回合使用附赠动作进行躲藏动作。此外，除非你愿意留下痕迹，否则你无法被非魔法手段追踪。"
+    ],
+    "desc_en": [
+      "Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype-improvement-3",
+    "feature_name": "游侠范型特性",
+    "feature_name_en": "Ranger Archetype feature",
+    "desc": [
+      "在3级时，你选择一个你努力模仿的范型，如猎人。你的选择在3级时赋予你特性，并在7级、11级和15级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense",
+    "feature_name": "高等猎手防御",
+    "feature_name_en": "Superior Hunter's Defense",
+    "desc": [
+      "在15级时，你获得以下特性之一（自选）。",
+      "闪避",
+      "逆流而立",
+      "不可思议闪避"
+    ],
+    "desc_en": [
+      "At 15th level, you gain one of the following features of your choice.",
+      "Evasion",
+      "Stand Against the Tide",
+      "Uncanny Dodge"
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense-evasion",
+    "feature_name": "高等猎手防御：闪避",
+    "feature_name_en": "Superior Hunter's Defense: Evasion",
+    "desc": [
+      "当你受到允许你进行敏捷豁免检定以只承受一半伤害的效应影响时（如红龙的火焰吐息或闪电术），如果你成功通过豁免检定，则不受伤害，如果失败则只承受一半伤害。"
+    ],
+    "desc_en": [
+      "When you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense-stand-against-the-tide",
+    "feature_name": "高等猎手防御：逆流而立",
+    "feature_name_en": "Superior Hunter's Defense: Stand Against the Tide",
+    "desc": [
+      "当一个敌对生物对你的近战攻击落空时，你可以使用反应迫使该生物对你选择的另一个生物（不能是它自己）重复同样的攻击。"
+    ],
+    "desc_en": [
+      "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense-uncanny-dodge",
+    "feature_name": "高等猎手防御：不可思议闪避",
+    "feature_name_en": "Superior Hunter's Defense: Uncanny Dodge",
+    "desc": [
+      "当一个你能看到的攻击者命中你时，你可以使用反应将这次攻击对你造成的伤害减半。"
+    ],
+    "desc_en": [
+      "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-4",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "feral-senses",
+    "feature_name": "野兽感官",
+    "feature_name_en": "Feral Senses",
+    "desc": [
+      "在18级时，你获得了超自然的感官，帮助你与你无法看到的生物战斗。当你攻击一个你看不到的生物时，你看不见它不会对你的攻击检定造成劣势。",
+      "你也能感知到30尺内任何隐形生物的位置，前提是该生物没有对你躲藏且你没有目盲或耳聋。"
+    ],
+    "desc_en": [
+      "At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.",
+      "You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-5",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "foe-slayer",
+    "feature_name": "敌寇杀手",
+    "feature_name_en": "Foe Slayer",
+    "desc": [
+      "在20级时，你成为了你敌人的无与伦比的猎手。在你的每个回合中一次，你可以将感知调整值加到你针对一个宿敌的攻击检定或伤害检定上。你可以在掷骰之前或之后选择使用此特性，但在掷骰效果应用之前。"
+    ],
+    "desc_en": [
+      "At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+    ]
+  }
+]

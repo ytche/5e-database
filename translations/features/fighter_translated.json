@@ -1,0 +1,235 @@
+[
+  {
+    "feature_index": "fighter-fighting-style",
+    "feature_name": "Fighting Style",
+    "desc": [
+      "你采用一种特定的战斗风格作为你的专长。从以下选项中选择一项。你不能多次选择同一种战斗风格，即使你之后再次获得选择机会。"
+    ]
+  },
+  {
+    "feature_index": "fighter-fighting-style-archery",
+    "feature_name": "Fighting Style: Archery",
+    "desc": [
+      "你使用远程武器进行的攻击检定获得+2加值。"
+    ]
+  },
+  {
+    "feature_index": "fighter-fighting-style-defense",
+    "feature_name": "Fighting Style: Defense",
+    "desc": [
+      "当你穿戴护甲时，你的AC获得+1加值。"
+    ]
+  },
+  {
+    "feature_index": "fighter-fighting-style-dueling",
+    "feature_name": "Fighting Style: Dueling",
+    "desc": [
+      "当你单手持握一把近战武器且没有持握其他武器时，你使用该武器的伤害骰获得+2加值。"
+    ]
+  },
+  {
+    "feature_index": "fighter-fighting-style-great-weapon-fighting",
+    "feature_name": "Fighting Style: Great Weapon Fighting",
+    "desc": [
+      "当你用双手持握的近战武器进行攻击时，如果伤害骰掷出1或2，你可以重掷该骰子，并且必须使用新的结果，即使新的结果仍然是1或2。该武器必须具有双手或两用特性才能获得此好处。"
+    ]
+  },
+  {
+    "feature_index": "fighter-fighting-style-protection",
+    "feature_name": "Fighting Style: Protection",
+    "desc": [
+      "当你能看到的一个生物攻击5尺内除你以外的目标时，你可以使用反应迫使该攻击检定具有劣势。你必须持握一面盾牌。"
+    ]
+  },
+  {
+    "feature_index": "fighter-fighting-style-two-weapon-fighting",
+    "feature_name": "Fighting Style: Two-Weapon Fighting",
+    "desc": [
+      "当你进行双武器战斗时，你可以将属性调整值加到第二次攻击的伤害上。"
+    ]
+  },
+  {
+    "feature_index": "second-wind",
+    "feature_name": "Second Wind",
+    "desc": [
+      "你拥有有限的耐力源泉，可以从中汲取来保护你免受伤害。在你的回合，你可以使用附赠动作恢复1d10+你战士等级的生命值。一旦你使用此特性，你必须完成短休或长休后才能再次使用。"
+    ]
+  },
+  {
+    "feature_index": "action-surge-1-use",
+    "feature_name": "Action Surge (1 use)",
+    "desc": [
+      "从2级开始，你可以在短时间内超越自己的正常极限。在你的回合，你可以采取一个额外动作，除了你的常规动作和可能的附赠动作之外。",
+      "一旦你使用此特性，你必须完成短休或长休后才能再次使用。从17级开始，你可以在休息前使用两次，但在同一回合只能使用一次。"
+    ]
+  },
+  {
+    "feature_index": "martial-archetype",
+    "feature_name": "Martial Archetype",
+    "desc": [
+      "在3级时，你选择一个范型，努力在你的战斗风格和技巧中效仿它，例如勇士范型。你选择的范型在3级以及7、10、15、18级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "improved-critical",
+    "feature_name": "Improved Critical",
+    "desc": [
+      "从你在3级选择此范型开始，你的武器攻击在掷出19或20时造成重击。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-1",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "extra-attack-1",
+    "feature_name": "Extra Attack",
+    "desc": [
+      "从5级开始，每当你在你的回合采取攻击动作时，你可以攻击两次而非一次。当你在此职业达到11级时，攻击次数增加到三次，达到20级时增加到四次。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-2",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "remarkable-athlete",
+    "feature_name": "Remarkable Athlete",
+    "desc": [
+      "从7级开始，你可以将一半的熟练加值（向上取整）加到任何不使用你熟练加值的力量、敏捷或体质检定上。此外，当你进行奔跑跳远时，你可以跳过的距离增加等于你力量调整值的尺数。"
+    ]
+  },
+  {
+    "feature_index": "martial-archetype-improvement-1",
+    "feature_name": "Martial Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，努力在你的战斗风格和技巧中效仿它，例如勇士范型。你选择的范型在3级以及7、10、15、18级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-3",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "indomitable-1-use",
+    "feature_name": "Indomitable (1 use)",
+    "desc": [
+      "从9级开始，你可以重掷一次失败的豁免检定。如果你这样做，你必须使用新的结果，并且直到你完成长休前不能再次使用此特性。从13级开始，你可以在两次长休之间使用此特性两次，从17级开始可以使用三次。"
+    ]
+  },
+  {
+    "feature_index": "additional-fighting-style",
+    "feature_name": "Additional Fighting Style",
+    "desc": [
+      "在10级时，你可以从战斗风格职业特性中选择第二项。"
+    ]
+  },
+  {
+    "feature_index": "martial-archetype-improvement-2",
+    "feature_name": "Martial Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，努力在你的战斗风格和技巧中效仿它，例如勇士范型。你选择的范型在3级以及7、10、15、18级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "extra-attack-2",
+    "feature_name": "Extra Attack (2)",
+    "desc": [
+      "从5级开始，每当你在你的回合采取攻击动作时，你可以攻击两次而非一次。当你在此职业达到11级时，攻击次数增加到三次，达到20级时增加到四次。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-4",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "indomitable-2-uses",
+    "feature_name": "Indomitable (2 uses)",
+    "desc": [
+      "从9级开始，你可以重掷一次失败的豁免检定。如果你这样做，你必须使用新的结果，并且直到你完成长休前不能再次使用此特性。从13级开始，你可以在两次长休之间使用此特性两次，从17级开始可以使用三次。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-5",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "superior-critical",
+    "feature_name": "Superior Critical",
+    "desc": [
+      "从15级开始，你的武器攻击在掷出18-20时造成重击。"
+    ]
+  },
+  {
+    "feature_index": "martial-archetype-improvement-3",
+    "feature_name": "Martial Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，努力在你的战斗风格和技巧中效仿它，例如勇士范型。你选择的范型在3级以及7、10、15、18级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-6",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "action-surge-2-uses",
+    "feature_name": "Action Surge (2 uses)",
+    "desc": [
+      "从2级开始，你可以在短时间内超越自己的正常极限。在你的回合，你可以采取一个额外动作，除了你的常规动作和可能的附赠动作之外。",
+      "一旦你使用此特性，你必须完成短休或长休后才能再次使用。从17级开始，你可以在休息前使用两次，但在同一回合只能使用一次。"
+    ]
+  },
+  {
+    "feature_index": "indomitable-3-uses",
+    "feature_name": "Indomitable (3 uses)",
+    "desc": [
+      "从9级开始，你可以重掷一次失败的豁免检定。如果你这样做，你必须使用新的结果，并且直到你完成长休前不能再次使用此特性。从13级开始，你可以在两次长休之间使用此特性两次，从17级开始可以使用三次。"
+    ]
+  },
+  {
+    "feature_index": "martial-archetype-improvement-4",
+    "feature_name": "Martial Archetype feature",
+    "desc": [
+      "在3级时，你选择一个范型，努力在你的战斗风格和技巧中效仿它，例如勇士范型。你选择的范型在3级以及7、10、15、18级时赋予你特性。"
+    ]
+  },
+  {
+    "feature_index": "survivor",
+    "feature_name": "Survivor",
+    "desc": [
+      "在18级时，你达到了战斗中韧性的巅峰。在你的每个回合开始时，如果你剩余的生命值不超过最大值的一半，你恢复5+你体质调整值的生命值。如果你的生命值为0，你不会获得此好处。"
+    ]
+  },
+  {
+    "feature_index": "fighter-ability-score-improvement-7",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及6、8、12、14、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "extra-attack-3",
+    "feature_name": "Extra Attack (3)",
+    "desc": [
+      "从5级开始，每当你在你的回合采取攻击动作时，你可以攻击两次而非一次。当你在此职业达到11级时，攻击次数增加到三次，达到20级时增加到四次。"
+    ]
+  }
+]

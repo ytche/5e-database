@@ -1,0 +1,245 @@
+[
+  {
+    "feature_index": "divine-sense",
+    "feature_name": "Divine Sense",
+    "desc": [
+      "强烈的邪恶存在会像恶臭一样被你感知，而强大的善良会像天籁之音在你耳边回响。作为一个动作，你可以打开你的感知来侦测这些力量。直到你的下个回合结束，你知道60尺内任何未处于完全遮蔽下的天界生物、邪魔或不死生物的位置。你知道你感知到的任何存在的类型（天界生物、邪魔或不死生物），但不知道其身份。在同一范围内，你还能侦测到任何被祝圣或亵渎的地方或物品，如同圣居术的效果。",
+      "你可以使用此特性的次数等于1+你的魅力调整值。当你完成长休时，你恢复所有已消耗的使用次数。"
+    ]
+  },
+  {
+    "feature_index": "lay-on-hands",
+    "feature_name": "Lay on Hands",
+    "desc": [
+      "你受祝福的触碰可以治疗伤口。你拥有一个治疗能量池，在你完成长休时补充。用那个池，你可以恢复总数等于你圣武士等级x5的生命值。",
+      "作为一个动作，你可以触碰一个生物并从池中汲取力量来恢复该生物的生命值，最多为池中剩余的最大数量。",
+      "或者，你可以从治疗池中消耗5点生命值来治愈目标的一种疾病或中和一种影响它的毒素。你可以通过单次使用圣疗治愈多种疾病和中和多种毒素，分别为每一种消耗生命值。",
+      "此特性对不死生物和构装生物无效。"
+    ]
+  },
+  {
+    "feature_index": "paladin-fighting-style",
+    "feature_name": "Fighting Style",
+    "desc": [
+      "在2级时，你采用一种战斗风格作为你的专长。从以下选项中选择一项。你不能多次选择同一种战斗风格，即使你之后再次获得选择机会。"
+    ]
+  },
+  {
+    "feature_index": "fighting-style-defense",
+    "feature_name": "Fighting Style: Defense",
+    "desc": [
+      "当你穿戴护甲时，你的AC获得+1加值。"
+    ]
+  },
+  {
+    "feature_index": "fighting-style-dueling",
+    "feature_name": "Fighting Style: Dueling",
+    "desc": [
+      "当你单手持握一把近战武器且没有持握其他武器时，你使用该武器的伤害骰获得+2加值。"
+    ]
+  },
+  {
+    "feature_index": "fighting-style-great-weapon-fighting",
+    "feature_name": "Fighting Style: Great Weapon Fighting",
+    "desc": [
+      "当你用双手持握的近战武器进行攻击时，如果伤害骰掷出1或2，你可以重掷该骰子，并且必须使用新的结果。该武器必须具有双手或两用特性才能获得此好处。"
+    ]
+  },
+  {
+    "feature_index": "fighting-style-protection",
+    "feature_name": "Fighting Style: Protection",
+    "desc": [
+      "当你能看到的一个生物攻击5尺内除你以外的目标时，你可以使用反应迫使该攻击检定具有劣势。你必须持握一面盾牌。"
+    ]
+  },
+  {
+    "feature_index": "spellcasting-paladin",
+    "feature_name": "Spellcasting: Paladin",
+    "desc": [
+      "到2级时，你已经学会通过冥想和祈祷来汲取神圣魔法，像牧师一样施放法术。"
+    ]
+  },
+  {
+    "feature_index": "divine-smite",
+    "feature_name": "Divine Smite",
+    "desc": [
+      "从2级开始，当你用近战武器攻击命中生物时，你可以消耗一个法术位来对目标造成光耀伤害，除了武器伤害之外。1环法术位的额外伤害是2d8，每比1环高一个法术等级就增加1d8，最多5d8。如果目标是不死生物或邪魔，伤害增加1d8。"
+    ]
+  },
+  {
+    "feature_index": "divine-health",
+    "feature_name": "Divine Health",
+    "desc": [
+      "到3级时，流经你体内的神圣魔法让你免疫疾病。"
+    ]
+  },
+  {
+    "feature_index": "sacred-oath",
+    "feature_name": "Sacred Oath",
+    "desc": [
+      "当你达到3级时，你立下永远束缚你作为圣武士的誓言。在此之前你一直处于准备阶段，致力于这条道路但尚未宣誓。现在你选择一种誓言，例如奉献之誓。",
+      "你的选择在3级以及7、15、20级时赋予你特性。这些特性包括誓言法术和引导神力特性。"
+    ]
+  },
+  {
+    "feature_index": "oath-spells",
+    "feature_name": "Oath Spells",
+    "desc": [
+      "每种誓言都有相关联的法术列表。你在誓言描述中指定的等级获得这些法术。一旦你获得誓言法术，你总是准备好它。誓言法术不计入你每天可以准备的法术数量。",
+      "如果你获得一个不在圣武士法术列表上的誓言法术，该法术仍然是你的圣武士法术。"
+    ]
+  },
+  {
+    "feature_index": "channel-divinity",
+    "feature_name": "Channel Divinity",
+    "desc": [
+      "你的誓言让你能够引导神圣能量来驱动魔法效果。你的誓言提供的每个引导神力选项解释如何使用它。",
+      "当你使用引导神力时，你选择使用哪个选项。然后你必须完成短休或长休才能再次使用你的引导神力。",
+      "一些引导神力效果需要豁免检定。当你使用本职业的这种效果时，DC等于你的圣武士法术豁免DC。"
+    ]
+  },
+  {
+    "feature_index": "channel-divinity-sacred-weapon",
+    "feature_name": "Channel Divinity: Sacred Weapon",
+    "desc": [
+      "作为一个动作，你可以使用引导神力将正能量注入你持握的一把武器。持续1分钟，你将魅力调整值加到使用该武器进行的攻击检定上（最少+1）。该武器还在20尺半径内发出明亮光芒，并在其外20尺发出微光。如果该武器尚未魔法，它在持续期间变为魔法武器。",
+      "你可以在你的回合作为任何其他动作的一部分结束此效果。如果你不再持握或携带此武器，或者你陷入昏迷，此效果结束。"
+    ]
+  },
+  {
+    "feature_index": "channel-divinity-turn-the-unholy",
+    "feature_name": "Channel Divinity: Turn the Unholy",
+    "desc": [
+      "作为一个动作，你展示你的圣徽并念诵谴责邪魔和不死生物的祷言，使用你的引导神力。30尺内每个能看到或听到你的邪魔或不死生物必须进行感知豁免检定。如果生物未能通过豁免检定，它被驱散1分钟或直到它受到伤害。",
+      "被驱散的生物必须尽其所能远离你，且它不能自愿移动到距离你30尺内的空间。它也不能进行反应。对于它的动作，它只能使用疾行动作或试图逃离阻止它移动的效果。如果没有地方可移动，该生物可以使用闪避动作。"
+    ]
+  },
+  {
+    "feature_index": "paladin-ability-score-improvement-1",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "paladin-extra-attack",
+    "feature_name": "Extra Attack",
+    "desc": [
+      "从5级开始，每当你在你的回合采取攻击动作时，你可以攻击两次而非一次。"
+    ]
+  },
+  {
+    "feature_index": "aura-of-protection",
+    "feature_name": "Aura of Protection",
+    "desc": [
+      "从6级开始，每当你或10尺内的友方生物必须进行豁免检定时，该生物的豁免检定获得等于你魅力调整值的加值（最少+1）。你必须清醒才能提供此加值。",
+      "在18级时，此光环的范围增加到30尺。"
+    ]
+  },
+  {
+    "feature_index": "sacred-oath-improvement-1",
+    "feature_name": "Sacred Oath feature",
+    "desc": [
+      "当你达到3级时，你立下永远束缚你作为圣武士的誓言。在此之前你一直处于准备阶段，致力于这条道路但尚未宣誓。现在你选择一种誓言，例如奉献之誓。",
+      "你的选择在3级以及7、15、20级时赋予你特性。这些特性包括誓言法术和引导神力特性。"
+    ]
+  },
+  {
+    "feature_index": "aura-of-devotion",
+    "feature_name": "Aura of Devotion",
+    "desc": [
+      "从7级开始，你和10尺内的友方生物在你清醒时不能被魅惑。",
+      "在18级时，此光环的范围增加到30尺。"
+    ]
+  },
+  {
+    "feature_index": "paladin-ability-score-improvement-2",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "aura-of-courage",
+    "feature_name": "Aura of Courage",
+    "desc": [
+      "从10级开始，你和10尺内的友方生物在你清醒时不能被恐惧。",
+      "在18级时，此光环的范围增加到30尺。"
+    ]
+  },
+  {
+    "feature_index": "improved-divine-smite",
+    "feature_name": "Improved Divine Smite",
+    "desc": [
+      "到11级时，你充满了正义之力，所有近战武器打击都带有神圣力量。每当你用近战武器命中生物时，该生物额外受到1d8光耀伤害。如果你也在攻击中使用神圣打击，你将此伤害加到神圣打击的额外伤害上。"
+    ]
+  },
+  {
+    "feature_index": "paladin-ability-score-improvement-3",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "cleansing-touch",
+    "feature_name": "Cleansing Touch",
+    "desc": [
+      "从14级开始，你可以使用动作来结束自己身上或你触碰的一个自愿生物身上的一个法术。",
+      "你可以使用此特性的次数等于你的魅力调整值（至少一次）。当你完成长休时，你恢复已消耗的使用次数。"
+    ]
+  },
+  {
+    "feature_index": "sacred-oath-improvement-2",
+    "feature_name": "Sacred Oath feature",
+    "desc": [
+      "当你达到3级时，你立下永远束缚你作为圣武士的誓言。在此之前你一直处于准备阶段，致力于这条道路但尚未宣誓。现在你选择一种誓言，例如奉献之誓。",
+      "你的选择在3级以及7、15、20级时赋予你特性。这些特性包括誓言法术和引导神力特性。"
+    ]
+  },
+  {
+    "feature_index": "purity-of-spirit",
+    "feature_name": "Purity of Spirit",
+    "desc": [
+      "从15级开始，你总是处于防护善恶法术的效果下。"
+    ]
+  },
+  {
+    "feature_index": "paladin-ability-score-improvement-4",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "aura-improvements",
+    "feature_name": "Aura improvements",
+    "desc": [
+      "在18级时，你的光环范围增加到30尺。"
+    ]
+  },
+  {
+    "feature_index": "paladin-ability-score-improvement-5",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级，以及8、12、16、19级时，你可以将一项自选属性值提升2点，或者将两项自选属性值各提升1点。正常而言，你不能通过此特性将属性值提升到20以上。"
+    ]
+  },
+  {
+    "feature_index": "sacred-oath-improvement-3",
+    "feature_name": "Sacred Oath feature",
+    "desc": [
+      "当你达到3级时，你立下永远束缚你作为圣武士的誓言。在此之前你一直处于准备阶段，致力于这条道路但尚未宣誓。现在你选择一种誓言，例如奉献之誓。",
+      "你的选择在3级以及7、15、20级时赋予你特性。这些特性包括誓言法术和引导神力特性。"
+    ]
+  },
+  {
+    "feature_index": "holy-nimbus",
+    "feature_name": "Holy Nimbus",
+    "desc": [
+      "在20级时，作为一个动作，你可以散发出阳光光环。持续1分钟，明亮光芒从你身上发出，半径30尺，微光在其外30尺。",
+      "每当敌对生物在明亮光芒中开始其回合时，该生物受到10点光耀伤害。",
+      "此外，在持续期间，你在对抗邪魔或不死生物施放的法术时，豁免检定具有优势。"
+    ]
+  }
+]

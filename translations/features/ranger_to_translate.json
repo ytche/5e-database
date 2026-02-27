@@ -1,0 +1,353 @@
+[
+  {
+    "feature_index": "favored-enemy-1-type",
+    "feature_name": "Favored Enemy (1 type)",
+    "desc": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ]
+  },
+  {
+    "feature_index": "natural-explorer-1-terrain-type",
+    "feature_name": "Natural Explorer (1 terrain type)",
+    "desc": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "- Difficult terrain doesn't slow your group's travel.",
+      "- Your group can't become lost except by magical means.",
+      "- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "- If you are traveling alone, you can move stealthily at a normal pace.",
+      "- When you forage, you find twice as much food as you normally would.",
+      "- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style",
+    "feature_name": "Fighting Style",
+    "desc": [
+      "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-archery",
+    "feature_name": "Fighting Style: Archery",
+    "desc": [
+      "You gain a +2 bonus to attack rolls you make with ranged weapons."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-defense",
+    "feature_name": "Fighting Style: Defense",
+    "desc": [
+      "While you are wearing armor, you gain a +1 bonus to AC."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-dueling",
+    "feature_name": "Fighting Style: Dueling",
+    "desc": [
+      "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+    ]
+  },
+  {
+    "feature_index": "ranger-fighting-style-two-weapon-fighting",
+    "feature_name": "Fighting Style: Two-Weapon Fighting",
+    "desc": [
+      "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+    ]
+  },
+  {
+    "feature_index": "spellcasting-ranger",
+    "feature_name": "Spellcasting: Ranger",
+    "desc": [
+      "By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype",
+    "feature_name": "Ranger Archetype",
+    "desc": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "hunters-prey",
+    "feature_name": "Hunter's Prey",
+    "desc": [
+      "At 3rd level, you gain one of the following features of your choice.",
+      "Colossus Slayer",
+      "Giant Killer",
+      "Horde Breaker"
+    ]
+  },
+  {
+    "feature_index": "hunters-prey-colossus-slayer",
+    "feature_name": "Hunter's Prey: Colossus Slayer",
+    "desc": [
+      "Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+    ]
+  },
+  {
+    "feature_index": "hunters-prey-giant-killer",
+    "feature_name": "Hunter's Prey: Giant Killer",
+    "desc": [
+      "When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+    ]
+  },
+  {
+    "feature_index": "hunters-prey-horde-breaker",
+    "feature_name": "Hunter's Prey: Horde Breaker",
+    "desc": [
+      "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+    ]
+  },
+  {
+    "feature_index": "primeval-awareness",
+    "feature_name": "Primeval Awareness",
+    "desc": [
+      "Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-1",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "ranger-extra-attack",
+    "feature_name": "Extra Attack",
+    "desc": [
+      "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+    ]
+  },
+  {
+    "feature_index": "favored-enemy-2-types",
+    "feature_name": "Favored Enemy (2 types)",
+    "desc": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ]
+  },
+  {
+    "feature_index": "natural-explorer-2-terrain-types",
+    "feature_name": "Natural Explorer (2 terrain types)",
+    "desc": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "- Difficult terrain doesn't slow your group's travel.",
+      "- Your group can't become lost except by magical means.",
+      "- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "- If you are traveling alone, you can move stealthily at a normal pace.",
+      "- When you forage, you find twice as much food as you normally would.",
+      "- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype-improvement-1",
+    "feature_name": "Ranger Archetype feature",
+    "desc": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics",
+    "feature_name": "Defensive Tactics",
+    "desc": [
+      "At 7th level, you gain one of the following features of your choice.",
+      "Escape the Horde",
+      "Multiattack Defense",
+      "Steel Will"
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics-escape-the-horde",
+    "feature_name": "Defensive Tactics: Escape the Horde",
+    "desc": [
+      "Opportunity attacks against you are made with disadvantage."
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics-multiattack-defense",
+    "feature_name": "Defensive Tactics: Multiattack Defense",
+    "desc": [
+      "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+    ]
+  },
+  {
+    "feature_index": "defensive-tactics-steel-will",
+    "feature_name": "Defensive Tactics: Steel Will",
+    "desc": [
+      "You have advantage on saving throws against being frightened."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-2",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "ranger-lands-stride",
+    "feature_name": "Land's Stride",
+    "desc": [
+      "Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+      "In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell."
+    ]
+  },
+  {
+    "feature_index": "natural-explorer-3-terrain-types",
+    "feature_name": "Natural Explorer (3 terrain types)",
+    "desc": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "- Difficult terrain doesn't slow your group's travel.",
+      "- Your group can't become lost except by magical means.",
+      "- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "- If you are traveling alone, you can move stealthily at a normal pace.",
+      "- When you forage, you find twice as much food as you normally would.",
+      "- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ]
+  },
+  {
+    "feature_index": "hide-in-plain-sight",
+    "feature_name": "Hide in Plain Sight",
+    "desc": [
+      "Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.",
+      "Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype-improvement-2",
+    "feature_name": "Ranger Archetype feature",
+    "desc": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "multiattack",
+    "feature_name": "Multiattack",
+    "desc": [
+      "At 11th level, you gain one of the following features of your choice.",
+      "Volley",
+      "Whirlwind Attack"
+    ]
+  },
+  {
+    "feature_index": "multiattack-volley",
+    "feature_name": "Multiattack: Volley",
+    "desc": [
+      "You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+    ]
+  },
+  {
+    "feature_index": "multiattack-whirlwind-attack",
+    "feature_name": "Multiattack: Whirlwind Attack",
+    "desc": [
+      "You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-3",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "favored-enemy-3-enemies",
+    "feature_name": "Favored Enemy (3 enemies)",
+    "desc": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ]
+  },
+  {
+    "feature_index": "vanish",
+    "feature_name": "Vanish",
+    "desc": [
+      "Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+    ]
+  },
+  {
+    "feature_index": "ranger-archetype-improvement-3",
+    "feature_name": "Ranger Archetype feature",
+    "desc": [
+      "At 3rd level, you choose an archetype that you strive to emulate, such as the Hunter. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense",
+    "feature_name": "Superior Hunter's Defense",
+    "desc": [
+      "At 15th level, you gain one of the following features of your choice.",
+      "Evasion",
+      "Stand Against the Tide",
+      "Uncanny Dodge"
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense-evasion",
+    "feature_name": "Superior Hunter's Defense: Evasion",
+    "desc": [
+      "When you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense-stand-against-the-tide",
+    "feature_name": "Superior Hunter's Defense: Stand Against the Tide",
+    "desc": [
+      "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+    ]
+  },
+  {
+    "feature_index": "superior-hunters-defense-uncanny-dodge",
+    "feature_name": "Superior Hunter's Defense: Uncanny Dodge",
+    "desc": [
+      "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-4",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "feral-senses",
+    "feature_name": "Feral Senses",
+    "desc": [
+      "At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.",
+      "You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened."
+    ]
+  },
+  {
+    "feature_index": "ranger-ability-score-improvement-5",
+    "feature_name": "Ability Score Improvement",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "foe-slayer",
+    "feature_name": "Foe Slayer",
+    "desc": [
+      "At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+    ]
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "feature_index": "spellcasting-sorcerer",
+    "feature_name": "施法：术士",
+    "feature_name_en": "Spellcasting: Sorcerer",
+    "desc": [
+      "你过去经历的某个事件，或你父母或祖先生命中的某个事件，在你身上留下了不可磨灭的印记，赋予你奥术魔法。无论其来源如何，这股魔法源泉为你的法术提供能量。"
+    ],
+    "desc_en": [
+      "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells."
+    ]
+  },
+  {
+    "feature_index": "sorcerous-origin",
+    "feature_name": "术士起源",
+    "feature_name_en": "Sorcerous Origin",
+    "desc": [
+      "选择一个术士起源，描述你天生魔法力量的来源，如龙族血脉。",
+      "你的选择在你1级选择它时赋予你特性，并在6级、14级和18级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "Choose a sorcerous origin, which describes the source of your innate magical power, such as Draconic Bloodline.",
+      "Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor",
+    "feature_name": "龙族先祖",
+    "feature_name_en": "Dragon Ancestor",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-black---acid-damage",
+    "feature_name": "龙族先祖：黑龙 - 强酸伤害",
+    "feature_name_en": "Dragon Ancestor: Black - Acid Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-blue---lightning-damage",
+    "feature_name": "龙族先祖：蓝龙 - 闪电伤害",
+    "feature_name_en": "Dragon Ancestor: Blue - Lightning Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-brass---fire-damage",
+    "feature_name": "龙族先祖：黄铜龙 - 火焰伤害",
+    "feature_name_en": "Dragon Ancestor: Brass - Fire Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-bronze---lightning-damage",
+    "feature_name": "龙族先祖：青铜龙 - 闪电伤害",
+    "feature_name_en": "Dragon Ancestor: Bronze - Lightning Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-copper---acid-damage",
+    "feature_name": "龙族先祖：赤铜龙 - 强酸伤害",
+    "feature_name_en": "Dragon Ancestor: Copper - Acid Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-gold---fire-damage",
+    "feature_name": "龙族先祖：金龙 - 火焰伤害",
+    "feature_name_en": "Dragon Ancestor: Gold - Fire Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-green---poison-damage",
+    "feature_name": "龙族先祖：绿龙 - 毒素伤害",
+    "feature_name_en": "Dragon Ancestor: Green - Poison Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-red---fire-damage",
+    "feature_name": "龙族先祖：红龙 - 火焰伤害",
+    "feature_name_en": "Dragon Ancestor: Red - Fire Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-silver---cold-damage",
+    "feature_name": "龙族先祖：银龙 - 冷冻伤害",
+    "feature_name_en": "Dragon Ancestor: Silver - Cold Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "dragon-ancestor-white---cold-damage",
+    "feature_name": "龙族先祖：白龙 - 冷冻伤害",
+    "feature_name_en": "Dragon Ancestor: White - Cold Damage",
+    "desc": [
+      "在1级时，你选择一种龙类作为你的祖先。每种龙类相关的伤害类型会被你之后获得的特性使用。",
+      "你可以说、读、写龙语。此外，每当你与龙互动时进行魅力检定时，如果熟练加值适用于该检定，你的熟练加值翻倍。"
+    ],
+    "desc_en": [
+      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ]
+  },
+  {
+    "feature_index": "draconic-resilience",
+    "feature_name": "龙族韧性",
+    "feature_name_en": "Draconic Resilience",
+    "desc": [
+      "当魔法流经你的身体时，它使你龙族祖先的身体特征显现出来。在1级时，你的生命值上限增加1，并且每当你在这个职业中获得等级时，生命值上限再增加1。",
+      "此外，你的部分皮肤被一层薄薄的龙鳞覆盖。当你未穿戴护甲时，你的AC等于13 + 你的敏捷调整值。"
+    ],
+    "desc_en": [
+      "As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.",
+      "Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
+    ]
+  },
+  {
+    "feature_index": "font-of-magic",
+    "feature_name": "魔法源泉",
+    "feature_name_en": "Font of Magic",
+    "desc": [
+      "在2级时，你汲取你体内深处的魔法源泉。这个源泉以术法点表示，允许你创造各种魔法效果。",
+      "术法点",
+      "你有2个术法点，随着你达到更高等级，你会获得更多术法点，如术士表中的术法点列所示。你拥有的术法点数量不能超过你等级对应的表中所示。完成长休后，你恢复所有已消耗的术法点。"
+    ],
+    "desc_en": [
+      "At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.",
+      "Sorcery Points",
+      "You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "flexible-casting-creating-spell-slots",
+    "feature_name": "灵活施法：创造法术位",
+    "feature_name_en": "Flexible Casting: Creating Spell Slots",
+    "desc": [
+      "你可以在你的回合使用附赠动作将未消耗的术法点转化为一个法术位。创造法术位表显示了创造特定等级法术位的消耗。你可以创造的法术位最高为5级。",
+      "你用此特性创造的任何法术位在完成长休后消失。"
+    ],
+    "desc_en": [
+      "You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th. ",
+      "Any spell slot you create with this feature vanishes when you finish a long rest."
+    ]
+  },
+  {
+    "feature_index": "flexible-casting-converting-spell-slot",
+    "feature_name": "灵活施法：转化法术位",
+    "feature_name_en": "Flexible Casting: Converting Spell Slot",
+    "desc": [
+      "在你的回合使用附赠动作时，你可以消耗一个法术位并获得等于该法术位等级的术法点数量。"
+    ],
+    "desc_en": [
+      "As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.."
+    ]
+  },
+  {
+    "feature_index": "metamagic-1",
+    "feature_name": "超魔法",
+    "feature_name_en": "Metamagic",
+    "desc": [
+      "在3级时，你获得扭曲法术以适应你需求的能力。你获得以下超魔法选项中的两个（自选）。在10级和17级时，你分别获得另一个。",
+      "你在施放法术时只能对一个法术使用一个超魔法选项，除非另有说明。"
+    ],
+    "desc_en": [
+      "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.",
+      "You can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
+    ]
+  },
+  {
+    "feature_index": "metamagic-careful-spell",
+    "feature_name": "超魔法：谨慎法术",
+    "feature_name_en": "Metamagic: Careful Spell",
+    "desc": [
+      "当你施放一个强迫其他生物进行豁免检定的法术时，你可以保护其中一些生物免受法术的全部力量。为此，你消耗1个术法点，并选择其中最多等于你魅力调整值数量的生物（至少一个）。被选择的生物在对抗该法术的豁免检定上自动成功。"
+    ],
+    "desc_en": [
+      "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
+    ]
+  },
+  {
+    "feature_index": "metamagic-distant-spell",
+    "feature_name": "超魔法：远程法术",
+    "feature_name_en": "Metamagic: Distant Spell",
+    "desc": [
+      "当你施放射程为5尺或更远的法术时，你可以消耗1个术法点使该法术的射程翻倍。",
+      "当你施放射程为接触的法术时，你可以消耗1个术法点使该法术的射程变为30尺。"
+    ],
+    "desc_en": [
+      "When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
+      "When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
+    ]
+  },
+  {
+    "feature_index": "metamagic-empowered-spell",
+    "feature_name": "超魔法：强效法术",
+    "feature_name_en": "Metamagic: Empowered Spell",
+    "desc": [
+      "当你为法术掷伤害骰时，你可以消耗1个术法点重掷最多等于你魅力调整值数量的伤害骰（至少一个）。你必须使用新的掷骰结果。",
+      "即使你在施放该法术时已经使用了不同的超魔法选项，你也可以使用强效法术。"
+    ],
+    "desc_en": [
+      "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
+      "You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+    ]
+  },
+  {
+    "feature_index": "metamagic-extended-spell",
+    "feature_name": "超魔法：延时法术",
+    "feature_name_en": "Metamagic: Extended Spell",
+    "desc": [
+      "当你施放持续时间为1分钟或更长的法术时，你可以消耗1个术法点使其持续时间翻倍，最长持续时间为24小时。"
+    ],
+    "desc_en": [
+      "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+    ]
+  },
+  {
+    "feature_index": "metamagic-heightened-spell",
+    "feature_name": "超魔法：升阶法术",
+    "feature_name_en": "Metamagic: Heightened Spell",
+    "desc": [
+      "当你施放一个强迫生物进行豁免检定以抵抗其效果的法术时，你可以消耗3个术法点使该法术的一个目标在对抗该法术的第一次豁免检定上处于劣势。"
+    ],
+    "desc_en": [
+      "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+    ]
+  },
+  {
+    "feature_index": "metamagic-quickened-spell",
+    "feature_name": "超魔法：瞬发法术",
+    "feature_name_en": "Metamagic: Quickened Spell",
+    "desc": [
+      "当你施放施法时间为1动作的法术时，你可以消耗2个术法点将该次施法的施法时间改为1附赠动作。"
+    ],
+    "desc_en": [
+      "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+    ]
+  },
+  {
+    "feature_index": "metamagic-subtle-spell",
+    "feature_name": "超魔法： subtle 法术",
+    "feature_name_en": "Metamagic: Subtle Spell",
+    "desc": [
+      "当你施放法术时，你可以消耗1个术法点来施放它而不需要任何姿势或语言成分。"
+    ],
+    "desc_en": [
+      "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
+    ]
+  },
+  {
+    "feature_index": "metamagic-twinned-spell",
+    "feature_name": "超魔法：双生法术",
+    "feature_name_en": "Metamagic: Twinned Spell",
+    "desc": [
+      "当你施放只针对一个生物且射程不是自我的法术时，你可以消耗等于该法术等级的术法点数量来使射程内的第二个生物成为该法术的目标（如果该法术是戏法则消耗1个术法点）。",
+      "要符合条件，法术在其当前等级必须无法同时针对多个生物。例如，魔法飞弹和灼热射线不符合条件，但冷冻射线符合条件。"
+    ],
+    "desc_en": [
+      "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
+      "To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost is."
+    ]
+  },
+  {
+    "feature_index": "sorcerer-ability-score-improvement-1",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "sorcerous-origin-improvement-1",
+    "feature_name": "术士起源特性",
+    "feature_name_en": "Sorcerous Origin feature",
+    "desc": [
+      "选择一个术士起源，描述你天生魔法力量的来源，如龙族血脉。",
+      "你的选择在你1级选择它时赋予你特性，并在6级、14级和18级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "Choose a sorcerous origin, which describes the source of your innate magical power, such as Draconic Bloodline.",
+      "Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+    ]
+  },
+  {
+    "feature_index": "elemental-affinity",
+    "feature_name": "元素亲和",
+    "feature_name_en": "Elemental Affinity",
+    "desc": [
+      "从6级开始，当你施放一个造成与你龙族祖先相关类型伤害的法术时，你可以将魅力调整值加到该法术的一次伤害掷骰上。同时，你可以消耗1个术法点获得对该伤害类型的抗性，持续1小时。"
+    ],
+    "desc_en": [
+      "Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour."
+    ]
+  },
+  {
+    "feature_index": "sorcerer-ability-score-improvement-2",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "metamagic-2",
+    "feature_name": "超魔法",
+    "feature_name_en": "Metamagic",
+    "desc": [
+      "在3级时，你获得扭曲法术以适应你需求的能力。你获得以下超魔法选项中的两个（自选）。在10级和17级时，你分别获得另一个。",
+      "你在施放法术时只能对一个法术使用一个超魔法选项，除非另有说明。"
+    ],
+    "desc_en": [
+      "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.",
+      "You can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
+    ]
+  },
+  {
+    "feature_index": "sorcerer-ability-score-improvement-3",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "sorcerous-origin-improvement-2",
+    "feature_name": "术士起源特性",
+    "feature_name_en": "Sorcerous Origin feature",
+    "desc": [
+      "选择一个术士起源，描述你天生魔法力量的来源，如龙族血脉。",
+      "你的选择在你1级选择它时赋予你特性，并在6级、14级和18级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "Choose a sorcerous origin, which describes the source of your innate magical power, such as Draconic Bloodline.",
+      "Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+    ]
+  },
+  {
+    "feature_index": "dragon-wings",
+    "feature_name": "龙翼",
+    "feature_name_en": "Dragon Wings",
+    "desc": [
+      "在14级时，你获得从背后伸出一对龙翼的能力，获得等于你当前速度的飞行速度。你可以在你的回合使用附赠动作创造这些翅膀。它们会一直持续到你使用附赠动作将其解散。",
+      "你不能在穿戴护甲时显现翅膀，除非护甲是为容纳它们而特制的，而没有为容纳你的翅膀而特制的衣服可能会在你显现翅膀时被毁坏。"
+    ],
+    "desc_en": [
+      "At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.",
+      "You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+    ]
+  },
+  {
+    "feature_index": "sorcerer-ability-score-improvement-4",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "metamagic-3",
+    "feature_name": "超魔法",
+    "feature_name_en": "Metamagic",
+    "desc": [
+      "在3级时，你获得扭曲法术以适应你需求的能力。你获得以下超魔法选项中的两个（自选）。在10级和17级时，你分别获得另一个。",
+      "你在施放法术时只能对一个法术使用一个超魔法选项，除非另有说明。"
+    ],
+    "desc_en": [
+      "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.",
+      "You can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
+    ]
+  },
+  {
+    "feature_index": "sorcerous-origin-improvement-3",
+    "feature_name": "术士起源特性",
+    "feature_name_en": "Sorcerous Origin feature",
+    "desc": [
+      "选择一个术士起源，描述你天生魔法力量的来源，如龙族血脉。",
+      "你的选择在你1级选择它时赋予你特性，并在6级、14级和18级时再次赋予你特性。"
+    ],
+    "desc_en": [
+      "Choose a sorcerous origin, which describes the source of your innate magical power, such as Draconic Bloodline.",
+      "Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+    ]
+  },
+  {
+    "feature_index": "draconic-presence",
+    "feature_name": "龙族威严",
+    "feature_name_en": "Draconic Presence",
+    "desc": [
+      "从18级开始，你可以引导你龙族祖先的恐惧威严，使周围的人感到敬畏或恐惧。作为一个动作，你可以消耗5个术法点来汲取这种力量，并散发出60尺范围内的敬畏或恐惧光环（由你选择）。持续1分钟或直到你失去专注（如同你正在施放一个需要专注的法术），每个在该光环内开始其回合的敌对生物必须通过感知豁免检定，否则会被魅惑（如果你选择敬畏）或恐惧（如果你选择恐惧），直到光环结束。成功通过此豁免检定的生物在24小时内对你的光环免疫。"
+    ],
+    "desc_en": [
+      "Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
+    ]
+  },
+  {
+    "feature_index": "sorcerer-ability-score-improvement-5",
+    "feature_name": "属性值提升",
+    "feature_name_en": "Ability Score Improvement",
+    "desc": [
+      "当你达到4级、8级、12级、16级和19级时，你可以选择一个能力值提升2点，或选择两个能力值各提升1点。通常情况下，你不能使用此特性将能力值提升到20以上。"
+    ],
+    "desc_en": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ]
+  },
+  {
+    "feature_index": "sorcerous-restoration",
+    "feature_name": "术法复原",
+    "feature_name_en": "Sorcerous Restoration",
+    "desc": [
+      "在20级时，每当你完成短休，你恢复4个已消耗的术法点。"
+    ],
+    "desc_en": [
+      "At 20th level, you regain 4 expended sorcery points whenever you finish a short rest."
+    ]
+  }
+]

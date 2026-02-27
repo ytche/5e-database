@@ -1,0 +1,18 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running pre-commit checks..."
+
+# 运行 lint-staged
+npx lint-staged
+
+# 检查测试是否通过
+echo "Running tests..."
+npm test
+
+if [ $? -ne 0 ]; then
+  echo "❌ Tests failed. Please fix the issues before committing."
+  exit 1
+fi
+
+echo "✅ Pre-commit checks passed!"
