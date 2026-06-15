@@ -59,9 +59,9 @@ export function getChangedJsonFilesWithStatus(): ChangedFile[] {
     diffOutput = execSync('git diff --name-status -M HEAD~1 HEAD -- src/**/*.json', {
       encoding: 'utf8',
     });
-  } catch (error) {
+  } catch (error: unknown) {
     // Check if the error is due to missing history (e.g., first commit)
-    if (error.stderr?.includes('unknown revision or path not in the working tree')) {
+    if ((error as any).stderr?.includes('unknown revision or path not in the working tree')) {
       console.warn(
         'Could not find previous commit (HEAD~1). Checking working tree status against index...'
       );
@@ -117,7 +117,7 @@ export function getChangedJsonFilesWithStatus(): ChangedFile[] {
  * @returns A promise resolving to the raw string content, or an empty string on error.
  */
 export async function getOldFileContent(gitPath: string): Promise<string> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const gitShow = spawn('git', ['show', `HEAD~1:${gitPath}`]);
     let oldFileContent = '';
     let errorOutput = '';

@@ -3,7 +3,6 @@ import { MongoClient, Collection, Db } from 'mongodb'; // Import MongoClient and
 // Import utilities and constants
 import {
   checkMongoUri,
-  getCollectionNameFromJsonFile,
   getIndexName,
   getIndexCollectionName,
   SRD_PREFIX,
@@ -30,13 +29,19 @@ async function _processFileForRefresh(
   filepath: string,
   collectionPrefix: string
 ): Promise<string | null> {
-  const collectionName = getCollectionNameFromJsonFile(filepath);
   const filename = filepath.split('/').pop();
 
-  if (!collectionName || !filename) {
-    console.warn(`Could not determine collection or filename for ${filepath}. Skipping.`);
+  if (!filename) {
+    console.warn(`Could not determine filename for ${filepath}. Skipping.`);
     return null; // Indicate failure/skip
   }
+
+  const baseName = getIndexName(filename);
+  if (!baseName) {
+    console.warn(`Could not extract base name from filename ${filename}. Skipping.`);
+    return null;
+  }
+  const collectionName = `${collectionPrefix}${baseName}`;
 
   // Determine the base name for the index table entry using the new util
   const indexName = getIndexName(filename);
@@ -77,7 +82,7 @@ async function _processFileForRefresh(
     await collection.drop();
     console.log(`  Dropped existing collection '${collectionName}'.`);
   } catch (err) {
-    if (err.codeName !== 'NamespaceNotFound') {
+    if ((err as any).codeName !== 'NamespaceNotFound') {
       console.error(`  Error dropping collection '${collectionName}':`, err);
       // Decide if we should stop the whole process - maybe throw here?
       return null; // Indicate failure
@@ -117,7 +122,7 @@ async function _refreshIndexCollection(
     await collectionsCollection.drop();
     console.log(`  Dropped existing collection '${collectionsCollectionName}'.`);
   } catch (err) {
-    if (err.codeName !== 'NamespaceNotFound') {
+    if ((err as any).codeName !== 'NamespaceNotFound') {
       console.error(`  Error dropping collection '${collectionsCollectionName}':`, err);
       throw err; // Throw if dropping index fails unexpectedly
     }

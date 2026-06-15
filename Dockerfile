@@ -22,7 +22,7 @@ ENV MONGODB_URI=mongodb://localhost:27017/5e-database
 ## Add code
 WORKDIR /data/db2
 COPY --chown=mongodb:mongodb package.json package-lock.json /data/db2/
-RUN npm install
+RUN npm install --legacy-peer-deps
 COPY --chown=mongodb:mongodb . /data/db2/
 
 # Compile TypeScript scripts before running them
