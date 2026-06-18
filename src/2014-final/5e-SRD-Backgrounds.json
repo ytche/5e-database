@@ -64,12 +64,14 @@
       "name": "虔诚者的庇护",
       "name_en": "Shelter of the Faithful",
       "desc": [
-        "作为一名侍僧，你享有与你同信仰者的尊重，你可以主持你神祇的宗教仪式。你和你的冒险同伴可以在你信仰的寺庙、神殿或其他既定场所期待获得免费的治疗和照顾，但你必须提供法术所需的任何材料成分。与你信仰相同的人会在简朴的生活方式上支持你（但仅限你个人）。",
-        "你还可能与你所选择的特定神祇或万神殿的神殿有联系，并在那里有一处居所。这可能是你曾经服务的寺庙（如果你与那里的关系良好），或是一处你找到了新家的寺庙。在你的寺庙附近时，你可以请求牧师提供帮助，前提是你所要求的协助不会造成危险，并且你与寺庙保持良好的关系。"
+        "作为一名侍僧，你与同一信仰的同志互相尊重，并且可以随时主持相应神的神圣仪式。当你与冒险同伴遇到你所信仰神的神庙，圣坛或其他机构时，你们可能会得到免费的治疗和照料，但你必须为法术提供必须的材料成分。那些与同一信仰的同志会支持你（但仅限你）最基本的生活需求。 你可能还会与信仰相同的某神庙保持联系，并在该处留有一住宿地。这里可能是你曾服务过的神庙，而你仍与其团体关系良好；又或者可能是一座你在其中找到新归宿的神庙。靠近这座神庙时，你可以召来祭司提供帮助，而只要你所要求的协助风险不高，你就能一直与该神庙保持良好的关系。"
       ],
       "desc_en": [
         "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
         "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+      ],
+      "desc_cn": [
+        "作为一名侍僧，你与同一信仰的同志互相尊重，并且可以随时主持相应神的神圣仪式。当你与冒险同伴遇到你所信仰神的神庙，圣坛或其他机构时，你们可能会得到免费的治疗和照料，但你必须为法术提供必须的材料成分。那些与同一信仰的同志会支持你（但仅限你）最基本的生活需求。 你可能还会与信仰相同的某神庙保持联系，并在该处留有一住宿地。这里可能是你曾服务过的神庙，而你仍与其团体关系良好；又或者可能是一座你在其中找到新归宿的神庙。靠近这座神庙时，你可以召来祭司提供帮助，而只要你所要求的协助风险不高，你就能一直与该神庙保持良好的关系。"
       ]
     },
     "personality_traits": {
@@ -374,6 +376,1831 @@
         ]
       }
     },
-    "url": "/api/2014/backgrounds/acolyte"
+    "url": "/api/2014/backgrounds/acolyte",
+    "bonds_cn": [
+      "为了找回很久前丢失的与我信仰相关的一件古代遗物，我可以付出生命。",
+      "终有一天我会对谴责我为异端的罪恶神庙组织复仇。",
+      "我欠那位在我的双亲死亡时收养我的教士一条命。",
+      "我做的每一件事情都是为了普罗大众。",
+      "为了保卫我曾服务的神庙我可以做任何事情。",
+      "我试图去保护一部神圣典籍，而我的敌人认为它是异端的并寻求摧毁它。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我评价他人十分严苛，并且对自己更加苛刻。",
+      "我过于信任那些在我神庙的阶级中控制权势的人。",
+      "我的虔诚有时令我盲目信任那些声称与我信仰相同的人。",
+      "我思想呆板僵化，不懂变通。",
+      "我会怀疑陌生人并将他们想成最坏的情况。",
+      "一旦我选择了一个目标，就会变得执迷于它以至于因此损害自己生命中的所有其它事物。"
+    ],
+    "ideals_cn": [
+      "传统Traditions。古代崇拜与献祭的传统必须被保护并维持。(守序)",
+      "仁爱Charity。我总是试图帮助那些需要帮助的人，无论个人的花费如何。（善良）",
+      "改变Change。我们必须协助引发神在世界中一直为之工作的改变。（混乱）",
+      "权力Power。我希望有一天能够升格到所信仰宗教中等级的最高点。（守序）",
+      "信仰Faith。我信任神能指引我的行为。我信奉如果自己努力工作，事情就会变得顺利。（守序）",
+      "抱负Aspiration。我将自己的行动与他或她的教导相较，求证明自己配得上吾主的喜爱。（任何）"
+    ],
+    "languages_rule_cn": "任选两门语言",
+    "personality_traits_cn": [
+      "我崇拜某个英雄，并时刻以其事迹作为榜样。",
+      "我能在最狂乱的敌人间寻找共鸣，然后感化他们一同为和平而努力。",
+      "我在每个事件和行动中看到预兆。神试图对我们说话，我们只需要听即可。",
+      "没有什么能动摇我的乐观态度。",
+      "我任何情况下都喜欢引用（或错引）圣典和格言。",
+      "我能容忍（或无法容忍）其它信仰并且尊重（或谴责）对其他神的崇拜。",
+      "我喜爱美食、饮料以及同信仰神庙中的精英分子们的高层圈子。粗野的生活令我烦躁。",
+      "我在神庙中生活的太久了，以至于我在与外面世界的人们打交道时缺乏实际经验。"
+    ],
+    "starting_equipment_cn": "一枚圣徽（出任神职时的礼物），一本祷告经书或经轮，5根熏香，祭袍，一套普通服装，以及一个装着15 gp的小包。",
+    "starting_proficiencies_cn": [
+      "洞悉",
+      "宗教"
+    ]
+  },
+  {
+    "index": "charlatan",
+    "name": "骗子",
+    "name_en": "Charlatan",
+    "starting_proficiencies": [
+      {
+        "index": "skill-deception",
+        "name": "技能：欺瞒",
+        "name_en": "Skill: Deception",
+        "url": "/api/2014/proficiencies/skill-deception"
+      },
+      {
+        "index": "skill-sleight-of-hand",
+        "name": "技能：巧手",
+        "name_en": "Skill: Sleight of Hand",
+        "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-fine",
+          "name": "精致衣物",
+          "url": "/api/2014/equipment/clothes-fine"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "disguise-kit",
+          "name": "易容工具包",
+          "url": "/api/2014/equipment/disguise-kit"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "骗子特性",
+      "name_en": "Charlatan Feature",
+      "desc": [
+        "你可以伪装成另一个身份，还附带关于该身份的相关的人证物证，并且必须先乔装打扮来让你进入角色。此外，你还可以伪造含有官方格式和私人笔迹的文书，前提是你必须曾见过此类文件以及目标的笔迹以作范本。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你可以伪装成另一个身份，还附带关于该身份的相关的人证物证，并且必须先乔装打扮来让你进入角色。此外，你还可以伪造含有官方格式和私人笔迹的文书，前提是你必须曾见过此类文件以及目标的笔迹以作范本。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/charlatan",
+    "bonds_cn": [
+      "我敲诈错了人，所以必须确保那家伙不和我或者任何我在意的人再度打上交道。",
+      "我的导师是个可能正在某个监牢里面烂着的糟糕人物，然而我欠他很多很多。",
+      "我在某个地方有个未曾见过我的孩子。我正为他改变这个世界。",
+      "我是贵族出身，我早晚一天会从剽窃我领地和头衔的人身上把一切都抢回来。",
+      "一个大人物杀了我的爱人。要不了多久，我就会向他复仇。",
+      "我毁了一个不该被骗的人。我试图弥补我的过失，但是可能永远不会原谅自己。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我对漂亮脸蛋没有抵抗力。",
+      "我总是欠债，并且把不义之财花在奢侈品上，还花得比赚得快。",
+      "我确信没人能用我骗人的方式骗到我。",
+      "我从不满足于现有的财产，而一旦涉及钱财我就会不畏风险。",
+      "我会按捺不住冲动去欺骗远比自己强的人。",
+      "尽管我难以启齿且痛恨不已，但是见势不妙我会转身就逃，并且只顾把自己藏好。"
+    ],
+    "ideals_cn": [],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "我容易招蜂引蝶，爱情生活是也不断的离离合合。",
+      "我在什么情境下都会说笑，尤其在不合时宜时更是如此。",
+      "我爱用逢迎的手段获取所求之物。",
+      "我是天生的赌徒，一旦有回报的可能，我就会不顾风险。",
+      "我什么时候都爱说点谎话，而不论是否有必要。",
+      "讽刺和挖苦是我的首选武器。",
+      "我身上挂着一排圣徽，随时随地都可以祈祷随便哪位神保佑。",
+      "我会把任何可能有点价值的玩意儿都收集起来。"
+    ],
+    "starting_equipment_cn": "一套高档服装，一套易容工具，一些你自选的行骗道具（十个装满五颜六色液体的塞口瓶子，一套作弊骰子，一套暗号纸牌，或者一枚捏造的公爵玺戒），以及一个装有15 gp的小包",
+    "starting_proficiencies_cn": [
+      "欺瞒",
+      "巧手"
+    ]
+  },
+  {
+    "index": "criminal",
+    "name": "罪犯",
+    "name_en": "Criminal",
+    "starting_proficiencies": [
+      {
+        "index": "skill-deception",
+        "name": "技能：欺瞒",
+        "name_en": "Skill: Deception",
+        "url": "/api/2014/proficiencies/skill-deception"
+      },
+      {
+        "index": "skill-stealth",
+        "name": "技能：隐匿",
+        "name_en": "Skill: Stealth",
+        "url": "/api/2014/proficiencies/skill-stealth"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "crowbar",
+          "name": "撬棍",
+          "url": "/api/2014/equipment/crowbar"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "罪犯特性",
+      "name_en": "Criminal Feature",
+      "desc": [
+        "你有一个可靠可信的接头人，来帮你组织进罪犯们组成的联系网中。即使遥隔千里你也知道如何从接头人处收发信息。此外，你还知道哪些人能为你捎信，他们可能是本地的信使，可贿赂的商队主管，或是衣衫褴褛的水手。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你有一个可靠可信的接头人，来帮你组织进罪犯们组成的联系网中。即使遥隔千里你也知道如何从接头人处收发信息。此外，你还知道哪些人能为你捎信，他们可能是本地的信使，可贿赂的商队主管，或是衣衫褴褛的水手。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/criminal",
+    "bonds_cn": [
+      "我试图偿还一个慷慨的资助者的老债务。",
+      "我的非法所得是为了支持我的家庭。",
+      "我有一件重要的东西被夺走了，并且我想要把它偷回来。",
+      "我会成为有史以来最伟大的盗贼。",
+      "我因一桩严重罪行而内疚。并希望从中寻求自我救赎。",
+      "我深爱的某人因我犯下的错误而死。而我决不会让这种事情再发生了。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "当我看到一些有价值的东西时，就会一心只想如何偷到它。",
+      "在面对金钱与朋友间的抉择时，我通常都选择金钱。",
+      "每当要记住某个计划时，我总会忘掉。就是无法忘掉，我也会选择性无视它。",
+      "我撒谎时会故意作出某些习惯动作。",
+      "当事情看起来似乎开始糟糕时，我会转身掉头就跑。",
+      "一名无辜者因我犯下的某桩罪行而进了监狱。这事我觉得挺好的。"
+    ],
+    "ideals_cn": [
+      "荣誉Honor。我不会偷行家的东西。(守序)",
+      "自由Freedom。枷锁的存在意义即是被打破，而那些铸造枷锁的人也该受同样对待。（混乱）",
+      "仁爱Charity。我从富人处窃取财富然后帮助有需要的人。（善良）",
+      "贪婪Greed。为了致富我愿意做任何事。（邪恶）",
+      "人民People。我忠于我的朋友而非任何理想，此外的其他人就算下到冥河Styx里也与我无关。（中立）",
+      "救赎Redemption。人人心中有善念。（善良）"
+    ],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "我总是计划好事情变糟时的应对方法。",
+      "无论情形如何我总能保持冷静。我从不会忽然提高音调或是让情绪影响自己。",
+      "我每到一个新地方做的第一件事就是记下每个有价值之物的位置——或是可能藏有类似东西的地点。",
+      "比起制造一个新敌人，我宁可交一个新朋友。",
+      "我极端的不易信任他人。表面上看上去越公正的人通常都藏着越多见不得光的事。",
+      "我不会考虑某个情形中的风险。永远别跟我谈几率。",
+      "令我做某件事的最好手段就是跟我说不能那样做。",
+      "最轻微的侮辱也能把我气炸了。"
+    ],
+    "starting_equipment_cn": "一根撬棍，一套带兜帽的深色普通服装，一套普通服装，以及一个装有15 gp的小包",
+    "starting_proficiencies_cn": [
+      "欺瞒",
+      "隐匿"
+    ]
+  },
+  {
+    "index": "entertainer",
+    "name": "艺人",
+    "name_en": "Entertainer",
+    "starting_proficiencies": [
+      {
+        "index": "skill-acrobatics",
+        "name": "技能：体操",
+        "name_en": "Skill: Acrobatics",
+        "url": "/api/2014/proficiencies/skill-acrobatics"
+      },
+      {
+        "index": "skill-performance",
+        "name": "技能：表演",
+        "name_en": "Skill: Performance",
+        "url": "/api/2014/proficiencies/skill-performance"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-costume",
+          "name": "戏服",
+          "url": "/api/2014/equipment/clothes-costume"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "index": "musical-instruments",
+            "name": "乐器",
+            "url": "/api/2014/equipment-categories/musical-instruments"
+          }
+        }
+      }
+    ],
+    "feature": {
+      "name": "艺人特性",
+      "name_en": "Entertainer Feature",
+      "desc": [
+        "你总是能找到表演场地，通常是酒馆或者客栈，偶尔也会是马戏团、剧院，甚至是贵族厅堂。只要你每晚维持出演，就可以在表演地获得简朴或舒适水平的免费食宿（取决于表演的规模）。此外，表演生涯使你在当地获得一定名气。当你在演出的城镇被陌生人认出时，通常都会受到善待。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你总是能找到表演场地，通常是酒馆或者客栈，偶尔也会是马戏团、剧院，甚至是贵族厅堂。只要你每晚维持出演，就可以在表演地获得简朴或舒适水平的免费食宿（取决于表演的规模）。此外，表演生涯使你在当地获得一定名气。当你在演出的城镇被陌生人认出时，通常都会受到善待。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/entertainer",
+    "bonds_cn": [
+      "我的乐器是我最宝贵的财富，它纪念着某个我所爱之人。",
+      "有人偷走了我珍爱的乐器，而我一定要夺回来。",
+      "我要不惜一切代价让自己出名。",
+      "我崇拜古老传奇中的某位英雄，并时时以他作榜样。",
+      "只要能证明我比那个可恨的对手强，我愿意做任何事情。",
+      "我可以为老剧团的同伴做任何事。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我会不择手段的去获取声誉和名望。",
+      "我对漂亮脸蛋非常着迷。",
+      "某个丑闻让我背井离乡。而这麻烦依然如影随形。",
+      "我曾经讽刺过一个贵族，现在他仍然想要我的脑袋。而这错误我可能还会再犯。",
+      "我总是忍不住道出自己的真实感受。而我的刻薄言辞也经常带给我麻烦。",
+      "就算我尽了全力，我的朋友们还是认为我靠不住。"
+    ],
+    "ideals_cn": [
+      "美好Beauty。我表演时的世界会显得更美好。（善良）",
+      "传统Tradition。过去的故事、史诗以及歌谣塑造了我们，因而他们不该被遗忘。（守序）",
+      "创新Creativity。世界需要崭新的创意和大胆的行动。（混乱）",
+      "贪婪Greed。我只是为名为利罢了。（邪恶）",
+      "人民People。我喜欢表演时人们脸上的笑容。那就是我想要的。（中立）",
+      "正直Honesty。艺术展现灵魂。它应当发自内心，揭露本我。（任意）"
+    ],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "我知道一个几乎适合所有情况的故事。",
+      "我到一个新地方后就会着手收集当地的流言和小道消息。",
+      "我是无可救药的浪漫病，总是在找“有缘人”。",
+      "我周围的人都不会生气太久，因为我总能缓和紧张的气氛。",
+      "我喜欢精妙的讽刺，即使那是对我的讽刺也一样。",
+      "我一旦不能成为众人焦点就会很难受。",
+      "我是完美主义者。",
+      "我的情绪和思想变得和弹琴轮指一样快。"
+    ],
+    "starting_equipment_cn": "一种乐器（由你选择），倾慕者的信物（情书、一缕头发或者饰品），一套表演服装，以及一个装有15 gp的小包",
+    "starting_proficiencies_cn": [
+      "特技",
+      "表演"
+    ]
+  },
+  {
+    "index": "folk-hero",
+    "name": "平民英雄",
+    "name_en": "Folk Hero",
+    "starting_proficiencies": [
+      {
+        "index": "skill-animal-handling",
+        "name": "技能：驯兽",
+        "name_en": "Skill: Animal Handling",
+        "url": "/api/2014/proficiencies/skill-animal-handling"
+      },
+      {
+        "index": "skill-survival",
+        "name": "技能：生存",
+        "name_en": "Skill: Survival",
+        "url": "/api/2014/proficiencies/skill-survival"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "shovel",
+          "name": "铲子",
+          "url": "/api/2014/equipment/shovel"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pot-iron",
+          "name": "铁锅",
+          "url": "/api/2014/equipment/pot-iron"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "index": "artisans-tools",
+            "name": "工匠工具",
+            "url": "/api/2014/equipment-categories/artisans-tools"
+          }
+        }
+      }
+    ],
+    "feature": {
+      "name": "平民英雄特性",
+      "name_en": "Folk Hero Feature",
+      "desc": [
+        "你因来自平民阶层而在乡民群众中倍感舒适。除非乡民们已经认为你会带来危险，否则你总能在普通人群中找到一个地方以供躲藏，休息或复原。他们能够掩护你逃脱法办，或者逃离追杀你的人，只是他们并不会为你而牺牲自己的性命。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你因来自平民阶层而在乡民群众中倍感舒适。除非乡民们已经认为你会带来危险，否则你总能在普通人群中找到一个地方以供躲藏，休息或复原。他们能够掩护你逃脱法办，或者逃离追杀你的人，只是他们并不会为你而牺牲自己的性命。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/folk-hero",
+    "bonds_cn": [
+      "我有一个家庭，但我现在不知道他们身处何处。我希望终有一日能够再次见到他们。",
+      "我劳作于这片土地，我热爱这片土地，而且我将保卫这片土地。",
+      "一名傲慢的贵族曾经死命痛打了我一顿，故而我将报复任何我遇到的恃强凌弱者。",
+      "我的工具是我以往生活的符号，因而我随身携带着它们以便永远记住我的根。",
+      "我保护那些无力自我保护的人。",
+      "我希望我的青梅竹马能伴着我一起追寻我的命运。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "统治我故乡的暴君会一直追杀我。",
+      "我深信命运的征兆，以至于看不清自己的不足或是失败的可能性。",
+      "自幼认识我的人知道我羞耻的秘密，所以我再也不能回家了。",
+      "我对一些城里的恶习没有抵抗力，尤其是酗酒。",
+      "我暗地里会觉得，如果我是那个统领这片土地的暴君所有事情肯定会更好。",
+      "我难以信任我的盟友。"
+    ],
+    "ideals_cn": [
+      "尊敬Respect。民众应该受到体面而尊敬的对待。（善良）",
+      "公平Fairness。没人可以在法律中得到优待，并且没人能凌驾于法律之上。（守序）",
+      "自由Freedom。压迫人民的暴君绝不能被容忍。（混乱）",
+      "力量Might。如果我变得强大，我就可以理所当然的随心所欲。（邪恶）",
+      "诚实Sincerity。假装自己是另一种人不会有什么好处。（中立）",
+      "命运Destiny。任何人或事情都无法让我偏离我那崇高的感召。（任意）"
+    ],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "我以人的行为而非言辞对其做判断。",
+      "我总是会去帮助遇到麻烦的人。",
+      "我在专注于某件事时，会排除一切障碍坚持到底。",
+      "我对公平有着强烈的执着，并且总是试图为争端寻找最公正的解决方案。",
+      "我信任自己的能力，并且会做任何力所能及的事以获得他人的信任。",
+      "其他人负责思考。我只负责行动。",
+      "我会错用长单词以试图显得更聪明些。",
+      "我时常感到厌烦。我的天命之旅什么时候才有进展呢？"
+    ],
+    "starting_equipment_cn": "一套工匠工具（由你选择），一把铲子，一个铁壶，一套普通服装，以及一个装有10 gp的小包",
+    "starting_proficiencies_cn": [
+      "驯兽",
+      "生存"
+    ]
+  },
+  {
+    "index": "guild-artisan",
+    "name": "公会工匠",
+    "name_en": "Guild Artisan",
+    "starting_proficiencies": [
+      {
+        "index": "skill-insight",
+        "name": "技能：洞悉",
+        "name_en": "Skill: Insight",
+        "url": "/api/2014/proficiencies/skill-insight"
+      },
+      {
+        "index": "skill-persuasion",
+        "name": "技能：游说",
+        "name_en": "Skill: Persuasion",
+        "url": "/api/2014/proficiencies/skill-persuasion"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-travelers",
+          "name": "旅行者衣物",
+          "url": "/api/2014/equipment/clothes-travelers"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "index": "artisans-tools",
+            "name": "工匠工具",
+            "url": "/api/2014/equipment-categories/artisans-tools"
+          }
+        }
+      }
+    ],
+    "feature": {
+      "name": "公会工匠特性",
+      "name_en": "Guild Artisan Feature",
+      "desc": [
+        "你身为公会中一名备受尊敬的正式成员，可以享受到公会所提供的一些好处。公会中的同僚会在你需要时为你提供食宿，甚至在必要时为你安排身后事。公会在某些市镇设置有会馆，你可以以此作为与同行交流的场所，也可以从中开发潜在的客户、合作伙伴或雇工。公会常常掌握着庞大的政治资源。当你被指控某项罪名时，公会可以为你提供全面的支持，前提是你必须为自己的清白做出举证，或是你的罪名必须仍可接受辩护。倘若你身处公会高层，甚至可以藉由公会获取有力的政治地位。而这些人脉资源都需要你为公会捐赠金钱或魔法物品来维持。你每个月必须上交5 gp作为会费。若你因故未缴这笔费用，则必须在补齐后才能重获公会的青睐。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你身为公会中一名备受尊敬的正式成员，可以享受到公会所提供的一些好处。公会中的同僚会在你需要时为你提供食宿，甚至在必要时为你安排身后事。公会在某些市镇设置有会馆，你可以以此作为与同行交流的场所，也可以从中开发潜在的客户、合作伙伴或雇工。公会常常掌握着庞大的政治资源。当你被指控某项罪名时，公会可以为你提供全面的支持，前提是你必须为自己的清白做出举证，或是你的罪名必须仍可接受辩护。倘若你身处公会高层，甚至可以藉由公会获取有力的政治地位。而这些人脉资源都需要你为公会捐赠金钱或魔法物品来维持。你每个月必须上交5 gp作为会费。若你因故未缴这笔费用，则必须在补齐后才能重获公会的青睐。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/guild-artisan",
+    "bonds_cn": [
+      "我学习技艺的厂房对我来说是世界上最重要的地方。",
+      "我为某人造出了一件绝世珍品，却发现对方根本配不上它。而我仍在找配得上它的人。",
+      "公会造就了今天的我，因此我仍欠公会良多。",
+      "我为了向某人求爱而攒钱。",
+      "终有一天，我会回到公会，然后证明我是最厉害的工匠其中。",
+      "我要向那个破坏我工坊，毁掉我生活的邪恶势力复仇。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我会为了获得某些珍贵无价之物做任何事。",
+      "我常常很急躁地认定某人正在骗我。",
+      "应当没人知道我曾经从公会金库里偷过钱。",
+      "我从未知足于自己所有之物，而总是欲壑难填。",
+      "我极度渴望贵族头衔。",
+      "我妒忌任何手艺胜我一筹的人。而我无论走到哪里却都是对手环绕。"
+    ],
+    "ideals_cn": [
+      "团结Community。加强集体团结，保卫社区安全，是文明人应尽的义务。（守序）",
+      "慷慨Generosity。既然我有天赋，我就要造福世界。（善良）",
+      "自由Freedom。任何人都有选择营生方式的自由。（混乱）",
+      "贪婪Greed。我干这行就只为钱。（邪恶）",
+      "人民People。我为我在乎的人奋斗，而不是为了什么理想。（中立）",
+      "抱负Aspiration。我努力钻研是为了成为本行中的翘楚。"
+    ],
+    "languages_rule_cn": "一门自选语言",
+    "personality_traits_cn": [
+      "我确信能做的事就要做到最好。而我必须要做到最好我是完美主义者。",
+      "我瞧不起那些不懂审美的家伙。",
+      "我总是想搞清楚事物如何运作，人们为何奔波。",
+      "我有一肚子格言警句，总是能恰到好处地掉书袋。",
+      "我对那些不像我那样努力工作、公平竞争的人并不会以礼相待。",
+      "我喜欢对我的行当高谈阔论。",
+      "我不会轻易花钱，砍价也总是砍到最低。",
+      "我在我这行鼎鼎有名，而我要确保所有人都认同这点。如果人们没听说过我，就会让我大吃一惊。"
+    ],
+    "starting_equipment_cn": "一套工匠工具（由你选择），一封公会的介绍信，一套旅行者服装，以及一个装有15 gp的小包",
+    "starting_proficiencies_cn": [
+      "洞悉",
+      "游说"
+    ]
+  },
+  {
+    "index": "hermit",
+    "name": "隐士",
+    "name_en": "Hermit",
+    "starting_proficiencies": [
+      {
+        "index": "skill-medicine",
+        "name": "技能：医药",
+        "name_en": "Skill: Medicine",
+        "url": "/api/2014/proficiencies/skill-medicine"
+      },
+      {
+        "index": "skill-religion",
+        "name": "技能：宗教",
+        "name_en": "Skill: Religion",
+        "url": "/api/2014/proficiencies/skill-religion"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "case-map-or-scroll",
+          "name": "地图或卷轴筒",
+          "url": "/api/2014/equipment/case-map-or-scroll"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "blanket",
+          "name": "毯子",
+          "url": "/api/2014/equipment/blanket"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "herbalism-kit",
+          "name": "草药工具包",
+          "url": "/api/2014/equipment/herbalism-kit"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "隐士特性",
+      "name_en": "Hermit Feature",
+      "desc": [
+        "你寂寥的长期隐居令你发现了某些独特而强大的秘密。这项发现的具体内容与你的隐居的理由密切相关。你或许是找到了与宇宙真相，神本质，异界大能或是自然之力等相关的伟大真理。你也可能是发现了某处任何人都未曾发现的地点。你可能揭露了久被遗忘的真相，或是发掘出了久远史前的遗物。或者，你也可能是发现了那些一手导致你流放的家伙们相关的情报，而那也就是你重返凡世的契机。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你寂寥的长期隐居令你发现了某些独特而强大的秘密。这项发现的具体内容与你的隐居的理由密切相关。你或许是找到了与宇宙真相，神本质，异界大能或是自然之力等相关的伟大真理。你也可能是发现了某处任何人都未曾发现的地点。你可能揭露了久被遗忘的真相，或是发掘出了久远史前的遗物。或者，你也可能是发现了那些一手导致你流放的家伙们相关的情报，而那也就是你重返凡世的契机。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/hermit",
+    "bonds_cn": [
+      "任何事物不比我的修行同伴、修行戒律或修会本身那么重要。",
+      "我隐居是为了躲避那些仍在搜捕我的人。而我早晚必须直接面对他们。",
+      "我一直在隐居生活中寻找启迪，然而至今仍然一无所获。",
+      "我隐居是因为无法得到所爱之人。",
+      "倘若我的发现公诸于众，世界必将天翻地覆。",
+      "我的苦修向我揭示了只有我能摧毁的可怖邪恶。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我现在重返文明世界，却有点过度沉溺于享乐。",
+      "我怀有即使是苦修和冥想也无法抹消的阴暗、嗜血之心。",
+      "我的想法和哲学观非常死板。",
+      "我对争论的求胜之心胜过了友谊与和睦之心。",
+      "我为了追求失落的知识而不顾任何风险。",
+      "我喜欢对一切保密，不爱与他人分享所知。"
+    ],
+    "ideals_cn": [
+      "大义Greater Good。我的天赋注定要为所有人谋利，而非为一己之私。（善良）",
+      "逻辑Logic。绝对不能让情绪干扰我们对正确、真实和理智的思考。（守序）",
+      "解放思想Free Thinking。探究精神和好奇心是学术进步的支柱。（混乱）",
+      "力量Power。清修和冥想是通往神秘力量或魔法之力的道途。（邪恶）",
+      "自持自重Live and Let LIve。胡乱插手他人事务只会造成麻烦。（中立）",
+      "自知Self-Knowledge。如果你能自知，那么就无所不知。（任意）"
+    ],
+    "languages_rule_cn": "自选一门语言",
+    "personality_traits_cn": [
+      "由于在隐居生活中鲜少说话，现在的我更偏好用肢体语言交流，或者偶尔咕哝几声。",
+      "即使泰山崩于眼前，我依然心如止水。",
+      "修会的主持无论何时都能说出至理哲言，而我也想分享得此等睿智。",
+      "我对受难者抱有强烈的同情心。",
+      "我对于礼仪和社会常识一无所知。",
+      "我将周遭发生的一切视作冥冥天意的一部分。",
+      "我时常陷入自我冥思中无法自拔，丝毫不顾周围的事物。",
+      "我正致力完成一套哲学理论，且乐于与人分享其理念。"
+    ],
+    "starting_equipment_cn": "一个卷轴匣，用来装纳研究成果和祈祷词的笔记，一张冬用毯子，一套普通服装，一套草药工具，以及5 gp",
+    "starting_proficiencies_cn": [
+      "医药",
+      "宗教"
+    ]
+  },
+  {
+    "index": "noble",
+    "name": "贵族",
+    "name_en": "Noble",
+    "starting_proficiencies": [
+      {
+        "index": "skill-history",
+        "name": "技能：历史",
+        "name_en": "Skill: History",
+        "url": "/api/2014/proficiencies/skill-history"
+      },
+      {
+        "index": "skill-persuasion",
+        "name": "技能：游说",
+        "name_en": "Skill: Persuasion",
+        "url": "/api/2014/proficiencies/skill-persuasion"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-fine",
+          "name": "精致衣物",
+          "url": "/api/2014/equipment/clothes-fine"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "signet-ring",
+          "name": "印章戒指",
+          "url": "/api/2014/equipment/signet-ring"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "贵族特性",
+      "name_en": "Noble Feature",
+      "desc": [
+        "由于你的贵族血统，人们总是会予你优待。高等社会愿意接纳你，人们认同你有权去任何你想去的地方。平民们会尽力满足你的要求，避免你产生任何不快，而那些同样出身高贵的人则会视你为同一个社会圈子的人。你还可以在必要时前去拜会任何当地的贵族。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "由于你的贵族血统，人们总是会予你优待。高等社会愿意接纳你，人们认同你有权去任何你想去的地方。平民们会尽力满足你的要求，避免你产生任何不快，而那些同样出身高贵的人则会视你为同一个社会圈子的人。你还可以在必要时前去拜会任何当地的贵族。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/noble",
+    "bonds_cn": [
+      "为了获得家族的认可，我可以面对任何挑战。",
+      "我必须不惜代价的维持住两个家族之间的联姻关系。",
+      "任何事物都不如家族血亲更重要。",
+      "我爱上了家族所不齿的另一个家族的子嗣。",
+      "我对主君的忠诚固若泰山。",
+      "平民们将我视作人民的英雄。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我暗自认为自己比所有人都高贵。",
+      "我努力遮掩一个会永远摧毁家族的可耻秘密。",
+      "我总会听到针对我的隐晦侮辱与威胁，且轻易就会因此而发怒。",
+      "我总是放纵自己的肉体欲望。",
+      "事实上，世界就是围着我转的。",
+      "我的言行总会为家族带来耻辱。"
+    ],
+    "ideals_cn": [
+      "尊重Respect。人们尊敬我是因为我的地位，但任何人无论地位高低，都应该被体面地对待。（善良）",
+      "责任Responsibility。我将服从上级视为责任，正如我的下属也必须要服从我一样。（守序）",
+      "独立Independence。我必须证明自己即使不借助家族的力量也仍可以自食其力。（混乱）",
+      "权力Power。只要我掌握了更大的权力，就没人能对我指手画脚了。（邪恶）",
+      "家族Family。血浓于水。（任意）",
+      "贵族义务Noble Obligation。保护依附我的人们，是我的责任。（善良）"
+    ],
+    "languages_rule_cn": "自选一门语言",
+    "personality_traits_cn": [
+      "我的阿谀奉承能让其他人觉得自己举世无双。",
+      "平民们因我的仁慈和慷慨而喜爱我。",
+      "众所周知只要看一眼我威严的仪态，就能明白我和下层民众截然不同。",
+      "我为了时尚和美貌忍受了很大痛苦。",
+      "我不喜欢干脏活，更不会因不舒适的食宿勉强自己。",
+      "我拥有贵族的血统，但并不认为自己比平民百姓更高贵。我们流的血是相同的。",
+      "一旦辜负我的期待，就将永远失去我的青睐。",
+      "我一受到伤害就要碾碎对方，乃至辱其名声毁其土地。"
+    ],
+    "starting_equipment_cn": "一套高档服装，一枚玺戒，一张血统证书卷轴，以及一个装有25 gp的钱袋",
+    "starting_proficiencies_cn": [
+      "历史",
+      "游说"
+    ]
+  },
+  {
+    "index": "outlander",
+    "name": "化外之民",
+    "name_en": "Outlander",
+    "starting_proficiencies": [
+      {
+        "index": "skill-athletics",
+        "name": "技能：运动",
+        "name_en": "Skill: Athletics",
+        "url": "/api/2014/proficiencies/skill-athletics"
+      },
+      {
+        "index": "skill-survival",
+        "name": "技能：生存",
+        "name_en": "Skill: Survival",
+        "url": "/api/2014/proficiencies/skill-survival"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "staff",
+          "name": "法杖",
+          "url": "/api/2014/equipment/staff"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "hunting-trap",
+          "name": "狩猎陷阱",
+          "url": "/api/2014/equipment/hunting-trap"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-travelers",
+          "name": "旅行者衣物",
+          "url": "/api/2014/equipment/clothes-travelers"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "化外之民特性",
+      "name_en": "Outlander Feature",
+      "desc": [
+        "你对记忆地图和地形时能力惊人，且你总能回想起地形、定居点或者其他环境特征的大致布局。此外，你每天可以为自己以及至多五名队友获取食物和饮水，前提是你们身处的土地可以提供浆果、小野兽、水源等资源。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你对记忆地图和地形时能力惊人，且你总能回想起地形、定居点或者其他环境特征的大致布局。此外，你每天可以为自己以及至多五名队友获取食物和饮水，前提是你们身处的土地可以提供浆果、小野兽、水源等资源。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/outlander",
+    "bonds_cn": [
+      "即使与其异地相隔，我的家族，氏族或部族是我生命中最重要的事物。",
+      "破坏家园的原始风貌即是对我的伤害。",
+      "我会让那些摧毁我家乡的恶徒见识什么叫狂怒。",
+      "我是部族最后的遗孤，因而只剩我可以让部族的威名成为传奇。",
+      "我眼前时常浮现灾难将至的幻景，我要尽全力阻止其发生。",
+      "抚养幼童继承部族是我的责任。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我过度痴迷于麦酒、葡萄酒等醉人之物。",
+      "繁忙充实的生活里没有谨慎的余地。",
+      "我会记住每次侮辱，并对委屈我的人抱以无声的怨恨。",
+      "我不太容易信任对那些来自其他种族、部族、或社群的人。",
+      "大多时候我会选择用暴力克服难题。",
+      "我不会救那些无法自救者。物竞天择，强者生存。"
+    ],
+    "ideals_cn": [
+      "改变Change。生活如四季流转，变化不止，而我们必须与之一道改变。（混乱）",
+      "大义Greater Good。部族整体的幸福，是每个成员的义务。（善良）",
+      "荣誉Honor。我若玷污荣誉，便是给整个氏族蒙羞。（守序）",
+      "力量Might。最强者即是规矩本身。（邪恶）",
+      "自然Nature。大自然比任何文明造物都重要。（中立）",
+      "光荣Glory。我必须在战斗中赢得荣耀，既为自己也为氏族。（任意）"
+    ],
+    "languages_rule_cn": "自选一门语言",
+    "personality_traits_cn": [
+      "我因旅行欲望的驱使而背井离乡。",
+      "我像照顾新生儿般照顾同伴。",
+      "我曾马不停蹄地跑了二十五里以警告氏族有兽人来袭。如果有必要，我还会这么干。",
+      "我善于观察自然，并从中获得应对任何境况的经验。",
+      "财富和礼貌无法帮你对抗一头饥饿枭熊，而我对看重这些东西的家伙不屑一顾。",
+      "我习惯偶尔从地上捡起些东西再漫不经心地摆弄，有的时候还会弄坏它们。",
+      "相对于与人相处，和动物在一起会让我更自在。",
+      "我实际上是个由狼养大的孩子。"
+    ],
+    "starting_equipment_cn": "一根法杖，一副狩猎陷阱，一件来自你手刃的动物身上的战利品，一套旅行者服装，以及一个装有10gp的小包",
+    "starting_proficiencies_cn": [
+      "运动",
+      "生存"
+    ]
+  },
+  {
+    "index": "sage",
+    "name": "智者",
+    "name_en": "Sage",
+    "starting_proficiencies": [
+      {
+        "index": "skill-arcana",
+        "name": "技能：奥秘",
+        "name_en": "Skill: Arcana",
+        "url": "/api/2014/proficiencies/skill-arcana"
+      },
+      {
+        "index": "skill-history",
+        "name": "技能：历史",
+        "name_en": "Skill: History",
+        "url": "/api/2014/proficiencies/skill-history"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "ink-1-ounce-bottle",
+          "name": "墨水（1盎司瓶）",
+          "url": "/api/2014/equipment/ink-1-ounce-bottle"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "ink-pen",
+          "name": "钢笔",
+          "url": "/api/2014/equipment/ink-pen"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "small-knife",
+          "name": "小刀",
+          "url": "/api/2014/equipment/small-knife"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "智者特性",
+      "name_en": "Sage Feature",
+      "desc": [
+        "当你需要学习或是记起某段学识内容时，就算你并不清楚其具体信息，也总能知道从何处或何人身上着手获取。这些情报通常来自某个图书馆、抄写室、学院，甚至是其他某个智者或某个知道相关知识的人或生物。鉴于发掘多元宇宙最深的秘密有时会需要整趟的冒险甚至是整个的战役，你的DM可能会设定这段情报的所在是一个遥不可及的地方，或者直接将其定义为无法找到。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "当你需要学习或是记起某段学识内容时，就算你并不清楚其具体信息，也总能知道从何处或何人身上着手获取。这些情报通常来自某个图书馆、抄写室、学院，甚至是其他某个智者或某个知道相关知识的人或生物。鉴于发掘多元宇宙最深的秘密有时会需要整趟的冒险甚至是整个的战役，你的DM可能会设定这段情报的所在是一个遥不可及的地方，或者直接将其定义为无法找到。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/sage",
+    "bonds_cn": [
+      "保护我的学生是我的责任。",
+      "我有一份载有可怕秘密的远古文献，而它绝不能落入错误的人手中。",
+      "我为保护一个图书馆，学院，抄写室或修道院而工作。",
+      "我一生的作品就是关于某项特定学识领域的一系列书典。",
+      "我终生寻求某个特定问题的解答。",
+      "我出卖了自己的灵魂以获得知识。并希望做一些大事将其赢回来。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "以知识许诺很容易打动我。",
+      "一般人看到恶魔时会尖叫着逃跑，而我则会停下来对它作解剖和记录。",
+      "揭示一项远古奥秘值得以一整个文明作代价。",
+      "我总是拿出极度复杂的解决方案，却忽视了那些简单易行的方法。",
+      "我说话时未真正考虑过自己的措辞，因而老是冒犯到他人。",
+      "我无法保守关乎自己或其它性命的秘密。"
+    ],
+    "ideals_cn": [
+      "知识Knowledge。知识是通往力量和自我发展的必经之路。(中立)",
+      "美丽Beauty。美丽的事物指引我们想着其所在的方向继续向前即是真实。（善良）",
+      "逻辑Logic。情绪绝不能蒙蔽逻辑思考。（守序）",
+      "无拘无束No Limits。任何东西都不该束缚所有存在中潜在的无限可能。（混乱）",
+      "权力Power。知识是通往权力与统治的捷径。（邪恶）",
+      "提升自我Self-Improvement。终生学习为的正是让人变得更好。（任意）"
+    ],
+    "languages_rule_cn": "自选两门语言",
+    "personality_traits_cn": [
+      "我会用一些让人觉得非常博学的长词。",
+      "我读过世上最大图书馆中的每一本书——或者我喜欢自夸我读过。",
+      "我习惯帮助那些不像我这么聪明的人，而我有耐心对其他人解释任何事和每件事。",
+      "没有什么能比一个有趣的谜团更令我欢心。",
+      "我作出自己的判断前，总会乐意倾听争论双方的论点。",
+      "我~跟~白痴们~讲话~时~会~放慢~语速，别~误会~我~是指~所有人~都是~白痴。",
+      "我在社交场合尴尬得特别特别厉害。",
+      "我确信人们始终在试着偷取我的秘密。"
+    ],
+    "starting_equipment_cn": "一瓶黑墨水，一根羽毛笔，一把小刀，一封去世同事信件其内载有你尚不能解答的问题，一套普通服装，以及一个装有10 gp的小包",
+    "starting_proficiencies_cn": [
+      "奥秘",
+      "历史"
+    ]
+  },
+  {
+    "index": "sailor",
+    "name": "水手",
+    "name_en": "Sailor",
+    "starting_proficiencies": [
+      {
+        "index": "skill-athletics",
+        "name": "技能：运动",
+        "name_en": "Skill: Athletics",
+        "url": "/api/2014/proficiencies/skill-athletics"
+      },
+      {
+        "index": "skill-perception",
+        "name": "技能：察觉",
+        "name_en": "Skill: Perception",
+        "url": "/api/2014/proficiencies/skill-perception"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "club",
+          "name": "短棒",
+          "url": "/api/2014/equipment/club"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "rope-silk-50-feet",
+          "name": "丝绳（50尺）",
+          "url": "/api/2014/equipment/rope-silk-50-feet"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "水手特性",
+      "name_en": "Sailor Feature",
+      "desc": [
+        "在必要时，你可以为团队谋得免费的顺风船进行旅行。你可能是搭上曾经效力过的船只，也可能是遇到与你交好的另一艘船（可能一位你曾经的同船水手所指挥的船只）。因为你是请求对方帮助（而非雇佣），所以你不能让行程和日程全然满足自己的要求。到达目的地的具体时间将由DM做决定。而作为免费搭乘的报酬，你和你的队友必须在航行中加入船员的行列帮忙做工。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "在必要时，你可以为团队谋得免费的顺风船进行旅行。你可能是搭上曾经效力过的船只，也可能是遇到与你交好的另一艘船（可能一位你曾经的同船水手所指挥的船只）。因为你是请求对方帮助（而非雇佣），所以你不能让行程和日程全然满足自己的要求。到达目的地的具体时间将由DM做决定。而作为免费搭乘的报酬，你和你的队友必须在航行中加入船员的行列帮忙做工。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/sailor",
+    "bonds_cn": [
+      "我首先忠于我的船长，任何事物都要排在后头。",
+      "船才是最重要的，无论船员还是船长都是过客。",
+      "我总是会怀念我上过的第一艘船。",
+      "在一个港口里住着我的情人，她的魅力几乎能让我抛弃海上生活和她在一起。",
+      "我平分财宝时见到有人作弊，而我要夺回我应得的那份。",
+      "残忍的海盗杀了我的船长和兄弟，抢走了我的船，只留下濒死的我。而我一定要复仇。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我遵守命令，哪怕是那些并不正确的命令。",
+      "我会绞尽脑汁避免额外劳动。",
+      "一旦有人质疑我的勇气，我就什么都敢干。",
+      "我一旦开始喝酒，就根本停不下来。",
+      "我会忍不住收集遇到的各种硬币或小饰品等玩意儿。",
+      "我的骄傲可能会毁了自己。"
+    ],
+    "ideals_cn": [
+      "尊重Respect。只有船长和船员相互尊重，船才能乘风破浪。（善良）",
+      "公正Fairness。一起干的活工钱一起分。（守序）",
+      "自由Freedom。大海即是自由——随你去哪儿，随你干什么。（混乱）",
+      "统治Mastery。我是个掠夺者，海上其他船都是我的猎物。（邪恶）",
+      "人民People。我只为同伴们出力，而不是为了什么理想。（中立）",
+      "抱负Aspiration。早晚有一天，我会拥有自己的船，掌握自己的命运。（任意）"
+    ],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "朋友们知道无论出现什么困难，我都值得依赖。",
+      "我努力工作，然后休闲时就可以尽情玩乐。",
+      "我喜欢航行到新港口，然后在那里以酒会友。",
+      "我常常会为了讲述一个好故事而夸大其词。",
+      "我就觉得酒馆是了解一座陌生城市的好地方。",
+      "我从不会放弃友好的赌局。",
+      "我的言辞脏污得好比食腐兽的窝。",
+      "我喜欢工作都好好完成的样子，如果整个过程都让别人来干就更好了。"
+    ],
+    "starting_equipment_cn": "一根挽缆栓（短棒），50尺丝绳，兔脚或穿孔小石头一类的护身符（或从第5章的饰品列表中掷骰决定），一套普通服装，以及一个装有10 gp的小包",
+    "starting_proficiencies_cn": [
+      "运动",
+      "察觉"
+    ]
+  },
+  {
+    "index": "soldier",
+    "name": "士兵",
+    "name_en": "Soldier",
+    "starting_proficiencies": [
+      {
+        "index": "skill-athletics",
+        "name": "技能：运动",
+        "name_en": "Skill: Athletics",
+        "url": "/api/2014/proficiencies/skill-athletics"
+      },
+      {
+        "index": "skill-intimidation",
+        "name": "技能：威吓",
+        "name_en": "Skill: Intimidation",
+        "url": "/api/2014/proficiencies/skill-intimidation"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipment",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "dice-set",
+                "name": "骰子套组",
+                "url": "/api/2014/equipment/dice-set"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "playing-card-set",
+                "name": "扑克牌套组",
+                "url": "/api/2014/equipment/playing-card-set"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "feature": {
+      "name": "士兵特性",
+      "name_en": "Soldier Feature",
+      "desc": [
+        "你作为士兵时曾获得过军衔。那些忠于你之前所在组织的士兵仍会承认你的权威与影响，而其中军衔比你低的人甚至依然会遵从你的命令。凭借军衔的影响，你可以向其他士兵临时征用简单的装备或马匹。并且还可以凭此随意通过那些承认你军衔的友方军队大营和堡垒。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你作为士兵时曾获得过军衔。那些忠于你之前所在组织的士兵仍会承认你的权威与影响，而其中军衔比你低的人甚至依然会遵从你的命令。凭借军衔的影响，你可以向其他士兵临时征用简单的装备或马匹。并且还可以凭此随意通过那些承认你军衔的友方军队大营和堡垒。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/soldier",
+    "bonds_cn": [
+      "我依然会以性命保护曾一起共事之人。",
+      "有人在战场上救过我的命。因而现在我也不会丢下任何一个朋友。",
+      "荣誉即吾命。",
+      "我永远不会忘记队伍曾遭受到的惨败，以及当时的敌人。",
+      "那些与我同袍的人值得为之豁出性命。",
+      "我为那些无法为他们自己战斗的人而战。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "我们曾在战场上面对的凶暴的敌人依然会令我恐惧的发抖。",
+      "除那些久经沙场的武士外，任何人都不值得我尊重。",
+      "我曾在战场上犯了一个严重的错并为此伤害了许多生命——而我为了能守住这个秘密愿意做任何事。",
+      "我对敌人的仇恨盲目而缺乏理性。",
+      "我遵从法律，而不管其律条是否会招致不幸。",
+      "我在犯错时宁可吞掉自己的护甲也不愿承认。"
+    ],
+    "ideals_cn": [
+      "大义Greater Good。我们的使命即是为保卫他人而献出自己的生命。(善良)",
+      "责任Responsibility。我服从权力，并且只做必须做的事。（守序）",
+      "独立Independence。盲目的服从命令，某种意义上就相当于接受暴君统治。（混乱）",
+      "力量Might。生活与战争一样，只有更强大的一方才能获胜。（邪恶）",
+      "自持自重Live and Let Live。不该以理想之名行杀戮之事，或是以其名义发动战争。（中立）",
+      "国家Nation。我的城市、国家和人民是最重要的事。（任意）"
+    ],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "我总是表现的恭敬有礼。",
+      "我的心中总是萦绕着战争时的记忆，那些残暴的画面总是挥之不去。",
+      "我曾失去太多的朋友，而现在已经很难交个新的朋友了。",
+      "我的军事生涯曾经历过各种情况，所以我能以此讲出许多鼓舞人心而又发人深省的故事。",
+      "我能盯着一只地狱犬看而毫不畏缩。",
+      "我喜欢强壮的感觉并且乐于打坏东西。",
+      "我有着粗俗的幽默感。",
+      "我迎难而上直面问题。一个简单直接的解决方案是通往成功的最佳路径。"
+    ],
+    "starting_equipment_cn": "一枚军衔徽记，一件从某个倒下的敌人身上得到的战利品（一把匕首，毁坏的武器或是军旗碎片），一套骨骰或一组纸牌，一套普通服装，以及一个装有10 gp的小包",
+    "starting_proficiencies_cn": [
+      "运动",
+      "威吓"
+    ]
+  },
+  {
+    "index": "urchin",
+    "name": "流浪儿",
+    "name_en": "Urchin",
+    "starting_proficiencies": [
+      {
+        "index": "skill-sleight-of-hand",
+        "name": "技能：巧手",
+        "name_en": "Skill: Sleight of Hand",
+        "url": "/api/2014/proficiencies/skill-sleight-of-hand"
+      },
+      {
+        "index": "skill-stealth",
+        "name": "技能：隐匿",
+        "name_en": "Skill: Stealth",
+        "url": "/api/2014/proficiencies/skill-stealth"
+      }
+    ],
+    "language_options": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "small-knife",
+          "name": "小刀",
+          "url": "/api/2014/equipment/small-knife"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "普通衣物",
+          "url": "/api/2014/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "小包",
+          "url": "/api/2014/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [],
+    "feature": {
+      "name": "流浪儿特性",
+      "name_en": "Urchin Feature",
+      "desc": [
+        "你熟知城市中的秘密小路和胡同，能够在其他人容易迷失的混乱街区中寻路。如果你们并非身处战斗状态，则你还可以在市区内引导同伴以两倍的平时速度在两个地点间穿行。"
+      ],
+      "desc_en": [
+        "See Player's Handbook."
+      ],
+      "desc_cn": [
+        "你熟知城市中的秘密小路和胡同，能够在其他人容易迷失的混乱街区中寻路。如果你们并非身处战斗状态，则你还可以在市区内引导同伴以两倍的平时速度在两个地点间穿行。"
+      ]
+    },
+    "personality_traits": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "ideals": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "bonds": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "flaws": {
+      "choose": 0,
+      "type": "options_array",
+      "from": {
+        "option_set_type": "options_array",
+        "options": []
+      }
+    },
+    "url": "/api/2014/backgrounds/urchin",
+    "bonds_cn": [
+      "这城镇就是我的家，而我必须保卫它。",
+      "我资助了一所孤儿院，以免其他人再遭受我的厄运。",
+      "我的幸存应归功于那位曾教会我如何在街头生存的另一位流浪儿。",
+      "我欠某位同情我的绅士一笔我还不起的债。",
+      "我通过抢劫一位大人物而脱贫致富，但是也因此而遭到通缉。",
+      "不该再有人遭受我曾经的苦难了。"
+    ],
+    "desc_cn": [],
+    "flaws_cn": [
+      "如果敌人人多势众，我就会在打斗时溜走。",
+      "我觉得金子很值钱，因此我会不择手段赚很多金子。",
+      "我从不会完全信任别人，而只相信我自己。",
+      "与其公平决斗，我更喜欢趁人之危偷袭。",
+      "如果我比原主人更需要某物，那我拿走就不算偷。",
+      "自己顾不好自己的家伙，只能算活该。"
+    ],
+    "ideals_cn": [
+      "尊重Respect。所有人，不论贫富都应受到尊重。（善良）",
+      "团结Community。外人不会帮我们，因此我们必须同舟共济。（守序）",
+      "改变Change。下等人可能发迹，上等人可能落马，变化才是万物的本质。（混乱）",
+      "报应Retribution。富人们应该被按在水沟里尝尝濒死的感觉。（邪恶）",
+      "人民People。我帮助那些帮了我的人——这正是我们生存的根本。（中立）",
+      "抱负Aspiration。我会证明我值得拥有更好的生活。"
+    ],
+    "languages_rule_cn": "",
+    "personality_traits_cn": [
+      "我把食物碎屑和饰品深深地藏在口袋里。",
+      "我会常常发问。",
+      "我喜欢钻进别人找不到我的地方。",
+      "我习惯靠着墙或树睡觉，睡时把自己的东西都捆成一捆抱在怀里。",
+      "我的吃相像猪一样，十分没有礼数。",
+      "我认为任何对我假仁假义的人都不安好心。",
+      "我不喜欢洗澡。",
+      "我总是直接说出其他人暗示或者想遮掩的事情。"
+    ],
+    "starting_equipment_cn": "一把小刀，一张你所成长城市的地图，一只宠物鼠，一件纪念你父母的纪念品，一套普通服装和一个装有10 gp的小包",
+    "starting_proficiencies_cn": [
+      "巧手",
+      "隐匿"
+    ]
   }
 ]
