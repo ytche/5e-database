@@ -7,8 +7,8 @@
       "name_en": "Barbarian",
       "url": "/api/2014/classes/barbarian"
     },
-    "name": "狂战士",
-    "name_en": "Berserker",
+    "name": "狂战士道途",
+    "name_en": "Path of the Berserker",
     "subclass_flavor": "原始道途",
     "desc": [
       "对某些野蛮人而言，狂暴是一种手段——一种以暴力为终点的手段。狂战士之道是一条不受控制的狂怒之路，沾满鲜血。当你进入狂战士的狂暴状态时，你沉醉于战斗的混乱中，不顾自己的健康或安危。"
@@ -20,6 +20,48 @@
     "url": "/api/2014/subclasses/berserker"
   },
   {
+    "index": "totem-warrior",
+    "class": {
+      "index": "barbarian",
+      "name": "野蛮人",
+      "name_en": "Barbarian",
+      "url": "/api/2014/classes/barbarian"
+    },
+    "name": "图腾武者道途",
+    "name_en": "Path of the Totem Warrior",
+    "subclass_flavor": "原始道途",
+    "desc": [
+      "图腾武者道途是灵魂修炼的旅途。走上此道的野蛮人以一种兽魂作为其向导、保护者和力量源泉。在战斗中，你的图腾精魄将超自然的力量灌输于你，为你的狂暴注入魔法力量。 大多数野蛮人部族将图腾兽视为氏族的一员，因此很少有人同时拥有两种或更多图腾精魄，但这样的特例依然存在。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/totem-warrior/levels",
+    "url": "/api/2014/subclasses/totem-warrior",
+    "spells": []
+  },
+  {
+    "index": "college-of-valor",
+    "class": {
+      "index": "bard",
+      "name": "吟游诗人",
+      "name_en": "Bard",
+      "url": "/api/2014/classes/bard"
+    },
+    "name": "勇气学院",
+    "name_en": "College of Valor",
+    "subclass_flavor": "学院",
+    "desc": [
+      "勇气学院是那些怀念逝去英雄的歌者聚集之地，也是新英雄诗篇的诞生地。诗人们或汇聚在金色大厅里，或围坐在熊熊篝火旁，颂唱着古往今来那些英勇事迹。他们行走大陆亲身见识体验那些伟大的事件，确保那些值得记忆的事不会被世界所遗忘。他们以激昂的诗歌激励旁人，向着英雄们的道路不倦的前进。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/college-of-valor/levels",
+    "url": "/api/2014/subclasses/college-of-valor",
+    "spells": []
+  },
+  {
     "index": "lore",
     "class": {
       "index": "bard",
@@ -27,8 +69,8 @@
       "name_en": "Bard",
       "url": "/api/2014/classes/bard"
     },
-    "name": "逸闻",
-    "name_en": "Lore",
+    "name": "逸闻学院",
+    "name_en": "College of Lore",
     "subclass_flavor": "吟游诗人学院",
     "desc": [
       "逸闻学院的吟游诗人对大多数事物都有所了解，他们从学术典籍和民间故事等多样化的来源收集知识片段。无论是在酒馆中吟唱民谣，还是在皇家宫廷中演奏华丽的乐章，这些吟游诗人都运用他们的天赋使听众如痴如醉。当掌声平息后，听众可能会发现自己开始质疑曾经坚信的一切，从对当地神庙神职人员的信仰到对国王的忠诚。这些吟游诗人的忠诚在于追求美与真理，而非对君主的效忠或遵循神祇的教义。贵族们深知，将这样的吟游诗人作为传令官或顾问，意味着他们宁愿诚实也不愿圆滑。学院成员聚集在图书馆中，有时也在真正的学院里——配有教室和宿舍——互相分享他们的学识。他们也会在节日或国事活动中会面，揭露腐败、拆穿谎言，并嘲讽那些自以为是的当权者。"
@@ -40,6 +82,27 @@
     "url": "/api/2014/subclasses/lore"
   },
   {
+    "index": "knowledge",
+    "class": {
+      "index": "cleric",
+      "name": "牧师",
+      "name_en": "Cleric",
+      "url": "/api/2014/classes/cleric"
+    },
+    "name": "知识领域",
+    "name_en": "Knowledge Domain",
+    "subclass_flavor": "领域",
+    "desc": [
+      "知识之神们（包括欧格玛Oghma、博卡布Boccob、吉立安Gilean、奥林Aureon和透特Thoth）视学习与求知高于一切。其中某些教义致力于将知识收集于图书馆和院校中分享，或是促进关于工匠与发明的特定知识。一些神会秘藏知识，并让其成为自己人的秘闻。而另一些则向其追随者们承诺，揭示多元宇宙的秘密将赋予其无上的大能。这些神的追随者们终日埋头于研究秘密学识，搜集老旧典籍，深入地下秘境中，以此尽其所能的进行学习研究。某些知识领域的神会促进工匠与发明方面的知识，其中就有铁匠神o如贡德Gond、李奥克斯Reorx、昂纳塔Onatar、摩拉丁Moradin、赫菲斯托斯Hephaestus以及戈伊布尼乌Goibhniu。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/knowledge/levels",
+    "url": "/api/2014/subclasses/knowledge",
+    "spells": []
+  },
+  {
     "index": "life",
     "class": {
       "index": "cleric",
@@ -47,8 +110,8 @@
       "name_en": "Cleric",
       "url": "/api/2014/classes/cleric"
     },
-    "name": "生命",
-    "name_en": "Life",
+    "name": "生命领域",
+    "name_en": "Life Domain",
     "subclass_flavor": "神圣领域",
     "desc": [
       "生命领域专注于充满活力的正能量——这是宇宙的基本力量之一——它维持着所有生命。生命之神通过治愈病患和伤者、照顾有需要的人、驱走死亡和不死的力量来促进活力和健康。几乎任何非邪恶的神祇都可以宣称对这个领域有影响，特别是农业神祇、太阳神、治疗或耐力之神，以及家庭和社区之神。"
@@ -197,6 +260,132 @@
     "url": "/api/2014/subclasses/life"
   },
   {
+    "index": "light",
+    "class": {
+      "index": "cleric",
+      "name": "牧师",
+      "name_en": "Cleric",
+      "url": "/api/2014/classes/cleric"
+    },
+    "name": "光明领域",
+    "name_en": "Light Domain",
+    "subclass_flavor": "领域",
+    "desc": [
+      "光明之神（包括海姆Helm、洛山达Lathander、佛尔图斯Pholtus、布兰查拉branchala、银焰Silver Flame、巴莱纳斯Belenus、阿波罗Apollo以及拉?赫拉克提Re-Horakh-ty）促进世间的理念如重生和革新，真理，警觉，以及美丽，其通常的象征为太阳。某些这类的神会被描绘为太阳本身，或是驾着战车引领太阳划过天际。还有一些则是不懈的哨兵之眼，时刻洞穿每一片阴影与诡计。而其中某些美与才艺的神其教义还会诠释艺术即灵魂晋升容器的理念。光明之神的牧师们致力于指引灌输光耀的灵魂，其守护神的力量洞悉幻象，驱散谎言并烧尽一切晦暗。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/light/levels",
+    "url": "/api/2014/subclasses/light",
+    "spells": []
+  },
+  {
+    "index": "nature",
+    "class": {
+      "index": "cleric",
+      "name": "牧师",
+      "name_en": "Cleric",
+      "url": "/api/2014/classes/cleric"
+    },
+    "name": "自然领域",
+    "name_en": "Nature Domain",
+    "subclass_flavor": "领域",
+    "desc": [
+      "自然之神正如自然界本身一样变化多端，从宛如迷一般居于密林之中的神（如西凡那斯Silvanus、欧拜?亥Obad-Hai、奇思洛夫Chislev、巴力诺Balinor和潘Pan）到关联为特定花朵与灌木的友善神（如埃达丝Eldath）都有存在。崇拜自然界本身的德鲁伊也会服务于其中一个神，并用德鲁伊的秘密语言练习其神秘仪式，以及背诵那些早被遗忘的祷文。许多这些神同样拥有相应的牧师，而这些勇士会帮助特定的自然神出任更需要积极冒险的任务。他们可能会前去狩猎破坏林地的邪恶怪物，去护佑忠实信徒们的收获，或是去诅咒那些渎神者的庄稼使其枯萎。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/nature/levels",
+    "url": "/api/2014/subclasses/nature",
+    "spells": []
+  },
+  {
+    "index": "tempest",
+    "class": {
+      "index": "cleric",
+      "name": "牧师",
+      "name_en": "Cleric",
+      "url": "/api/2014/classes/cleric"
+    },
+    "name": "风暴领域",
+    "name_en": "Tempest Domain",
+    "subclass_flavor": "领域",
+    "desc": [
+      "神职囊括风暴领域的神（包括塔洛斯Talos、安博里Umberlee、寇德Kord、赛波音Zeboim、吞噬Devourer、宙斯Zeus以及索尔Thor）统治着风暴、大海与天空。祂们包括闪电与雷鸣之神，地震之神，一部分火神，和某些暴力、体力和勇气之神。在一些神系中，风暴领域的神管理其他诸神并以风驰电掣的正义闪电制裁而闻名。而另一些海民神系里，该领域的诸神都属于海洋之神并眷顾着水手们。风暴诸神往往派遣他们的牧师前去激发民众的恐惧，从而确保这些人不会偏离正直之路或鼓励他们献上祭品以免触犯神怒。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/tempest/levels",
+    "url": "/api/2014/subclasses/tempest",
+    "spells": []
+  },
+  {
+    "index": "trickery",
+    "class": {
+      "index": "cleric",
+      "name": "牧师",
+      "name_en": "Cleric",
+      "url": "/api/2014/classes/cleric"
+    },
+    "name": "诡术领域",
+    "name_en": "Trickery Domain",
+    "subclass_flavor": "领域",
+    "desc": [
+      "诡术之神们（如泰摩拉Tymora、本莎芭Beshaba、渥利达马拉Olidammara、旅者Traveler、加尔·闪金Garl Glittergold、和洛基Loki）均是恶作剧者，同时也是挑拨凡人或神明去颠覆现有秩序的煽动者。祂们是小偷、恶棍、赌徒、叛乱者和解放者的庇护人。其牧师则是世界的颠覆者，他们打击骄傲者的自尊，嘲弄暴君，窃盗富人，释放俘虏，并且蔑视毫无意义的传统。他们喜欢花言巧语、恶作剧、欺骗和盗窃要远远多于正面对抗。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/trickery/levels",
+    "url": "/api/2014/subclasses/trickery",
+    "spells": []
+  },
+  {
+    "index": "war",
+    "class": {
+      "index": "cleric",
+      "name": "牧师",
+      "name_en": "Cleric",
+      "url": "/api/2014/classes/cleric"
+    },
+    "name": "战争领域",
+    "name_en": "War Domain",
+    "subclass_flavor": "领域",
+    "desc": [
+      "战争有许多种表现形式。它可以造就普通人成为英雄。它充满绝望与恐惧，伴随着残忍与懦弱的行为却也交织着卓越与勇气。不论何种情况，战争之神都会守望着武者们并为他们伟大的行为作出奖赏。这些神的牧师们善于战斗，也鼓舞其他人在战斗中赢取荣耀，或献上暴力行为作为祈祷。战争之神包括充满荣誉和骑士精神的勇士（如托姆Torm，海若尼斯Heironeous以及奇力·裘理斯Kiri-Jolith），破坏和掠夺之神（如厄瑞斯努Erythnul、愤恨Fury、格乌什Gruumsh以及阿瑞斯Ares）以及征服和统治之神（如班恩Bane、海克斯托Hextor以及马格鲁比耶Maglubiyet）。其他战争神（如坦帕斯Tempus、尼刻Nike和努阿达Nuada）则采取更中立的立场，推动战争的一切表现并支持处于任何境遇之下战士。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/war/levels",
+    "url": "/api/2014/subclasses/war",
+    "spells": []
+  },
+  {
+    "index": "circle-of-the-moon",
+    "class": {
+      "index": "druid",
+      "name": "德鲁伊",
+      "name_en": "Druid",
+      "url": "/api/2014/classes/druid"
+    },
+    "name": "月亮结社",
+    "name_en": "Circle of the Moon",
+    "subclass_flavor": "结社",
+    "desc": [
+      "月亮结社的德鲁伊都是凶猛的荒野卫士。他们聚集在满月之下分享情报，交换警示。然后常常离群连续几周与另一个类人生物在荒野深处穿行。 该结社的德鲁伊如月亮般善变，他们会作为野猫徘徊一晚，第二天又成为一只盘旋在树顶老鹰，再以熊的形态赶走领地中的入侵者。其德鲁伊之血充满野性。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/circle-of-the-moon/levels",
+    "url": "/api/2014/subclasses/circle-of-the-moon",
+    "spells": []
+  },
+  {
     "index": "land",
     "class": {
       "index": "druid",
@@ -204,8 +393,8 @@
       "name_en": "Druid",
       "url": "/api/2014/classes/druid"
     },
-    "name": "大地",
-    "name_en": "Land",
+    "name": "大地结社",
+    "name_en": "Circle of the Land",
     "subclass_flavor": "德鲁伊结社",
     "desc": [
       "大地结社由神秘主义者和贤者组成，他们通过庞大的口述传统来守护古老的知识和仪式。这些德鲁伊在神圣的树木圈或立石圈中聚会，用德鲁伊语低声诉说原始的秘密。结社中最睿智的成员担任信奉古旧信仰的社区首席祭司，并作为那些民众的统治者顾问。作为这个结社的一员，你的魔法受到你接受结社神秘仪式的土地的影响。"
@@ -1395,6 +1584,27 @@
     "url": "/api/2014/subclasses/land"
   },
   {
+    "index": "battle-master",
+    "class": {
+      "index": "fighter",
+      "name": "战士",
+      "name_en": "Fighter",
+      "url": "/api/2014/classes/fighter"
+    },
+    "name": "战斗大师",
+    "name_en": "Battle Master",
+    "subclass_flavor": "战斗风格",
+    "desc": [
+      "战斗大师选择磨炼列代先辈传承下来的战斗技巧。战斗大师们将战斗视为一门学问，而其内容不止包含战斗本身，还包括铸造武器和书法等等。并非每个战士都能适应战斗大师范型对学习历史，理论和艺术的要求，但能做到的人则都是技艺精熟，知识丰富的多面手。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/battle-master/levels",
+    "url": "/api/2014/subclasses/battle-master",
+    "spells": []
+  },
+  {
     "index": "champion",
     "class": {
       "index": "fighter",
@@ -1415,6 +1625,27 @@
     "url": "/api/2014/subclasses/champion"
   },
   {
+    "index": "eldritch-knight",
+    "class": {
+      "index": "fighter",
+      "name": "战士",
+      "name_en": "Fighter",
+      "url": "/api/2014/classes/fighter"
+    },
+    "name": "奥法骑士",
+    "name_en": "Eldritch Knight",
+    "subclass_flavor": "战斗风格",
+    "desc": [
+      "奥法骑士将战士的武术与严谨的魔法研究相结合。他们使用与法师类似的魔法技巧，但只专注于两个学派：防护和塑能。他们以防护法术保护自身，再以塑能法术同时攻击多个敌人，因而使其在战场上更加全面。奥法骑士只能掌握较少的法术，因此只需靠记忆完成而无需使用法术书。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/eldritch-knight/levels",
+    "url": "/api/2014/subclasses/eldritch-knight",
+    "spells": []
+  },
+  {
     "index": "open-hand",
     "class": {
       "index": "monk",
@@ -1422,8 +1653,8 @@
       "name_en": "Monk",
       "url": "/api/2014/classes/monk"
     },
-    "name": "散打",
-    "name_en": "Open Hand",
+    "name": "散打宗",
+    "name_en": "Way of the Open Hand",
     "subclass_flavor": "修道传统",
     "desc": [
       "散打之道修士是武术格斗的终极大师，无论持械或徒手。他们学习推搡和绊倒对手的技巧，操控气来治愈身体受到的伤害，并练习能够保护他们免受伤害的高级冥想。"
@@ -1435,6 +1666,48 @@
     "url": "/api/2014/subclasses/open-hand"
   },
   {
+    "index": "way-of-shadow",
+    "class": {
+      "index": "monk",
+      "name": "武僧",
+      "name_en": "Monk",
+      "url": "/api/2014/classes/monk"
+    },
+    "name": "暗影宗",
+    "name_en": "Way of Shadow",
+    "subclass_flavor": "武艺宗派",
+    "desc": [
+      "暗影宗的武僧追寻隐匿和遁术之道。这些武僧也可以被称为忍者或影舞者，普遍作为间谍和刺客而活跃。有些忍者宗派以家族传承，并以氏族誓约维系其秘术与任务得以保持隐秘。而本宗的其他修道院则更像盗贼行会，他们的主顾通常是贵族、富商和任何付得起钱的人。无道的行事方式之外，这一宗派的头目还是其修道院中的绝对的权威，其学生都必须无条件服从其指令。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/way-of-shadow/levels",
+    "url": "/api/2014/subclasses/way-of-shadow",
+    "spells": []
+  },
+  {
+    "index": "way-of-the-four-elements",
+    "class": {
+      "index": "monk",
+      "name": "武僧",
+      "name_en": "Monk",
+      "url": "/api/2014/classes/monk"
+    },
+    "name": "四象宗",
+    "name_en": "Way of the Four Elements",
+    "subclass_flavor": "武艺宗派",
+    "desc": [
+      "你追随一个教导掌控元素的宗派。你运气凝神时可以掌握创造之力，随意的驱使元素甚至将其当做躯体的延伸。宗派的某些成员会精修单一的元素，而其它人则同时使役所有元素。 本宗派的许多武僧会用纹身描绘自身气的力量形式，比如盘龙或是诸如凤、鱼、树、山、奔浪等等。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/way-of-the-four-elements/levels",
+    "url": "/api/2014/subclasses/way-of-the-four-elements",
+    "spells": []
+  },
+  {
     "index": "devotion",
     "class": {
       "index": "paladin",
@@ -1442,8 +1715,8 @@
       "name_en": "Paladin",
       "url": "/api/2014/classes/paladin"
     },
-    "name": "奉献",
-    "name_en": "Devotion",
+    "name": "奉献之誓",
+    "name_en": "Oath of Devotion",
     "subclass_flavor": "神圣誓约",
     "desc": [
       "奉献誓约将圣武士绑定于正义、美德和秩序的最高理想。这些圣武士有时被称为骑士、白骑士或圣战士，他们体现了身披闪亮铠甲的骑士理想，以荣誉行事，追求正义和更大的善。他们对自己要求最高的行为标准，有些人，无论好坏，也以同样的标准要求世界其他人。许多宣誓此誓约的人致力于法律和善良的神祇，并以他们神祇的信条作为奉献的衡量标准。他们将天使——善良的完美仆从——视为理想，并将天使翅膀的图案融入他们的头盔或纹章中。"
@@ -1607,6 +1880,69 @@
     "url": "/api/2014/subclasses/devotion"
   },
   {
+    "index": "oath-of-the-ancients",
+    "class": {
+      "index": "paladin",
+      "name": "圣武士",
+      "name_en": "Paladin",
+      "url": "/api/2014/classes/paladin"
+    },
+    "name": "古贤之誓",
+    "name_en": "Oath of the Ancients",
+    "subclass_flavor": "圣誓",
+    "desc": [
+      "古贤之誓存在的时间与精灵一族，乃至德鲁伊教派的历史相仿。那些流传在世间的妖精骑士fey knights、绿骑士green knights和角冠骑士horned knights，即是本誓言的立誓者。他们在宇宙的正邪之战中为在光明一方对抗黑暗，是为了守护其热爱的美与生命，以及贯彻自身的荣耀、勇气和正直的信念。他们在盔甲和服饰上饰以树叶、鹿角、花朵等等生机勃勃的纹样，以象征自己立下承诺保护世上的生命与光明。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/oath-of-the-ancients/levels",
+    "url": "/api/2014/subclasses/oath-of-the-ancients",
+    "spells": []
+  },
+  {
+    "index": "oath-of-vengeance",
+    "class": {
+      "index": "paladin",
+      "name": "圣武士",
+      "name_en": "Paladin",
+      "url": "/api/2014/classes/paladin"
+    },
+    "name": "复仇之誓",
+    "name_en": "Oath of Vengeance",
+    "subclass_flavor": "圣誓",
+    "desc": [
+      "复仇之誓，是立誓惩戒那些严重罪行的庄严承诺。当邪恶势力屠杀无助居民，当所有民众背离神意志，当某个盗贼行会过于强横霸道，当恐怖巨龙横行乡野——每当这种时刻，复仇之誓的圣武士就会出现来拨乱反正。这些圣武士（有时也称作复仇者或黑骑士）即使牺牲自己的纯洁，也一定要伸张正义。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/oath-of-vengeance/levels",
+    "url": "/api/2014/subclasses/oath-of-vengeance",
+    "spells": []
+  },
+  {
+    "index": "beast-master",
+    "class": {
+      "index": "ranger",
+      "name": "游侠",
+      "name_en": "Ranger",
+      "url": "/api/2014/classes/ranger"
+    },
+    "name": "驯兽师",
+    "name_en": "Beast Master",
+    "subclass_flavor": "游侠道途",
+    "desc": [
+      "驯兽师范型体现了文明种族与野兽之间的友谊。野兽和游侠团结一致，共同对抗威胁文明或自然的可怕敌人。追随驯兽师之道意味着将自己奉献予这一理念，并以伴侣和朋友的身份与一名动物协同合作。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/beast-master/levels",
+    "url": "/api/2014/subclasses/beast-master",
+    "spells": []
+  },
+  {
     "index": "hunter",
     "class": {
       "index": "ranger",
@@ -1614,7 +1950,7 @@
       "name_en": "Ranger",
       "url": "/api/2014/classes/ranger"
     },
-    "name": "猎手",
+    "name": "猎人",
     "name_en": "Hunter",
     "subclass_flavor": "游侠范型",
     "desc": [
@@ -1625,6 +1961,45 @@
     ],
     "subclass_levels": "/api/2014/subclasses/hunter/levels",
     "url": "/api/2014/subclasses/hunter"
+  },
+  {
+    "index": "arcane-trickster",
+    "class": {
+      "index": "rogue",
+      "name": "游荡者",
+      "name_en": "Rogue",
+      "url": "/api/2014/classes/rogue"
+    },
+    "name": "诡术师",
+    "name_en": "Arcane Trickster",
+    "subclass_flavor": " roguish archetype",
+    "desc": [
+      "一些游荡者会学习幻术系和惑控系的诡术，以这些魔法来提高自己已经相当老练的隐匿和灵动水平。这些游荡者包括扒手和窃贼，也包括一些恶作剧者或离间者，也有相当一些成为冒险者。"
+    ],
+    "subclass_levels": "/api/2014/subclasses/arcane-trickster/levels",
+    "url": "/api/2014/subclasses/arcane-trickster",
+    "spells": []
+  },
+  {
+    "index": "assassin",
+    "class": {
+      "index": "rogue",
+      "name": "游荡者",
+      "name_en": "Rogue",
+      "url": "/api/2014/classes/rogue"
+    },
+    "name": "刺客",
+    "name_en": "Assassin",
+    "subclass_flavor": " roguish archetype",
+    "desc": [
+      "你专注于残忍冷酷的死亡艺术。许多不同的游荡者都会追随此范型：诸如雇佣杀手，间谍，赏金猎人，甚至还有那些专为神歼灭敌人的特殊祭司。他们会结合利用隐匿、下毒、易容等手段有效的铲除敌人。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/assassin/levels",
+    "url": "/api/2014/subclasses/assassin",
+    "spells": []
   },
   {
     "index": "thief",
@@ -1654,8 +2029,8 @@
       "name_en": "Sorcerer",
       "url": "/api/2014/classes/sorcerer"
     },
-    "name": "龙族",
-    "name_en": "Draconic",
+    "name": "龙族血脉",
+    "name_en": "Draconic Bloodline",
     "subclass_flavor": "术士起源",
     "desc": [
       "你的天生魔法来自于与你的血液或你祖先的血液混合的龙族魔法。大多数情况下，具有这种起源的术士将他们的血统追溯到古代一位强大的术士，他与龙达成了契约，甚至可能声称有一个龙族父母。其中一些血统在世上已经确立，但大多数都默默无闻。任何给定的术士都可能是新血统的第一人，这是契约或其他特殊环境的结果。"
@@ -1665,6 +2040,48 @@
     ],
     "subclass_levels": "/api/2014/subclasses/draconic/levels",
     "url": "/api/2014/subclasses/draconic"
+  },
+  {
+    "index": "wild-magic",
+    "class": {
+      "index": "sorcerer",
+      "name": "术士",
+      "name_en": "Sorcerer",
+      "url": "/api/2014/classes/sorcerer"
+    },
+    "name": "狂野魔法",
+    "name_en": "Wild Magic",
+    "subclass_flavor": "血脉",
+    "desc": [
+      "你天生的魔力来自于与创生之秩序相生相对的混沌之狂野力量。你也许曾经暴露于某种形式的原生魔力中；也许你穿越了一扇传送门到达了混沌海，元素位面，或者神秘的遥远国度。也许你受一名强大的精类生物祝福，或被一个恶魔选中；又或许你的魔力仅仅是天生如此，没有任何明确的原因。无论事情如何发生，这种混乱的魔力已经在你体内翻涌，随时等待着释放之时。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/wild-magic/levels",
+    "url": "/api/2014/subclasses/wild-magic",
+    "spells": []
+  },
+  {
+    "index": "archfey",
+    "class": {
+      "index": "warlock",
+      "name": "邪术师",
+      "name_en": "Warlock",
+      "url": "/api/2014/classes/warlock"
+    },
+    "name": "至高妖精",
+    "name_en": "The Archfey",
+    "subclass_flavor": "宗主",
+    "desc": [
+      "你的宗主是一位妖精的领主或女王，身为传奇生物的他们守护着凡人种族出现前就早已被遗忘的秘密。他们的行为往往难以理解，有时甚至不可理喻，而其动机通常是关于寻求更强魔力，或是渴望报复老旧仇怨。这类存在包括霜冻亲王Prince of Frost、“薄暮议会Gloaming Court”的统治者空暗女王Queen of Air and Darkness、“仲夏议会Summer Court”的泰坦尼娅Titania和她的丈夫“苍翠之王Green Lord”奥伯龙Oberon，以及“愚者亲王Prince of Fools”希尔萨姆Hyrsam和各远古鬼婆们。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/archfey/levels",
+    "url": "/api/2014/subclasses/archfey",
+    "spells": []
   },
   {
     "index": "fiend",
@@ -1839,6 +2256,111 @@
     "url": "/api/2014/subclasses/fiend"
   },
   {
+    "index": "great-old-one",
+    "class": {
+      "index": "warlock",
+      "name": "邪术师",
+      "name_en": "Warlock",
+      "url": "/api/2014/classes/warlock"
+    },
+    "name": "旧日支配者",
+    "name_en": "The Great Old One",
+    "subclass_flavor": "宗主",
+    "desc": [
+      "你的宗主是一个神秘的存在实体，其本质与现实的结构格格不入。它可能来自于遥远国度，现实之外的空间，或是一位只有在传说之中才能有所耳闻的古神。其行为无法让凡人理解，其知识却异常的渊博，乃至世间最伟大的图书馆也无法与其掌握的虚空之秘想比拟。旧日支配者可能完全没有意识到你的存在或是对你的存在无动于衷，但你所学的神秘知识让你得以从其身上获得魔法。 这类存在包括被称作“潜伏者That Which Lurks”的关纳德Ghaunadar、“受缚之神Chained God”萨瑞兹顿Tharizdun、“暗夜巨蛇Night Serpent”丹达尔Dendar、“归来者Returner”扎贡Zargon、“伟大克苏鲁Great Cthulhu”，以及其他一些不可名状之存在。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/great-old-one/levels",
+    "url": "/api/2014/subclasses/great-old-one",
+    "spells": []
+  },
+  {
+    "index": "abjuration",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "防护学派",
+    "name_en": "School of Abjuration",
+    "subclass_flavor": "学派",
+    "desc": [
+      "防护学派的法术注重阻碍、驱逐与保护。其反对者们认为该学派的传承只懂回避与拒绝，而缺乏主动的否定。但你明白，终止负面效应，防护弱点以及驱逐邪恶影响都绝非虚无之事，而是一份值得骄傲又值得尊敬的使命。 每当恶灵需要被祛除，重要地点需要隔绝魔法探测，通向其他存在位面的传送门需要关闭时，正是需要本学派法师——护法师体现价值之时。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/abjuration/levels",
+    "url": "/api/2014/subclasses/abjuration",
+    "spells": []
+  },
+  {
+    "index": "conjuration",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "咒法学派",
+    "name_en": "School of Conjuration",
+    "subclass_flavor": "学派",
+    "desc": [
+      "作为一名咒法师，你偏爱那些凭空创造物件和生物的法术。你可以招来翻滚的致死雾气，或召唤出为你而战的生物。你掌握了足够精熟的技术后还可以学习传送类的法术，甚至可依此在弹指间跨越遥远的距离，乃至传送到另一存在位面。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/conjuration/levels",
+    "url": "/api/2014/subclasses/conjuration",
+    "spells": []
+  },
+  {
+    "index": "divination",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "预言学派",
+    "name_en": "School of Divination",
+    "subclass_flavor": "学派",
+    "desc": [
+      "不管是王侯贵族还是平凡人家，总会想要得到预言师的指点，以寻求对某些过去，现在或未来事情更加明晰的情报。作为一名预言师，你致力于揭开时空与意识的神秘面纱，让事物看起来更加清楚明了。你努力掌握的法术囊括了鉴别、远视、超自然学识以及预知等各方面内容。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/divination/levels",
+    "url": "/api/2014/subclasses/divination",
+    "spells": []
+  },
+  {
+    "index": "enchantment",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "惑控学派",
+    "name_en": "School of Enchantment",
+    "subclass_flavor": "学派",
+    "desc": [
+      "作为惑控学派法师的一员，你专注于磨练用魔法来迷引或骗诱其他人或怪物。一些惑控师是和平缔造者，致力于蛊惑暴力者使之放下武器，魅惑残忍者使之展现慈悯。另一些惑控师是暴君，用魔法强制不情愿的人们为他工作。而绝大多数惑控师则处于两者之间。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/enchantment/levels",
+    "url": "/api/2014/subclasses/enchantment",
+    "spells": []
+  },
+  {
     "index": "evocation",
     "class": {
       "index": "wizard",
@@ -1846,8 +2368,8 @@
       "name_en": "Wizard",
       "url": "/api/2014/classes/wizard"
     },
-    "name": "塑能",
-    "name_en": "Evocation",
+    "name": "塑能学派",
+    "name_en": "School of Evocation",
     "subclass_flavor": "奥术传承",
     "desc": [
       "你将学习重点放在创造强大的元素效果的魔法上，如刺骨的寒冷、灼热的火焰、滚滚的雷鸣、噼啪的闪电和燃烧的酸液。一些塑能师在军队中任职，作为炮兵从远处轰击敌军。其他人则使用他们壮观的力量来保护弱者，而有些人则寻求自己的利益，成为强盗、冒险者或 有抱负的暴君。"
@@ -1857,5 +2379,68 @@
     ],
     "subclass_levels": "/api/2014/subclasses/evocation/levels",
     "url": "/api/2014/subclasses/evocation"
+  },
+  {
+    "index": "illusion",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "幻术学派",
+    "name_en": "School of Illusion",
+    "subclass_flavor": "学派",
+    "desc": [
+      "你专注于用魔法扰乱感官，迷惑意识，甚至可以欺诈最具智慧的人。你的魔法看似细微却奥妙无穷，这些用你的敏锐思维创造的幻象足够以假乱真。一些幻术师（包括许多侏儒法师）是些以法术娱乐他人的和善戏法师。而另一些更险恶的欺诈大师，则用他们的幻术恐吓愚弄他人以满足其个人的利益。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/illusion/levels",
+    "url": "/api/2014/subclasses/illusion",
+    "spells": []
+  },
+  {
+    "index": "necromancy",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "死灵学派",
+    "name_en": "School of Necromancy",
+    "subclass_flavor": "学派",
+    "desc": [
+      "死灵学派致力于探索宇宙中的生命、死亡与亡灵之力。你在专注于该传承时学习了如何操控那些驱动活物的能量。而你随着研究的深入，还可以在用魔法摧毁敌人肉体的同时削弱其生命力，并将这些生命能量化作供你驱役的秘法之力。 正因死灵学派与死亡的紧密联系，导致大多数人认为死灵师都是恐怖的邪恶份子。事实上，尽管其操纵的力量在许多社会中都被视作禁忌，但仍有不少死灵师不属于邪恶一方。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/necromancy/levels",
+    "url": "/api/2014/subclasses/necromancy",
+    "spells": []
+  },
+  {
+    "index": "transmutation",
+    "class": {
+      "index": "wizard",
+      "name": "法师",
+      "name_en": "Wizard",
+      "url": "/api/2014/classes/wizard"
+    },
+    "name": "变化学派",
+    "name_en": "School of Transmutation",
+    "subclass_flavor": "学派",
+    "desc": [
+      "你致力于研习改变物质和能量的法术。你觉得世间万物并非不变且具有相当的可塑性，你也非常乐于为这种变化充当使者。你驾驭着创世的原生材料，并研究如何改变物理形态和心灵本质。而魔法则是你的工具，让你得以成为铸造现实的工匠。 一些变化师是恶作剧者和捣蛋鬼，喜欢把人变成蟾蜍或把铜变成银子再以此取乐或偶尔从中获利。另一些变化师会极其严肃的研究相关魔法，以求从中寻得创世或灭世的神之力。"
+    ],
+    "desc_en": [
+      "See Player's Handbook."
+    ],
+    "subclass_levels": "/api/2014/subclasses/transmutation/levels",
+    "url": "/api/2014/subclasses/transmutation",
+    "spells": []
   }
 ]

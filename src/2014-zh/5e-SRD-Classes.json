@@ -265,10 +265,16 @@
     },
     "subclasses": [
       {
-        "name": "狂战士",
-        "name_en": "Berserker",
         "index": "berserker",
-        "url": "/api/2014/subclasses/berserker"
+        "name": "狂战士道途",
+        "url": "/api/2014/subclasses/berserker",
+        "name_en": "Path of the Berserker"
+      },
+      {
+        "index": "totem-warrior",
+        "name": "图腾武者道途",
+        "url": "/api/2014/subclasses/totem-warrior",
+        "name_en": "Path of the Totem Warrior"
       }
     ],
     "url": "/api/2014/classes/barbarian"
@@ -1058,10 +1064,16 @@
     },
     "subclasses": [
       {
-        "name": "知识",
-        "name_en": "Lore",
         "index": "lore",
-        "url": "/api/2014/subclasses/lore"
+        "name": "逸闻学院",
+        "url": "/api/2014/subclasses/lore",
+        "name_en": "College of Lore"
+      },
+      {
+        "index": "college-of-valor",
+        "name": "勇气学院",
+        "url": "/api/2014/subclasses/college-of-valor",
+        "name_en": "College of Valor"
       }
     ],
     "spellcasting": {
@@ -1499,10 +1511,46 @@
     },
     "subclasses": [
       {
-        "name": "生命",
-        "name_en": "Life",
         "index": "life",
-        "url": "/api/2014/subclasses/life"
+        "name": "生命领域",
+        "url": "/api/2014/subclasses/life",
+        "name_en": "Life Domain"
+      },
+      {
+        "index": "knowledge",
+        "name": "知识领域",
+        "url": "/api/2014/subclasses/knowledge",
+        "name_en": "Knowledge Domain"
+      },
+      {
+        "index": "light",
+        "name": "光明领域",
+        "url": "/api/2014/subclasses/light",
+        "name_en": "Light Domain"
+      },
+      {
+        "index": "nature",
+        "name": "自然领域",
+        "url": "/api/2014/subclasses/nature",
+        "name_en": "Nature Domain"
+      },
+      {
+        "index": "tempest",
+        "name": "风暴领域",
+        "url": "/api/2014/subclasses/tempest",
+        "name_en": "Tempest Domain"
+      },
+      {
+        "index": "trickery",
+        "name": "诡术领域",
+        "url": "/api/2014/subclasses/trickery",
+        "name_en": "Trickery Domain"
+      },
+      {
+        "index": "war",
+        "name": "战争领域",
+        "url": "/api/2014/subclasses/war",
+        "name_en": "War Domain"
       }
     ],
     "spellcasting": {
@@ -1924,10 +1972,16 @@
     },
     "subclasses": [
       {
-        "name": "大地",
-        "name_en": "Land",
         "index": "land",
-        "url": "/api/2014/subclasses/land"
+        "name": "大地结社",
+        "url": "/api/2014/subclasses/land",
+        "name_en": "Circle of the Land"
+      },
+      {
+        "index": "circle-of-the-moon",
+        "name": "月亮结社",
+        "url": "/api/2014/subclasses/circle-of-the-moon",
+        "name_en": "Circle of the Moon"
       }
     ],
     "spellcasting": {
@@ -2401,10 +2455,22 @@
     },
     "subclasses": [
       {
-        "name": "勇士",
-        "name_en": "Champion",
         "index": "champion",
-        "url": "/api/2014/subclasses/champion"
+        "name": "勇士",
+        "url": "/api/2014/subclasses/champion",
+        "name_en": "Champion"
+      },
+      {
+        "index": "battle-master",
+        "name": "战斗大师",
+        "url": "/api/2014/subclasses/battle-master",
+        "name_en": "Battle Master"
+      },
+      {
+        "index": "eldritch-knight",
+        "name": "奥法骑士",
+        "url": "/api/2014/subclasses/eldritch-knight",
+        "name_en": "Eldritch Knight"
       }
     ],
     "url": "/api/2014/classes/fighter"
@@ -2942,10 +3008,22 @@
     },
     "subclasses": [
       {
-        "name": "开掌",
-        "name_en": "Open Hand",
         "index": "open-hand",
-        "url": "/api/2014/subclasses/open-hand"
+        "name": "散打宗",
+        "url": "/api/2014/subclasses/open-hand",
+        "name_en": "Way of the Open Hand"
+      },
+      {
+        "index": "way-of-shadow",
+        "name": "暗影宗",
+        "url": "/api/2014/subclasses/way-of-shadow",
+        "name_en": "Way of Shadow"
+      },
+      {
+        "index": "way-of-the-four-elements",
+        "name": "四象宗",
+        "url": "/api/2014/subclasses/way-of-the-four-elements",
+        "name_en": "Way of the Four Elements"
       }
     ],
     "url": "/api/2014/classes/monk"
@@ -3290,10 +3368,22 @@
     },
     "subclasses": [
       {
-        "name": "奉献",
-        "name_en": "Devotion",
         "index": "devotion",
-        "url": "/api/2014/subclasses/devotion"
+        "name": "奉献之誓",
+        "url": "/api/2014/subclasses/devotion",
+        "name_en": "Oath of Devotion"
+      },
+      {
+        "index": "oath-of-the-ancients",
+        "name": "古贤之誓",
+        "url": "/api/2014/subclasses/oath-of-the-ancients",
+        "name_en": "Oath of the Ancients"
+      },
+      {
+        "index": "oath-of-vengeance",
+        "name": "复仇之誓",
+        "url": "/api/2014/subclasses/oath-of-vengeance",
+        "name_en": "Oath of Vengeance"
       }
     ],
     "spellcasting": {
@@ -3755,10 +3845,16 @@
     },
     "subclasses": [
       {
-        "name": "猎手",
-        "name_en": "Hunter",
         "index": "hunter",
-        "url": "/api/2014/subclasses/hunter"
+        "name": "猎人",
+        "url": "/api/2014/subclasses/hunter",
+        "name_en": "Hunter"
+      },
+      {
+        "index": "beast-master",
+        "name": "驯兽师",
+        "url": "/api/2014/subclasses/beast-master",
+        "name_en": "Beast Master"
       }
     ],
     "spellcasting": {
@@ -4285,10 +4381,22 @@
     },
     "subclasses": [
       {
-        "name": "盗贼",
-        "name_en": "Thief",
         "index": "thief",
-        "url": "/api/2014/subclasses/thief"
+        "name": "盗贼",
+        "url": "/api/2014/subclasses/thief",
+        "name_en": "Thief"
+      },
+      {
+        "index": "arcane-trickster",
+        "name": "诡术师",
+        "url": "/api/2014/subclasses/arcane-trickster",
+        "name_en": "Arcane Trickster"
+      },
+      {
+        "index": "assassin",
+        "name": "刺客",
+        "url": "/api/2014/subclasses/assassin",
+        "name_en": "Assassin"
       }
     ],
     "url": "/api/2014/classes/rogue"
@@ -4576,10 +4684,16 @@
     },
     "subclasses": [
       {
-        "name": "龙族",
-        "name_en": "Draconic",
         "index": "draconic",
-        "url": "/api/2014/subclasses/draconic"
+        "name": "龙族血脉",
+        "url": "/api/2014/subclasses/draconic",
+        "name_en": "Draconic Bloodline"
+      },
+      {
+        "index": "wild-magic",
+        "name": "狂野魔法",
+        "url": "/api/2014/subclasses/wild-magic",
+        "name_en": "Wild Magic"
       }
     ],
     "spellcasting": {
@@ -4962,10 +5076,22 @@
     },
     "subclasses": [
       {
-        "name": "邪魔",
-        "name_en": "Fiend",
         "index": "fiend",
-        "url": "/api/2014/subclasses/fiend"
+        "name": "邪魔",
+        "url": "/api/2014/subclasses/fiend",
+        "name_en": "Fiend"
+      },
+      {
+        "index": "archfey",
+        "name": "至高妖精",
+        "url": "/api/2014/subclasses/archfey",
+        "name_en": "The Archfey"
+      },
+      {
+        "index": "great-old-one",
+        "name": "旧日支配者",
+        "url": "/api/2014/subclasses/great-old-one",
+        "name_en": "The Great Old One"
       }
     ],
     "spellcasting": {
@@ -5299,10 +5425,52 @@
     },
     "subclasses": [
       {
-        "name": "塑能",
-        "name_en": "Evocation",
         "index": "evocation",
-        "url": "/api/2014/subclasses/evocation"
+        "name": "塑能学派",
+        "url": "/api/2014/subclasses/evocation",
+        "name_en": "School of Evocation"
+      },
+      {
+        "index": "abjuration",
+        "name": "防护学派",
+        "url": "/api/2014/subclasses/abjuration",
+        "name_en": "School of Abjuration"
+      },
+      {
+        "index": "conjuration",
+        "name": "咒法学派",
+        "url": "/api/2014/subclasses/conjuration",
+        "name_en": "School of Conjuration"
+      },
+      {
+        "index": "divination",
+        "name": "预言学派",
+        "url": "/api/2014/subclasses/divination",
+        "name_en": "School of Divination"
+      },
+      {
+        "index": "enchantment",
+        "name": "惑控学派",
+        "url": "/api/2014/subclasses/enchantment",
+        "name_en": "School of Enchantment"
+      },
+      {
+        "index": "illusion",
+        "name": "幻术学派",
+        "url": "/api/2014/subclasses/illusion",
+        "name_en": "School of Illusion"
+      },
+      {
+        "index": "necromancy",
+        "name": "死灵学派",
+        "url": "/api/2014/subclasses/necromancy",
+        "name_en": "School of Necromancy"
+      },
+      {
+        "index": "transmutation",
+        "name": "变化学派",
+        "url": "/api/2014/subclasses/transmutation",
+        "name_en": "School of Transmutation"
       }
     ],
     "spellcasting": {

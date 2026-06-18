@@ -548,6 +548,220 @@
 | Ioun Stone of Strength | 力量艾恩石 |
 | Ioun Stone of Sustenance | 维生艾恩石 |
 
+### 16.8 衣物 (Clothes)
+
+| 英文 | 中文 |
+|-----|------|
+| Clothes, common | 普通衣物 |
+| Clothes, traveler's | 旅行者衣物 |
+| Clothes, fine | 精致衣物 |
+| Clothes, costume | 戏服 |
+
+### 16.9 容器与携带用品 (Containers & Carrying Gear)
+
+| 英文 | 中文 |
+|-----|------|
+| Backpack | 背包 |
+| Barrel | 桶 |
+| Basket | 篮子 |
+| Bottle, glass | 玻璃瓶 |
+| Case, crossbow bolt | 弩矢盒 |
+| Case, map or scroll | 地图或卷轴筒 |
+| Chest | 箱子 |
+| Jug or pitcher | 壶或 pitcher |
+| Pouch | 小包 |
+| Quiver | 箭袋 |
+| Sack | 麻袋 |
+| Vial | 小瓶 |
+| Waterskin | 水袋 |
+
+### 16.10 书写与记录用品 (Writing & Records)
+
+| 英文 | 中文 |
+|-----|------|
+| Book | 书籍 |
+| Chalk (1 piece) | 粉笔（1支） |
+| Ink (1 ounce bottle) | 墨水（1盎司瓶） |
+| Ink pen | 钢笔 |
+| Paper (one sheet) | 纸张（一张） |
+| Parchment (one sheet) | 羊皮纸（一张） |
+| Sealing wax | 封蜡 |
+| Spellbook | 法术书 |
+
+### 16.11 装备包 (Equipment Packs)
+
+| 英文 | 中文 |
+|-----|------|
+| Burglar's Pack | 窃贼套装 |
+| Diplomat's Pack | 外交家套装 |
+| Dungeoneer's Pack | 地城探险套装 |
+| Entertainer's Pack | 艺人套装 |
+| Explorer's Pack | 探险家套装 |
+| Priest's Pack | 牧师套装 |
+| Scholar's Pack | 学者套装 |
+
+### 16.12 照明与火焰 (Light & Fire)
+
+| 英文 | 中文 |
+|-----|------|
+| Candle | 蜡烛 |
+| Lamp | 油灯 |
+| Lantern, bullseye | 提灯，聚光式 |
+| Lantern, hooded | 提灯，罩式 |
+| Oil (flask) | 燃油（烧瓶） |
+| Tinderbox | 火绒盒 |
+| Torch | 火把 |
+
+### 16.13 绳索与攀爬工具 (Ropes & Climbing Gear)
+
+| 英文 | 中文 |
+|-----|------|
+| Chain (10 feet) | 锁链（10尺） |
+| Climber's Kit | 攀爬工具 |
+| Grappling hook | 抓钩 |
+| Ladder (10-foot) | 梯子（10尺） |
+| Piton | 岩钉 |
+| Rope, hempen (50 feet) | 麻绳（50尺） |
+| Rope, silk (50 feet) | 丝绳（50尺） |
+| String (10 feet) | 细绳（10尺） |
+
+### 16.14 其他冒险用品 (Other Adventuring Gear)
+
+| 英文 | 中文 |
+|-----|------|
+| Abacus | 算盘 |
+| Acid (vial) | 强酸（小瓶） |
+| Alchemist's fire (flask) | 炼金术士之火（烧瓶） |
+| Alms box | 布施盒 |
+| Antitoxin (vial) | 解毒剂（小瓶） |
+| Arrow | 箭矢 |
+| Ball bearings (bag of 1,000) | 滚珠（1000颗袋装） |
+| Bedroll | 铺盖 |
+| Bell | 铃铛 |
+| Blanket | 毯子 |
+| Block and tackle | 滑轮组 |
+| Block of incense | 香块 |
+| Blowgun needle | 吹箭 |
+| Caltrops | 铁蒺藜 |
+| Censer | 香炉 |
+| Component pouch | 材料包 |
+| Crossbow bolt | 弩矢 |
+| Crowbar | 撬棍 |
+| Crystal | 水晶 |
+| Disguise Kit | 易容工具包 |
+| Fishing tackle | 钓具 |
+| Flask or tankard | 烧瓶或酒杯 |
+| Forgery Kit | 伪造工具包 |
+| Hammer | 锤子 |
+| Hammer, sledge | 大锤 |
+| Healer's Kit | 医疗工具包 |
+| Herbalism Kit | 草药工具包 |
+| Holy water (flask) | 圣水（烧瓶） |
+| Hourglass | 沙漏 |
+| Hunting trap | 狩猎陷阱 |
+| Little bag of sand | 小袋沙子 |
+| Lock | 锁 |
+| Magnifying glass | 放大镜 |
+| Manacles | 镣铐 |
+| Mess Kit | 餐具包 |
+| Mirror, steel | 钢镜 |
+| Navigator's Tools | 领航工具 |
+| Orb | 法球 |
+| Pick, miner's | 矿工镐 |
+| Poison, basic (vial) | 基础毒药（小瓶） |
+| Poisoner's Kit | 制毒工具包 |
+| Pole (10-foot) | 长杆（10尺） |
+| Pot, iron | 铁锅 |
+| Ram, portable | 破门锤，便携式 |
+| Rations (1 day) | 口粮（1天） |
+| Robes | 长袍 |
+| Rod | 权杖 |
+| Scale, merchant's | 天平，商人用 |
+| Shovel | 铲子 |
+| Signal whistle | 信号哨 |
+| Signet ring | 印章戒指 |
+| Sling bullet | 投石索弹丸 |
+| Small knife | 小刀 |
+| Soap | 肥皂 |
+| Spike, iron | 铁钉 |
+| Spyglass | 望远镜 |
+| Staff | 法杖 |
+| Tent, two-person | 帐篷，双人 |
+| Thieves' Tools | 盗贼工具 |
+| Totem | 图腾 |
+| Vestments | 祭服 |
+| Wand | 魔杖 |
+| Whetstone | 磨刀石 |
+| Wooden staff | 木制法杖 |
+| Yew wand | 紫杉魔杖 |
+
+### 16.15 弹药 (Ammunition)
+
+| 英文 | 中文 |
+|-----|------|
+| Arrow | 箭矢 |
+| Blowgun needle | 吹箭 |
+| Crossbow bolt | 弩矢 |
+| Sling bullet | 投石索弹丸 |
+
+### 16.16 坐骑与载具 (Mounts & Vehicles)
+
+#### 坐骑与其他动物
+| 英文 | 中文 |
+|-----|------|
+| Camel | 骆驼 |
+| Donkey | 驴 |
+| Elephant | 大象 |
+| Horse, draft | 马，役用 |
+| Horse, riding | 马，骑乘 |
+| Mastiff | 獒犬 |
+| Mule | 骡子 |
+| Pony | 矮马 |
+| Warhorse | 战马 |
+
+#### 马铠
+| 英文 | 中文 |
+|-----|------|
+| Barding: Breastplate | 马铠：胸甲 |
+| Barding: Chain mail | 马铠：锁子甲 |
+| Barding: Chain shirt | 马铠：链甲衫 |
+| Barding: Half plate | 马铠：半身板甲 |
+| Barding: Hide | 马铠：兽皮甲 |
+| Barding: Leather | 马铠：皮甲 |
+| Barding: Padded | 马铠：布甲 |
+| Barding: Plate | 马铠：板甲 |
+| Barding: Ring mail | 马铠：环甲 |
+| Barding: Scale mail | 马铠：鳞甲 |
+| Barding: Splint | 马铠：板条甲 |
+| Barding: Studded Leather | 马铠：镶钉皮甲 |
+
+#### 挽具与载具
+| 英文 | 中文 |
+|-----|------|
+| Bit and bridle | 马嚼和缰绳 |
+| Carriage | 马车 |
+| Cart | 手推车 |
+| Chariot | 战车 |
+| Feed | 动物饲料（1天） |
+| Saddle, exotic | 鞍具，异种 |
+| Saddle, military | 鞍具，军用 |
+| Saddle, pack | 鞍具，驮鞍 |
+| Saddle, riding | 鞍具，骑鞍 |
+| Saddlebags | 鞍囊 |
+| Sled | 雪橇 |
+| Stabling (1 day) | 寄养（1天） |
+| Wagon | 货车 |
+
+#### 水上载具
+| 英文 | 中文 |
+|-----|------|
+| Galley | 桨帆船 |
+| Keelboat | 龙骨船 |
+| Longship | 长船 |
+| Rowboat | 划艇 |
+| Sailing ship | 帆船 |
+| Warship | 战舰 |
+
 ---
 
 ## 14. 熟练项 (Proficiencies)
@@ -661,6 +875,6 @@
 
 ---
 
-*最后更新：2026-02-16*
+*最后更新：2026-05-18*
 
 *本术语表随翻译进度持续更新*
