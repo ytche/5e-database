@@ -144,5 +144,201 @@
       }
     ],
     "url": "/api/2014/subraces/rock-gnome"
+  },
+  {
+    "index": "mountain-dwarf",
+    "name": "山地矮人",
+    "name_en": "Mountain Dwarf",
+    "race": {
+      "index": "dwarf",
+      "name": "矮人",
+      "name_en": "Dwarf",
+      "url": "/api/2014/races/dwarf"
+    },
+    "desc": "作为山地矮人，你强壮而坚韧，习惯了山区的生活。你对护甲有天生的熟练。",
+    "desc_en": "As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You have a natural proficiency with armor.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2014/ability-scores/str"
+        },
+        "bonus": 2
+      }
+    ],
+    "racial_traits": [
+      {
+        "index": "dwarven-armor-training",
+        "name": "矮人护甲训练",
+        "name_en": "Dwarven Armor Training",
+        "url": "/api/2014/traits/dwarven-armor-training"
+      }
+    ],
+    "url": "/api/2014/subraces/mountain-dwarf"
+  },
+  {
+    "index": "wood-elf",
+    "name": "木精灵",
+    "name_en": "Wood Elf",
+    "race": {
+      "index": "elf",
+      "name": "精灵",
+      "name_en": "Elf",
+      "url": "/api/2014/races/elf"
+    },
+    "desc": "作为木精灵，你具有敏锐的感官和直觉，并且像野生动物一样在森林中穿梭。",
+    "desc_en": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2014/ability-scores/wis"
+        },
+        "bonus": 1
+      }
+    ],
+    "racial_traits": [
+      {
+        "index": "elf-weapon-training",
+        "name": "精灵武器训练",
+        "name_en": "Elf Weapon Training",
+        "url": "/api/2014/traits/elf-weapon-training"
+      },
+      {
+        "index": "fleet-of-foot",
+        "name": "迅捷脚步",
+        "name_en": "Fleet of Foot",
+        "url": "/api/2014/traits/fleet-of-foot"
+      },
+      {
+        "index": "mask-of-the-wild",
+        "name": "野性面具",
+        "name_en": "Mask of the Wild",
+        "url": "/api/2014/traits/mask-of-the-wild"
+      }
+    ],
+    "url": "/api/2014/subraces/wood-elf"
+  },
+  {
+    "index": "dark-elf",
+    "name": "卓尔",
+    "name_en": "Dark Elf",
+    "race": {
+      "index": "elf",
+      "name": "精灵",
+      "name_en": "Elf",
+      "url": "/api/2014/races/elf"
+    },
+    "desc": "作为卓尔，你从小就生活在一个由阴谋和危险塑造的世界里。你拥有超凡的黑暗视觉和天生的魔法，但无法忍受直射的阳光。",
+    "desc_en": "As a drow, you were raised in a world of intrigue and danger. You have superior darkvision and innate magic, but cannot abide direct sunlight.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2014/ability-scores/cha"
+        },
+        "bonus": 1
+      }
+    ],
+    "racial_traits": [
+      {
+        "index": "superior-darkvision",
+        "name": "高等黑暗视觉",
+        "name_en": "Superior Darkvision",
+        "url": "/api/2014/traits/superior-darkvision"
+      },
+      {
+        "index": "sunlight-sensitivity",
+        "name": "日光敏感",
+        "name_en": "Sunlight Sensitivity",
+        "url": "/api/2014/traits/sunlight-sensitivity"
+      },
+      {
+        "index": "drow-magic",
+        "name": "卓尔魔法",
+        "name_en": "Drow Magic",
+        "url": "/api/2014/traits/drow-magic"
+      },
+      {
+        "index": "drow-weapon-training",
+        "name": "卓尔武器训练",
+        "name_en": "Drow Weapon Training",
+        "url": "/api/2014/traits/drow-weapon-training"
+      }
+    ],
+    "url": "/api/2014/subraces/dark-elf"
+  },
+  {
+    "index": "stout-halfling",
+    "name": "坚韧半身人",
+    "name_en": "Stout Halfling",
+    "race": {
+      "index": "halfling",
+      "name": "半身人",
+      "name_en": "Halfling",
+      "url": "/api/2014/races/halfling"
+    },
+    "desc": "作为坚韧半身人，你像矮人一样坚韧，并且对毒素有特别的抗性。",
+    "desc_en": "As a stout halfling, you're hardier than average and have some resistance to poison.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2014/ability-scores/con"
+        },
+        "bonus": 1
+      }
+    ],
+    "racial_traits": [
+      {
+        "index": "stout-resilience",
+        "name": "坚韧韧性",
+        "name_en": "Stout Resilience",
+        "url": "/api/2014/traits/stout-resilience"
+      }
+    ],
+    "url": "/api/2014/subraces/stout-halfling"
+  },
+  {
+    "index": "forest-gnome",
+    "name": "森林侏儒",
+    "name_en": "Forest Gnome",
+    "race": {
+      "index": "gnome",
+      "name": "侏儒",
+      "name_en": "Gnome",
+      "url": "/api/2014/races/gnome"
+    },
+    "desc": "作为森林侏儒，你拥有天生的幻术天赋，并且能与小型野兽进行简单交流。",
+    "desc_en": "As a forest gnome, you have a knack for illusion and can speak with small beasts.",
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2014/ability-scores/dex"
+        },
+        "bonus": 1
+      }
+    ],
+    "racial_traits": [
+      {
+        "index": "natural-illusionist",
+        "name": "天生幻术师",
+        "name_en": "Natural Illusionist",
+        "url": "/api/2014/traits/natural-illusionist"
+      },
+      {
+        "index": "speak-with-small-beasts",
+        "name": "与小型野兽交谈",
+        "name_en": "Speak with Small Beasts",
+        "url": "/api/2014/traits/speak-with-small-beasts"
+      }
+    ],
+    "url": "/api/2014/subraces/forest-gnome"
   }
 ]

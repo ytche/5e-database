@@ -235,8 +235,12 @@
     "subraces": [],
     "name": "敏锐感官",
     "name_en": "Keen Senses",
-    "desc": ["你熟练于察觉技能。"],
-    "desc_en": ["You have proficiency in the Perception skill."],
+    "desc": [
+      "你熟练于察觉技能。"
+    ],
+    "desc_en": [
+      "You have proficiency in the Perception skill."
+    ],
     "proficiencies": [
       {
         "index": "skill-perception",
@@ -695,8 +699,12 @@
     "subraces": [],
     "name": "勇敢",
     "name_en": "Brave",
-    "desc": ["你在对抗恐慌的豁免检定上具有优势。"],
-    "desc_en": ["You have advantage on saving throw against being frightened."],
+    "desc": [
+      "你在对抗恐慌的豁免检定上具有优势。"
+    ],
+    "desc_en": [
+      "You have advantage on saving throw against being frightened."
+    ],
     "proficiencies": [],
     "url": "/api/2014/traits/brave"
   },
@@ -1759,8 +1767,12 @@
     "subraces": [],
     "name": "技能多样性",
     "name_en": "Skill Versatility",
-    "desc": ["你获得两种你选择的技能的熟练。"],
-    "desc_en": ["You gain proficiency in two skills of your choice."],
+    "desc": [
+      "你获得两种你选择的技能的熟练。"
+    ],
+    "desc_en": [
+      "You gain proficiency in two skills of your choice."
+    ],
     "proficiencies": [],
     "proficiency_choices": {
       "choose": 2,
@@ -1948,8 +1960,12 @@
     "subraces": [],
     "name": "威吓",
     "name_en": "Menacing",
-    "desc": ["你获得威吓技能的熟练。"],
-    "desc_en": ["You gain proficiency in the Intimidation skill."],
+    "desc": [
+      "你获得威吓技能的熟练。"
+    ],
+    "desc_en": [
+      "You gain proficiency in the Intimidation skill."
+    ],
     "proficiencies": [
       {
         "index": "skill-intimidation",
@@ -2017,8 +2033,12 @@
     "subraces": [],
     "name": "炎狱抗性",
     "name_en": "Hellish Resistance",
-    "desc": ["你对火焰伤害具有抗性。"],
-    "desc_en": ["You have resistance to fire damage."],
+    "desc": [
+      "你对火焰伤害具有抗性。"
+    ],
+    "desc_en": [
+      "You have resistance to fire damage."
+    ],
     "proficiencies": [],
     "url": "/api/2014/traits/hellish-resistance"
   },
@@ -2043,5 +2063,257 @@
     ],
     "proficiencies": [],
     "url": "/api/2014/traits/infernal-legacy"
+  },
+  {
+    "index": "dwarven-armor-training",
+    "races": [],
+    "subraces": [
+      {
+        "index": "mountain-dwarf",
+        "name": "山地矮人",
+        "name_en": "Mountain Dwarf",
+        "url": "/api/2014/subraces/mountain-dwarf"
+      }
+    ],
+    "name": "矮人护甲训练",
+    "name_en": "Dwarven Armor Training",
+    "desc": [
+      "你熟练使用轻型和中型护甲。"
+    ],
+    "desc_en": [
+      "You have proficiency with light and medium armor."
+    ],
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "轻型护甲",
+        "name_en": "Light Armor",
+        "url": "/api/2014/proficiencies/light-armor"
+      },
+      {
+        "index": "medium-armor",
+        "name": "中型护甲",
+        "name_en": "Medium Armor",
+        "url": "/api/2014/proficiencies/medium-armor"
+      }
+    ],
+    "url": "/api/2014/traits/dwarven-armor-training"
+  },
+  {
+    "index": "fleet-of-foot",
+    "races": [],
+    "subraces": [
+      {
+        "index": "wood-elf",
+        "name": "木精灵",
+        "name_en": "Wood Elf",
+        "url": "/api/2014/subraces/wood-elf"
+      }
+    ],
+    "name": "迅捷脚步",
+    "name_en": "Fleet of Foot",
+    "desc": [
+      "你的基础步行速度增加至35英尺。"
+    ],
+    "desc_en": [
+      "Your base walking speed increases to 35 feet."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/fleet-of-foot"
+  },
+  {
+    "index": "mask-of-the-wild",
+    "races": [],
+    "subraces": [
+      {
+        "index": "wood-elf",
+        "name": "木精灵",
+        "name_en": "Wood Elf",
+        "url": "/api/2014/subraces/wood-elf"
+      }
+    ],
+    "name": "野性面具",
+    "name_en": "Mask of the Wild",
+    "desc": [
+      "你在因微光植物、暴雨、落雪、雾气或其他自然现象而轻度遮蔽时，可以进行躲藏。"
+    ],
+    "desc_en": [
+      "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/mask-of-the-wild"
+  },
+  {
+    "index": "superior-darkvision",
+    "races": [],
+    "subraces": [
+      {
+        "index": "dark-elf",
+        "name": "卓尔",
+        "name_en": "Dark Elf",
+        "url": "/api/2014/subraces/dark-elf"
+      }
+    ],
+    "name": "高等黑暗视觉",
+    "name_en": "Superior Darkvision",
+    "desc": [
+      "你的黑暗视觉范围提升至120英尺。"
+    ],
+    "desc_en": [
+      "Your darkvision has a radius of 120 feet."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/superior-darkvision"
+  },
+  {
+    "index": "sunlight-sensitivity",
+    "races": [],
+    "subraces": [
+      {
+        "index": "dark-elf",
+        "name": "卓尔",
+        "name_en": "Dark Elf",
+        "url": "/api/2014/subraces/dark-elf"
+      }
+    ],
+    "name": "日光敏感",
+    "name_en": "Sunlight Sensitivity",
+    "desc": [
+      "你在阳光直射下进行感知（察觉）检定和攻击检定时具有劣势。"
+    ],
+    "desc_en": [
+      "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/sunlight-sensitivity"
+  },
+  {
+    "index": "drow-magic",
+    "races": [],
+    "subraces": [
+      {
+        "index": "dark-elf",
+        "name": "卓尔",
+        "name_en": "Dark Elf",
+        "url": "/api/2014/subraces/dark-elf"
+      }
+    ],
+    "name": "卓尔魔法",
+    "name_en": "Drow Magic",
+    "desc": [
+      "你知晓舞光术戏法。当你达到3级时，你可以施展妖火法术，然后当你达到5级时，可以施展黑暗法术。这些法术的长休后可以再次施展。魅力是你施展这些法术的关键属性。"
+    ],
+    "desc_en": [
+      "You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/drow-magic"
+  },
+  {
+    "index": "stout-resilience",
+    "races": [],
+    "subraces": [
+      {
+        "index": "stout-halfling",
+        "name": "坚韧半身人",
+        "name_en": "Stout Halfling",
+        "url": "/api/2014/subraces/stout-halfling"
+      }
+    ],
+    "name": "坚韧韧性",
+    "name_en": "Stout Resilience",
+    "desc": [
+      "你在对抗毒素的豁免检定上具有优势，并且对毒素伤害具有抗性。"
+    ],
+    "desc_en": [
+      "You have advantage on saving throws against poison, and you have resistance against poison damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/stout-resilience"
+  },
+  {
+    "index": "natural-illusionist",
+    "races": [],
+    "subraces": [
+      {
+        "index": "forest-gnome",
+        "name": "森林侏儒",
+        "name_en": "Forest Gnome",
+        "url": "/api/2014/subraces/forest-gnome"
+      }
+    ],
+    "name": "天生幻术师",
+    "name_en": "Natural Illusionist",
+    "desc": [
+      "你知晓次级幻影戏法。智力是你施展该戏法的关键属性。"
+    ],
+    "desc_en": [
+      "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/natural-illusionist"
+  },
+  {
+    "index": "speak-with-small-beasts",
+    "races": [],
+    "subraces": [
+      {
+        "index": "forest-gnome",
+        "name": "森林侏儒",
+        "name_en": "Forest Gnome",
+        "url": "/api/2014/subraces/forest-gnome"
+      }
+    ],
+    "name": "与小型野兽交谈",
+    "name_en": "Speak with Small Beasts",
+    "desc": [
+      "你可以通过声音和手势与小型或更小的野兽进行简单交流。"
+    ],
+    "desc_en": [
+      "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts."
+    ],
+    "proficiencies": [],
+    "url": "/api/2014/traits/speak-with-small-beasts"
+  },
+  {
+    "index": "drow-weapon-training",
+    "races": [],
+    "subraces": [
+      {
+        "index": "dark-elf",
+        "name": "卓尔",
+        "name_en": "Dark Elf",
+        "url": "/api/2014/subraces/dark-elf"
+      }
+    ],
+    "name": "卓尔武器训练",
+    "name_en": "Drow Weapon Training",
+    "desc": [
+      "你熟练使用刺剑、短剑和手弩。"
+    ],
+    "desc_en": [
+      "You have proficiency with rapiers, shortswords, and hand crossbows."
+    ],
+    "proficiencies": [
+      {
+        "index": "rapiers",
+        "name": "刺剑",
+        "name_en": "Rapiers",
+        "url": "/api/2014/proficiencies/rapiers"
+      },
+      {
+        "index": "shortswords",
+        "name": "短剑",
+        "name_en": "Shortswords",
+        "url": "/api/2014/proficiencies/shortswords"
+      },
+      {
+        "index": "hand-crossbows",
+        "name": "手弩",
+        "name_en": "Hand Crossbows",
+        "url": "/api/2014/proficiencies/hand-crossbows"
+      }
+    ],
+    "url": "/api/2014/traits/drow-weapon-training"
   }
 ]

@@ -76,6 +76,12 @@
         "name": "丘陵矮人",
         "name_en": "Hill Dwarf",
         "url": "/api/2014/subraces/hill-dwarf"
+      },
+      {
+        "index": "mountain-dwarf",
+        "name": "山地矮人",
+        "name_en": "Mountain Dwarf",
+        "url": "/api/2014/subraces/mountain-dwarf"
       }
     ],
     "url": "/api/2014/races/dwarf"
@@ -151,6 +157,18 @@
         "name": "高等精灵",
         "name_en": "High Elf",
         "url": "/api/2014/subraces/high-elf"
+      },
+      {
+        "index": "wood-elf",
+        "name": "木精灵",
+        "name_en": "Wood Elf",
+        "url": "/api/2014/subraces/wood-elf"
+      },
+      {
+        "index": "dark-elf",
+        "name": "卓尔",
+        "name_en": "Dark Elf",
+        "url": "/api/2014/subraces/dark-elf"
       }
     ],
     "url": "/api/2014/races/elf"
@@ -220,6 +238,12 @@
         "name": "轻足半身人",
         "name_en": "Lightfoot Halfling",
         "url": "/api/2014/subraces/lightfoot-halfling"
+      },
+      {
+        "index": "stout-halfling",
+        "name": "坚韧半身人",
+        "name_en": "Stout Halfling",
+        "url": "/api/2014/subraces/stout-halfling"
       }
     ],
     "url": "/api/2014/races/halfling"
@@ -574,6 +598,12 @@
         "name": "岩侏儒",
         "name_en": "Rock Gnome",
         "url": "/api/2014/subraces/rock-gnome"
+      },
+      {
+        "index": "forest-gnome",
+        "name": "森林侏儒",
+        "name_en": "Forest Gnome",
+        "url": "/api/2014/subraces/forest-gnome"
       }
     ],
     "url": "/api/2014/races/gnome"
